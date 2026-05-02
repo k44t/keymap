@@ -21332,8 +21332,9 @@
 				"missing": true
 			},
 			"windows-scancode": {
-				"api": "scancode",
-				"missing": true
+				"code": "0x13",
+				"name": "APPCOMMAND_BASS_DOWN",
+				"api": "appcommand"
 			},
 			"windows-virtual": {
 				"missing": true
@@ -21361,8 +21362,9 @@
 				"missing": true
 			},
 			"windows-scancode": {
-				"api": "scancode",
-				"missing": true
+				"code": "0x15",
+				"name": "APPCOMMAND_BASS_UP",
+				"api": "appcommand"
 			},
 			"windows-virtual": {
 				"missing": true
@@ -21500,10 +21502,14 @@
 				"page-name": "Consumer"
 			},
 			"linux-evdev": {
-				"missing": true
+				"aliasOf": "menu",
+				"comment": "Linux hid-input maps HID Consumer 0x40 to KEY_MENU, the same evdev key used for Keyboard Application."
 			},
 			"linux-xkb": {
-				"missing": true
+				"aliasOf": "menu"
+			},
+			"linux-xkb-keysym": {
+				"aliasOf": "menu"
 			},
 			"windows-scancode": {
 				"api": "scancode",
@@ -21529,10 +21535,17 @@
 				"page-name": "Consumer"
 			},
 			"linux-evdev": {
-				"missing": true
+				"aliasOf": "arrow-down",
+				"semantic-miss": true,
+				"comment": "Linux hid-input maps HID Consumer 0x43 to KEY_DOWN."
 			},
 			"linux-xkb": {
-				"missing": true
+				"aliasOf": "arrow-down",
+				"semantic-miss": true
+			},
+			"linux-xkb-keysym": {
+				"aliasOf": "arrow-down",
+				"semantic-miss": true
 			},
 			"windows-scancode": {
 				"api": "scancode",
@@ -21558,10 +21571,17 @@
 				"page-name": "Consumer"
 			},
 			"linux-evdev": {
-				"missing": true
+				"aliasOf": "esc",
+				"semantic-miss": true,
+				"comment": "Linux hid-input maps HID Consumer 0x46 to KEY_ESC."
 			},
 			"linux-xkb": {
-				"missing": true
+				"aliasOf": "esc",
+				"semantic-miss": true
+			},
+			"linux-xkb-keysym": {
+				"aliasOf": "esc",
+				"semantic-miss": true
 			},
 			"windows-scancode": {
 				"api": "scancode",
@@ -21587,10 +21607,17 @@
 				"page-name": "Consumer"
 			},
 			"linux-evdev": {
-				"missing": true
+				"aliasOf": "arrow-left",
+				"semantic-miss": true,
+				"comment": "Linux hid-input maps HID Consumer 0x44 to KEY_LEFT."
 			},
 			"linux-xkb": {
-				"missing": true
+				"aliasOf": "arrow-left",
+				"semantic-miss": true
+			},
+			"linux-xkb-keysym": {
+				"aliasOf": "arrow-left",
+				"semantic-miss": true
 			},
 			"windows-scancode": {
 				"api": "scancode",
@@ -21616,10 +21643,17 @@
 				"page-name": "Consumer"
 			},
 			"linux-evdev": {
-				"missing": true
+				"aliasOf": "arrow-right",
+				"semantic-miss": true,
+				"comment": "Linux hid-input maps HID Consumer 0x45 to KEY_RIGHT."
 			},
 			"linux-xkb": {
-				"missing": true
+				"aliasOf": "arrow-right",
+				"semantic-miss": true
+			},
+			"linux-xkb-keysym": {
+				"aliasOf": "arrow-right",
+				"semantic-miss": true
 			},
 			"windows-scancode": {
 				"api": "scancode",
@@ -21645,10 +21679,17 @@
 				"page-name": "Consumer"
 			},
 			"linux-evdev": {
-				"missing": true
+				"aliasOf": "arrow-up",
+				"semantic-miss": true,
+				"comment": "Linux hid-input maps HID Consumer 0x42 to KEY_UP."
 			},
 			"linux-xkb": {
-				"missing": true
+				"aliasOf": "arrow-up",
+				"semantic-miss": true
+			},
+			"linux-xkb-keysym": {
+				"aliasOf": "arrow-up",
+				"semantic-miss": true
 			},
 			"windows-scancode": {
 				"api": "scancode",
@@ -21674,10 +21715,17 @@
 				"page-name": "Consumer"
 			},
 			"linux-evdev": {
-				"missing": true
+				"aliasOf": "`kp-`",
+				"semantic-miss": true,
+				"comment": "Linux hid-input maps HID Consumer 0x48 to KEY_KPMINUS."
 			},
 			"linux-xkb": {
-				"missing": true
+				"aliasOf": "`kp-`",
+				"semantic-miss": true
+			},
+			"linux-xkb-keysym": {
+				"aliasOf": "`kp-`",
+				"semantic-miss": true
 			},
 			"windows-scancode": {
 				"api": "scancode",
@@ -21703,10 +21751,17 @@
 				"page-name": "Consumer"
 			},
 			"linux-evdev": {
-				"missing": true
+				"aliasOf": "`kp+`",
+				"semantic-miss": true,
+				"comment": "Linux hid-input maps HID Consumer 0x47 to KEY_KPPLUS."
 			},
 			"linux-xkb": {
-				"missing": true
+				"aliasOf": "`kp+`",
+				"semantic-miss": true
+			},
+			"linux-xkb-keysym": {
+				"aliasOf": "`kp+`",
+				"semantic-miss": true
 			},
 			"windows-scancode": {
 				"api": "scancode",
@@ -21819,10 +21874,16 @@
 				"page-name": "Consumer"
 			},
 			"linux-evdev": {
-				"missing": true
+				"missing": true,
+				"comment": "Linux defines KEY_3D_MODE, but hid-input does not map HID Consumer 0x6e to that evdev key."
 			},
 			"linux-xkb": {
-				"missing": true
+				"code": "0x277",
+				"name": "I631"
+			},
+			"linux-xkb-keysym": {
+				"code": "0x1008126f",
+				"name": "XF863DMode"
 			},
 			"windows-scancode": {
 				"api": "scancode",
@@ -21848,14 +21909,19 @@
 				"page-name": "Consumer"
 			},
 			"linux-evdev": {
-				"missing": true
+				"aliasOf": "help",
+				"comment": "Linux hid-input maps HID Consumer 0x1a6 to KEY_HELP."
 			},
 			"linux-xkb": {
-				"missing": true
+				"aliasOf": "help"
+			},
+			"linux-xkb-keysym": {
+				"aliasOf": "help"
 			},
 			"windows-scancode": {
-				"api": "scancode",
-				"missing": true
+				"code": "0x1b",
+				"name": "APPCOMMAND_HELP",
+				"api": "appcommand"
 			},
 			"windows-virtual": {
 				"missing": true
@@ -21877,10 +21943,14 @@
 				"page-name": "Consumer"
 			},
 			"linux-evdev": {
-				"missing": true
+				"aliasOf": "info",
+				"comment": "Linux hid-input maps HID Consumer 0x1bd to KEY_INFO."
 			},
 			"linux-xkb": {
-				"missing": true
+				"aliasOf": "info"
+			},
+			"linux-xkb-keysym": {
+				"aliasOf": "info"
 			},
 			"windows-scancode": {
 				"api": "scancode",
