@@ -6515,7 +6515,14 @@
 		"mac": {
 			"code": "0x7",
 			"name": "NX_KEYTYPE_MUTE",
-			"api": "media-event"
+			"api": "media-event",
+			"alternatives": {
+				"virtual-keycode": {
+					"code": "0x4a",
+					"name": "kVK_Mute",
+					"api": "virtual-keycode"
+				}
+			}
 		},
 		"web": {
 			"name": "AudioVolumeMute"
@@ -6574,7 +6581,14 @@
 		"mac": {
 			"code": "0x1",
 			"name": "NX_KEYTYPE_SOUND_DOWN",
-			"api": "media-event"
+			"api": "media-event",
+			"alternatives": {
+				"virtual-keycode": {
+					"code": "0x49",
+					"name": "kVK_VolumeDown",
+					"api": "virtual-keycode"
+				}
+			}
 		},
 		"web": {
 			"name": "AudioVolumeDown"
@@ -6640,7 +6654,14 @@
 		"mac": {
 			"code": "0x0",
 			"name": "NX_KEYTYPE_SOUND_UP",
-			"api": "media-event"
+			"api": "media-event",
+			"alternatives": {
+				"virtual-keycode": {
+					"code": "0x48",
+					"name": "kVK_VolumeUp",
+					"api": "virtual-keycode"
+				}
+			}
 		},
 		"web": {
 			"name": "AudioVolumeUp"
@@ -6910,7 +6931,9 @@
 			"name": "VK_HANJA"
 		},
 		"mac": {
-			"code": "0x66"
+			"code": "0x66",
+			"name": "kVK_JIS_Eisu",
+			"api": "virtual-keycode"
 		},
 		"web": {
 			"name": "Lang2"
@@ -7656,8 +7679,8 @@
 		},
 		"keyd": "msdos"
 	},
-	"coffee": {
-		"comment": "Legacy screen-lock / coffee-break key identity historically used for locking or idle-control behavior.",
+	"screen-lock": {
+		"comment": "Screen-lock / terminal-lock / screensaver key identity. Linux keeps the legacy KEY_COFFEE name for this same keycode.",
 		"hid": {
 			"code": "0x19e",
 			"name": "AL Terminal Lock or Screensaver",
@@ -7700,6 +7723,7 @@
 				"KeyCoffee",
 				"keycoffee",
 				"coffee",
+				"screenlock",
 				"termlock"
 			]
 		},
@@ -10082,6 +10106,48 @@
 		},
 		"keyd": "camera"
 	},
+	"hp": {
+		"comment": "HP-vendor key that Linux maps to KEY_HP.",
+		"hid": {
+			"page-num": "0xff7f",
+			"page-name": "HP Vendor",
+			"code": "0x70",
+			"name": "HP vendor key"
+		},
+		"linux-evdev": {
+			"code": "0xd3",
+			"name": "KEY_HP"
+		},
+		"linux-xkb": {
+			"missing": true,
+			"comment": "xkbcommon comments KEY_HP out as an unclear HP-specific key and does not expose a canonical XKB keycode name for it."
+		},
+		"linux-xkb-keysym": {
+			"missing": true,
+			"comment": "No canonical XKB keysym is defined for KEY_HP."
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "Hp",
+			"aliases": [
+				"KeyHp",
+				"keyhp",
+				"hp"
+			]
+		}
+	},
 	"hp-sound": {
 		"comment": "HP-vendor key that Linux maps to KEY_SOUND. This is distinct from the generic audio-browser key.",
 		"hid": {
@@ -10286,14 +10352,52 @@
 			"aliases": [
 				"KeyConnect",
 				"keyconnect",
-				"connect",
-				"Last",
+				"connect"
+			]
+		},
+		"keyd": "connect"
+	},
+	"last": {
+		"comment": "Consumer-control key for Recall Last.",
+		"hid": {
+			"code": "0x83",
+			"name": "Recall Last",
+			"page-num": "0xc",
+			"page-name": "Consumer"
+		},
+		"linux-evdev": {
+			"code": "0x195",
+			"name": "KEY_LAST"
+		},
+		"linux-xkb": {
+			"missing": true,
+			"comment": "xkbcommon marks KEY_LAST as an unclear function and does not expose a canonical XKB keycode name for it."
+		},
+		"linux-xkb-keysym": {
+			"missing": true,
+			"comment": "No canonical XKB keysym is defined for KEY_LAST."
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "Last",
+			"aliases": [
 				"KeyLast",
 				"keylast",
 				"last"
 			]
-		},
-		"keyd": "connect"
+		}
 	},
 	"finance": {
 		"hid": {
@@ -10973,6 +11077,52 @@
 		},
 		"keyd": "cycle"
 	},
+	"brightness-toggle": {
+		"comment": "Consumer-control key for Display Brightness Toggle. Linux aliases this to KEY_DISPLAYTOGGLE.",
+		"hid": {
+			"code": "0x72",
+			"name": "Display Brightness Toggle",
+			"page-num": "0xc",
+			"page-name": "Consumer"
+		},
+		"linux-evdev": {
+			"code": "0x1af",
+			"name": "KEY_BRIGHTNESS_TOGGLE",
+			"aliases": [
+				"KEY_DISPLAYTOGGLE"
+			]
+		},
+		"linux-xkb": {
+			"code": "0x1b7",
+			"name": "I439"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x100811af",
+			"name": "XF86DisplayToggle"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "BrightnessToggle",
+			"aliases": [
+				"KeyBrightnessToggle",
+				"keybrightnesstoggle",
+				"brightnesstoggle",
+				"displaytoggle"
+			]
+		}
+	},
 	"brightness-auto": {
 		"comment": "Kernel meaning: enable automatic brightness control. Linux aliases KEY_BRIGHTNESS_ZERO to the same keycode, but the kernel comment defines the primary meaning as automatic brightness.",
 		"hid": {
@@ -10994,7 +11144,10 @@
 		},
 		"linux-xkb-keysym": {
 			"code": "0x100810f4",
-			"name": "XF86BrightnessAuto"
+			"name": "XF86MonBrightnessAuto",
+			"aliases": [
+				"XF86BrightnessAuto"
+			]
 		},
 		"windows-scancode": {
 			"api": "scancode",
@@ -12579,7 +12732,15 @@
 			"name": "KEY_DVD"
 		},
 		"linux-xkb": {
-			"missing": true
+			"code": "0x18d",
+			"name": "I389"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081185",
+			"name": "XF86DVD",
+			"aliases": [
+				"XF86MediaSelectDVD"
+			]
 		},
 		"windows-scancode": {
 			"api": "scancode",
@@ -12601,6 +12762,40 @@
 				"keydvd",
 				"dvd"
 			]
+		}
+	},
+	"link-phone": {
+		"comment": "Linux key for linking a phone with the host device.",
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"code": "0x1bf",
+			"name": "KEY_LINK_PHONE"
+		},
+		"linux-xkb": {
+			"code": "0x1c7",
+			"name": "I455"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x100811bf",
+			"name": "XF86LinkPhone"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"missing": true
 		}
 	},
 	"media-select-auxiliary": {
@@ -13091,8 +13286,46 @@
 			"aliases": [
 				"KeyChannelUp",
 				"keychannelup",
-				"channelup",
-				"Shuffle",
+				"channelup"
+			]
+		}
+	},
+	"shuffle": {
+		"comment": "Consumer-control key for random play / shuffle.",
+		"hid": {
+			"code": "0xb9",
+			"name": "Random Play",
+			"page-num": "0xc",
+			"page-name": "Consumer"
+		},
+		"linux-evdev": {
+			"code": "0x19a",
+			"name": "KEY_SHUFFLE"
+		},
+		"linux-xkb": {
+			"code": "0x1a2",
+			"name": "I418"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x1008ff99",
+			"name": "XF86AudioRandomPlay"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "Shuffle",
+			"aliases": [
 				"KeyShuffle",
 				"keyshuffle",
 				"shuffle"
@@ -15723,20 +15956,403 @@
 			]
 		}
 	},
-	"numeric-9": {
-		"comment": "Telephony-style numeric keypad key for 9.",
+	"telephony-0": {
+		"comment": "Telephony keypad key for 0.",
+		"hid": {
+			"code": "0xb0",
+			"name": "Phone Key 0",
+			"page-num": "0xb",
+			"page-name": "Telephony"
+		},
+		"linux-evdev": {
+			"code": "0x200",
+			"name": "KEY_NUMERIC_0"
+		},
+		"linux-xkb": {
+			"code": "0x208",
+			"name": "I520"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081200",
+			"name": "XF86Numeric0"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "Numeric0",
+			"aliases": [
+				"KeyNumeric0",
+				"keynumeric0",
+				"numeric0"
+			]
+		}
+	},
+	"telephony-1": {
+		"comment": "Telephony keypad key for 1.",
+		"hid": {
+			"code": "0xb1",
+			"name": "Phone Key 1",
+			"page-num": "0xb",
+			"page-name": "Telephony"
+		},
+		"linux-evdev": {
+			"code": "0x201",
+			"name": "KEY_NUMERIC_1"
+		},
+		"linux-xkb": {
+			"code": "0x209",
+			"name": "I521"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081201",
+			"name": "XF86Numeric1"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "Numeric1",
+			"aliases": [
+				"KeyNumeric1",
+				"keynumeric1",
+				"numeric1"
+			]
+		}
+	},
+	"telephony-2": {
+		"comment": "Telephony keypad key for 2.",
+		"hid": {
+			"code": "0xb2",
+			"name": "Phone Key 2",
+			"page-num": "0xb",
+			"page-name": "Telephony"
+		},
+		"linux-evdev": {
+			"code": "0x202",
+			"name": "KEY_NUMERIC_2"
+		},
+		"linux-xkb": {
+			"code": "0x20a",
+			"name": "I522"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081202",
+			"name": "XF86Numeric2"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "Numeric2",
+			"aliases": [
+				"KeyNumeric2",
+				"keynumeric2",
+				"numeric2"
+			]
+		}
+	},
+	"telephony-3": {
+		"comment": "Telephony keypad key for 3.",
+		"hid": {
+			"code": "0xb3",
+			"name": "Phone Key 3",
+			"page-num": "0xb",
+			"page-name": "Telephony"
+		},
+		"linux-evdev": {
+			"code": "0x203",
+			"name": "KEY_NUMERIC_3"
+		},
+		"linux-xkb": {
+			"code": "0x20b",
+			"name": "I523"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081203",
+			"name": "XF86Numeric3"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "Numeric3",
+			"aliases": [
+				"KeyNumeric3",
+				"keynumeric3",
+				"numeric3"
+			]
+		}
+	},
+	"telephony-4": {
+		"comment": "Telephony keypad key for 4.",
+		"hid": {
+			"code": "0xb4",
+			"name": "Phone Key 4",
+			"page-num": "0xb",
+			"page-name": "Telephony"
+		},
+		"linux-evdev": {
+			"code": "0x204",
+			"name": "KEY_NUMERIC_4"
+		},
+		"linux-xkb": {
+			"code": "0x20c",
+			"name": "I524"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081204",
+			"name": "XF86Numeric4"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "Numeric4",
+			"aliases": [
+				"KeyNumeric4",
+				"keynumeric4",
+				"numeric4"
+			]
+		}
+	},
+	"telephony-5": {
+		"comment": "Telephony keypad key for 5.",
+		"hid": {
+			"code": "0xb5",
+			"name": "Phone Key 5",
+			"page-num": "0xb",
+			"page-name": "Telephony"
+		},
+		"linux-evdev": {
+			"code": "0x205",
+			"name": "KEY_NUMERIC_5"
+		},
+		"linux-xkb": {
+			"code": "0x20d",
+			"name": "I525"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081205",
+			"name": "XF86Numeric5"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "Numeric5",
+			"aliases": [
+				"KeyNumeric5",
+				"keynumeric5",
+				"numeric5"
+			]
+		}
+	},
+	"telephony-6": {
+		"comment": "Telephony keypad key for 6.",
+		"hid": {
+			"code": "0xb6",
+			"name": "Phone Key 6",
+			"page-num": "0xb",
+			"page-name": "Telephony"
+		},
+		"linux-evdev": {
+			"code": "0x206",
+			"name": "KEY_NUMERIC_6"
+		},
+		"linux-xkb": {
+			"code": "0x20e",
+			"name": "I526"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081206",
+			"name": "XF86Numeric6"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "Numeric6",
+			"aliases": [
+				"KeyNumeric6",
+				"keynumeric6",
+				"numeric6"
+			]
+		}
+	},
+	"telephony-7": {
+		"comment": "Telephony keypad key for 7.",
+		"hid": {
+			"code": "0xb7",
+			"name": "Phone Key 7",
+			"page-num": "0xb",
+			"page-name": "Telephony"
+		},
+		"linux-evdev": {
+			"code": "0x207",
+			"name": "KEY_NUMERIC_7"
+		},
+		"linux-xkb": {
+			"code": "0x20f",
+			"name": "I527"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081207",
+			"name": "XF86Numeric7"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "Numeric7",
+			"aliases": [
+				"KeyNumeric7",
+				"keynumeric7",
+				"numeric7"
+			]
+		}
+	},
+	"telephony-8": {
+		"comment": "Telephony keypad key for 8.",
+		"hid": {
+			"code": "0xb8",
+			"name": "Phone Key 8",
+			"page-num": "0xb",
+			"page-name": "Telephony"
+		},
+		"linux-evdev": {
+			"code": "0x208",
+			"name": "KEY_NUMERIC_8"
+		},
+		"linux-xkb": {
+			"code": "0x210",
+			"name": "I528"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081208",
+			"name": "XF86Numeric8"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "Numeric8",
+			"aliases": [
+				"KeyNumeric8",
+				"keynumeric8",
+				"numeric8"
+			]
+		}
+	},
+	"telephony-9": {
+		"comment": "Telephony keypad key for 9.",
 		"hid": {
 			"code": "0xb9",
-			"name": "Random Play",
-			"page-num": "0xc",
-			"page-name": "Consumer"
+			"name": "Phone Key 9",
+			"page-num": "0xb",
+			"page-name": "Telephony"
 		},
 		"linux-evdev": {
 			"code": "0x209",
 			"name": "KEY_NUMERIC_9"
 		},
 		"linux-xkb": {
-			"missing": true
+			"code": "0x211",
+			"name": "I529"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081209",
+			"name": "XF86Numeric9"
 		},
 		"windows-scancode": {
 			"api": "scancode",
@@ -15760,20 +16376,25 @@
 			]
 		}
 	},
-	"numeric-star": {
-		"comment": "Telephony-style numeric keypad key for star.",
+	"telephony-star": {
+		"comment": "Telephony keypad key for star.",
 		"hid": {
 			"code": "0xba",
-			"name": "Select Disc",
-			"page-num": "0xc",
-			"page-name": "Consumer"
+			"name": "Phone Key Star",
+			"page-num": "0xb",
+			"page-name": "Telephony"
 		},
 		"linux-evdev": {
 			"code": "0x20a",
 			"name": "KEY_NUMERIC_STAR"
 		},
 		"linux-xkb": {
-			"missing": true
+			"code": "0x212",
+			"name": "I530"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x1008120a",
+			"name": "XF86NumericStar"
 		},
 		"windows-scancode": {
 			"api": "scancode",
@@ -15797,20 +16418,25 @@
 			]
 		}
 	},
-	"numeric-pound": {
-		"comment": "Telephony-style numeric keypad key for pound.",
+	"telephony-pound": {
+		"comment": "Telephony keypad key for pound.",
 		"hid": {
 			"code": "0xbb",
-			"name": "Enter Disc",
-			"page-num": "0xc",
-			"page-name": "Consumer"
+			"name": "Phone Key Pound",
+			"page-num": "0xb",
+			"page-name": "Telephony"
 		},
 		"linux-evdev": {
 			"code": "0x20b",
 			"name": "KEY_NUMERIC_POUND"
 		},
 		"linux-xkb": {
-			"missing": true
+			"code": "0x213",
+			"name": "I531"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x1008120b",
+			"name": "XF86NumericPound"
 		},
 		"windows-scancode": {
 			"api": "scancode",
@@ -15834,20 +16460,67 @@
 			]
 		}
 	},
-	"numeric-b": {
-		"comment": "Telephony-style numeric keypad key for b.",
+	"telephony-a": {
+		"comment": "Telephony keypad key for a.",
+		"hid": {
+			"code": "0xbc",
+			"name": "Phone Key A",
+			"page-num": "0xb",
+			"page-name": "Telephony"
+		},
+		"linux-evdev": {
+			"code": "0x20c",
+			"name": "KEY_NUMERIC_A"
+		},
+		"linux-xkb": {
+			"code": "0x214",
+			"name": "I532"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x1008120c",
+			"name": "XF86NumericA"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"name": "NumericA",
+			"aliases": [
+				"KeyNumericA",
+				"keynumerica",
+				"numerica"
+			]
+		}
+	},
+	"telephony-b": {
+		"comment": "Telephony keypad key for b.",
 		"hid": {
 			"code": "0xbd",
-			"name": "Repeat From Mark",
-			"page-num": "0xc",
-			"page-name": "Consumer"
+			"name": "Phone Key B",
+			"page-num": "0xb",
+			"page-name": "Telephony"
 		},
 		"linux-evdev": {
 			"code": "0x20d",
 			"name": "KEY_NUMERIC_B"
 		},
 		"linux-xkb": {
-			"missing": true
+			"code": "0x215",
+			"name": "I533"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x1008120d",
+			"name": "XF86NumericB"
 		},
 		"windows-scancode": {
 			"api": "scancode",
@@ -15871,20 +16544,25 @@
 			]
 		}
 	},
-	"numeric-c": {
-		"comment": "Telephony-style numeric keypad key for c.",
+	"telephony-c": {
+		"comment": "Telephony keypad key for c.",
 		"hid": {
 			"code": "0xbe",
-			"name": "Return To Mark",
-			"page-num": "0xc",
-			"page-name": "Consumer"
+			"name": "Phone Key C",
+			"page-num": "0xb",
+			"page-name": "Telephony"
 		},
 		"linux-evdev": {
 			"code": "0x20e",
 			"name": "KEY_NUMERIC_C"
 		},
 		"linux-xkb": {
-			"missing": true
+			"code": "0x216",
+			"name": "I534"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x1008120e",
+			"name": "XF86NumericC"
 		},
 		"windows-scancode": {
 			"api": "scancode",
@@ -15908,20 +16586,25 @@
 			]
 		}
 	},
-	"numeric-d": {
-		"comment": "Telephony-style numeric keypad key for d.",
+	"telephony-d": {
+		"comment": "Telephony keypad key for d.",
 		"hid": {
 			"code": "0xbf",
-			"name": "Search Mark Forward",
-			"page-num": "0xc",
-			"page-name": "Consumer"
+			"name": "Phone Key D",
+			"page-num": "0xb",
+			"page-name": "Telephony"
 		},
 		"linux-evdev": {
 			"code": "0x20f",
 			"name": "KEY_NUMERIC_D"
 		},
 		"linux-xkb": {
-			"missing": true
+			"code": "0x217",
+			"name": "I535"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x1008120f",
+			"name": "XF86NumericD"
 		},
 		"windows-scancode": {
 			"api": "scancode",
@@ -16613,10 +17296,16 @@
 			"name": "AL Process or Task Manager"
 		},
 		"linux-evdev": {
-			"missing": true
+			"code": "0x241",
+			"name": "KEY_TASKMANAGER"
 		},
 		"linux-xkb": {
-			"missing": true
+			"code": "0x249",
+			"name": "I585"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081241",
+			"name": "XF86Taskmanager"
 		},
 		"windows-scancode": {
 			"api": "scancode",
@@ -16632,6 +17321,108 @@
 			"missing": true
 		},
 		"karabiner-elements": "al_process_or_task_manager"
+	},
+	"action-on-selection": {
+		"comment": "Application-launch HID key for action on selection.",
+		"hid": {
+			"page-num": "0xc",
+			"page-name": "Consumer",
+			"code": "0x01cc",
+			"name": "AL Action on Selection"
+		},
+		"linux-evdev": {
+			"code": "0x254",
+			"name": "KEY_ACTION_ON_SELECTION"
+		},
+		"linux-xkb": {
+			"code": "0x25c",
+			"name": "I604"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081254",
+			"name": "XF86ActionOnSelection"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		}
+	},
+	"contextual-insert": {
+		"comment": "Application-launch HID key for contextual insert.",
+		"hid": {
+			"page-num": "0xc",
+			"page-name": "Consumer",
+			"code": "0x01cd",
+			"name": "AL Contextual Insertion"
+		},
+		"linux-evdev": {
+			"code": "0x255",
+			"name": "KEY_CONTEXTUAL_INSERT"
+		},
+		"linux-xkb": {
+			"code": "0x25d",
+			"name": "I605"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081255",
+			"name": "XF86ContextualInsert"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		}
+	},
+	"contextual-query": {
+		"comment": "Application-launch HID key for contextual query.",
+		"hid": {
+			"page-num": "0xc",
+			"page-name": "Consumer",
+			"code": "0x01ce",
+			"name": "AL Contextual Query"
+		},
+		"linux-evdev": {
+			"code": "0x256",
+			"name": "KEY_CONTEXTUAL_QUERY"
+		},
+		"linux-xkb": {
+			"code": "0x25e",
+			"name": "I606"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081256",
+			"name": "XF86ContextualQuery"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		}
 	},
 	"journal": {
 		"comment": "Journal key.",
@@ -17656,7 +18447,7 @@
 			]
 		}
 	},
-	"numeric-11": {
+	"telephony-11": {
 		"comment": "Telephony-style numeric keypad key for 11.",
 		"hid": {
 			"missing": true
@@ -17666,7 +18457,12 @@
 			"name": "KEY_NUMERIC_11"
 		},
 		"linux-xkb": {
-			"missing": true
+			"code": "0x274",
+			"name": "I620"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x1008126c",
+			"name": "XF86Numeric11"
 		},
 		"windows-scancode": {
 			"api": "scancode",
@@ -17690,7 +18486,7 @@
 			]
 		}
 	},
-	"numeric-12": {
+	"telephony-12": {
 		"comment": "Telephony-style numeric keypad key for 12.",
 		"hid": {
 			"missing": true
@@ -17700,7 +18496,12 @@
 			"name": "KEY_NUMERIC_12"
 		},
 		"linux-xkb": {
-			"missing": true
+			"code": "0x275",
+			"name": "I621"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x1008126d",
+			"name": "XF86Numeric12"
 		},
 		"windows-scancode": {
 			"api": "scancode",
@@ -18138,6 +18939,108 @@
 				"keyprivacyscreentoggle",
 				"privacyscreentoggle"
 			]
+		}
+	},
+	"eprivacy-screen-on": {
+		"comment": "Explicit electronic privacy screen on key.",
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"code": "0x252",
+			"name": "KEY_EPRIVACY_SCREEN_ON"
+		},
+		"linux-xkb": {
+			"code": "0x25a",
+			"name": "I602"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081252",
+			"name": "XF86ElectronicPrivacyScreenOn"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"missing": true
+		}
+	},
+	"eprivacy-screen-off": {
+		"comment": "Explicit electronic privacy screen off key.",
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"code": "0x253",
+			"name": "KEY_EPRIVACY_SCREEN_OFF"
+		},
+		"linux-xkb": {
+			"code": "0x25b",
+			"name": "I603"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x10081253",
+			"name": "XF86ElectronicPrivacyScreenOff"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"missing": true
+		}
+	},
+	"performance-mode": {
+		"comment": "Performance boost / G-Mode key used on some Dell and Alienware keyboards.",
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"code": "0x2bd",
+			"name": "KEY_PERFORMANCE"
+		},
+		"linux-xkb": {
+			"code": "0x2c5",
+			"name": "I709"
+		},
+		"linux-xkb-keysym": {
+			"code": "0x100812bd",
+			"name": "XF86PerformanceMode"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"kmonad": {
+			"missing": true
 		}
 	},
 	"selective-screenshot": {
@@ -20892,7 +21795,9 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x51"
+			"code": "0x51",
+			"name": "kVK_ANSI_KeypadEquals",
+			"api": "virtual-keycode"
 		},
 		"web": {
 			"name": "NumpadEqual"
@@ -21434,6 +22339,13 @@
 			"code": "0xF746",
 			"name": "NSHelpFunctionKey",
 			"api": "function-character",
+			"alternatives": {
+				"virtual-keycode": {
+					"code": "0x72",
+					"name": "kVK_Help",
+					"api": "virtual-keycode"
+				}
+			},
 			"comment": "AppKit distinguishes Help via NSHelpFunctionKey. In the virtual-keycode API, both Help and Insert collapse onto kVK_Help."
 		},
 		"web": {
@@ -21622,7 +22534,9 @@
 			"name": "VK_OEM_1"
 		},
 		"mac": {
-			"code": "0x29"
+			"code": "0x29",
+			"name": "kVK_ANSI_Semicolon",
+			"api": "virtual-keycode"
 		},
 		"web": {
 			"name": "Semicolon"
@@ -22719,7 +23633,9 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x5f"
+			"code": "0x5f",
+			"name": "kVK_JIS_KeypadComma",
+			"api": "virtual-keycode"
 		},
 		"web": {
 			"name": "NumpadComma"
