@@ -189,6 +189,7 @@
 					"key0"
 				]
 			},
+			"keyd": "0",
 			"karabiner-elements": "0",
 			"autohotkey": "0"
 		},
@@ -233,6 +234,7 @@
 					"key1"
 				]
 			},
+			"keyd": "1",
 			"karabiner-elements": "1",
 			"autohotkey": "1"
 		},
@@ -277,6 +279,7 @@
 					"key2"
 				]
 			},
+			"keyd": "2",
 			"karabiner-elements": "2",
 			"autohotkey": "2"
 		},
@@ -321,6 +324,7 @@
 					"key3"
 				]
 			},
+			"keyd": "3",
 			"karabiner-elements": "3",
 			"autohotkey": "3"
 		},
@@ -365,6 +369,7 @@
 					"key4"
 				]
 			},
+			"keyd": "4",
 			"karabiner-elements": "4",
 			"autohotkey": "4"
 		},
@@ -409,6 +414,7 @@
 					"key5"
 				]
 			},
+			"keyd": "5",
 			"karabiner-elements": "5",
 			"autohotkey": "5"
 		},
@@ -453,6 +459,7 @@
 					"key6"
 				]
 			},
+			"keyd": "6",
 			"karabiner-elements": "6",
 			"autohotkey": "6"
 		},
@@ -497,6 +504,7 @@
 					"key7"
 				]
 			},
+			"keyd": "7",
 			"karabiner-elements": "7",
 			"autohotkey": "7"
 		},
@@ -541,6 +549,7 @@
 					"key8"
 				]
 			},
+			"keyd": "8",
 			"karabiner-elements": "8",
 			"autohotkey": "8"
 		},
@@ -585,6 +594,7 @@
 					"key9"
 				]
 			},
+			"keyd": "9",
 			"karabiner-elements": "9",
 			"autohotkey": "9"
 		},
@@ -629,6 +639,12 @@
 					"KeyEsc",
 					"keyesc",
 					"esc"
+				]
+			},
+			"keyd": {
+				"name": "esc",
+				"aliases": [
+					"escape"
 				]
 			},
 			"karabiner-elements": "escape",
@@ -684,6 +700,12 @@
 					"min"
 				]
 			},
+			"keyd": {
+				"name": "-",
+				"aliases": [
+					"minus"
+				]
+			},
 			"karabiner-elements": "hyphen",
 			"autohotkey": "-"
 		},
@@ -730,6 +752,12 @@
 					"Equal",
 					"equal",
 					"eql"
+				]
+			},
+			"keyd": {
+				"name": "=",
+				"aliases": [
+					"equal"
 				]
 			},
 			"karabiner-elements": "equal_sign",
@@ -780,6 +808,7 @@
 					"bspc"
 				]
 			},
+			"keyd": "backspace",
 			"karabiner-elements": "delete_or_backspace",
 			"autohotkey": {
 				"name": "Backspace",
@@ -831,6 +860,7 @@
 					"tab"
 				]
 			},
+			"keyd": "tab",
 			"karabiner-elements": "tab",
 			"autohotkey": "Tab"
 		},
@@ -876,6 +906,7 @@
 					"q"
 				]
 			},
+			"keyd": "q",
 			"karabiner-elements": "q",
 			"autohotkey": "q"
 		},
@@ -921,6 +952,7 @@
 					"w"
 				]
 			},
+			"keyd": "w",
 			"karabiner-elements": "w",
 			"autohotkey": "w"
 		},
@@ -966,6 +998,7 @@
 					"e"
 				]
 			},
+			"keyd": "e",
 			"karabiner-elements": "e",
 			"autohotkey": "e"
 		},
@@ -1011,6 +1044,7 @@
 					"r"
 				]
 			},
+			"keyd": "r",
 			"karabiner-elements": "r",
 			"autohotkey": "r"
 		},
@@ -1056,6 +1090,7 @@
 					"t"
 				]
 			},
+			"keyd": "t",
 			"karabiner-elements": "t",
 			"autohotkey": "t"
 		},
@@ -1101,6 +1136,7 @@
 					"y"
 				]
 			},
+			"keyd": "y",
 			"karabiner-elements": "y",
 			"autohotkey": "y"
 		},
@@ -1146,6 +1182,7 @@
 					"u"
 				]
 			},
+			"keyd": "u",
 			"karabiner-elements": "u",
 			"autohotkey": "u"
 		},
@@ -1191,6 +1228,7 @@
 					"i"
 				]
 			},
+			"keyd": "i",
 			"karabiner-elements": "i",
 			"autohotkey": "i"
 		},
@@ -1236,6 +1274,7 @@
 					"o"
 				]
 			},
+			"keyd": "o",
 			"karabiner-elements": "o",
 			"autohotkey": "o"
 		},
@@ -1281,6 +1320,7 @@
 					"p"
 				]
 			},
+			"keyd": "p",
 			"karabiner-elements": "p",
 			"autohotkey": "p"
 		},
@@ -1327,6 +1367,12 @@
 					"LeftBrace",
 					"leftbrace",
 					"lbrc"
+				]
+			},
+			"keyd": {
+				"name": "[",
+				"aliases": [
+					"leftbrace"
 				]
 			},
 			"karabiner-elements": "open_bracket",
@@ -1377,6 +1423,12 @@
 					"rbrc"
 				]
 			},
+			"keyd": {
+				"name": "]",
+				"aliases": [
+					"rightbrace"
+				]
+			},
 			"karabiner-elements": "close_bracket",
 			"autohotkey": "]"
 		},
@@ -1423,6 +1475,7 @@
 					"enter"
 				]
 			},
+			"keyd": "enter",
 			"karabiner-elements": "return_or_enter",
 			"autohotkey": "Enter"
 		},
@@ -1472,6 +1525,7 @@
 					"lctl"
 				]
 			},
+			"keyd": "leftcontrol",
 			"karabiner-elements": "left_control",
 			"autohotkey": {
 				"name": "LControl",
@@ -1522,6 +1576,7 @@
 					"a"
 				]
 			},
+			"keyd": "a",
 			"karabiner-elements": "a",
 			"autohotkey": "a"
 		},
@@ -1567,6 +1622,7 @@
 					"s"
 				]
 			},
+			"keyd": "s",
 			"karabiner-elements": "s",
 			"autohotkey": "s"
 		},
@@ -1612,6 +1668,7 @@
 					"d"
 				]
 			},
+			"keyd": "d",
 			"karabiner-elements": "d",
 			"autohotkey": "d"
 		},
@@ -1657,6 +1714,7 @@
 					"f"
 				]
 			},
+			"keyd": "f",
 			"karabiner-elements": "f",
 			"autohotkey": "f"
 		},
@@ -1702,6 +1760,7 @@
 					"g"
 				]
 			},
+			"keyd": "g",
 			"karabiner-elements": "g",
 			"autohotkey": "g"
 		},
@@ -1747,6 +1806,7 @@
 					"h"
 				]
 			},
+			"keyd": "h",
 			"karabiner-elements": "h",
 			"autohotkey": "h"
 		},
@@ -1792,6 +1852,7 @@
 					"j"
 				]
 			},
+			"keyd": "j",
 			"karabiner-elements": "j",
 			"autohotkey": "j"
 		},
@@ -1837,6 +1898,7 @@
 					"k"
 				]
 			},
+			"keyd": "k",
 			"karabiner-elements": "k",
 			"autohotkey": "k"
 		},
@@ -1882,6 +1944,7 @@
 					"l"
 				]
 			},
+			"keyd": "l",
 			"karabiner-elements": "l",
 			"autohotkey": "l"
 		},
@@ -1929,6 +1992,12 @@
 					"apostrophe",
 					"apos",
 					"apo"
+				]
+			},
+			"keyd": {
+				"name": "'",
+				"aliases": [
+					"apostrophe"
 				]
 			},
 			"karabiner-elements": "quote",
@@ -1982,6 +2051,12 @@
 					"grv"
 				]
 			},
+			"keyd": {
+				"name": "`",
+				"aliases": [
+					"grave"
+				]
+			},
 			"karabiner-elements": "grave_accent_and_tilde",
 			"autohotkey": "`"
 		},
@@ -2033,6 +2108,7 @@
 					"shft"
 				]
 			},
+			"keyd": "leftshift",
 			"karabiner-elements": "left_shift",
 			"autohotkey": "LShift"
 		},
@@ -2079,6 +2155,12 @@
 				"aliases": [
 					"KeyBackslash",
 					"keybackslash",
+					"backslash"
+				]
+			},
+			"keyd": {
+				"name": "\\",
+				"aliases": [
 					"backslash"
 				]
 			},
@@ -2174,6 +2256,7 @@
 					"z"
 				]
 			},
+			"keyd": "z",
 			"karabiner-elements": "z",
 			"autohotkey": "z"
 		},
@@ -2219,6 +2302,7 @@
 					"x"
 				]
 			},
+			"keyd": "x",
 			"karabiner-elements": "x",
 			"autohotkey": "x"
 		},
@@ -2264,6 +2348,7 @@
 					"c"
 				]
 			},
+			"keyd": "c",
 			"karabiner-elements": "c",
 			"autohotkey": "c"
 		},
@@ -2309,6 +2394,7 @@
 					"v"
 				]
 			},
+			"keyd": "v",
 			"karabiner-elements": "v",
 			"autohotkey": "v"
 		},
@@ -2354,6 +2440,7 @@
 					"b"
 				]
 			},
+			"keyd": "b",
 			"karabiner-elements": "b",
 			"autohotkey": "b"
 		},
@@ -2399,6 +2486,7 @@
 					"n"
 				]
 			},
+			"keyd": "n",
 			"karabiner-elements": "n",
 			"autohotkey": "n"
 		},
@@ -2444,6 +2532,7 @@
 					"m"
 				]
 			},
+			"keyd": "m",
 			"karabiner-elements": "m",
 			"autohotkey": "m"
 		},
@@ -2490,6 +2579,12 @@
 					"Comma",
 					"comma",
 					"comm"
+				]
+			},
+			"keyd": {
+				"name": ",",
+				"aliases": [
+					"comma"
 				]
 			},
 			"karabiner-elements": "comma",
@@ -2539,6 +2634,12 @@
 					"dot"
 				]
 			},
+			"keyd": {
+				"name": ".",
+				"aliases": [
+					"dot"
+				]
+			},
 			"karabiner-elements": "period",
 			"autohotkey": "."
 		},
@@ -2583,6 +2684,12 @@
 					"KeySlash",
 					"keyslash",
 					"Slash",
+					"slash"
+				]
+			},
+			"keyd": {
+				"name": "/",
+				"aliases": [
 					"slash"
 				]
 			},
@@ -2635,6 +2742,7 @@
 					"rshft"
 				]
 			},
+			"keyd": "rightshift",
 			"karabiner-elements": "right_shift",
 			"autohotkey": "RShift"
 		},
@@ -2682,6 +2790,7 @@
 					"kpasterisk"
 				]
 			},
+			"keyd": "kpasterisk",
 			"karabiner-elements": "keypad_asterisk",
 			"autohotkey": "NumpadMult"
 		},
@@ -2730,6 +2839,7 @@
 					"lalt"
 				]
 			},
+			"keyd": "leftalt",
 			"karabiner-elements": {
 				"name": "left_option",
 				"aliases": [
@@ -2782,6 +2892,7 @@
 					"space"
 				]
 			},
+			"keyd": "space",
 			"karabiner-elements": "spacebar",
 			"autohotkey": "Space"
 		},
@@ -2829,6 +2940,7 @@
 					"capslock"
 				]
 			},
+			"keyd": "capslock",
 			"karabiner-elements": "caps_lock",
 			"autohotkey": "CapsLock"
 		},
@@ -2875,6 +2987,7 @@
 					"f1"
 				]
 			},
+			"keyd": "f1",
 			"karabiner-elements": "f1",
 			"autohotkey": "F1"
 		},
@@ -2921,6 +3034,7 @@
 					"f2"
 				]
 			},
+			"keyd": "f2",
 			"karabiner-elements": "f2",
 			"autohotkey": "F2"
 		},
@@ -2967,6 +3081,7 @@
 					"f3"
 				]
 			},
+			"keyd": "f3",
 			"karabiner-elements": "f3",
 			"autohotkey": "F3"
 		},
@@ -3013,6 +3128,7 @@
 					"f4"
 				]
 			},
+			"keyd": "f4",
 			"karabiner-elements": "f4",
 			"autohotkey": "F4"
 		},
@@ -3059,6 +3175,7 @@
 					"f5"
 				]
 			},
+			"keyd": "f5",
 			"karabiner-elements": "f5",
 			"autohotkey": "F5"
 		},
@@ -3105,6 +3222,7 @@
 					"f6"
 				]
 			},
+			"keyd": "f6",
 			"karabiner-elements": "f6",
 			"autohotkey": "F6"
 		},
@@ -3151,6 +3269,7 @@
 					"f7"
 				]
 			},
+			"keyd": "f7",
 			"karabiner-elements": "f7",
 			"autohotkey": "F7"
 		},
@@ -3197,6 +3316,7 @@
 					"f8"
 				]
 			},
+			"keyd": "f8",
 			"karabiner-elements": "f8",
 			"autohotkey": "F8"
 		},
@@ -3243,6 +3363,7 @@
 					"f9"
 				]
 			},
+			"keyd": "f9",
 			"karabiner-elements": "f9",
 			"autohotkey": "F9"
 		},
@@ -3289,6 +3410,7 @@
 					"f10"
 				]
 			},
+			"keyd": "f10",
 			"karabiner-elements": "f10",
 			"autohotkey": "F10"
 		},
@@ -3336,6 +3458,7 @@
 					"numlock"
 				]
 			},
+			"keyd": "numlock",
 			"karabiner-elements": "keypad_num_lock",
 			"autohotkey": "NumLock"
 		},
@@ -3384,6 +3507,7 @@
 					"scrlck"
 				]
 			},
+			"keyd": "scrolllock",
 			"karabiner-elements": "scroll_lock",
 			"autohotkey": "ScrollLock"
 		},
@@ -3430,6 +3554,7 @@
 					"kp7"
 				]
 			},
+			"keyd": "kp7",
 			"karabiner-elements": "keypad_7",
 			"autohotkey": {
 				"name": "Numpad7",
@@ -3486,6 +3611,7 @@
 					"kp8"
 				]
 			},
+			"keyd": "kp8",
 			"karabiner-elements": "keypad_8",
 			"autohotkey": {
 				"name": "Numpad8",
@@ -3542,6 +3668,7 @@
 					"kp9"
 				]
 			},
+			"keyd": "kp9",
 			"karabiner-elements": "keypad_9",
 			"autohotkey": {
 				"name": "Numpad9",
@@ -3599,6 +3726,7 @@
 					"kpminus"
 				]
 			},
+			"keyd": "kpminus",
 			"karabiner-elements": "keypad_hyphen",
 			"autohotkey": "NumpadSub"
 		},
@@ -3645,6 +3773,7 @@
 					"kp4"
 				]
 			},
+			"keyd": "kp4",
 			"karabiner-elements": "keypad_4",
 			"autohotkey": {
 				"name": "Numpad4",
@@ -3701,6 +3830,7 @@
 					"kp5"
 				]
 			},
+			"keyd": "kp5",
 			"karabiner-elements": "keypad_5",
 			"autohotkey": {
 				"name": "Numpad5",
@@ -3757,6 +3887,7 @@
 					"kp6"
 				]
 			},
+			"keyd": "kp6",
 			"karabiner-elements": "keypad_6",
 			"autohotkey": {
 				"name": "Numpad6",
@@ -3814,6 +3945,7 @@
 					"kpplus"
 				]
 			},
+			"keyd": "kpplus",
 			"karabiner-elements": "keypad_plus",
 			"autohotkey": "NumpadAdd"
 		},
@@ -3860,6 +3992,7 @@
 					"kp1"
 				]
 			},
+			"keyd": "kp1",
 			"karabiner-elements": "keypad_1",
 			"autohotkey": {
 				"name": "Numpad1",
@@ -3916,6 +4049,7 @@
 					"kp2"
 				]
 			},
+			"keyd": "kp2",
 			"karabiner-elements": "keypad_2",
 			"autohotkey": {
 				"name": "Numpad2",
@@ -3972,6 +4106,7 @@
 					"kp3"
 				]
 			},
+			"keyd": "kp3",
 			"karabiner-elements": "keypad_3",
 			"autohotkey": {
 				"name": "Numpad3",
@@ -4028,6 +4163,7 @@
 					"kp0"
 				]
 			},
+			"keyd": "kp0",
 			"karabiner-elements": "keypad_0",
 			"autohotkey": {
 				"name": "Numpad0",
@@ -4085,6 +4221,7 @@
 					"kpdot"
 				]
 			},
+			"keyd": "kpdot",
 			"karabiner-elements": "keypad_period",
 			"autohotkey": {
 				"name": "NumpadDot",
@@ -4144,6 +4281,7 @@
 				]
 			},
 			"geometry": "ISO",
+			"keyd": "102nd",
 			"karabiner-elements": "non_us_backslash",
 			"autohotkey": {
 				"name": "SC056",
@@ -4195,6 +4333,7 @@
 					"f11"
 				]
 			},
+			"keyd": "f11",
 			"karabiner-elements": "f11",
 			"autohotkey": "F11"
 		},
@@ -4241,6 +4380,7 @@
 					"f12"
 				]
 			},
+			"keyd": "f12",
 			"karabiner-elements": "f12",
 			"autohotkey": "F12"
 		},
@@ -4289,6 +4429,7 @@
 			},
 			"geometry": "JIS",
 			"comment": "JIS KEY_RO is primarily a printable key. It has no distinct standard XKB keysym and often produces the printable backslash symbol, so the physical-key-specific mapping is left missing here.",
+			"keyd": "ro",
 			"karabiner-elements": "international1",
 			"autohotkey": {
 				"name": "SC073",
@@ -4342,6 +4483,7 @@
 				]
 			},
 			"geometry": "JIS",
+			"keyd": "henkan",
 			"karabiner-elements": {
 				"name": "japanese_pc_xfer",
 				"aliases": [
@@ -4402,6 +4544,7 @@
 				]
 			},
 			"geometry": "JIS",
+			"keyd": "katakanahiragana",
 			"karabiner-elements": {
 				"name": "japanese_pc_katakana",
 				"aliases": [
@@ -4460,6 +4603,7 @@
 				]
 			},
 			"geometry": "JIS",
+			"keyd": "muhenkan",
 			"karabiner-elements": {
 				"name": "japanese_pc_nfer",
 				"aliases": [
@@ -4519,6 +4663,7 @@
 					"kp-enter"
 				]
 			},
+			"keyd": "kpenter",
 			"karabiner-elements": "keypad_enter",
 			"autohotkey": "NumpadEnter"
 		},
@@ -4567,6 +4712,7 @@
 					"rctrl"
 				]
 			},
+			"keyd": "rightcontrol",
 			"karabiner-elements": "right_control",
 			"autohotkey": {
 				"name": "RControl",
@@ -4619,6 +4765,7 @@
 					"kpslash"
 				]
 			},
+			"keyd": "kpslash",
 			"karabiner-elements": "keypad_slash",
 			"autohotkey": "NumpadDiv"
 		},
@@ -4667,6 +4814,7 @@
 					"ssrq"
 				]
 			},
+			"keyd": "sysrq",
 			"karabiner-elements": "print_screen",
 			"autohotkey": "PrintScreen"
 		},
@@ -4717,6 +4865,7 @@
 					"rightalt"
 				]
 			},
+			"keyd": "rightalt",
 			"karabiner-elements": {
 				"name": "right_option",
 				"aliases": [
@@ -4761,7 +4910,8 @@
 					"keylinefeed",
 					"linefeed"
 				]
-			}
+			},
+			"keyd": "linefeed"
 		},
 		"home": {
 			"hid": {
@@ -4806,6 +4956,7 @@
 					"home"
 				]
 			},
+			"keyd": "home",
 			"karabiner-elements": "home",
 			"autohotkey": "Home"
 		},
@@ -4852,6 +5003,7 @@
 					"up"
 				]
 			},
+			"keyd": "up",
 			"karabiner-elements": "up_arrow",
 			"autohotkey": "Up"
 		},
@@ -4899,6 +5051,7 @@
 					"pageup"
 				]
 			},
+			"keyd": "pageup",
 			"karabiner-elements": "page_up",
 			"autohotkey": "PgUp"
 		},
@@ -4946,6 +5099,7 @@
 					"left"
 				]
 			},
+			"keyd": "left",
 			"karabiner-elements": "left_arrow",
 			"autohotkey": "Left"
 		},
@@ -4993,6 +5147,7 @@
 					"right"
 				]
 			},
+			"keyd": "right",
 			"karabiner-elements": "right_arrow",
 			"autohotkey": "Right"
 		},
@@ -5039,6 +5194,7 @@
 					"end"
 				]
 			},
+			"keyd": "end",
 			"karabiner-elements": "end",
 			"autohotkey": "End"
 		},
@@ -5085,6 +5241,7 @@
 					"down"
 				]
 			},
+			"keyd": "down",
 			"karabiner-elements": "down_arrow",
 			"autohotkey": "Down"
 		},
@@ -5132,6 +5289,7 @@
 					"pagedown"
 				]
 			},
+			"keyd": "pagedown",
 			"karabiner-elements": "page_down",
 			"autohotkey": "PgDn"
 		},
@@ -5180,6 +5338,7 @@
 					"insert"
 				]
 			},
+			"keyd": "insert",
 			"karabiner-elements": "insert",
 			"autohotkey": {
 				"name": "Insert",
@@ -5232,6 +5391,7 @@
 					"delete"
 				]
 			},
+			"keyd": "delete",
 			"karabiner-elements": "delete_forward",
 			"autohotkey": {
 				"name": "Delete",
@@ -5276,7 +5436,8 @@
 					"keymacro",
 					"macro"
 				]
-			}
+			},
+			"keyd": "macro"
 		},
 		"media-mute": {
 			"hid": {
@@ -5323,6 +5484,7 @@
 					"mininteresting"
 				]
 			},
+			"keyd": "mute",
 			"karabiner-elements": "mute",
 			"autohotkey": "Volume_Mute"
 		},
@@ -5371,6 +5533,7 @@
 					"volumedecrement"
 				]
 			},
+			"keyd": "volumedown",
 			"karabiner-elements": {
 				"name": "volume_decrement",
 				"aliases": [
@@ -5424,6 +5587,7 @@
 					"volumeincrement"
 				]
 			},
+			"keyd": "volumeup",
 			"karabiner-elements": {
 				"name": "volume_increment",
 				"aliases": [
@@ -5472,6 +5636,7 @@
 					"kpplusminus"
 				]
 			},
+			"keyd": "kpplusminus",
 			"comment": "Calculator-style keypad sign toggle: changes the current numeric entry between positive and negative rather than acting as an arithmetic operator."
 		},
 		"pause": {
@@ -5518,6 +5683,7 @@
 				]
 			},
 			"comment": "Classic keyboard Pause key. On Windows, the special Pause scan code is emitted for this key, while Break is emitted for Ctrl+Pause. GNOME treats the Pause key itself as a media-pause trigger and sends the MPRIS \"Pause\" action.",
+			"keyd": "pause",
 			"karabiner-elements": "pause",
 			"autohotkey": {
 				"name": "Pause",
@@ -5563,7 +5729,8 @@
 					"keyscale",
 					"scale"
 				]
-			}
+			},
+			"keyd": "scale"
 		},
 		"hangul": {
 			"hid": {
@@ -5612,6 +5779,7 @@
 				]
 			},
 			"geometry": "Korean",
+			"keyd": "hangeul",
 			"karabiner-elements": {
 				"name": "japanese_kana",
 				"aliases": [
@@ -5670,6 +5838,7 @@
 			},
 			"geometry": "Korean",
 			"comment": "HID LANG2 is dual-use across keyboard ecosystems: Windows and Linux usually expose it as the Korean Hanja conversion key, while Apple Japanese keyboards use the same HID usage for the Eisu key.",
+			"keyd": "hanja",
 			"karabiner-elements": {
 				"name": "japanese_eisuu",
 				"aliases": [
@@ -5731,6 +5900,7 @@
 				]
 			},
 			"geometry": "JIS",
+			"keyd": "yen",
 			"karabiner-elements": "international3",
 			"autohotkey": "SC07D"
 		},
@@ -5783,6 +5953,7 @@
 					"lmet"
 				]
 			},
+			"keyd": "leftmeta",
 			"karabiner-elements": {
 				"name": "left_command",
 				"aliases": [
@@ -5839,6 +6010,7 @@
 					"rmeta"
 				]
 			},
+			"keyd": "rightmeta",
 			"karabiner-elements": {
 				"name": "right_command",
 				"aliases": [
@@ -5900,6 +6072,7 @@
 					"stop"
 				]
 			},
+			"keyd": "stop",
 			"comment": "Linux KEY_STOP / XKB STOP come from Consumer AC Stop. HID Keyboard/Keypad Stop remains only an informational alternative because Linux does not map it to this keycode."
 		},
 		"menu": {
@@ -5951,6 +6124,7 @@
 					"application"
 				]
 			},
+			"keyd": "menu",
 			"karabiner-elements": "application",
 			"autohotkey": "AppsKey"
 		},
@@ -5990,7 +6164,8 @@
 					"keysetup",
 					"setup"
 				]
-			}
+			},
+			"keyd": "setup"
 		},
 		"send-file": {
 			"hid": {
@@ -6030,7 +6205,8 @@
 					"sendfile",
 					"send-file"
 				]
-			}
+			},
+			"keyd": "sendfile"
 		},
 		"delete-file": {
 			"hid": {
@@ -6068,7 +6244,8 @@
 					"keydeletefile",
 					"deletefile"
 				]
-			}
+			},
+			"keyd": "deletefile"
 		},
 		"xfer": {
 			"hid": {
@@ -6108,7 +6285,8 @@
 					"keyxfer",
 					"xfer"
 				]
-			}
+			},
+			"keyd": "xfer"
 		},
 		"prog1": {
 			"hid": {
@@ -6153,7 +6331,8 @@
 					"keyprog1",
 					"prog1"
 				]
-			}
+			},
+			"keyd": "scrolldown"
 		},
 		"prog2": {
 			"hid": {
@@ -6195,7 +6374,8 @@
 					"keyprog2",
 					"prog2"
 				]
-			}
+			},
+			"keyd": "scrollup"
 		},
 		"www": {
 			"hid": {
@@ -6239,6 +6419,7 @@
 				]
 			},
 			"comment": "GNOME treats this as the web-browser launcher key and opens an http: action.",
+			"keyd": "www",
 			"karabiner-elements": "al_internet_browser"
 		},
 		"msdos": {
@@ -6279,7 +6460,8 @@
 					"keymsdos",
 					"msdos"
 				]
-			}
+			},
+			"keyd": "msdos"
 		},
 		"coffee": {
 			"hid": {
@@ -6327,6 +6509,7 @@
 					"termlock"
 				]
 			},
+			"keyd": "coffee",
 			"karabiner-elements": "al_terminal_lock_or_screensaver"
 		},
 		"rotate-display": {
@@ -6371,7 +6554,8 @@
 					"direction",
 					"rotatedisplay"
 				]
-			}
+			},
+			"keyd": "display"
 		},
 		"cyclewindows": {
 			"hid": {
@@ -6409,7 +6593,8 @@
 					"keycyclewindows",
 					"cyclewindows"
 				]
-			}
+			},
+			"keyd": "cyclewindows"
 		},
 		"bookmarks": {
 			"hid": {
@@ -6453,6 +6638,12 @@
 				]
 			},
 			"comment": "Bookmarks/favorites key. Use it for bookmark or saved-item lists rather than browser history.",
+			"keyd": {
+				"name": "favorites",
+				"aliases": [
+					"bookmarks"
+				]
+			},
 			"karabiner-elements": "ac_bookmarks",
 			"autohotkey": "Browser_Favorites"
 		},
@@ -6492,7 +6683,8 @@
 					"keycomputer",
 					"computer"
 				]
-			}
+			},
+			"keyd": "computer"
 		},
 		"back": {
 			"hid": {
@@ -6536,6 +6728,7 @@
 					"back"
 				]
 			},
+			"keyd": "back",
 			"karabiner-elements": "ac_back",
 			"autohotkey": "Browser_Back"
 		},
@@ -6582,6 +6775,7 @@
 					"forward"
 				]
 			},
+			"keyd": "forward",
 			"karabiner-elements": "ac_forward",
 			"autohotkey": "Browser_Forward"
 		},
@@ -6621,7 +6815,8 @@
 					"keyclosecd",
 					"closecd"
 				]
-			}
+			},
+			"keyd": "closecd"
 		},
 		"media-next": {
 			"hid": {
@@ -6673,6 +6868,7 @@
 				]
 			},
 			"comment": "GNOME treats this as the media next-track key and sends the MPRIS \"Next\" action.",
+			"keyd": "nextsong",
 			"karabiner-elements": {
 				"name": "scan_next_track",
 				"aliases": [
@@ -6726,6 +6922,7 @@
 					"playpause"
 				]
 			},
+			"keyd": "playpause",
 			"karabiner-elements": {
 				"name": "play_or_pause",
 				"aliases": [
@@ -6784,6 +6981,7 @@
 				]
 			},
 			"comment": "GNOME treats this as the media previous-track key and sends the MPRIS \"Previous\" action.",
+			"keyd": "previoussong",
 			"karabiner-elements": {
 				"name": "scan_previous_track",
 				"aliases": [
@@ -6841,6 +7039,7 @@
 				]
 			},
 			"comment": "GNOME treats this as the media rewind key and sends the MPRIS \"Rewind\" action.",
+			"keyd": "rewind",
 			"karabiner-elements": "rewind"
 		},
 		"phone": {
@@ -6882,7 +7081,8 @@
 					"keyphone",
 					"phone"
 				]
-			}
+			},
+			"keyd": "phone"
 		},
 		"iso": {
 			"hid": {
@@ -6920,7 +7120,8 @@
 					"keyiso",
 					"iso"
 				]
-			}
+			},
+			"keyd": "iso"
 		},
 		"refresh": {
 			"hid": {
@@ -6963,6 +7164,7 @@
 					"refresh"
 				]
 			},
+			"keyd": "refresh",
 			"karabiner-elements": "ac_refresh",
 			"autohotkey": "Browser_Refresh"
 		},
@@ -7028,6 +7230,7 @@
 					"exit"
 				]
 			},
+			"keyd": "exit",
 			"comment": "Exit / quit key. The Linux kernel also maps HID Generic Desktop System Menu Exit (0x01/0x88) and Consumer AC Exit (0x0c/0x204) to the same KEY_EXIT / XKB key. XKB additionally has an active xkeyboard-config mapping to XF86Close, but xkbcommon-keysyms.h defines XF86Exit specifically for KEY_EXIT, so the other mapping is preserved here only for reference."
 		},
 		"move": {
@@ -7066,7 +7269,8 @@
 					"keymove",
 					"move"
 				]
-			}
+			},
+			"keyd": "move"
 		},
 		"edit": {
 			"hid": {
@@ -7107,7 +7311,8 @@
 					"keyedit",
 					"edit"
 				]
-			}
+			},
+			"keyd": "edit"
 		},
 		"scrollup": {
 			"hid": {
@@ -7150,7 +7355,8 @@
 					"scrollup",
 					"scrup"
 				]
-			}
+			},
+			"keyd": "zoom"
 		},
 		"scrolldown": {
 			"hid": {
@@ -7194,7 +7400,8 @@
 					"scrdn",
 					"sdwn"
 				]
-			}
+			},
+			"keyd": "mouseback"
 		},
 		"kpleftparen": {
 			"hid": {
@@ -7235,7 +7442,8 @@
 					"keykpleftparen",
 					"kpleftparen"
 				]
-			}
+			},
+			"keyd": "kpleftparen"
 		},
 		"kprightparen": {
 			"hid": {
@@ -7276,7 +7484,8 @@
 					"keykprightparen",
 					"kprightparen"
 				]
-			}
+			},
+			"keyd": "kprightparen"
 		},
 		"new": {
 			"hid": {
@@ -7317,7 +7526,8 @@
 					"keynew",
 					"new"
 				]
-			}
+			},
+			"keyd": "new"
 		},
 		"redo": {
 			"hid": {
@@ -7360,7 +7570,8 @@
 					"keyredo",
 					"redo"
 				]
-			}
+			},
+			"keyd": "redo"
 		},
 		"f13": {
 			"hid": {
@@ -7405,6 +7616,7 @@
 					"f13"
 				]
 			},
+			"keyd": "f13",
 			"karabiner-elements": "f13",
 			"autohotkey": "F13"
 		},
@@ -7451,6 +7663,7 @@
 					"f14"
 				]
 			},
+			"keyd": "f14",
 			"karabiner-elements": "f14",
 			"autohotkey": "F14"
 		},
@@ -7497,6 +7710,7 @@
 					"f15"
 				]
 			},
+			"keyd": "f15",
 			"karabiner-elements": "f15",
 			"autohotkey": "F15"
 		},
@@ -7543,6 +7757,7 @@
 					"f16"
 				]
 			},
+			"keyd": "f16",
 			"karabiner-elements": "f16",
 			"autohotkey": "F16"
 		},
@@ -7589,6 +7804,7 @@
 					"f17"
 				]
 			},
+			"keyd": "f17",
 			"karabiner-elements": "f17",
 			"autohotkey": "F17"
 		},
@@ -7635,6 +7851,7 @@
 					"f18"
 				]
 			},
+			"keyd": "f18",
 			"karabiner-elements": "f18",
 			"autohotkey": "F18"
 		},
@@ -7681,6 +7898,7 @@
 					"f19"
 				]
 			},
+			"keyd": "f19",
 			"karabiner-elements": "f19",
 			"autohotkey": "F19"
 		},
@@ -7727,6 +7945,7 @@
 					"f20"
 				]
 			},
+			"keyd": "f20",
 			"karabiner-elements": "f20",
 			"autohotkey": "F20"
 		},
@@ -7771,6 +7990,12 @@
 					"KeyF21",
 					"keyf21",
 					"f21"
+				]
+			},
+			"keyd": {
+				"name": "f21",
+				"aliases": [
+					"prog1"
 				]
 			},
 			"karabiner-elements": "f21",
@@ -7819,6 +8044,12 @@
 					"f22"
 				]
 			},
+			"keyd": {
+				"name": "f22",
+				"aliases": [
+					"prog2"
+				]
+			},
 			"karabiner-elements": "f22",
 			"autohotkey": "F22"
 		},
@@ -7863,6 +8094,12 @@
 					"KeyF23",
 					"keyf23",
 					"f23"
+				]
+			},
+			"keyd": {
+				"name": "f23",
+				"aliases": [
+					"prog3"
 				]
 			},
 			"karabiner-elements": "f23",
@@ -7911,6 +8148,12 @@
 					"f24"
 				]
 			},
+			"keyd": {
+				"name": "f24",
+				"aliases": [
+					"prog4"
+				]
+			},
 			"karabiner-elements": "f24",
 			"autohotkey": "F24"
 		},
@@ -7950,7 +8193,8 @@
 					"keyprog3",
 					"prog3"
 				]
-			}
+			},
+			"keyd": "scrollleft"
 		},
 		"prog4": {
 			"hid": {
@@ -7988,7 +8232,8 @@
 					"keyprog4",
 					"prog4"
 				]
-			}
+			},
+			"keyd": "scrollright"
 		},
 		"all-applications": {
 			"hid": {
@@ -8033,7 +8278,8 @@
 					"dashboard",
 					"allapplications"
 				]
-			}
+			},
+			"keyd": "dashboard"
 		},
 		"close": {
 			"hid": {
@@ -8074,7 +8320,8 @@
 					"keyclose",
 					"close"
 				]
-			}
+			},
+			"keyd": "close"
 		},
 		"media-fast-forward": {
 			"hid": {
@@ -8125,6 +8372,7 @@
 				]
 			},
 			"comment": "GNOME treats this as the media fast-forward key and sends the MPRIS \"FastForward\" action.",
+			"keyd": "fastforward",
 			"karabiner-elements": {
 				"name": "fast_forward",
 				"aliases": [
@@ -8172,6 +8420,7 @@
 					"bassboost"
 				]
 			},
+			"keyd": "bassboost",
 			"karabiner-elements": "bass_boost"
 		},
 		"camera": {
@@ -8224,7 +8473,8 @@
 					"keycamera",
 					"camera"
 				]
-			}
+			},
+			"keyd": "camera"
 		},
 		"email": {
 			"hid": {
@@ -8266,6 +8516,7 @@
 				]
 			},
 			"comment": "Linux exposes KEY_EMAIL separately from KEY_MAIL, and the kernel maps HID Consumer 0x80 to it even though the HID tables name that usage Selection. XKB and Windows flatten the launcher behavior to the generic mail-launch action, so those canonical mappings live under mail instead.",
+			"keyd": "email",
 			"karabiner-elements": "selection"
 		},
 		"chat": {
@@ -8318,7 +8569,8 @@
 					"keychat",
 					"chat"
 				]
-			}
+			},
+			"keyd": "chat"
 		},
 		"connect": {
 			"hid": {
@@ -8363,7 +8615,8 @@
 					"keylast",
 					"last"
 				]
-			}
+			},
+			"keyd": "connect"
 		},
 		"finance": {
 			"hid": {
@@ -8413,7 +8666,8 @@
 					"finance",
 					"checkbook"
 				]
-			}
+			},
+			"keyd": "finance"
 		},
 		"sport": {
 			"hid": {
@@ -8454,7 +8708,8 @@
 					"keysport",
 					"sport"
 				]
-			}
+			},
+			"keyd": "sport"
 		},
 		"shop": {
 			"hid": {
@@ -8495,7 +8750,8 @@
 					"keyshop",
 					"shop"
 				]
-			}
+			},
+			"keyd": "shop"
 		},
 		"alternative-erase": {
 			"hid": {
@@ -8535,6 +8791,7 @@
 					"alterase"
 				]
 			},
+			"keyd": "voicecommand",
 			"karabiner-elements": "alternate_erase"
 		},
 		"cancel": {
@@ -8578,7 +8835,8 @@
 					"keycancel",
 					"cancel"
 				]
-			}
+			},
+			"keyd": "cancel"
 		},
 		"media": {
 			"hid": {
@@ -8620,6 +8878,7 @@
 					"imagebrowser"
 				]
 			},
+			"keyd": "media",
 			"comment": "GNOME treats this as the generic media launcher key rather than a transport-control key."
 		},
 		"save": {
@@ -8661,7 +8920,8 @@
 					"keysave",
 					"save"
 				]
-			}
+			},
+			"keyd": "save"
 		},
 		"documents": {
 			"hid": {
@@ -8703,6 +8963,7 @@
 					"documents"
 				]
 			},
+			"keyd": "documents",
 			"karabiner-elements": "al_documents"
 		},
 		"battery": {
@@ -8742,6 +9003,7 @@
 					"battery"
 				]
 			},
+			"keyd": "battery",
 			"comment": "GNOME treats this as the battery-status key and shows battery information/OSD."
 		},
 		"bluetooth": {
@@ -8781,6 +9043,7 @@
 					"bluetooth"
 				]
 			},
+			"keyd": "bluetooth",
 			"comment": "Bluetooth radio key. GNOME has a dedicated Bluetooth airplane-mode path for Bluetooth-specific rfkill keys; use this for toggling the Bluetooth radio rather than general media control."
 		},
 		"wlan": {
@@ -8820,6 +9083,7 @@
 					"wlan"
 				]
 			},
+			"keyd": "wlan",
 			"comment": "Wireless LAN radio key. Use this for toggling Wi‑Fi/radio state on devices that expose a dedicated WLAN hardware key."
 		},
 		"uwb": {
@@ -8859,6 +9123,7 @@
 					"uwb"
 				]
 			},
+			"keyd": "uwb",
 			"comment": "Ultra‑Wideband radio key. This is a dedicated wireless-radio hardware key for UWB-capable devices rather than a normal application/media shortcut."
 		},
 		"video-next": {
@@ -8903,6 +9168,7 @@
 					"videonext"
 				]
 			},
+			"keyd": "next",
 			"comment": "Next video-source key. The kernel meaning is “drive next video source”, so this is for cycling display/video inputs and is distinct from next-track media playback."
 		},
 		"video-prev": {
@@ -8943,7 +9209,8 @@
 					"keyvideoprev",
 					"videoprev"
 				]
-			}
+			},
+			"keyd": "prev"
 		},
 		"brightness-cycle": {
 			"hid": {
@@ -8981,7 +9248,8 @@
 					"keybrightnesscycle",
 					"brightnesscycle"
 				]
-			}
+			},
+			"keyd": "cycle"
 		},
 		"brightness-auto": {
 			"hid": {
@@ -9027,6 +9295,7 @@
 					"brightnessauto"
 				]
 			},
+			"keyd": "auto",
 			"comment": "Kernel meaning: enable automatic brightness control. Linux aliases KEY_BRIGHTNESS_ZERO to the same keycode, but the kernel comment defines the primary meaning as automatic brightness."
 		},
 		"display-off": {
@@ -9066,6 +9335,7 @@
 					"displayoff"
 				]
 			},
+			"keyd": "off",
 			"comment": "Display power key. The kernel meaning is “put the display device into the off state”, so this is for turning the display panel off rather than changing brightness."
 		},
 		"wwan": {
@@ -9109,6 +9379,7 @@
 					"wimax"
 				]
 			},
+			"keyd": "wwan",
 			"comment": "Wireless Wide Area Network radio key. The kernel explicitly defines this for LTE/UMTS/GSM-style mobile broadband radios; `wimax` is just an alias of the same Linux keycode."
 		},
 		"ok": {
@@ -17832,6 +18103,7 @@
 					"properties"
 				]
 			},
+			"keyd": "props",
 			"karabiner-elements": "cr_sel_or_props"
 		},
 		"extend-selection": {
@@ -17936,6 +18208,7 @@
 					"suspend"
 				]
 			},
+			"keyd": "suspend",
 			"comment": "System suspend key. systemd-logind treats KEY_SUSPEND as suspend-to-disk / hibernate; KDE binds Qt::Key_Hibernate as “Hibernate”. systemd also supports a distinct long-press action."
 		},
 		"turbo": {
@@ -17992,6 +18265,7 @@
 				]
 			},
 			"comment": "GNOME treats this as the home launcher key and invokes its home action.",
+			"keyd": "homepage",
 			"karabiner-elements": "ac_home",
 			"autohotkey": "Browser_Home"
 		},
@@ -18037,6 +18311,7 @@
 				]
 			},
 			"comment": "GNOME treats this as the search launcher key and invokes its search action.",
+			"keyd": "search",
 			"karabiner-elements": "ac_search",
 			"autohotkey": "Browser_Search"
 		},
@@ -18085,6 +18360,7 @@
 				]
 			},
 			"geometry": "JIS",
+			"keyd": "katakana",
 			"karabiner-elements": "lang3",
 			"autohotkey": "SC078"
 		},
@@ -18131,6 +18407,7 @@
 				]
 			},
 			"geometry": "JIS",
+			"keyd": "hiragana",
 			"karabiner-elements": "lang4",
 			"autohotkey": "SC077"
 		},
@@ -18177,6 +18454,7 @@
 				]
 			},
 			"geometry": "JIS",
+			"keyd": "zenkakuhankaku",
 			"karabiner-elements": "lang5"
 		},
 		"file": {
@@ -18228,6 +18506,7 @@
 					"localmachinebrowser"
 				]
 			},
+			"keyd": "file",
 			"karabiner-elements": "al_local_machine_browser",
 			"autohotkey": "SC16B"
 		},
@@ -18273,6 +18552,7 @@
 				]
 			},
 			"comment": "GNOME treats this as the calculator launcher key and opens GNOME Calculator.",
+			"keyd": "calc",
 			"karabiner-elements": "al_calculator",
 			"autohotkey": "SC121"
 		},
@@ -18318,6 +18598,7 @@
 					"emailreader"
 				]
 			},
+			"keyd": "mail",
 			"karabiner-elements": "al_email_reader",
 			"autohotkey": "Launch_Mail"
 		},
@@ -18360,7 +18641,8 @@
 					"keyreply",
 					"reply"
 				]
-			}
+			},
+			"keyd": "reply"
 		},
 		"send": {
 			"hid": {
@@ -18401,7 +18683,8 @@
 					"keysend",
 					"send"
 				]
-			}
+			},
+			"keyd": "send"
 		},
 		"config": {
 			"hid": {
@@ -18443,6 +18726,7 @@
 					"config"
 				]
 			},
+			"keyd": "config",
 			"karabiner-elements": "al_consumer_control_configuration",
 			"autohotkey": "SC16D"
 		},
@@ -18486,6 +18770,7 @@
 					"kpequal"
 				]
 			},
+			"keyd": "kpequal",
 			"karabiner-elements": "keypad_equal_sign",
 			"autohotkey": "SC059"
 		},
@@ -18530,6 +18815,7 @@
 				]
 			},
 			"comment": "Legacy front-page/front-panel style key from the Linux input namespace. KMonad avoids the alias `select` here because it conflicts with KEY_SELECT, so keep it distinct from the generic select/menu-pick key.",
+			"keyd": "front",
 			"karabiner-elements": "select"
 		},
 		"keyboard-illumination-toggle": {
@@ -18575,6 +18861,7 @@
 				]
 			},
 			"comment": "Keyboard backlight toggle key. GNOME toggles the keyboard-brightness service; KDE binds it as “Toggle Keyboard Backlight”, shows an OSD, and restores keyboard brightness after resume.",
+			"keyd": "kbdillumtoggle",
 			"karabiner-elements": "illumination_toggle"
 		},
 		"keyboard-illumination-up": {
@@ -18621,6 +18908,7 @@
 				]
 			},
 			"comment": "Keyboard backlight increase key. GNOME steps the keyboard-brightness service up; KDE increases keyboard brightness, shows an OSD, and restores keyboard brightness after resume.",
+			"keyd": "kbdillumup",
 			"karabiner-elements": {
 				"name": "illumination_up",
 				"aliases": [
@@ -18673,6 +18961,7 @@
 				]
 			},
 			"comment": "Keyboard backlight decrease key. GNOME steps the keyboard-brightness service down; KDE decreases keyboard brightness, shows an OSD, and restores keyboard brightness after resume.",
+			"keyd": "kbdillumdown",
 			"karabiner-elements": {
 				"name": "illumination_down",
 				"aliases": [
@@ -18722,6 +19011,7 @@
 					"micmute"
 				]
 			},
+			"keyd": "micmute",
 			"comment": "GNOME binds this as the microphone mute key and routes it through the quiet sound-action path for input-device mute, rather than the normal output-volume mute action."
 		},
 		"select": {
@@ -18817,6 +19107,7 @@
 					"again"
 				]
 			},
+			"keyd": "again",
 			"karabiner-elements": "again"
 		},
 		"copy": {
@@ -18859,6 +19150,7 @@
 					"copy"
 				]
 			},
+			"keyd": "copy",
 			"karabiner-elements": "copy",
 			"autohotkey": "SC118"
 		},
@@ -18902,6 +19194,7 @@
 					"cut"
 				]
 			},
+			"keyd": "cut",
 			"karabiner-elements": "cut",
 			"autohotkey": "SC117"
 		},
@@ -18947,6 +19240,7 @@
 					"find"
 				]
 			},
+			"keyd": "find",
 			"karabiner-elements": "find"
 		},
 		"help": {
@@ -18994,6 +19288,7 @@
 					"helpcenter"
 				]
 			},
+			"keyd": "help",
 			"karabiner-elements": "help",
 			"autohotkey": "Help"
 		},
@@ -19039,6 +19334,7 @@
 					"execute"
 				]
 			},
+			"keyd": "open",
 			"karabiner-elements": "execute"
 		},
 		"paste": {
@@ -19081,6 +19377,7 @@
 					"paste"
 				]
 			},
+			"keyd": "paste",
 			"karabiner-elements": "paste",
 			"autohotkey": "SC10A"
 		},
@@ -19126,6 +19423,7 @@
 					"power"
 				]
 			},
+			"keyd": "power",
 			"karabiner-elements": "power",
 			"autohotkey": "SC15E"
 		},
@@ -19170,6 +19468,12 @@
 					"Semicolon",
 					"semicolon",
 					"scln"
+				]
+			},
+			"keyd": {
+				"name": ";",
+				"aliases": [
+					"semicolon"
 				]
 			},
 			"karabiner-elements": "semicolon",
@@ -19220,6 +19524,7 @@
 					"sleep"
 				]
 			},
+			"keyd": "sleep",
 			"comment": "System sleep key. systemd-logind treats KEY_SLEEP as suspend-to-RAM; KDE binds Qt::Key_Sleep as “Suspend”. Both allow configured system behavior, and systemd also supports a distinct long-press action."
 		},
 		"undo": {
@@ -19264,6 +19569,7 @@
 					"undo"
 				]
 			},
+			"keyd": "undo",
 			"karabiner-elements": "undo",
 			"autohotkey": "SC108"
 		},
@@ -19313,6 +19619,7 @@
 					"print"
 				]
 			},
+			"keyd": "print",
 			"comment": "Consumer-key print command. This is distinct from Print Screen / SysRq: use it for an application-level print action rather than screen capture."
 		},
 		"brightness-up": {
@@ -19360,6 +19667,7 @@
 				]
 			},
 			"comment": "Display brightness increase key.",
+			"keyd": "brightnessup",
 			"karabiner-elements": {
 				"name": "display_brightness_increment",
 				"aliases": [
@@ -19412,14 +19720,11 @@
 					"BrightnessDown",
 					"brightnessdown",
 					"brdown",
-					"brdwn",
-					"Hp",
-					"KeyHp",
-					"keyhp",
-					"hp"
+					"brdwn"
 				]
 			},
 			"comment": "Display brightness decrease key.",
+			"keyd": "brightnessdown",
 			"karabiner-elements": {
 				"name": "display_brightness_decrement",
 				"aliases": [
@@ -19542,6 +19847,7 @@
 				]
 			},
 			"comment": "Optical-media eject key for opening the tray / ejecting the disc.",
+			"keyd": "ejectcd",
 			"karabiner-elements": "eject",
 			"autohotkey": "SC12C"
 		},
@@ -19586,6 +19892,7 @@
 					"forwardmessage"
 				]
 			},
+			"keyd": "forwardmail",
 			"comment": "Mail forward action."
 		},
 		"kp-jp-comma": {
@@ -19632,6 +19939,7 @@
 				]
 			},
 			"geometry": "JIS",
+			"keyd": "kpjpcomma",
 			"karabiner-elements": "international6",
 			"autohotkey": "SC05C"
 		},
@@ -19675,6 +19983,7 @@
 					"switchvideomode"
 				]
 			},
+			"keyd": "switchvideomode",
 			"comment": "Display/input switching key. Use it for toggling display outputs or cycling video sources, matching the web `DisplayToggleIntExt` meaning."
 		},
 		"video-phone": {
@@ -19922,6 +20231,7 @@
 					"wakeup"
 				]
 			},
+			"keyd": "wakeup",
 			"comment": "Wake-system key."
 		},
 		"task-select": {
@@ -20009,6 +20319,7 @@
 					"play"
 				]
 			},
+			"keyd": "play",
 			"comment": "Media play key."
 		},
 		"media-pause": {
@@ -20051,6 +20362,7 @@
 					"pausecd"
 				]
 			},
+			"keyd": "pausecd",
 			"comment": "Media pause key."
 		},
 		"media-record": {
@@ -20093,9 +20405,10 @@
 					"record"
 				]
 			},
+			"keyd": "record",
 			"comment": "Media record key."
 		},
-		"cd-stop": {
+		"media-stop": {
 			"hid": {
 				"code": "0xb7",
 				"name": "Stop",
@@ -20136,11 +20449,13 @@
 					"stopcd"
 				]
 			},
-			"comment": "Optical-media stop key. Distinct from a generic media stop key when devices expose a dedicated CD playback command.",
+			"comment": "Generic media-stop key. Linux historically exposes this HID stop usage as KEY_STOPCD, while XKB presents it via XF86AudioStop.",
+			"keyd": "stopcd",
 			"karabiner-elements": "stop",
 			"autohotkey": {
-				"name": "SC124",
+				"name": "Media_Stop",
 				"aliases": [
+					"SC124",
 					"VKB2"
 				]
 			}
@@ -20182,6 +20497,7 @@
 					"playcd"
 				]
 			},
+			"keyd": "playcd",
 			"comment": "Optical-media play key. Distinct from the generic media play key when devices expose a dedicated CD playback command."
 		},
 		"kp-comma": {
@@ -20228,6 +20544,7 @@
 				]
 			},
 			"geometry": "ABNT2",
+			"keyd": "kpcomma",
 			"karabiner-elements": "keypad_comma",
 			"autohotkey": "SC07E"
 		},
@@ -20404,6 +20721,7 @@
 					"rfkill"
 				]
 			},
+			"keyd": "rfkill",
 			"comment": "Global radio toggle / airplane-mode key. GNOME toggles airplane mode for it, and the kernel describes it as the key that controls all radios."
 		},
 		"apple-dashboard": {
@@ -20646,6 +20964,7 @@
 					"fn"
 				]
 			},
+			"keyd": "fn",
 			"karabiner-elements": {
 				"name": "fn",
 				"aliases": [
@@ -21255,7 +21574,8 @@
 			"web": {
 				"missing": true
 			},
-			"comment": "Application-launch HID key.",
+			"comment": "Application-launch HID key. keyd upstream exposes the Linux OEM-help key as hp, which is treated here as vocabulary for this canonical OEM-help key rather than as a separate canonical key.",
+			"keyd": "hp",
 			"karabiner-elements": "al_oem_help"
 		},
 		"online-activity-browser": {
