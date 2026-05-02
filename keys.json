@@ -1,84 +1,150 @@
 {
-	"sources": {
+	"platforms": {
 		"hid": {
-			"define": "https://www.usb.org/sites/default/files/hut1_5.pdf",
-			"map": null
+			"description": "Canonical USB HID usage identity used as the cross-platform anchor for the key inventory.",
+			"sources": {
+				"define": "https://www.usb.org/sites/default/files/hut1_5.pdf",
+				"map": null
+			}
 		},
 		"linux-evdev": {
-			"define": "https://raw.githubusercontent.com/torvalds/linux/master/include/uapi/linux/input-event-codes.h",
-			"map": "https://raw.githubusercontent.com/torvalds/linux/master/drivers/hid/hid-input.c"
+			"description": "Linux input-event keycode layer using KEY_* constants from the kernel input subsystem.",
+			"sources": {
+				"define": "https://raw.githubusercontent.com/torvalds/linux/master/include/uapi/linux/input-event-codes.h",
+				"map": "https://raw.githubusercontent.com/torvalds/linux/master/drivers/hid/hid-input.c"
+			}
 		},
 		"linux-xkb": {
-			"define": "https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/dom/dom_code_data.inc",
-			"map": [
-				"https://raw.githubusercontent.com/torvalds/linux/master/drivers/hid/hid-input.c",
-				"https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/dom/dom_code_data.inc"
-			]
+			"description": "Linux XKB keycode-name layer used to label physical key positions above evdev.",
+			"sources": {
+				"define": "https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/dom/dom_code_data.inc",
+				"map": [
+					"https://raw.githubusercontent.com/torvalds/linux/master/drivers/hid/hid-input.c",
+					"https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/dom/dom_code_data.inc"
+				]
+			}
 		},
 		"linux-xkb-keysym": {
-			"define": "https://raw.githubusercontent.com/xkbcommon/libxkbcommon/master/include/xkbcommon/xkbcommon-keysyms.h",
-			"map": [
-				"https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/dom/dom_code_data.inc",
-				"https://raw.githubusercontent.com/xkbcommon/libxkbcommon/master/include/xkbcommon/xkbcommon-keysyms.h"
-			]
+			"description": "Linux XKB keysym layer used for symbolic key meaning after XKB translation.",
+			"sources": {
+				"define": "https://raw.githubusercontent.com/xkbcommon/libxkbcommon/master/include/xkbcommon/xkbcommon-keysyms.h",
+				"map": [
+					"https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/dom/dom_code_data.inc",
+					"https://raw.githubusercontent.com/xkbcommon/libxkbcommon/master/include/xkbcommon/xkbcommon-keysyms.h"
+				]
+			}
 		},
 		"windows-scancode": {
-			"scancode": {
-				"define": "https://learn.microsoft.com/en-us/windows/win32/inputdev/about-keyboard-input",
-				"map": "https://learn.microsoft.com/en-us/windows/win32/inputdev/about-keyboard-input"
-			},
-			"appcommand": {
-				"define": "https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-appcommand",
-				"map": "https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-appcommand"
+			"description": "Windows scan-code layer for physical key identity as delivered through keyboard input messages.",
+			"sources": {
+				"scancode": {
+					"define": "https://learn.microsoft.com/en-us/windows/win32/inputdev/about-keyboard-input",
+					"map": "https://learn.microsoft.com/en-us/windows/win32/inputdev/about-keyboard-input"
+				},
+				"appcommand": {
+					"define": "https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-appcommand",
+					"map": "https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-appcommand"
+				}
 			}
 		},
 		"windows-virtual": {
-			"default": {
-				"define": "https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes",
-				"map": "https://learn.microsoft.com/en-us/windows/win32/inputdev/about-keyboard-input"
-			},
-			"appcommand": {
-				"define": "https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-appcommand",
-				"map": "https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-appcommand"
+			"description": "Windows virtual-key and app-command layer for logical key and command identity.",
+			"sources": {
+				"default": {
+					"define": "https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes",
+					"map": "https://learn.microsoft.com/en-us/windows/win32/inputdev/about-keyboard-input"
+				},
+				"appcommand": {
+					"define": "https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-appcommand",
+					"map": "https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-appcommand"
+				}
 			}
 		},
 		"mac": {
-			"virtual-keycode": {
-				"define": "https://raw.githubusercontent.com/phracker/MacOSX-SDKs/master/MacOSX10.15.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Events.h",
-				"map": "https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/keyboard_code_conversion_mac.mm"
-			},
-			"function-character": {
-				"define": "https://raw.githubusercontent.com/phracker/MacOSX-SDKs/master/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSEvent.h",
-				"map": [
-					"https://raw.githubusercontent.com/phracker/MacOSX-SDKs/master/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSEvent.h",
-					"https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/keyboard_code_conversion_mac.mm"
-				]
-			},
-			"media-event": {
-				"define": "https://raw.githubusercontent.com/apple-oss-distributions/IOHIDFamily/main/IOHIDSystem/IOKit/hidsystem/ev_keymap.h",
-				"map": [
-					"https://raw.githubusercontent.com/apple-oss-distributions/IOHIDFamily/main/IOHIDSystem/IOKit/hidsystem/ev_keymap.h",
-					"https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/dom/dom_code_data.inc"
-				]
-			},
-			"system-defined-subtype": {
-				"define": "https://raw.githubusercontent.com/apple-oss-distributions/IOHIDFamily/main/IOHIDSystem/IOKit/hidsystem/IOLLEvent.h",
-				"map": "https://raw.githubusercontent.com/apple-oss-distributions/IOHIDFamily/main/IOHIDSystem/IOKit/hidsystem/IOLLEvent.h"
-			},
-			"default": {
-				"define": "https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/keyboard_code_conversion_mac.mm",
-				"map": "https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/keyboard_code_conversion_mac.mm"
+			"description": "macOS native keyboard identity across Carbon virtual keycodes, AppKit function characters, media events, and system-defined subtypes.",
+			"sources": {
+				"virtual-keycode": {
+					"define": "https://raw.githubusercontent.com/phracker/MacOSX-SDKs/master/MacOSX10.15.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Events.h",
+					"map": "https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/keyboard_code_conversion_mac.mm"
+				},
+				"function-character": {
+					"define": "https://raw.githubusercontent.com/phracker/MacOSX-SDKs/master/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSEvent.h",
+					"map": [
+						"https://raw.githubusercontent.com/phracker/MacOSX-SDKs/master/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSEvent.h",
+						"https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/keyboard_code_conversion_mac.mm"
+					]
+				},
+				"media-event": {
+					"define": "https://raw.githubusercontent.com/apple-oss-distributions/IOHIDFamily/main/IOHIDSystem/IOKit/hidsystem/ev_keymap.h",
+					"map": [
+						"https://raw.githubusercontent.com/apple-oss-distributions/IOHIDFamily/main/IOHIDSystem/IOKit/hidsystem/ev_keymap.h",
+						"https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/dom/dom_code_data.inc"
+					]
+				},
+				"system-defined-subtype": {
+					"define": "https://raw.githubusercontent.com/apple-oss-distributions/IOHIDFamily/main/IOHIDSystem/IOKit/hidsystem/IOLLEvent.h",
+					"map": "https://raw.githubusercontent.com/apple-oss-distributions/IOHIDFamily/main/IOHIDSystem/IOKit/hidsystem/IOLLEvent.h"
+				},
+				"default": {
+					"define": "https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/keyboard_code_conversion_mac.mm",
+					"map": "https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/keyboard_code_conversion_mac.mm"
+				}
 			}
 		},
 		"web": {
-			"define": [
-				"https://www.w3.org/TR/uievents-code/",
-				"https://www.w3.org/TR/uievents-key/"
-			],
-			"map": [
-				"https://www.w3.org/TR/uievents-code/",
-				"https://www.w3.org/TR/uievents-key/"
-			]
+			"description": "Web UI Events key/code layer used by browsers for standardized DOM keyboard identity.",
+			"sources": {
+				"define": [
+					"https://www.w3.org/TR/uievents-code/",
+					"https://www.w3.org/TR/uievents-key/"
+				],
+				"map": [
+					"https://www.w3.org/TR/uievents-code/",
+					"https://www.w3.org/TR/uievents-key/"
+				]
+			}
+		},
+		"qmk": {
+			"description": "QMK firmware keycode vocabulary for programmable keyboards, covering standard keyboard keys, modifiers, layers, consumer controls, and many firmware-level pseudo-keys.",
+			"sources": {
+				"define": "https://docs.qmk.fm/keycodes",
+				"map": "https://docs.qmk.fm/keycodes"
+			}
+		},
+		"kmonad": {
+			"description": "KMonad key-name vocabulary used by the KMonad remapper configuration language for cross-platform keyboard remapping and advanced key behaviors.",
+			"sources": {
+				"define": "https://kmonad.org/",
+				"map": "https://kmonad.org/"
+			}
+		},
+		"kanata": {
+			"description": "Kanata key-name vocabulary used by the Kanata remapper configuration language for cross-platform key remapping, layers, and tap-hold style behaviors.",
+			"sources": {
+				"define": "https://github.com/jtroo/kanata",
+				"map": "https://github.com/jtroo/kanata"
+			}
+		},
+		"keyd": {
+			"description": "keyd key-name vocabulary used by the Linux keyd remapper for system-wide evdev/uinput-based remapping, layers, and firmware-like keyboard behaviors.",
+			"sources": {
+				"define": "https://raw.githubusercontent.com/rvaiya/keyd/refs/heads/master/docs/keyd.scdoc",
+				"map": "https://raw.githubusercontent.com/rvaiya/keyd/refs/heads/master/docs/keyd.scdoc"
+			}
+		},
+		"karabiner-elements": {
+			"description": "Karabiner-Elements key vocabulary for macOS remapping, covering ordinary keys, modifiers, consumer keys, system keys, and Apple-specific vendor usages.",
+			"sources": {
+				"define": "https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/key-code/",
+				"map": "https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/key-code/"
+			}
+		},
+		"autohotkey": {
+			"description": "AutoHotkey named-key vocabulary for Windows keyboard automation and remapping, covering standard keys, modifiers, multimedia keys, and many Windows-specific logical key names.",
+			"sources": {
+				"define": "https://www.autohotkey.com/docs/v2/KeyList.htm",
+				"map": "https://www.autohotkey.com/docs/v2/KeyList.htm"
+			}
 		}
 	},
 	"keys": {
@@ -122,7 +188,8 @@
 					"Key0",
 					"key0"
 				]
-			}
+			},
+			"karabiner-elements": "0"
 		},
 		"1": {
 			"hid": {
@@ -164,7 +231,8 @@
 					"Key1",
 					"key1"
 				]
-			}
+			},
+			"karabiner-elements": "1"
 		},
 		"2": {
 			"hid": {
@@ -206,7 +274,8 @@
 					"Key2",
 					"key2"
 				]
-			}
+			},
+			"karabiner-elements": "2"
 		},
 		"3": {
 			"hid": {
@@ -248,7 +317,8 @@
 					"Key3",
 					"key3"
 				]
-			}
+			},
+			"karabiner-elements": "3"
 		},
 		"4": {
 			"hid": {
@@ -290,7 +360,8 @@
 					"Key4",
 					"key4"
 				]
-			}
+			},
+			"karabiner-elements": "4"
 		},
 		"5": {
 			"hid": {
@@ -332,7 +403,8 @@
 					"Key5",
 					"key5"
 				]
-			}
+			},
+			"karabiner-elements": "5"
 		},
 		"6": {
 			"hid": {
@@ -374,7 +446,8 @@
 					"Key6",
 					"key6"
 				]
-			}
+			},
+			"karabiner-elements": "6"
 		},
 		"7": {
 			"hid": {
@@ -416,7 +489,8 @@
 					"Key7",
 					"key7"
 				]
-			}
+			},
+			"karabiner-elements": "7"
 		},
 		"8": {
 			"hid": {
@@ -458,7 +532,8 @@
 					"Key8",
 					"key8"
 				]
-			}
+			},
+			"karabiner-elements": "8"
 		},
 		"9": {
 			"hid": {
@@ -500,7 +575,8 @@
 					"Key9",
 					"key9"
 				]
-			}
+			},
+			"karabiner-elements": "9"
 		},
 		"esc": {
 			"hid": {
@@ -544,7 +620,8 @@
 					"keyesc",
 					"esc"
 				]
-			}
+			},
+			"karabiner-elements": "escape"
 		},
 		"-": {
 			"hid": {
@@ -590,7 +667,8 @@
 					"minus",
 					"min"
 				]
-			}
+			},
+			"karabiner-elements": "hyphen"
 		},
 		"=": {
 			"hid": {
@@ -636,7 +714,8 @@
 					"equal",
 					"eql"
 				]
-			}
+			},
+			"karabiner-elements": "equal_sign"
 		},
 		"backspace": {
 			"hid": {
@@ -682,7 +761,8 @@
 					"backspace",
 					"bspc"
 				]
-			}
+			},
+			"karabiner-elements": "delete_or_backspace"
 		},
 		"tab": {
 			"hid": {
@@ -726,7 +806,8 @@
 					"keytab",
 					"tab"
 				]
-			}
+			},
+			"karabiner-elements": "tab"
 		},
 		"q": {
 			"hid": {
@@ -769,7 +850,8 @@
 					"keyq",
 					"q"
 				]
-			}
+			},
+			"karabiner-elements": "q"
 		},
 		"w": {
 			"hid": {
@@ -812,7 +894,8 @@
 					"keyw",
 					"w"
 				]
-			}
+			},
+			"karabiner-elements": "w"
 		},
 		"e": {
 			"hid": {
@@ -855,7 +938,8 @@
 					"keye",
 					"e"
 				]
-			}
+			},
+			"karabiner-elements": "e"
 		},
 		"r": {
 			"hid": {
@@ -898,7 +982,8 @@
 					"keyr",
 					"r"
 				]
-			}
+			},
+			"karabiner-elements": "r"
 		},
 		"t": {
 			"hid": {
@@ -941,7 +1026,8 @@
 					"keyt",
 					"t"
 				]
-			}
+			},
+			"karabiner-elements": "t"
 		},
 		"y": {
 			"hid": {
@@ -984,7 +1070,8 @@
 					"keyy",
 					"y"
 				]
-			}
+			},
+			"karabiner-elements": "y"
 		},
 		"u": {
 			"hid": {
@@ -1027,7 +1114,8 @@
 					"keyu",
 					"u"
 				]
-			}
+			},
+			"karabiner-elements": "u"
 		},
 		"i": {
 			"hid": {
@@ -1070,7 +1158,8 @@
 					"keyi",
 					"i"
 				]
-			}
+			},
+			"karabiner-elements": "i"
 		},
 		"o": {
 			"hid": {
@@ -1113,7 +1202,8 @@
 					"keyo",
 					"o"
 				]
-			}
+			},
+			"karabiner-elements": "o"
 		},
 		"p": {
 			"hid": {
@@ -1156,7 +1246,8 @@
 					"keyp",
 					"p"
 				]
-			}
+			},
+			"karabiner-elements": "p"
 		},
 		"`[`": {
 			"hid": {
@@ -1202,7 +1293,8 @@
 					"leftbrace",
 					"lbrc"
 				]
-			}
+			},
+			"karabiner-elements": "open_bracket"
 		},
 		"`]`": {
 			"hid": {
@@ -1248,7 +1340,8 @@
 					"rightbrace",
 					"rbrc"
 				]
-			}
+			},
+			"karabiner-elements": "close_bracket"
 		},
 		"enter": {
 			"hid": {
@@ -1292,7 +1385,8 @@
 					"keyenter",
 					"enter"
 				]
-			}
+			},
+			"karabiner-elements": "return_or_enter"
 		},
 		"ctrl-left": {
 			"hid": {
@@ -1339,7 +1433,8 @@
 					"lctrl",
 					"lctl"
 				]
-			}
+			},
+			"karabiner-elements": "left_control"
 		},
 		"a": {
 			"hid": {
@@ -1382,7 +1477,8 @@
 					"keya",
 					"a"
 				]
-			}
+			},
+			"karabiner-elements": "a"
 		},
 		"s": {
 			"hid": {
@@ -1425,7 +1521,8 @@
 					"keys",
 					"s"
 				]
-			}
+			},
+			"karabiner-elements": "s"
 		},
 		"d": {
 			"hid": {
@@ -1468,7 +1565,8 @@
 					"keyd",
 					"d"
 				]
-			}
+			},
+			"karabiner-elements": "d"
 		},
 		"f": {
 			"hid": {
@@ -1511,7 +1609,8 @@
 					"keyf",
 					"f"
 				]
-			}
+			},
+			"karabiner-elements": "f"
 		},
 		"g": {
 			"hid": {
@@ -1554,7 +1653,8 @@
 					"keyg",
 					"g"
 				]
-			}
+			},
+			"karabiner-elements": "g"
 		},
 		"h": {
 			"hid": {
@@ -1597,7 +1697,8 @@
 					"keyh",
 					"h"
 				]
-			}
+			},
+			"karabiner-elements": "h"
 		},
 		"j": {
 			"hid": {
@@ -1640,7 +1741,8 @@
 					"keyj",
 					"j"
 				]
-			}
+			},
+			"karabiner-elements": "j"
 		},
 		"k": {
 			"hid": {
@@ -1683,7 +1785,8 @@
 					"keyk",
 					"k"
 				]
-			}
+			},
+			"karabiner-elements": "k"
 		},
 		"l": {
 			"hid": {
@@ -1726,7 +1829,8 @@
 					"keyl",
 					"l"
 				]
-			}
+			},
+			"karabiner-elements": "l"
 		},
 		"`'`": {
 			"hid": {
@@ -1773,7 +1877,8 @@
 					"apos",
 					"apo"
 				]
-			}
+			},
+			"karabiner-elements": "quote"
 		},
 		"`\\``": {
 			"hid": {
@@ -1822,7 +1927,8 @@
 					"grave",
 					"grv"
 				]
-			}
+			},
+			"karabiner-elements": "grave_accent_and_tilde"
 		},
 		"shift-left": {
 			"hid": {
@@ -1871,7 +1977,8 @@
 					"lsft",
 					"shft"
 				]
-			}
+			},
+			"karabiner-elements": "left_shift"
 		},
 		"backslash": {
 			"hid": {
@@ -1916,10 +2023,57 @@
 				"aliases": [
 					"KeyBackslash",
 					"keybackslash",
-					"backslash",
-					"nonuspound"
+					"backslash"
 				]
-			}
+			},
+			"karabiner-elements": "backslash"
+		},
+		"iso-#": {
+			"hid": {
+				"code": "0x32",
+				"name": "Keyboard Non-US # and ~",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true,
+				"aliasOf": "backslash",
+				"comment": "Linux hid-input folds HID keyboard usages 0x31 and 0x32 onto the same KEY_BACKSLASH evdev keycode."
+			},
+			"linux-xkb": {
+				"missing": true,
+				"aliasOf": "backslash",
+				"comment": "Because the Linux kernel maps this HID usage to KEY_BACKSLASH, XKB also sees it through the same BKSL key path."
+			},
+			"linux-xkb-keysym": {
+				"missing": true,
+				"aliasOf": "backslash",
+				"comment": "Linux reaches this key through the same KEY_BACKSLASH path, so the XKB symbolic result collapses onto the same backslash meaning."
+			},
+			"windows-scancode": {
+				"missing": true,
+				"unknown": true
+			},
+			"windows-virtual": {
+				"missing": true,
+				"unknown": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true,
+				"aliasOf": "backslash",
+				"comment": "UI Events uses the same Backslash code for both HID 0x31 and HID 0x32 on standard 102-key layouts because many platforms do not distinguish them at the scancode layer."
+			},
+			"kmonad": {
+				"missing": true,
+				"aliasOf": "backslash",
+				"comment": "KMonad currently uses the same backslash key name for this physical key rather than a distinct non-US-pound token."
+			},
+			"karabiner-elements": "non_us_pound",
+			"geometry": "ISO",
+			"comment": "Distinct HID key for the ISO/UK-style #~ key partially tucked under Enter. It is different from the ISO key next to left Shift (HID 0x64), but many software stacks collapse it onto backslash-like semantics."
 		},
 		"z": {
 			"hid": {
@@ -1962,7 +2116,8 @@
 					"keyz",
 					"z"
 				]
-			}
+			},
+			"karabiner-elements": "z"
 		},
 		"x": {
 			"hid": {
@@ -2005,7 +2160,8 @@
 					"keyx",
 					"x"
 				]
-			}
+			},
+			"karabiner-elements": "x"
 		},
 		"c": {
 			"hid": {
@@ -2048,7 +2204,8 @@
 					"keyc",
 					"c"
 				]
-			}
+			},
+			"karabiner-elements": "c"
 		},
 		"v": {
 			"hid": {
@@ -2091,7 +2248,8 @@
 					"keyv",
 					"v"
 				]
-			}
+			},
+			"karabiner-elements": "v"
 		},
 		"b": {
 			"hid": {
@@ -2134,7 +2292,8 @@
 					"keyb",
 					"b"
 				]
-			}
+			},
+			"karabiner-elements": "b"
 		},
 		"n": {
 			"hid": {
@@ -2177,7 +2336,8 @@
 					"keyn",
 					"n"
 				]
-			}
+			},
+			"karabiner-elements": "n"
 		},
 		"m": {
 			"hid": {
@@ -2220,7 +2380,8 @@
 					"keym",
 					"m"
 				]
-			}
+			},
+			"karabiner-elements": "m"
 		},
 		"`,`": {
 			"hid": {
@@ -2266,7 +2427,8 @@
 					"comma",
 					"comm"
 				]
-			}
+			},
+			"karabiner-elements": "comma"
 		},
 		"`.`": {
 			"hid": {
@@ -2311,7 +2473,8 @@
 					"Dot",
 					"dot"
 				]
-			}
+			},
+			"karabiner-elements": "period"
 		},
 		"`/`": {
 			"hid": {
@@ -2356,7 +2519,8 @@
 					"Slash",
 					"slash"
 				]
-			}
+			},
+			"karabiner-elements": "slash"
 		},
 		"shift-right": {
 			"hid": {
@@ -2403,7 +2567,8 @@
 					"rshift",
 					"rshft"
 				]
-			}
+			},
+			"karabiner-elements": "right_shift"
 		},
 		"`kp*`": {
 			"hid": {
@@ -2448,7 +2613,8 @@
 					"KpAsterisk",
 					"kpasterisk"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_asterisk"
 		},
 		"alt-left": {
 			"hid": {
@@ -2493,6 +2659,12 @@
 					"LeftAlt",
 					"leftalt",
 					"lalt"
+				]
+			},
+			"karabiner-elements": {
+				"name": "left_option",
+				"aliases": [
+					"left_alt"
 				]
 			}
 		},
@@ -2539,7 +2711,8 @@
 					"Space",
 					"space"
 				]
-			}
+			},
+			"karabiner-elements": "spacebar"
 		},
 		"caps": {
 			"hid": {
@@ -2584,7 +2757,8 @@
 					"CapsLock",
 					"capslock"
 				]
-			}
+			},
+			"karabiner-elements": "caps_lock"
 		},
 		"f1": {
 			"hid": {
@@ -2628,7 +2802,8 @@
 					"keyf1",
 					"f1"
 				]
-			}
+			},
+			"karabiner-elements": "f1"
 		},
 		"f2": {
 			"hid": {
@@ -2672,7 +2847,8 @@
 					"keyf2",
 					"f2"
 				]
-			}
+			},
+			"karabiner-elements": "f2"
 		},
 		"f3": {
 			"hid": {
@@ -2716,7 +2892,8 @@
 					"keyf3",
 					"f3"
 				]
-			}
+			},
+			"karabiner-elements": "f3"
 		},
 		"f4": {
 			"hid": {
@@ -2760,7 +2937,8 @@
 					"keyf4",
 					"f4"
 				]
-			}
+			},
+			"karabiner-elements": "f4"
 		},
 		"f5": {
 			"hid": {
@@ -2804,7 +2982,8 @@
 					"keyf5",
 					"f5"
 				]
-			}
+			},
+			"karabiner-elements": "f5"
 		},
 		"f6": {
 			"hid": {
@@ -2848,7 +3027,8 @@
 					"keyf6",
 					"f6"
 				]
-			}
+			},
+			"karabiner-elements": "f6"
 		},
 		"f7": {
 			"hid": {
@@ -2892,7 +3072,8 @@
 					"keyf7",
 					"f7"
 				]
-			}
+			},
+			"karabiner-elements": "f7"
 		},
 		"f8": {
 			"hid": {
@@ -2936,7 +3117,8 @@
 					"keyf8",
 					"f8"
 				]
-			}
+			},
+			"karabiner-elements": "f8"
 		},
 		"f9": {
 			"hid": {
@@ -2980,7 +3162,8 @@
 					"keyf9",
 					"f9"
 				]
-			}
+			},
+			"karabiner-elements": "f9"
 		},
 		"f10": {
 			"hid": {
@@ -3024,7 +3207,8 @@
 					"keyf10",
 					"f10"
 				]
-			}
+			},
+			"karabiner-elements": "f10"
 		},
 		"num-lock": {
 			"hid": {
@@ -3069,7 +3253,8 @@
 					"NumLock",
 					"numlock"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_num_lock"
 		},
 		"scroll-lock": {
 			"hid": {
@@ -3115,7 +3300,8 @@
 					"scrolllock",
 					"scrlck"
 				]
-			}
+			},
+			"karabiner-elements": "scroll_lock"
 		},
 		"kp7": {
 			"hid": {
@@ -3159,7 +3345,8 @@
 					"keykp7",
 					"kp7"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_7"
 		},
 		"kp8": {
 			"hid": {
@@ -3203,7 +3390,8 @@
 					"keykp8",
 					"kp8"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_8"
 		},
 		"kp9": {
 			"hid": {
@@ -3247,7 +3435,8 @@
 					"keykp9",
 					"kp9"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_9"
 		},
 		"`kp-`": {
 			"hid": {
@@ -3292,7 +3481,8 @@
 					"KpMinus",
 					"kpminus"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_hyphen"
 		},
 		"kp4": {
 			"hid": {
@@ -3336,7 +3526,8 @@
 					"keykp4",
 					"kp4"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_4"
 		},
 		"kp5": {
 			"hid": {
@@ -3380,7 +3571,8 @@
 					"keykp5",
 					"kp5"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_5"
 		},
 		"kp6": {
 			"hid": {
@@ -3424,7 +3616,8 @@
 					"keykp6",
 					"kp6"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_6"
 		},
 		"`kp+`": {
 			"hid": {
@@ -3469,7 +3662,8 @@
 					"KpPlus",
 					"kpplus"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_plus"
 		},
 		"kp1": {
 			"hid": {
@@ -3513,7 +3707,8 @@
 					"keykp1",
 					"kp1"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_1"
 		},
 		"kp2": {
 			"hid": {
@@ -3557,7 +3752,8 @@
 					"keykp2",
 					"kp2"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_2"
 		},
 		"kp3": {
 			"hid": {
@@ -3601,7 +3797,8 @@
 					"keykp3",
 					"kp3"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_3"
 		},
 		"kp0": {
 			"hid": {
@@ -3645,7 +3842,8 @@
 					"keykp0",
 					"kp0"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_0"
 		},
 		"`kp.`": {
 			"hid": {
@@ -3690,7 +3888,8 @@
 					"KpDot",
 					"kpdot"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_period"
 		},
 		"iso-intl-backslash": {
 			"hid": {
@@ -3737,7 +3936,8 @@
 					"lsgt"
 				]
 			},
-			"geometry": "ISO"
+			"geometry": "ISO",
+			"karabiner-elements": "non_us_backslash"
 		},
 		"f11": {
 			"hid": {
@@ -3781,7 +3981,8 @@
 					"keyf11",
 					"f11"
 				]
-			}
+			},
+			"karabiner-elements": "f11"
 		},
 		"f12": {
 			"hid": {
@@ -3825,7 +4026,8 @@
 					"keyf12",
 					"f12"
 				]
-			}
+			},
+			"karabiner-elements": "f12"
 		},
 		"intl-ro": {
 			"hid": {
@@ -3871,7 +4073,8 @@
 				]
 			},
 			"geometry": "JIS",
-			"comment": "JIS KEY_RO is primarily a printable key. It has no distinct standard XKB keysym and often produces the printable backslash symbol, so the physical-key-specific mapping is left missing here."
+			"comment": "JIS KEY_RO is primarily a printable key. It has no distinct standard XKB keysym and often produces the printable backslash symbol, so the physical-key-specific mapping is left missing here.",
+			"karabiner-elements": "international1"
 		},
 		"henkan": {
 			"hid": {
@@ -3917,7 +4120,13 @@
 					"international4"
 				]
 			},
-			"geometry": "JIS"
+			"geometry": "JIS",
+			"karabiner-elements": {
+				"name": "japanese_pc_xfer",
+				"aliases": [
+					"international4"
+				]
+			}
 		},
 		"kana": {
 			"hid": {
@@ -3965,7 +4174,13 @@
 					"international2"
 				]
 			},
-			"geometry": "JIS"
+			"geometry": "JIS",
+			"karabiner-elements": {
+				"name": "japanese_pc_katakana",
+				"aliases": [
+					"international2"
+				]
+			}
 		},
 		"muhenkan": {
 			"hid": {
@@ -4011,7 +4226,13 @@
 					"international5"
 				]
 			},
-			"geometry": "JIS"
+			"geometry": "JIS",
+			"karabiner-elements": {
+				"name": "japanese_pc_nfer",
+				"aliases": [
+					"international5"
+				]
+			}
 		},
 		"kp-enter": {
 			"hid": {
@@ -4058,7 +4279,8 @@
 					"kpenter",
 					"kp-enter"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_enter"
 		},
 		"ctrl-right": {
 			"hid": {
@@ -4104,7 +4326,8 @@
 					"rightctrl",
 					"rctrl"
 				]
-			}
+			},
+			"karabiner-elements": "right_control"
 		},
 		"`kp/`": {
 			"hid": {
@@ -4149,7 +4372,8 @@
 					"KpSlash",
 					"kpslash"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_slash"
 		},
 		"print": {
 			"hid": {
@@ -4195,7 +4419,8 @@
 					"sysrq",
 					"ssrq"
 				]
-			}
+			},
+			"karabiner-elements": "print_screen"
 		},
 		"alt-right": {
 			"hid": {
@@ -4242,6 +4467,12 @@
 					"keyrightalt",
 					"RightAlt",
 					"rightalt"
+				]
+			},
+			"karabiner-elements": {
+				"name": "right_option",
+				"aliases": [
+					"right_alt"
 				]
 			}
 		},
@@ -4325,7 +4556,8 @@
 					"keyhome",
 					"home"
 				]
-			}
+			},
+			"karabiner-elements": "home"
 		},
 		"arrow-up": {
 			"hid": {
@@ -4369,7 +4601,8 @@
 					"keyup",
 					"up"
 				]
-			}
+			},
+			"karabiner-elements": "up_arrow"
 		},
 		"page-up": {
 			"hid": {
@@ -4414,7 +4647,8 @@
 					"PageUp",
 					"pageup"
 				]
-			}
+			},
+			"karabiner-elements": "page_up"
 		},
 		"arrow-left": {
 			"hid": {
@@ -4459,7 +4693,8 @@
 					"Left",
 					"left"
 				]
-			}
+			},
+			"karabiner-elements": "left_arrow"
 		},
 		"arrow-right": {
 			"hid": {
@@ -4504,7 +4739,8 @@
 					"Right",
 					"right"
 				]
-			}
+			},
+			"karabiner-elements": "right_arrow"
 		},
 		"end": {
 			"hid": {
@@ -4548,7 +4784,8 @@
 					"keyend",
 					"end"
 				]
-			}
+			},
+			"karabiner-elements": "end"
 		},
 		"arrow-down": {
 			"hid": {
@@ -4592,7 +4829,8 @@
 					"keydown",
 					"down"
 				]
-			}
+			},
+			"karabiner-elements": "down_arrow"
 		},
 		"page-down": {
 			"hid": {
@@ -4637,7 +4875,8 @@
 					"PageDown",
 					"pagedown"
 				]
-			}
+			},
+			"karabiner-elements": "page_down"
 		},
 		"insert": {
 			"hid": {
@@ -4683,7 +4922,8 @@
 					"Insert",
 					"insert"
 				]
-			}
+			},
+			"karabiner-elements": "insert"
 		},
 		"delete": {
 			"hid": {
@@ -4728,7 +4968,8 @@
 					"Delete",
 					"delete"
 				]
-			}
+			},
+			"karabiner-elements": "delete_forward"
 		},
 		"macro": {
 			"hid": {
@@ -4812,7 +5053,8 @@
 					"mute",
 					"mininteresting"
 				]
-			}
+			},
+			"karabiner-elements": "mute"
 		},
 		"media-volume-down": {
 			"hid": {
@@ -4857,6 +5099,12 @@
 					"keyvolumedown",
 					"volumedown",
 					"volumedecrement"
+				]
+			},
+			"karabiner-elements": {
+				"name": "volume_decrement",
+				"aliases": [
+					"volume_down"
 				]
 			}
 		},
@@ -4903,6 +5151,12 @@
 					"keyvolumeup",
 					"volumeup",
 					"volumeincrement"
+				]
+			},
+			"karabiner-elements": {
+				"name": "volume_increment",
+				"aliases": [
+					"volume_up"
 				]
 			}
 		},
@@ -4991,7 +5245,8 @@
 					"pause"
 				]
 			},
-			"comment": "Classic keyboard Pause key. On Windows, the special Pause scan code is emitted for this key, while Break is emitted for Ctrl+Pause. GNOME treats the Pause key itself as a media-pause trigger and sends the MPRIS \"Pause\" action."
+			"comment": "Classic keyboard Pause key. On Windows, the special Pause scan code is emitted for this key, while Break is emitted for Ctrl+Pause. GNOME treats the Pause key itself as a media-pause trigger and sends the MPRIS \"Pause\" action.",
+			"karabiner-elements": "pause"
 		},
 		"scale": {
 			"hid": {
@@ -5080,7 +5335,13 @@
 					"lang1"
 				]
 			},
-			"geometry": "Korean"
+			"geometry": "Korean",
+			"karabiner-elements": {
+				"name": "japanese_kana",
+				"aliases": [
+					"lang1"
+				]
+			}
 		},
 		"hanja": {
 			"hid": {
@@ -5125,7 +5386,13 @@
 					"lang2"
 				]
 			},
-			"geometry": "Korean"
+			"geometry": "Korean",
+			"karabiner-elements": {
+				"name": "japanese_eisuu",
+				"aliases": [
+					"lang2"
+				]
+			}
 		},
 		"intl-yen": {
 			"hid": {
@@ -5174,7 +5441,8 @@
 					"international3"
 				]
 			},
-			"geometry": "JIS"
+			"geometry": "JIS",
+			"karabiner-elements": "international3"
 		},
 		"meta-left": {
 			"hid": {
@@ -5224,6 +5492,12 @@
 					"lmeta",
 					"lmet"
 				]
+			},
+			"karabiner-elements": {
+				"name": "left_command",
+				"aliases": [
+					"left_gui"
+				]
 			}
 		},
 		"meta-right": {
@@ -5272,6 +5546,12 @@
 					"RightMeta",
 					"rightmeta",
 					"rmeta"
+				]
+			},
+			"karabiner-elements": {
+				"name": "right_command",
+				"aliases": [
+					"right_gui"
 				]
 			}
 		},
@@ -5377,7 +5657,8 @@
 					"compose",
 					"application"
 				]
-			}
+			},
+			"karabiner-elements": "application"
 		},
 		"setup": {
 			"hid": {
@@ -5457,7 +5738,7 @@
 				]
 			}
 		},
-		"deletefile": {
+		"delete-file": {
 			"hid": {
 				"missing": true
 			},
@@ -5661,7 +5942,8 @@
 					"internetbrowser"
 				]
 			},
-			"comment": "GNOME treats this as the web-browser launcher key and opens an http: action."
+			"comment": "GNOME treats this as the web-browser launcher key and opens an http: action.",
+			"karabiner-elements": "al_internet_browser"
 		},
 		"msdos": {
 			"hid": {
@@ -5748,7 +6030,8 @@
 					"coffee",
 					"termlock"
 				]
-			}
+			},
+			"karabiner-elements": "al_terminal_lock_or_screensaver"
 		},
 		"rotate-display": {
 			"hid": {
@@ -5873,7 +6156,8 @@
 					"bookmarks"
 				]
 			},
-			"comment": "Bookmarks/favorites key. Use it for bookmark or saved-item lists rather than browser history."
+			"comment": "Bookmarks/favorites key. Use it for bookmark or saved-item lists rather than browser history.",
+			"karabiner-elements": "ac_bookmarks"
 		},
 		"computer": {
 			"hid": {
@@ -5954,7 +6238,8 @@
 					"keyback",
 					"back"
 				]
-			}
+			},
+			"karabiner-elements": "ac_back"
 		},
 		"forward": {
 			"hid": {
@@ -5998,7 +6283,8 @@
 					"Forward",
 					"forward"
 				]
-			}
+			},
+			"karabiner-elements": "ac_forward"
 		},
 		"closecd": {
 			"hid": {
@@ -6087,7 +6373,13 @@
 					"numeric5"
 				]
 			},
-			"comment": "GNOME treats this as the media next-track key and sends the MPRIS \"Next\" action."
+			"comment": "GNOME treats this as the media next-track key and sends the MPRIS \"Next\" action.",
+			"karabiner-elements": {
+				"name": "scan_next_track",
+				"aliases": [
+					"vk_consumer_next"
+				]
+			}
 		},
 		"media-play-pause": {
 			"hid": {
@@ -6132,6 +6424,12 @@
 					"keyplaypause",
 					"PlayPause",
 					"playpause"
+				]
+			},
+			"karabiner-elements": {
+				"name": "play_or_pause",
+				"aliases": [
+					"vk_consumer_play"
 				]
 			}
 		},
@@ -6184,7 +6482,13 @@
 					"numeric6"
 				]
 			},
-			"comment": "GNOME treats this as the media previous-track key and sends the MPRIS \"Previous\" action."
+			"comment": "GNOME treats this as the media previous-track key and sends the MPRIS \"Previous\" action.",
+			"karabiner-elements": {
+				"name": "scan_previous_track",
+				"aliases": [
+					"vk_consumer_previous"
+				]
+			}
 		},
 		"media-rewind": {
 			"hid": {
@@ -6234,7 +6538,8 @@
 					"numeric4"
 				]
 			},
-			"comment": "GNOME treats this as the media rewind key and sends the MPRIS \"Rewind\" action."
+			"comment": "GNOME treats this as the media rewind key and sends the MPRIS \"Rewind\" action.",
+			"karabiner-elements": "rewind"
 		},
 		"phone": {
 			"hid": {
@@ -6355,7 +6660,8 @@
 					"keyrefresh",
 					"refresh"
 				]
-			}
+			},
+			"karabiner-elements": "ac_refresh"
 		},
 		"exit": {
 			"hid": {
@@ -6363,20 +6669,20 @@
 				"name": "Quit",
 				"page-num": "0xc",
 				"page-name": "Consumer",
-				"alternatives": [
-					{
+				"alternatives": {
+					"system-menu-exit": {
 						"code": "0x88",
 						"name": "System Menu Exit",
 						"page-num": "0x1",
 						"page-name": "Generic Desktop"
 					},
-					{
+					"ac-exit": {
 						"code": "0x204",
 						"name": "AC Exit",
 						"page-num": "0xc",
 						"page-name": "Consumer"
 					}
-				]
+				}
 			},
 			"linux-evdev": {
 				"code": "0xae",
@@ -6389,13 +6695,13 @@
 			"linux-xkb-keysym": {
 				"code": "0x100810ae",
 				"name": "XF86Exit",
-				"alternatives": [
-					{
+				"alternatives": {
+					"xf86close": {
 						"code": "0x1008ff56",
 						"name": "XF86Close",
 						"comment": "xkeyboard-config symbols-inet maps KEY_EXIT to XF86Close even though xkbcommon-keysyms.h defines XF86Exit specifically for KEY_EXIT."
 					}
-				]
+				}
 			},
 			"windows-scancode": {
 				"api": "scancode",
@@ -6795,7 +7101,8 @@
 					"keyf13",
 					"f13"
 				]
-			}
+			},
+			"karabiner-elements": "f13"
 		},
 		"f14": {
 			"hid": {
@@ -6839,7 +7146,8 @@
 					"keyf14",
 					"f14"
 				]
-			}
+			},
+			"karabiner-elements": "f14"
 		},
 		"f15": {
 			"hid": {
@@ -6883,7 +7191,8 @@
 					"keyf15",
 					"f15"
 				]
-			}
+			},
+			"karabiner-elements": "f15"
 		},
 		"f16": {
 			"hid": {
@@ -6927,7 +7236,8 @@
 					"keyf16",
 					"f16"
 				]
-			}
+			},
+			"karabiner-elements": "f16"
 		},
 		"f17": {
 			"hid": {
@@ -6971,7 +7281,8 @@
 					"keyf17",
 					"f17"
 				]
-			}
+			},
+			"karabiner-elements": "f17"
 		},
 		"f18": {
 			"hid": {
@@ -7015,7 +7326,8 @@
 					"keyf18",
 					"f18"
 				]
-			}
+			},
+			"karabiner-elements": "f18"
 		},
 		"f19": {
 			"hid": {
@@ -7059,7 +7371,8 @@
 					"keyf19",
 					"f19"
 				]
-			}
+			},
+			"karabiner-elements": "f19"
 		},
 		"f20": {
 			"hid": {
@@ -7103,7 +7416,8 @@
 					"keyf20",
 					"f20"
 				]
-			}
+			},
+			"karabiner-elements": "f20"
 		},
 		"f21": {
 			"hid": {
@@ -7147,7 +7461,8 @@
 					"keyf21",
 					"f21"
 				]
-			}
+			},
+			"karabiner-elements": "f21"
 		},
 		"f22": {
 			"hid": {
@@ -7191,7 +7506,8 @@
 					"keyf22",
 					"f22"
 				]
-			}
+			},
+			"karabiner-elements": "f22"
 		},
 		"f23": {
 			"hid": {
@@ -7235,7 +7551,8 @@
 					"keyf23",
 					"f23"
 				]
-			}
+			},
+			"karabiner-elements": "f23"
 		},
 		"f24": {
 			"hid": {
@@ -7279,7 +7596,8 @@
 					"keyf24",
 					"f24"
 				]
-			}
+			},
+			"karabiner-elements": "f24"
 		},
 		"prog3": {
 			"hid": {
@@ -7491,7 +7809,13 @@
 					"numeric3"
 				]
 			},
-			"comment": "GNOME treats this as the media fast-forward key and sends the MPRIS \"FastForward\" action."
+			"comment": "GNOME treats this as the media fast-forward key and sends the MPRIS \"FastForward\" action.",
+			"karabiner-elements": {
+				"name": "fast_forward",
+				"aliases": [
+					"fastforward"
+				]
+			}
 		},
 		"bassboost": {
 			"hid": {
@@ -7532,23 +7856,26 @@
 					"keybassboost",
 					"bassboost"
 				]
-			}
+			},
+			"karabiner-elements": "bass_boost"
 		},
 		"camera": {
 			"hid": {
-				"missing": true,
-				"possible-mappings": [
-					{
-						"code": "0x65",
-						"page-num": "0xc",
-						"page-name": "Consumer"
-					},
-					{
+				"code": "0x65",
+				"name": "Snapshot",
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"alternatives": {
+					"display-brightness": {
 						"code": "0x71",
+						"name": "Display Brightness",
 						"page-num": "0xc",
-						"page-name": "Consumer"
+						"page-name": "Consumer",
+						"origin": "linux",
+						"semantic-miss": true,
+						"comment": "the kernel maps both HID Consumer 0x65 and 0x71 to KEY_CAMERA"
 					}
-				]
+				}
 			},
 			"linux-evdev": {
 				"code": "0xd4",
@@ -7623,23 +7950,26 @@
 					"email"
 				]
 			},
-			"comment": "Linux exposes KEY_EMAIL separately from KEY_MAIL, and the kernel maps HID Consumer 0x80 to it even though the HID tables name that usage Selection. XKB and Windows flatten the launcher behavior to the generic mail-launch action, so those canonical mappings live under mail instead."
+			"comment": "Linux exposes KEY_EMAIL separately from KEY_MAIL, and the kernel maps HID Consumer 0x80 to it even though the HID tables name that usage Selection. XKB and Windows flatten the launcher behavior to the generic mail-launch action, so those canonical mappings live under mail instead.",
+			"karabiner-elements": "selection"
 		},
 		"chat": {
 			"hid": {
-				"missing": true,
-				"possible-mappings": [
-					{
-						"code": "0x199",
-						"page-num": "0xc",
-						"page-name": "Consumer"
-					},
-					{
+				"code": "0x199",
+				"name": "AL Network Chat",
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"alternatives": {
+					"assign": {
 						"code": "0x81",
+						"name": "Assign",
 						"page-num": "0xc",
-						"page-name": "Consumer"
+						"page-name": "Consumer",
+						"origin": "linux",
+						"semantic-miss": true,
+						"comment": "the kernel maps both HID Consumer 0x199 and 0x81 to KEY_CHAT"
 					}
-				]
+				}
 			},
 			"linux-evdev": {
 				"code": "0xd8",
@@ -7722,19 +8052,18 @@
 		},
 		"finance": {
 			"hid": {
-				"missing": true,
-				"possible-mappings": [
-					{
-						"code": "0x191",
-						"page-num": "0xc",
-						"page-name": "Consumer"
-					},
-					{
-						"code": "0x84",
+				"code": "0x191",
+				"name": "AL Checkbook or Finance",
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"alternatives": {
+					"market-monitor-or-finance-browser": {
+						"code": "0x1c3",
+						"name": "AL Market Monitor or Finance Browser",
 						"page-num": "0xc",
 						"page-name": "Consumer"
 					}
-				]
+				}
 			},
 			"linux-evdev": {
 				"code": "0xdb",
@@ -7853,7 +8182,7 @@
 				]
 			}
 		},
-		"alterase": {
+		"alternative-erase": {
 			"hid": {
 				"missing": true
 			},
@@ -7887,9 +8216,11 @@
 				"aliases": [
 					"KeyAlterase",
 					"keyalterase",
+					"alternative-erase",
 					"alterase"
 				]
-			}
+			},
+			"karabiner-elements": "alternate_erase"
 		},
 		"cancel": {
 			"hid": {
@@ -8054,7 +8385,8 @@
 					"keydocuments",
 					"documents"
 				]
-			}
+			},
+			"karabiner-elements": "al_documents"
 		},
 		"battery": {
 			"hid": {
@@ -8535,7 +8867,18 @@
 		},
 		"clear": {
 			"hid": {
-				"missing": true
+				"code": "0x9c",
+				"name": "Keyboard Clear",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad",
+				"alternatives": {
+					"clear-or-again": {
+						"code": "0xa2",
+						"name": "Keyboard Clear or Again",
+						"page-num": "0x7",
+						"page-name": "Keyboard/Keypad"
+					}
+				}
 			},
 			"linux-evdev": {
 				"code": "0x163",
@@ -8566,6 +8909,174 @@
 				]
 			},
 			"comment": "Clear-entry key. Use it for clearing the current value, typed digits, or current selection rather than general delete/backspace behavior."
+		},
+		"sysrq-attention": {
+			"hid": {
+				"code": "0x9a",
+				"name": "Keyboard SysReq/Attention",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Legacy extended keyboard control key. Historically distinct from Print Screen even when some PC keyboards colocated the two labels."
+		},
+		"prior": {
+			"hid": {
+				"code": "0x9d",
+				"name": "Keyboard Prior",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Legacy extended keyboard control key on the HID keyboard page."
+		},
+		"legacy-return": {
+			"hid": {
+				"code": "0x9e",
+				"name": "Keyboard Return",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Legacy extended keyboard control key, distinct from the normal Return/Enter key and keypad Enter."
+		},
+		"separator": {
+			"hid": {
+				"code": "0x9f",
+				"name": "Keyboard Separator",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Legacy extended keyboard control key on the HID keyboard page."
+		},
+		"out": {
+			"hid": {
+				"code": "0xa0",
+				"name": "Keyboard Out",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Legacy extended keyboard control key on the HID keyboard page."
+		},
+		"oper": {
+			"hid": {
+				"code": "0xa1",
+				"name": "Keyboard Oper",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Legacy extended keyboard control key on the HID keyboard page."
 		},
 		"power2": {
 			"hid": {
@@ -8679,7 +9190,8 @@
 					"featurebrowser",
 					"tipsbrowser"
 				]
-			}
+			},
+			"karabiner-elements": "data_on_screen"
 		},
 		"time": {
 			"hid": {
@@ -8992,7 +9504,8 @@
 					"language"
 				]
 			},
-			"comment": "Language-selection key. On media devices this is typically used to switch audio language or similar playback language settings."
+			"comment": "Language-selection key. On media devices this is typically used to switch audio language or similar playback language settings.",
+			"karabiner-elements": "language"
 		},
 		"title": {
 			"hid": {
@@ -9068,7 +9581,8 @@
 					"subtitle"
 				]
 			},
-			"comment": "Subtitle / closed-caption key. KMonad also aliases this as `caption`, which matches the media-device closed-caption meaning."
+			"comment": "Subtitle / closed-caption key. KMonad also aliases this as `caption`, which matches the media-device closed-caption meaning.",
+			"karabiner-elements": "closed_caption"
 		},
 		"angle": {
 			"hid": {
@@ -9175,7 +9689,8 @@
 					"keykeyboard",
 					"keyboard"
 				]
-			}
+			},
+			"karabiner-elements": "al_keyboard_layout"
 		},
 		"aspect-ratio": {
 			"hid": {
@@ -9216,7 +9731,8 @@
 					"aspectratio"
 				]
 			},
-			"comment": "Aspect-ratio switching key for display/video devices."
+			"comment": "Aspect-ratio switching key for display/video devices.",
+			"karabiner-elements": "aspect"
 		},
 		"pc": {
 			"hid": {
@@ -9332,19 +9848,18 @@
 		},
 		"vcr": {
 			"hid": {
-				"missing": true,
-				"possible-mappings": [
-					{
-						"code": "0x63",
-						"page-num": "0xc",
-						"page-name": "Consumer"
-					},
-					{
+				"code": "0x63",
+				"name": "VCR or TV",
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"alternatives": {
+					"media-select-vcr": {
 						"code": "0x92",
+						"name": "Media Select VCR",
 						"page-num": "0xc",
 						"page-name": "Consumer"
 					}
-				]
+				}
 			},
 			"linux-evdev": {
 				"code": "0x17b",
@@ -9659,7 +10174,8 @@
 					"player"
 				]
 			},
-			"comment": "Media-player source/application key for jumping to a playback device or player mode rather than transport control."
+			"comment": "Media-player source/application key for jumping to a playback device or player mode rather than transport control.",
+			"karabiner-elements": "al_a_or_v_capture_or_playback"
 		},
 		"text": {
 			"hid": {
@@ -9836,7 +10352,8 @@
 					"keyaudio",
 					"audio"
 				]
-			}
+			},
+			"karabiner-elements": "al_audio_browser"
 		},
 		"video": {
 			"hid": {
@@ -9872,7 +10389,8 @@
 					"keyvideo",
 					"video"
 				]
-			}
+			},
+			"karabiner-elements": "al_movie_browser"
 		},
 		"directory": {
 			"hid": {
@@ -10053,7 +10571,8 @@
 					"keyred",
 					"red"
 				]
-			}
+			},
+			"karabiner-elements": "red_menu_button"
 		},
 		"green": {
 			"hid": {
@@ -10089,7 +10608,8 @@
 					"keygreen",
 					"green"
 				]
-			}
+			},
+			"karabiner-elements": "green_menu_button"
 		},
 		"yellow": {
 			"hid": {
@@ -10125,7 +10645,8 @@
 					"keyyellow",
 					"yellow"
 				]
-			}
+			},
+			"karabiner-elements": "yellow_menu_button"
 		},
 		"blue": {
 			"hid": {
@@ -10161,7 +10682,8 @@
 					"keyblue",
 					"blue"
 				]
-			}
+			},
+			"karabiner-elements": "blue_menu_button"
 		},
 		"channelup": {
 			"hid": {
@@ -10309,7 +10831,8 @@
 					"nexttask"
 				]
 			},
-			"comment": "GNOME treats this as the media next-track key and sends the MPRIS \"Next\" action."
+			"comment": "GNOME treats this as the media next-track key and sends the MPRIS \"Next\" action.",
+			"karabiner-elements": "al_next_task_or_application"
 		},
 		"restart": {
 			"hid": {
@@ -10317,20 +10840,20 @@
 				"name": "Reset",
 				"page-num": "0xc",
 				"page-name": "Consumer",
-				"alternatives": [
-					{
+				"alternatives": {
+					"restart": {
 						"code": "0xf",
 						"name": "Restart",
 						"page-num": "0xc",
 						"page-name": "Consumer"
 					},
-					{
+					"system-warm-restart": {
 						"code": "0x8f",
 						"name": "System Warm Restart",
 						"page-num": "0x1",
 						"page-name": "Generic Desktop"
 					}
-				]
+				}
 			},
 			"linux-evdev": {
 				"code": "0x198",
@@ -10364,19 +10887,18 @@
 		},
 		"slow": {
 			"hid": {
-				"missing": true,
-				"possible-mappings": [
-					{
+				"code": "0xf5",
+				"name": "Slow",
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"alternatives": {
+					"slow-tracking": {
 						"code": "0xbf",
-						"page-num": "0xc",
-						"page-name": "Consumer"
-					},
-					{
-						"code": "0xf5",
+						"name": "Slow Tracking",
 						"page-num": "0xc",
 						"page-name": "Consumer"
 					}
-				]
+				}
 			},
 			"linux-evdev": {
 				"code": "0x199",
@@ -10488,7 +11010,8 @@
 					"previoustask"
 				]
 			},
-			"comment": "GNOME treats this as the media previous-track key and sends the MPRIS \"Previous\" action."
+			"comment": "GNOME treats this as the media previous-track key and sends the MPRIS \"Previous\" action.",
+			"karabiner-elements": "al_previous_task_or_application"
 		},
 		"digits": {
 			"hid": {
@@ -10660,7 +11183,8 @@
 					"editor",
 					"texteditor"
 				]
-			}
+			},
+			"karabiner-elements": "al_text_editor"
 		},
 		"spreadsheet": {
 			"hid": {
@@ -10701,7 +11225,8 @@
 					"keyspreadsheet",
 					"spreadsheet"
 				]
-			}
+			},
+			"karabiner-elements": "al_spreadsheet"
 		},
 		"graphicseditor": {
 			"hid": {
@@ -10737,7 +11262,8 @@
 					"keygraphicseditor",
 					"graphicseditor"
 				]
-			}
+			},
+			"karabiner-elements": "al_graphics_editor"
 		},
 		"presentation": {
 			"hid": {
@@ -10773,7 +11299,8 @@
 					"keypresentation",
 					"presentation"
 				]
-			}
+			},
+			"karabiner-elements": "al_presentation_app"
 		},
 		"database": {
 			"hid": {
@@ -10809,7 +11336,8 @@
 					"keydatabase",
 					"database"
 				]
-			}
+			},
+			"karabiner-elements": "al_database_app"
 		},
 		"news": {
 			"hid": {
@@ -10846,7 +11374,8 @@
 					"news",
 					"newsreader"
 				]
-			}
+			},
+			"karabiner-elements": "al_newsreader"
 		},
 		"voicemail": {
 			"hid": {
@@ -10883,7 +11412,8 @@
 					"voicemail"
 				]
 			},
-			"comment": "Voicemail/messages launcher key."
+			"comment": "Voicemail/messages launcher key.",
+			"karabiner-elements": "al_voicemail"
 		},
 		"messenger": {
 			"hid": {
@@ -10920,7 +11450,8 @@
 					"messenger",
 					"instantmessaging"
 				]
-			}
+			},
+			"karabiner-elements": "al_instant_messaging"
 		},
 		"displaytoggle": {
 			"hid": {
@@ -11011,7 +11542,8 @@
 					"keyspellcheck",
 					"spellcheck"
 				]
-			}
+			},
+			"karabiner-elements": "al_spell_check"
 		},
 		"logoff": {
 			"hid": {
@@ -11052,7 +11584,8 @@
 					"keylogoff",
 					"logoff"
 				]
-			}
+			},
+			"karabiner-elements": "al_logoff"
 		},
 		"dollar": {
 			"hid": {
@@ -11366,7 +11899,8 @@
 					"keyimages",
 					"images"
 				]
-			}
+			},
+			"karabiner-elements": "al_image_browser"
 		},
 		"notification-center": {
 			"hid": {
@@ -13512,7 +14046,8 @@
 					"keytaskmanager",
 					"taskmanager"
 				]
-			}
+			},
+			"karabiner-elements": "al_task_or_project_manager"
 		},
 		"journal": {
 			"hid": {
@@ -13553,7 +14088,8 @@
 					"keyjournal",
 					"journal"
 				]
-			}
+			},
+			"karabiner-elements": "al_log_or_journal_or_timecard"
 		},
 		"screensaver": {
 			"hid": {
@@ -13595,7 +14131,8 @@
 					"screensaver"
 				]
 			},
-			"comment": "GNOME treats this as the screensaver/lock key and locks the session."
+			"comment": "GNOME treats this as the screensaver/lock key and locks the session.",
+			"karabiner-elements": "al_screen_saver"
 		},
 		"voicecommand": {
 			"hid": {
@@ -13635,6 +14172,12 @@
 					"KeyVoicecommand",
 					"keyvoicecommand",
 					"voicecommand"
+				]
+			},
+			"karabiner-elements": {
+				"name": "dictation",
+				"aliases": [
+					"voice_command"
 				]
 			}
 		},
@@ -13677,7 +14220,8 @@
 					"keyassistant",
 					"assistant"
 				]
-			}
+			},
+			"karabiner-elements": "al_contextaware_desktop_assistant"
 		},
 		"keyboard-layout-next": {
 			"hid": {
@@ -16848,73 +17392,6 @@
 				]
 			}
 		},
-		"max": {
-			"hid": {
-				"missing": true
-			},
-			"linux-evdev": {
-				"code": "0x2ff",
-				"name": "KEY_MAX"
-			},
-			"linux-xkb": {
-				"missing": true
-			},
-			"windows-scancode": {
-				"api": "scancode",
-				"missing": true
-			},
-			"windows-virtual": {
-				"missing": true
-			},
-			"mac": {
-				"missing": true
-			},
-			"web": {
-				"missing": true
-			},
-			"kmonad": {
-				"name": "lp",
-				"aliases": [
-					"KeyLaunchpad",
-					"keylaunchpad",
-					"Launchpad",
-					"launchpad"
-				]
-			}
-		},
-		"spotlight": {
-			"hid": {
-				"missing": true
-			},
-			"linux-evdev": {
-				"code": "0x301"
-			},
-			"linux-xkb": {
-				"missing": true
-			},
-			"windows-scancode": {
-				"api": "scancode",
-				"missing": true
-			},
-			"windows-virtual": {
-				"missing": true
-			},
-			"mac": {
-				"missing": true
-			},
-			"web": {
-				"missing": true
-			},
-			"kmonad": {
-				"name": "spot",
-				"aliases": [
-					"KeySpotlight",
-					"keyspotlight",
-					"Spotlight",
-					"spotlight"
-				]
-			}
-		},
 		"dictation": {
 			"hid": {
 				"missing": true
@@ -16946,6 +17423,12 @@
 					"Dictation",
 					"dictation"
 				]
+			},
+			"karabiner-elements": {
+				"name": "dictation",
+				"aliases": [
+					"voice_command"
+				]
 			}
 		},
 		"abort": {
@@ -16957,50 +17440,8 @@
 			},
 			"web": {
 				"name": "Abort"
-			}
-		},
-		"fn": {
-			"hid": {
-				"code": "0x0",
-				"name": "Keyboard Function (vendor-defined)",
-				"page-num": "0x7",
-				"page-name": "Keyboard/Keypad"
 			},
-			"linux-evdev": {
-				"code": "0x1d0",
-				"name": "KEY_FN"
-			},
-			"linux-xkb": {
-				"code": "0x1d8",
-				"name": "I472"
-			},
-			"linux-xkb-keysym": {
-				"code": "0x100811d0",
-				"name": "XF86Fn"
-			},
-			"windows-scancode": {
-				"api": "scancode",
-				"missing": true
-			},
-			"windows-virtual": {
-				"missing": true
-			},
-			"mac": {
-				"code": "0x3f",
-				"name": "kVK_Function",
-				"api": "virtual-keycode"
-			},
-			"web": {
-				"name": "Fn"
-			},
-			"kmonad": {
-				"name": "Fn",
-				"aliases": [
-					"KeyFn",
-					"keyfn",
-					"fn"
-				]
-			}
+			"karabiner-elements": "cancel"
 		},
 		"fn-lock": {
 			"hid": {
@@ -17072,7 +17513,45 @@
 					"props",
 					"properties"
 				]
-			}
+			},
+			"karabiner-elements": "cr_sel_or_props"
+		},
+		"extend-selection": {
+			"hid": {
+				"code": "0xa4",
+				"name": "ExSel",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"kmonad": {
+				"name": "ExSel",
+				"aliases": [
+					"KeyExSel",
+					"keyexsel",
+					"exsel",
+					"extendselection"
+				]
+			},
+			"comment": "Legacy extended editing key. ExSel stands for Extend Selection."
 		},
 		"resume": {
 			"hid": {
@@ -17194,7 +17673,8 @@
 					"homepage"
 				]
 			},
-			"comment": "GNOME treats this as the home launcher key and invokes its home action."
+			"comment": "GNOME treats this as the home launcher key and invokes its home action.",
+			"karabiner-elements": "ac_home"
 		},
 		"search": {
 			"hid": {
@@ -17237,7 +17717,8 @@
 					"search"
 				]
 			},
-			"comment": "GNOME treats this as the search launcher key and invokes its search action."
+			"comment": "GNOME treats this as the search launcher key and invokes its search action.",
+			"karabiner-elements": "ac_search"
 		},
 		"katakana": {
 			"hid": {
@@ -17283,7 +17764,8 @@
 					"lang3"
 				]
 			},
-			"geometry": "JIS"
+			"geometry": "JIS",
+			"karabiner-elements": "lang3"
 		},
 		"hiragana": {
 			"hid": {
@@ -17327,7 +17809,8 @@
 					"lang4"
 				]
 			},
-			"geometry": "JIS"
+			"geometry": "JIS",
+			"karabiner-elements": "lang4"
 		},
 		"zenkakuhankaku": {
 			"hid": {
@@ -17371,14 +17854,23 @@
 					"lang5"
 				]
 			},
-			"geometry": "JIS"
+			"geometry": "JIS",
+			"karabiner-elements": "lang5"
 		},
 		"file": {
 			"hid": {
-				"code": "0x194",
-				"name": "AL Local Machine Browser",
 				"page-num": "0xc",
-				"page-name": "Consumer"
+				"page-name": "Consumer",
+				"code": "0x01b4",
+				"name": "AL File Browser",
+				"alternatives": {
+					"local-machine-browser": {
+						"code": "0x194",
+						"name": "AL Local Machine Browser",
+						"page-num": "0xc",
+						"page-name": "Consumer"
+					}
+				}
 			},
 			"linux-evdev": {
 				"code": "0x90",
@@ -17413,7 +17905,8 @@
 					"file",
 					"localmachinebrowser"
 				]
-			}
+			},
+			"karabiner-elements": "al_local_machine_browser"
 		},
 		"calc": {
 			"hid": {
@@ -17456,7 +17949,8 @@
 					"calculator"
 				]
 			},
-			"comment": "GNOME treats this as the calculator launcher key and opens GNOME Calculator."
+			"comment": "GNOME treats this as the calculator launcher key and opens GNOME Calculator.",
+			"karabiner-elements": "al_calculator"
 		},
 		"mail": {
 			"hid": {
@@ -17499,7 +17993,8 @@
 					"mail",
 					"emailreader"
 				]
-			}
+			},
+			"karabiner-elements": "al_email_reader"
 		},
 		"reply": {
 			"hid": {
@@ -17622,7 +18117,8 @@
 					"keyconfig",
 					"config"
 				]
-			}
+			},
+			"karabiner-elements": "al_consumer_control_configuration"
 		},
 		"kpequal": {
 			"hid": {
@@ -17663,7 +18159,8 @@
 					"keykpequal",
 					"kpequal"
 				]
-			}
+			},
+			"karabiner-elements": "keypad_equal_sign"
 		},
 		"front": {
 			"hid": {
@@ -17705,7 +18202,8 @@
 					"front"
 				]
 			},
-			"comment": "Legacy front-page/front-panel style key from the Linux input namespace. KMonad avoids the alias `select` here because it conflicts with KEY_SELECT, so keep it distinct from the generic select/menu-pick key."
+			"comment": "Legacy front-page/front-panel style key from the Linux input namespace. KMonad avoids the alias `select` here because it conflicts with KEY_SELECT, so keep it distinct from the generic select/menu-pick key.",
+			"karabiner-elements": "select"
 		},
 		"keyboard-illumination-toggle": {
 			"hid": {
@@ -17749,7 +18247,8 @@
 					"kbdillumtoggle"
 				]
 			},
-			"comment": "Keyboard backlight toggle key. GNOME toggles the keyboard-brightness service; KDE binds it as “Toggle Keyboard Backlight”, shows an OSD, and restores keyboard brightness after resume."
+			"comment": "Keyboard backlight toggle key. GNOME toggles the keyboard-brightness service; KDE binds it as “Toggle Keyboard Backlight”, shows an OSD, and restores keyboard brightness after resume.",
+			"karabiner-elements": "illumination_toggle"
 		},
 		"keyboard-illumination-up": {
 			"hid": {
@@ -17794,7 +18293,14 @@
 					"kbdillumup"
 				]
 			},
-			"comment": "Keyboard backlight increase key. GNOME steps the keyboard-brightness service up; KDE increases keyboard brightness, shows an OSD, and restores keyboard brightness after resume."
+			"comment": "Keyboard backlight increase key. GNOME steps the keyboard-brightness service up; KDE increases keyboard brightness, shows an OSD, and restores keyboard brightness after resume.",
+			"karabiner-elements": {
+				"name": "illumination_up",
+				"aliases": [
+					"illumination_increment",
+					"vk_consumer_illumination_up"
+				]
+			}
 		},
 		"keyboard-illumination-down": {
 			"hid": {
@@ -17839,7 +18345,14 @@
 					"kbdillumdown"
 				]
 			},
-			"comment": "Keyboard backlight decrease key. GNOME steps the keyboard-brightness service down; KDE decreases keyboard brightness, shows an OSD, and restores keyboard brightness after resume."
+			"comment": "Keyboard backlight decrease key. GNOME steps the keyboard-brightness service down; KDE decreases keyboard brightness, shows an OSD, and restores keyboard brightness after resume.",
+			"karabiner-elements": {
+				"name": "illumination_down",
+				"aliases": [
+					"illumination_decrement",
+					"vk_consumer_illumination_down"
+				]
+			}
 		},
 		"mute-mic": {
 			"hid": {
@@ -17890,20 +18403,20 @@
 				"name": "Menu Pick",
 				"page-num": "0xc",
 				"page-name": "Consumer",
-				"alternatives": [
-					{
+				"alternatives": {
+					"menu": {
 						"code": "0x9",
 						"name": "Menu",
 						"page-num": "0xc",
 						"page-name": "Consumer"
 					},
-					{
+					"system-menu-select": {
 						"code": "0x89",
 						"name": "System Menu Select",
 						"page-num": "0x1",
 						"page-name": "Generic Desktop"
 					}
-				]
+				}
 			},
 			"linux-evdev": {
 				"code": "0x161",
@@ -17933,7 +18446,8 @@
 					"select"
 				]
 			},
-			"comment": "Select / menu-pick key. The Linux kernel also maps HID Consumer Menu (0x0c/0x09) and Generic Desktop System Menu Select (0x01/0x89) to the same KEY_SELECT / XKB key, so those alternatives are preserved here for reference. Distinct from KEY_FRONT."
+			"comment": "Select / menu-pick key. The Linux kernel also maps HID Consumer Menu (0x0c/0x09) and Generic Desktop System Menu Select (0x01/0x89) to the same KEY_SELECT / XKB key, so those alternatives are preserved here for reference. Distinct from KEY_FRONT.",
+			"karabiner-elements": "menu_pick"
 		},
 		"again": {
 			"hid": {
@@ -17975,7 +18489,8 @@
 					"keyagain",
 					"again"
 				]
-			}
+			},
+			"karabiner-elements": "again"
 		},
 		"copy": {
 			"hid": {
@@ -18016,7 +18531,8 @@
 					"keycopy",
 					"copy"
 				]
-			}
+			},
+			"karabiner-elements": "copy"
 		},
 		"cut": {
 			"hid": {
@@ -18057,7 +18573,8 @@
 					"keycut",
 					"cut"
 				]
-			}
+			},
+			"karabiner-elements": "cut"
 		},
 		"find": {
 			"hid": {
@@ -18100,7 +18617,8 @@
 					"keyfind",
 					"find"
 				]
-			}
+			},
+			"karabiner-elements": "find"
 		},
 		"help": {
 			"hid": {
@@ -18146,7 +18664,8 @@
 					"help",
 					"helpcenter"
 				]
-			}
+			},
+			"karabiner-elements": "help"
 		},
 		"open": {
 			"hid": {
@@ -18189,7 +18708,8 @@
 					"exec",
 					"execute"
 				]
-			}
+			},
+			"karabiner-elements": "execute"
 		},
 		"paste": {
 			"hid": {
@@ -18230,7 +18750,8 @@
 					"keypaste",
 					"paste"
 				]
-			}
+			},
+			"karabiner-elements": "paste"
 		},
 		"power": {
 			"hid": {
@@ -18273,7 +18794,8 @@
 					"keypower",
 					"power"
 				]
-			}
+			},
+			"karabiner-elements": "power"
 		},
 		"semicolon": {
 			"hid": {
@@ -18317,7 +18839,8 @@
 					"semicolon",
 					"scln"
 				]
-			}
+			},
+			"karabiner-elements": "semicolon"
 		},
 		"sleep": {
 			"hid": {
@@ -18406,7 +18929,8 @@
 					"keyundo",
 					"undo"
 				]
-			}
+			},
+			"karabiner-elements": "undo"
 		},
 		"print-command": {
 			"hid": {
@@ -18500,7 +19024,16 @@
 					"brup"
 				]
 			},
-			"comment": "Display brightness increase key."
+			"comment": "Display brightness increase key.",
+			"karabiner-elements": {
+				"name": "display_brightness_increment",
+				"aliases": [
+					"brightness_up",
+					"apple_display_brightness_increment",
+					"apple_top_case_display_brightness_increment",
+					"vk_consumer_brightness_up"
+				]
+			}
 		},
 		"brightness-down": {
 			"hid": {
@@ -18551,7 +19084,16 @@
 					"hp"
 				]
 			},
-			"comment": "Display brightness decrease key."
+			"comment": "Display brightness decrease key.",
+			"karabiner-elements": {
+				"name": "display_brightness_decrement",
+				"aliases": [
+					"brightness_down",
+					"apple_display_brightness_decrement",
+					"apple_top_case_display_brightness_decrement",
+					"vk_consumer_brightness_down"
+				]
+			}
 		},
 		"control-panel": {
 			"hid": {
@@ -18593,7 +19135,8 @@
 					"controlpanel"
 				]
 			},
-			"comment": "Settings/control-panel key. GNOME does not bind this exact symbol directly, but it does have a dedicated control-center launcher action for settings-style keys."
+			"comment": "Settings/control-panel key. GNOME does not bind this exact symbol directly, but it does have a dedicated control-center launcher action for settings-style keys.",
+			"karabiner-elements": "al_control_panel"
 		},
 		"eject-cd": {
 			"hid": {
@@ -18663,7 +19206,8 @@
 					}
 				]
 			},
-			"comment": "Optical-media eject key for opening the tray / ejecting the disc."
+			"comment": "Optical-media eject key for opening the tray / ejecting the disc.",
+			"karabiner-elements": "eject"
 		},
 		"forward-mail": {
 			"hid": {
@@ -18751,7 +19295,8 @@
 					"international6"
 				]
 			},
-			"geometry": "JIS"
+			"geometry": "JIS",
+			"karabiner-elements": "international6"
 		},
 		"display-toggle": {
 			"hid": {
@@ -18872,7 +19417,8 @@
 					"wordprocessor"
 				]
 			},
-			"comment": "Word-processor launcher key."
+			"comment": "Word-processor launcher key.",
+			"karabiner-elements": "al_word_processor"
 		},
 		"zoom-in": {
 			"hid": {
@@ -18914,7 +19460,8 @@
 					"zoomin"
 				]
 			},
-			"comment": "Zoom-in key."
+			"comment": "Zoom-in key.",
+			"karabiner-elements": "ac_zoom_out"
 		},
 		"zoom-out": {
 			"hid": {
@@ -18956,7 +19503,8 @@
 					"zoomout"
 				]
 			},
-			"comment": "Zoom-out key."
+			"comment": "Zoom-out key.",
+			"karabiner-elements": "ac_zoom_in"
 		},
 		"zoom-reset": {
 			"hid": {
@@ -19078,7 +19626,8 @@
 					"appselect"
 				]
 			},
-			"comment": "Task/application switcher key. The web name `SelectTask` suggests the operating-system task switcher or application-selection surface."
+			"comment": "Task/application switcher key. The web name `SelectTask` suggests the operating-system task switcher or application-selection surface.",
+			"karabiner-elements": "al_select_task_or_application"
 		},
 		"media-play": {
 			"hid": {
@@ -19248,7 +19797,8 @@
 					"stopcd"
 				]
 			},
-			"comment": "Optical-media stop key. Distinct from a generic media stop key when devices expose a dedicated CD playback command."
+			"comment": "Optical-media stop key. Distinct from a generic media stop key when devices expose a dedicated CD playback command.",
+			"karabiner-elements": "stop"
 		},
 		"cd-play": {
 			"hid": {
@@ -19332,7 +19882,8 @@
 					"kpcomma"
 				]
 			},
-			"geometry": "ABNT2"
+			"geometry": "ABNT2",
+			"karabiner-elements": "keypad_comma"
 		},
 		"guide": {
 			"hid": {
@@ -19464,41 +20015,8 @@
 					"addressbook"
 				]
 			},
-			"comment": "Address-book / contacts launcher key."
-		},
-		"mission-control": {
-			"hid": {
-				"missing": true
-			},
-			"linux-evdev": {
-				"code": "0x300"
-			},
-			"linux-xkb": {
-				"missing": true
-			},
-			"windows-scancode": {
-				"api": "scancode",
-				"missing": true
-			},
-			"windows-virtual": {
-				"missing": true
-			},
-			"mac": {
-				"missing": true
-			},
-			"web": {
-				"missing": true
-			},
-			"kmonad": {
-				"name": "mctl",
-				"aliases": [
-					"KeyMissionCtrl",
-					"keymissionctrl",
-					"MissionCtrl",
-					"missionctrl"
-				]
-			},
-			"comment": "Mission Control / all-windows overview key."
+			"comment": "Address-book / contacts launcher key.",
+			"karabiner-elements": "al_contacts_or_address_book"
 		},
 		"airplane-mode": {
 			"hid": {
@@ -19541,6 +20059,2146 @@
 				]
 			},
 			"comment": "Global radio toggle / airplane-mode key. GNOME toggles airplane mode for it, and the kernel describes it as the key that controls all radios."
+		},
+		"apple-dashboard": {
+			"hid": {
+				"code": "0x2",
+				"name": "Dashboard",
+				"page-num": "0xff01",
+				"page-name": "Apple Vendor Keyboard",
+				"page-defined-by": "Apple"
+			},
+			"linux-evdev": {
+				"missing": true,
+				"aliasOf": "all-applications",
+				"comment": "Linux treats Apple Dashboard as the same evdev key identity used for All Applications. KEY_DASHBOARD is an alias of KEY_ALL_APPLICATIONS."
+			},
+			"linux-xkb": {
+				"missing": true,
+				"aliasOf": "all-applications",
+				"comment": "Linux maps the collapsed Dashboard/All Applications evdev identity to the same XKB key as all-applications."
+			},
+			"linux-xkb-keysym": {
+				"missing": true,
+				"aliasOf": "all-applications",
+				"comment": "Linux exposes Dashboard through the same XKB keysym used for all-applications."
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Apple Dashboard key on the Apple vendor keyboard page.",
+			"karabiner-elements": {
+				"name": "dashboard",
+				"aliases": [
+					"vk_dashboard"
+				]
+			}
+		},
+		"apple-launchpad": {
+			"hid": {
+				"code": "0x4",
+				"name": "Launchpad",
+				"page-num": "0xff01",
+				"page-name": "Apple Vendor Keyboard",
+				"page-defined-by": "Apple"
+			},
+			"linux-evdev": {
+				"code": "0x2ff",
+				"name": "KEY_MAX"
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"kmonad": {
+				"name": "lp",
+				"aliases": [
+					"KeyLaunchpad",
+					"keylaunchpad",
+					"Launchpad",
+					"launchpad"
+				]
+			},
+			"karabiner-elements": {
+				"name": "launchpad",
+				"aliases": [
+					"vk_launchpad"
+				]
+			}
+		},
+		"apple-spotlight": {
+			"hid": {
+				"code": "0x1",
+				"name": "Spotlight",
+				"page-num": "0xff01",
+				"page-name": "Apple Vendor Keyboard",
+				"page-defined-by": "Apple"
+			},
+			"linux-evdev": {
+				"code": "0x301"
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"kmonad": {
+				"name": "spot",
+				"aliases": [
+					"KeySpotlight",
+					"keyspotlight",
+					"Spotlight",
+					"spotlight"
+				]
+			},
+			"karabiner-elements": "spotlight"
+		},
+		"apple-show-desktop": {
+			"hid": {
+				"code": "0x11",
+				"name": "Expose Desktop",
+				"page-num": "0xff01",
+				"page-name": "Apple Vendor Keyboard",
+				"page-defined-by": "Apple"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"linux-xkb-keysym": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Apple Show Desktop / Expose Desktop key on the Apple vendor keyboard page.",
+			"karabiner-elements": "expose_desktop"
+		},
+		"apple-video-mirror": {
+			"hid": {
+				"code": "0x6",
+				"name": "Video Mirror",
+				"page-num": "0xff",
+				"page-name": "Apple Vendor Top Case",
+				"page-defined-by": "Apple"
+			},
+			"linux-evdev": {
+				"missing": true,
+				"aliasOf": "display-toggle",
+				"comment": "Linux maps Apple Video Mirror to the same evdev key identity used for display-toggle."
+			},
+			"linux-xkb": {
+				"missing": true,
+				"aliasOf": "display-toggle",
+				"comment": "Linux exposes Apple Video Mirror through the same XKB key as display-toggle."
+			},
+			"linux-xkb-keysym": {
+				"missing": true,
+				"aliasOf": "display-toggle",
+				"comment": "Linux exposes Apple Video Mirror through the same XKB keysym used for display-toggle."
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Apple video-mirroring key on the Apple vendor top-case page.",
+			"karabiner-elements": "video_mirror"
+		},
+		"fn": {
+			"hid": {
+				"code": "0x0",
+				"name": "Keyboard Function (vendor-defined)",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"code": "0x1d0",
+				"name": "KEY_FN"
+			},
+			"linux-xkb": {
+				"code": "0x1d8",
+				"name": "I472"
+			},
+			"linux-xkb-keysym": {
+				"code": "0x100811d0",
+				"name": "XF86Fn"
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"code": "0x3f",
+				"name": "kVK_Function",
+				"api": "virtual-keycode"
+			},
+			"web": {
+				"name": "Fn"
+			},
+			"kmonad": {
+				"name": "Fn",
+				"aliases": [
+					"KeyFn",
+					"keyfn",
+					"fn"
+				]
+			},
+			"karabiner-elements": {
+				"name": "fn",
+				"aliases": [
+					"function",
+					"keyboard_fn"
+				]
+			}
+		},
+		"apple-mission-control": {
+			"hid": {
+				"code": "0x10",
+				"name": "Expose All",
+				"page-num": "0xff01",
+				"page-name": "Apple Vendor Keyboard",
+				"page-defined-by": "Apple"
+			},
+			"linux-evdev": {
+				"code": "0x300"
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"kmonad": {
+				"name": "mctl",
+				"aliases": [
+					"KeyMissionCtrl",
+					"keymissionctrl",
+					"MissionCtrl",
+					"missionctrl"
+				]
+			},
+			"comment": "Mission Control / all-windows overview key.",
+			"karabiner-elements": {
+				"name": "mission_control",
+				"aliases": [
+					"expose_all",
+					"vk_mission_control"
+				]
+			}
+		},
+		"alarms": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01b2",
+				"name": "AL Alarms"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_alarms"
+		},
+		"audio-player": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01c7",
+				"name": "AL Audio Player"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_audio_player"
+		},
+		"clock": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01b3",
+				"name": "AL Clock"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_clock"
+		},
+		"terminal-or-run": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01a0",
+				"name": "AL Command Line Processor or Run"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key for a terminal or run-command interface.",
+			"karabiner-elements": "al_command_line_processor_or_run"
+		},
+		"contact-sync": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01c9",
+				"name": "AL Contact Sync"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_contact_sync"
+		},
+		"corporate-news-browser": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01c4",
+				"name": "AL Customized Corporate News Browser"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_customized_corporate_news_browser"
+		},
+		"desktop": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01aa",
+				"name": "AL Desktop"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_desktop"
+		},
+		"dictionary": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01a9",
+				"name": "AL Dictionary"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_dictionary"
+		},
+		"drm": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01b9",
+				"name": "AL Digital Rights Manager"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_digital_rights_manager"
+		},
+		"digital-wallet": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01ba",
+				"name": "AL Digital Wallet"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_digital_wallet"
+		},
+		"encryption": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01b0",
+				"name": "AL Encryption"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_encryption"
+		},
+		"entertainment-browser": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01c0",
+				"name": "AL Entertainment Content Browser"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_entertainment_content_browser"
+		},
+		"grammar-check": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01ac",
+				"name": "AL Grammer Check"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_grammer_check"
+		},
+		"lan-wan-browser": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x0195",
+				"name": "AL LAN or WAN Browser"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_lan_or_wan_browser"
+		},
+		"logon": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x019b",
+				"name": "AL Logon",
+				"alternatives": {
+					"logon-or-logoff": {
+						"page-num": "0xc",
+						"page-name": "Consumer",
+						"code": "0x019d",
+						"name": "AL Logon or Logoff"
+					}
+				}
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_logon"
+		},
+		"message-status": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01c8",
+				"name": "AL Message Status"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_message_status"
+		},
+		"navigation": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01ca",
+				"name": "AL Navigation"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_navigation"
+		},
+		"network-conference": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x0198",
+				"name": "AL Network Conference"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_network_conference"
+		},
+		"oem-help": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01be",
+				"name": "AL OEM Help"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_oem_help"
+		},
+		"online-activity-browser": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01c5",
+				"name": "AL Online Activity Browswer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_online_activity_browswer"
+		},
+		"online-community": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01bf",
+				"name": "AL Online Community"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_online_community"
+		},
+		"online-shopping-browser": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01c1",
+				"name": "AL Online Shopping Browswer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_online_shopping_browswer"
+		},
+		"power-status": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01b5",
+				"name": "AL Power Status"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_power_status"
+		},
+		"halt-task": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01a5",
+				"name": "AL Preemptive Halt Task or Application"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_preemptive_halt_task_or_application"
+		},
+		"task-manager": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01a1",
+				"name": "AL Process or Task Manager"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_process_or_task_manager"
+		},
+		"isp-connect": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x0197",
+				"name": "AL Remote Networking or ISP Connect"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_remote_networking_or_isp_connect"
+		},
+		"research-search-browser": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01c6",
+				"name": "AL Research or Search Browswer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_research_or_search_browswer"
+		},
+		"smart-card-help": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01c2",
+				"name": "AL Smart Card Information or Help"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_smart_card_information_or_help"
+		},
+		"dialer": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x019a",
+				"name": "AL Telephony or Dialer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_telephony_or_dialer"
+		},
+		"thesaurus": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01a8",
+				"name": "AL Thesaurus"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_thesaurus"
+		},
+		"virus-protection": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01af",
+				"name": "AL Virus Protection"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_virus_protection"
+		},
+		"wireless-status": {
+			"hid": {
+				"page-num": "0xc",
+				"page-name": "Consumer",
+				"code": "0x01ad",
+				"name": "AL Wireless Status"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key.",
+			"karabiner-elements": "al_wireless_status"
+		},
+		"kp-equals-as400": {
+			"hid": {
+				"code": "0x86",
+				"name": "Keypad Equal Sign AS/400",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Distinct from standard keypad equals; HID defines a separate keypad-equals usage for AS/400 keyboards.",
+			"karabiner-elements": "keypad_equal_sign_as400"
+		},
+		"bass-down": {
+			"hid": {
+				"code": "0x0153",
+				"name": "Bass Decrement",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer audio-control key for lowering bass.",
+			"karabiner-elements": "bass_decrement"
+		},
+		"bass-up": {
+			"hid": {
+				"code": "0x0152",
+				"name": "Bass Increment",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer audio-control key for raising bass.",
+			"karabiner-elements": "bass_increment"
+		},
+		"locking-caps-lock": {
+			"hid": {
+				"code": "0x82",
+				"name": "Keyboard Locking Caps Lock",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Legacy mechanical-locking Caps Lock usage, distinct from ordinary Caps Lock.",
+			"karabiner-elements": "locking_caps_lock"
+		},
+		"locking-num-lock": {
+			"hid": {
+				"code": "0x83",
+				"name": "Keyboard Locking Num Lock",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Legacy mechanical-locking Num Lock usage, distinct from ordinary Num Lock.",
+			"karabiner-elements": "locking_num_lock"
+		},
+		"locking-scroll-lock": {
+			"hid": {
+				"code": "0x84",
+				"name": "Keyboard Locking Scroll Lock",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Legacy mechanical-locking Scroll Lock usage, distinct from ordinary Scroll Lock.",
+			"karabiner-elements": "locking_scroll_lock"
+		},
+		"loudness": {
+			"hid": {
+				"code": "0x00e7",
+				"name": "Loudness",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer audio-control key for loudness mode.",
+			"karabiner-elements": "loudness"
+		},
+		"menu-consumer": {
+			"hid": {
+				"code": "0x0040",
+				"name": "Menu",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer-page menu key, distinct from keyboard-menu usages.",
+			"karabiner-elements": "menu"
+		},
+		"menu-down": {
+			"hid": {
+				"code": "0x0043",
+				"name": "Menu Down",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer-page menu navigation key.",
+			"karabiner-elements": "menu_down"
+		},
+		"menu-escape": {
+			"hid": {
+				"code": "0x0046",
+				"name": "Menu Escape",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer-page menu navigation key.",
+			"karabiner-elements": "menu_escape"
+		},
+		"menu-left": {
+			"hid": {
+				"code": "0x0044",
+				"name": "Menu Left",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer-page menu navigation key.",
+			"karabiner-elements": "menu_left"
+		},
+		"menu-right": {
+			"hid": {
+				"code": "0x0045",
+				"name": "Menu Right",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer-page menu navigation key.",
+			"karabiner-elements": "menu_right"
+		},
+		"menu-up": {
+			"hid": {
+				"code": "0x0042",
+				"name": "Menu Up",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer-page menu navigation key.",
+			"karabiner-elements": "menu_up"
+		},
+		"menu-value-decrease": {
+			"hid": {
+				"code": "0x0048",
+				"name": "Menu Value Decrease",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer-page menu value adjustment key.",
+			"karabiner-elements": "menu_value_decrease"
+		},
+		"menu-value-increase": {
+			"hid": {
+				"code": "0x0047",
+				"name": "Menu Value Increase",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer-page menu value adjustment key.",
+			"karabiner-elements": "menu_value_increase"
+		},
+		"picture-in-picture-swap": {
+			"hid": {
+				"code": "0x0068",
+				"name": "Picture in Picture Swap",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer display-control key for picture-in-picture source swapping.",
+			"karabiner-elements": "picture_in_picture_swap"
+		},
+		"picture-in-picture-toggle": {
+			"hid": {
+				"code": "0x0067",
+				"name": "Picture in Picture Toggle",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer display-control key for picture-in-picture mode.",
+			"karabiner-elements": "picture_in_picture_toggle"
+		},
+		"still-camera": {
+			"hid": {
+				"code": "0x0066",
+				"name": "Still",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer camera-control key labeled Still.",
+			"karabiner-elements": "still"
+		},
+		"3d-mode-select": {
+			"hid": {
+				"code": "0x006e",
+				"name": "Three Dimensional Mode Select",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer display-mode selector for 3D mode.",
+			"karabiner-elements": "three_dimensional_mode_select"
+		},
+		"help-center": {
+			"hid": {
+				"code": "0x01a6",
+				"name": "AL Integrated Help Center",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key for an integrated help center.",
+			"karabiner-elements": "al_integrated_help_center"
+		},
+		"oem-feature-browser": {
+			"hid": {
+				"code": "0x01bd",
+				"name": "AL OEM Feature Browser",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Application-launch HID key for an OEM feature browser.",
+			"karabiner-elements": "al_oem_feature_browser"
+		},
+		"broadcast-mode": {
+			"hid": {
+				"code": "0x0064",
+				"name": "Broadcast Mode",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer broadcast-control key.",
+			"karabiner-elements": "broadcast_mode"
+		},
+		"subtitle-select": {
+			"hid": {
+				"code": "0x0062",
+				"name": "Closed Caption Select",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer subtitle/caption-selection key.",
+			"karabiner-elements": "closed_caption_select"
+		},
+		"microphone": {
+			"hid": {
+				"code": "0x0004",
+				"name": "Microphone",
+				"page-num": "0xc",
+				"page-name": "Consumer"
+			},
+			"linux-evdev": {
+				"missing": true,
+				"aliasOf": "brightness-up",
+				"semantic-miss": true,
+				"comment": "the kernel maps HID Consumer 0x0004 to KEY_BRIGHTNESSUP"
+			},
+			"linux-xkb": {
+				"missing": true,
+				"aliasOf": "brightness-up",
+				"semantic-miss": true,
+				"comment": "Linux exposes this through the same XKB key as brightness-up after the kernel fold."
+			},
+			"linux-xkb-keysym": {
+				"missing": true,
+				"aliasOf": "brightness-up",
+				"semantic-miss": true,
+				"comment": "Linux exposes this through the same XKB keysym as brightness-up after the kernel fold."
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Consumer microphone-control key. Linux folds this usage into brightness-up, but that is not a semantic match.",
+			"karabiner-elements": "microphone"
+		},
+		"international7": {
+			"hid": {
+				"code": "0x8d",
+				"name": "Keyboard International7",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Region- or vendor-specific keyboard usage. These International7+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
+			"karabiner-elements": "international7"
+		},
+		"international8": {
+			"hid": {
+				"code": "0x8e",
+				"name": "Keyboard International8",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Region- or vendor-specific keyboard usage. These International7+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
+			"karabiner-elements": "international8"
+		},
+		"international9": {
+			"hid": {
+				"code": "0x8f",
+				"name": "Keyboard International9",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Region- or vendor-specific keyboard usage. These International7+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
+			"karabiner-elements": "international9"
+		},
+		"lang6": {
+			"hid": {
+				"code": "0x95",
+				"name": "Keyboard Lang6",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Region- or vendor-specific keyboard usage. These Lang6+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
+			"karabiner-elements": "lang6"
+		},
+		"lang7": {
+			"hid": {
+				"code": "0x96",
+				"name": "Keyboard Lang7",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Region- or vendor-specific keyboard usage. These Lang6+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
+			"karabiner-elements": "lang7"
+		},
+		"lang8": {
+			"hid": {
+				"code": "0x97",
+				"name": "Keyboard Lang8",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Region- or vendor-specific keyboard usage. These Lang6+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
+			"karabiner-elements": "lang8"
+		},
+		"lang9": {
+			"hid": {
+				"code": "0x98",
+				"name": "Keyboard Lang9",
+				"page-num": "0x7",
+				"page-name": "Keyboard/Keypad"
+			},
+			"linux-evdev": {
+				"missing": true
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Region- or vendor-specific keyboard usage. These Lang6+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
+			"karabiner-elements": "lang9"
 		}
 	}
 }
