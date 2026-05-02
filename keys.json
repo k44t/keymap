@@ -189,7 +189,17 @@
 					"key0"
 				]
 			},
-			"keyd": "0",
+			"keyd": {
+				"name": "0",
+				"aliases": [
+					{
+						"name": ")",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "0",
 			"autohotkey": "0"
 		},
@@ -234,7 +244,17 @@
 					"key1"
 				]
 			},
-			"keyd": "1",
+			"keyd": {
+				"name": "1",
+				"aliases": [
+					{
+						"name": "!",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "1",
 			"autohotkey": "1"
 		},
@@ -279,7 +299,17 @@
 					"key2"
 				]
 			},
-			"keyd": "2",
+			"keyd": {
+				"name": "2",
+				"aliases": [
+					{
+						"name": "@",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "2",
 			"autohotkey": "2"
 		},
@@ -324,7 +354,17 @@
 					"key3"
 				]
 			},
-			"keyd": "3",
+			"keyd": {
+				"name": "3",
+				"aliases": [
+					{
+						"name": "#",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "3",
 			"autohotkey": "3"
 		},
@@ -369,7 +409,17 @@
 					"key4"
 				]
 			},
-			"keyd": "4",
+			"keyd": {
+				"name": "4",
+				"aliases": [
+					{
+						"name": "$",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "4",
 			"autohotkey": "4"
 		},
@@ -414,7 +464,17 @@
 					"key5"
 				]
 			},
-			"keyd": "5",
+			"keyd": {
+				"name": "5",
+				"aliases": [
+					{
+						"name": "%",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "5",
 			"autohotkey": "5"
 		},
@@ -459,7 +519,17 @@
 					"key6"
 				]
 			},
-			"keyd": "6",
+			"keyd": {
+				"name": "6",
+				"aliases": [
+					{
+						"name": "^",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "6",
 			"autohotkey": "6"
 		},
@@ -504,7 +574,17 @@
 					"key7"
 				]
 			},
-			"keyd": "7",
+			"keyd": {
+				"name": "7",
+				"aliases": [
+					{
+						"name": "&",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "7",
 			"autohotkey": "7"
 		},
@@ -549,7 +629,17 @@
 					"key8"
 				]
 			},
-			"keyd": "8",
+			"keyd": {
+				"name": "8",
+				"aliases": [
+					{
+						"name": "*",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "8",
 			"autohotkey": "8"
 		},
@@ -594,7 +684,17 @@
 					"key9"
 				]
 			},
-			"keyd": "9",
+			"keyd": {
+				"name": "9",
+				"aliases": [
+					{
+						"name": "(",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "9",
 			"autohotkey": "9"
 		},
@@ -703,7 +803,13 @@
 			"keyd": {
 				"name": "-",
 				"aliases": [
-					"minus"
+					"minus",
+					{
+						"name": "_",
+						"modifiers": [
+							"shift"
+						]
+					}
 				]
 			},
 			"karabiner-elements": "hyphen",
@@ -757,7 +863,13 @@
 			"keyd": {
 				"name": "=",
 				"aliases": [
-					"equal"
+					"equal",
+					{
+						"name": "+",
+						"modifiers": [
+							"shift"
+						]
+					}
 				]
 			},
 			"karabiner-elements": "equal_sign",
@@ -906,7 +1018,17 @@
 					"q"
 				]
 			},
-			"keyd": "q",
+			"keyd": {
+				"name": "q",
+				"aliases": [
+					{
+						"name": "Q",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "q",
 			"autohotkey": "q"
 		},
@@ -952,7 +1074,17 @@
 					"w"
 				]
 			},
-			"keyd": "w",
+			"keyd": {
+				"name": "w",
+				"aliases": [
+					{
+						"name": "W",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "w",
 			"autohotkey": "w"
 		},
@@ -998,7 +1130,17 @@
 					"e"
 				]
 			},
-			"keyd": "e",
+			"keyd": {
+				"name": "e",
+				"aliases": [
+					{
+						"name": "E",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "e",
 			"autohotkey": "e"
 		},
@@ -1044,7 +1186,17 @@
 					"r"
 				]
 			},
-			"keyd": "r",
+			"keyd": {
+				"name": "r",
+				"aliases": [
+					{
+						"name": "R",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "r",
 			"autohotkey": "r"
 		},
@@ -1090,7 +1242,17 @@
 					"t"
 				]
 			},
-			"keyd": "t",
+			"keyd": {
+				"name": "t",
+				"aliases": [
+					{
+						"name": "T",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "t",
 			"autohotkey": "t"
 		},
@@ -1136,7 +1298,17 @@
 					"y"
 				]
 			},
-			"keyd": "y",
+			"keyd": {
+				"name": "y",
+				"aliases": [
+					{
+						"name": "Y",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "y",
 			"autohotkey": "y"
 		},
@@ -1182,7 +1354,17 @@
 					"u"
 				]
 			},
-			"keyd": "u",
+			"keyd": {
+				"name": "u",
+				"aliases": [
+					{
+						"name": "U",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "u",
 			"autohotkey": "u"
 		},
@@ -1228,7 +1410,17 @@
 					"i"
 				]
 			},
-			"keyd": "i",
+			"keyd": {
+				"name": "i",
+				"aliases": [
+					{
+						"name": "I",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "i",
 			"autohotkey": "i"
 		},
@@ -1274,7 +1466,17 @@
 					"o"
 				]
 			},
-			"keyd": "o",
+			"keyd": {
+				"name": "o",
+				"aliases": [
+					{
+						"name": "O",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "o",
 			"autohotkey": "o"
 		},
@@ -1320,7 +1522,17 @@
 					"p"
 				]
 			},
-			"keyd": "p",
+			"keyd": {
+				"name": "p",
+				"aliases": [
+					{
+						"name": "P",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "p",
 			"autohotkey": "p"
 		},
@@ -1372,7 +1584,13 @@
 			"keyd": {
 				"name": "[",
 				"aliases": [
-					"leftbrace"
+					"leftbrace",
+					{
+						"name": "{",
+						"modifiers": [
+							"shift"
+						]
+					}
 				]
 			},
 			"karabiner-elements": "open_bracket",
@@ -1426,7 +1644,13 @@
 			"keyd": {
 				"name": "]",
 				"aliases": [
-					"rightbrace"
+					"rightbrace",
+					{
+						"name": "}",
+						"modifiers": [
+							"shift"
+						]
+					}
 				]
 			},
 			"karabiner-elements": "close_bracket",
@@ -1576,7 +1800,17 @@
 					"a"
 				]
 			},
-			"keyd": "a",
+			"keyd": {
+				"name": "a",
+				"aliases": [
+					{
+						"name": "A",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "a",
 			"autohotkey": "a"
 		},
@@ -1622,7 +1856,17 @@
 					"s"
 				]
 			},
-			"keyd": "s",
+			"keyd": {
+				"name": "s",
+				"aliases": [
+					{
+						"name": "S",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "s",
 			"autohotkey": "s"
 		},
@@ -1668,7 +1912,17 @@
 					"d"
 				]
 			},
-			"keyd": "d",
+			"keyd": {
+				"name": "d",
+				"aliases": [
+					{
+						"name": "D",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "d",
 			"autohotkey": "d"
 		},
@@ -1714,7 +1968,17 @@
 					"f"
 				]
 			},
-			"keyd": "f",
+			"keyd": {
+				"name": "f",
+				"aliases": [
+					{
+						"name": "F",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "f",
 			"autohotkey": "f"
 		},
@@ -1760,7 +2024,17 @@
 					"g"
 				]
 			},
-			"keyd": "g",
+			"keyd": {
+				"name": "g",
+				"aliases": [
+					{
+						"name": "G",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "g",
 			"autohotkey": "g"
 		},
@@ -1806,7 +2080,17 @@
 					"h"
 				]
 			},
-			"keyd": "h",
+			"keyd": {
+				"name": "h",
+				"aliases": [
+					{
+						"name": "H",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "h",
 			"autohotkey": "h"
 		},
@@ -1852,7 +2136,17 @@
 					"j"
 				]
 			},
-			"keyd": "j",
+			"keyd": {
+				"name": "j",
+				"aliases": [
+					{
+						"name": "J",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "j",
 			"autohotkey": "j"
 		},
@@ -1898,7 +2192,17 @@
 					"k"
 				]
 			},
-			"keyd": "k",
+			"keyd": {
+				"name": "k",
+				"aliases": [
+					{
+						"name": "K",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "k",
 			"autohotkey": "k"
 		},
@@ -1944,7 +2248,17 @@
 					"l"
 				]
 			},
-			"keyd": "l",
+			"keyd": {
+				"name": "l",
+				"aliases": [
+					{
+						"name": "L",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "l",
 			"autohotkey": "l"
 		},
@@ -1997,7 +2311,13 @@
 			"keyd": {
 				"name": "'",
 				"aliases": [
-					"apostrophe"
+					"apostrophe",
+					{
+						"name": "\"",
+						"modifiers": [
+							"shift"
+						]
+					}
 				]
 			},
 			"karabiner-elements": "quote",
@@ -2054,7 +2374,13 @@
 			"keyd": {
 				"name": "`",
 				"aliases": [
-					"grave"
+					"grave",
+					{
+						"name": "~",
+						"modifiers": [
+							"shift"
+						]
+					}
 				]
 			},
 			"karabiner-elements": "grave_accent_and_tilde",
@@ -2161,7 +2487,13 @@
 			"keyd": {
 				"name": "\\",
 				"aliases": [
-					"backslash"
+					"backslash",
+					{
+						"name": "|",
+						"modifiers": [
+							"shift"
+						]
+					}
 				]
 			},
 			"karabiner-elements": "backslash",
@@ -2256,7 +2588,17 @@
 					"z"
 				]
 			},
-			"keyd": "z",
+			"keyd": {
+				"name": "z",
+				"aliases": [
+					{
+						"name": "Z",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "z",
 			"autohotkey": "z"
 		},
@@ -2302,7 +2644,17 @@
 					"x"
 				]
 			},
-			"keyd": "x",
+			"keyd": {
+				"name": "x",
+				"aliases": [
+					{
+						"name": "X",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "x",
 			"autohotkey": "x"
 		},
@@ -2348,7 +2700,17 @@
 					"c"
 				]
 			},
-			"keyd": "c",
+			"keyd": {
+				"name": "c",
+				"aliases": [
+					{
+						"name": "C",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "c",
 			"autohotkey": "c"
 		},
@@ -2394,7 +2756,17 @@
 					"v"
 				]
 			},
-			"keyd": "v",
+			"keyd": {
+				"name": "v",
+				"aliases": [
+					{
+						"name": "V",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "v",
 			"autohotkey": "v"
 		},
@@ -2440,7 +2812,17 @@
 					"b"
 				]
 			},
-			"keyd": "b",
+			"keyd": {
+				"name": "b",
+				"aliases": [
+					{
+						"name": "B",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "b",
 			"autohotkey": "b"
 		},
@@ -2486,7 +2868,17 @@
 					"n"
 				]
 			},
-			"keyd": "n",
+			"keyd": {
+				"name": "n",
+				"aliases": [
+					{
+						"name": "N",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "n",
 			"autohotkey": "n"
 		},
@@ -2532,7 +2924,17 @@
 					"m"
 				]
 			},
-			"keyd": "m",
+			"keyd": {
+				"name": "m",
+				"aliases": [
+					{
+						"name": "M",
+						"modifiers": [
+							"shift"
+						]
+					}
+				]
+			},
 			"karabiner-elements": "m",
 			"autohotkey": "m"
 		},
@@ -2584,7 +2986,13 @@
 			"keyd": {
 				"name": ",",
 				"aliases": [
-					"comma"
+					"comma",
+					{
+						"name": "<",
+						"modifiers": [
+							"shift"
+						]
+					}
 				]
 			},
 			"karabiner-elements": "comma",
@@ -2637,7 +3045,13 @@
 			"keyd": {
 				"name": ".",
 				"aliases": [
-					"dot"
+					"dot",
+					{
+						"name": ">",
+						"modifiers": [
+							"shift"
+						]
+					}
 				]
 			},
 			"karabiner-elements": "period",
@@ -2690,7 +3104,13 @@
 			"keyd": {
 				"name": "/",
 				"aliases": [
-					"slash"
+					"slash",
+					{
+						"name": "?",
+						"modifiers": [
+							"shift"
+						]
+					}
 				]
 			},
 			"karabiner-elements": "slash",
@@ -6019,6 +6439,70 @@
 			},
 			"autohotkey": "RWin"
 		},
+		"iso-level3-shift": {
+			"hid": {
+				"missing": true
+			},
+			"linux-evdev": {
+				"missing": true,
+				"comment": "keyd defines iso-level3-shift as a special extra keycode and notes that it is missing from Linux input-event-codes.h."
+			},
+			"linux-xkb": {
+				"missing": true,
+				"comment": "Treat this key primarily through its XKB keysym meaning rather than through a stable evdev/XKB keycode name."
+			},
+			"linux-xkb-keysym": {
+				"code": "0xfe03",
+				"name": "ISO_Level3_Shift"
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Level-3 shift / AltGr-style modifier key represented by the XKB ISO_Level3_Shift keysym.",
+			"keyd": "iso-level3-shift"
+		},
+		"compose": {
+			"hid": {
+				"missing": true
+			},
+			"linux-evdev": {
+				"code": "0x7f",
+				"name": "KEY_COMPOSE"
+			},
+			"linux-xkb": {
+				"code": "0x87",
+				"name": "COMP"
+			},
+			"linux-xkb-keysym": {
+				"code": "0xff20",
+				"name": "Multi_key"
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Linux compose key with the standard XKB Multi_key keysym. This is distinct from the application/menu key.",
+			"keyd": "compose"
+		},
 		"stop": {
 			"hid": {
 				"code": "0x226",
@@ -7356,7 +7840,7 @@
 					"scrup"
 				]
 			},
-			"keyd": "zoom"
+			"keyd": "scrollup"
 		},
 		"scrolldown": {
 			"hid": {
@@ -7401,6 +7885,237 @@
 					"sdwn"
 				]
 			},
+			"keyd": "scrolldown"
+		},
+		"mouse-left": {
+			"hid": {
+				"code": "0x1",
+				"name": "Button 1",
+				"page-num": "0x9",
+				"page-name": "Button"
+			},
+			"linux-evdev": {
+				"code": "0x110",
+				"name": "BTN_LEFT"
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"linux-xkb-keysym": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Primary pointer button. Distinct from keyboard keys even when remappers expose it in the same vocabulary.",
+			"keyd": "leftmouse"
+		},
+		"mouse-right": {
+			"hid": {
+				"code": "0x2",
+				"name": "Button 2",
+				"page-num": "0x9",
+				"page-name": "Button"
+			},
+			"linux-evdev": {
+				"code": "0x111",
+				"name": "BTN_RIGHT"
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"linux-xkb-keysym": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Secondary pointer button.",
+			"keyd": "rightmouse"
+		},
+		"mouse-middle": {
+			"hid": {
+				"code": "0x3",
+				"name": "Button 3",
+				"page-num": "0x9",
+				"page-name": "Button"
+			},
+			"linux-evdev": {
+				"code": "0x112",
+				"name": "BTN_MIDDLE"
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"linux-xkb-keysym": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Middle pointer button.",
+			"keyd": "middlemouse"
+		},
+		"mouse-side": {
+			"hid": {
+				"code": "0x4",
+				"name": "Button 4",
+				"page-num": "0x9",
+				"page-name": "Button"
+			},
+			"linux-evdev": {
+				"code": "0x113",
+				"name": "BTN_SIDE"
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"linux-xkb-keysym": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Auxiliary side mouse button.",
+			"keyd": "mouse1"
+		},
+		"mouse-extra": {
+			"hid": {
+				"code": "0x5",
+				"name": "Button 5",
+				"page-num": "0x9",
+				"page-name": "Button"
+			},
+			"linux-evdev": {
+				"code": "0x114",
+				"name": "BTN_EXTRA"
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"linux-xkb-keysym": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Second auxiliary side mouse button.",
+			"keyd": "mouse2"
+		},
+		"mouse-forward": {
+			"hid": {
+				"code": "0x6",
+				"name": "Button 6",
+				"page-num": "0x9",
+				"page-name": "Button"
+			},
+			"linux-evdev": {
+				"code": "0x115",
+				"name": "BTN_FORWARD"
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"linux-xkb-keysym": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Forward thumb/button mouse control. Distinct from the keyboard/browser forward key.",
+			"keyd": "mouseforward"
+		},
+		"mouse-back": {
+			"hid": {
+				"code": "0x7",
+				"name": "Button 7",
+				"page-num": "0x9",
+				"page-name": "Button"
+			},
+			"linux-evdev": {
+				"code": "0x116",
+				"name": "BTN_BACK"
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"linux-xkb-keysym": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Back thumb/button mouse control. Distinct from the keyboard/browser back key.",
 			"keyd": "mouseback"
 		},
 		"kpleftparen": {
@@ -8476,6 +9191,76 @@
 			},
 			"keyd": "camera"
 		},
+		"hp-sound": {
+			"hid": {
+				"page-num": "0xff7f",
+				"page-name": "HP Vendor",
+				"code": "0x72",
+				"name": "HP vendor sound key"
+			},
+			"linux-evdev": {
+				"code": "0xd5",
+				"name": "KEY_SOUND"
+			},
+			"linux-xkb": {
+				"missing": true,
+				"comment": "xkbcommon comments KEY_SOUND out as an unclear HP-specific key and does not expose a canonical XKB keycode name for it."
+			},
+			"linux-xkb-keysym": {
+				"missing": true,
+				"comment": "No canonical XKB keysym is defined for KEY_SOUND."
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "HP-vendor key that Linux maps to KEY_SOUND. This is distinct from the generic audio-browser key.",
+			"keyd": "sound"
+		},
+		"hp-question": {
+			"hid": {
+				"page-num": "0xff7f",
+				"page-name": "HP Vendor",
+				"code": "0x73",
+				"name": "HP vendor question key"
+			},
+			"linux-evdev": {
+				"code": "0xd6",
+				"name": "KEY_QUESTION"
+			},
+			"linux-xkb": {
+				"missing": true,
+				"comment": "xkbcommon comments KEY_QUESTION out as an unclear HP-specific key and does not expose a canonical XKB keycode name for it."
+			},
+			"linux-xkb-keysym": {
+				"missing": true,
+				"comment": "No canonical XKB keysym is defined for KEY_QUESTION."
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "HP-vendor key that Linux maps to KEY_QUESTION. This is distinct from display-brightness keys and from the ordinary keyboard question-mark character.",
+			"keyd": "question"
+		},
 		"email": {
 			"hid": {
 				"code": "0x80",
@@ -9126,6 +9911,42 @@
 			"keyd": "uwb",
 			"comment": "Ultra‑Wideband radio key. This is a dedicated wireless-radio hardware key for UWB-capable devices rather than a normal application/media shortcut."
 		},
+		"unknown": {
+			"hid": {
+				"missing": true,
+				"unknown": true,
+				"comment": "Linux uses KEY_UNKNOWN as the fallback target for HID usages that it does not recognize or map more specifically."
+			},
+			"linux-evdev": {
+				"code": "0xf0",
+				"name": "KEY_UNKNOWN"
+			},
+			"linux-xkb": {
+				"missing": true
+			},
+			"linux-xkb-keysym": {
+				"missing": true
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true,
+				"unknown": true
+			},
+			"windows-virtual": {
+				"missing": true,
+				"unknown": true
+			},
+			"mac": {
+				"missing": true,
+				"unknown": true
+			},
+			"web": {
+				"missing": true,
+				"unknown": true
+			},
+			"comment": "Canonical placeholder for keys that Linux or other stacks surface only as an unknown or unrecognized key code.",
+			"keyd": "unknown"
+		},
 		"video-next": {
 			"hid": {
 				"code": "0x82",
@@ -9496,6 +10317,12 @@
 					"clear"
 				]
 			},
+			"karabiner-elements": {
+				"name": "clear",
+				"aliases": [
+					"clear_or_again"
+				]
+			},
 			"comment": "Clear-entry key. Use it for clearing the current value, typed digits, or current selection rather than general delete/backspace behavior."
 		},
 		"sysrq-attention": {
@@ -9524,7 +10351,8 @@
 			"web": {
 				"missing": true
 			},
-			"comment": "Legacy extended keyboard control key. Historically distinct from Print Screen even when some PC keyboards colocated the two labels."
+			"comment": "Legacy extended keyboard control key. Historically distinct from Print Screen even when some PC keyboards colocated the two labels.",
+			"karabiner-elements": "sys_req_or_attention"
 		},
 		"prior": {
 			"hid": {
@@ -9552,7 +10380,8 @@
 			"web": {
 				"missing": true
 			},
-			"comment": "Legacy extended keyboard control key on the HID keyboard page."
+			"comment": "Legacy extended keyboard control key on the HID keyboard page.",
+			"karabiner-elements": "prior"
 		},
 		"legacy-return": {
 			"hid": {
@@ -9580,7 +10409,8 @@
 			"web": {
 				"missing": true
 			},
-			"comment": "Legacy extended keyboard control key, distinct from the normal Return/Enter key and keypad Enter."
+			"comment": "Legacy extended keyboard control key, distinct from the normal Return/Enter key and keypad Enter.",
+			"karabiner-elements": "return"
 		},
 		"separator": {
 			"hid": {
@@ -9608,7 +10438,8 @@
 			"web": {
 				"missing": true
 			},
-			"comment": "Legacy extended keyboard control key on the HID keyboard page."
+			"comment": "Legacy extended keyboard control key on the HID keyboard page.",
+			"karabiner-elements": "separator"
 		},
 		"out": {
 			"hid": {
@@ -9636,7 +10467,8 @@
 			"web": {
 				"missing": true
 			},
-			"comment": "Legacy extended keyboard control key on the HID keyboard page."
+			"comment": "Legacy extended keyboard control key on the HID keyboard page.",
+			"karabiner-elements": "out"
 		},
 		"oper": {
 			"hid": {
@@ -9664,7 +10496,8 @@
 			"web": {
 				"missing": true
 			},
-			"comment": "Legacy extended keyboard control key on the HID keyboard page."
+			"comment": "Legacy extended keyboard control key on the HID keyboard page.",
+			"karabiner-elements": "oper"
 		},
 		"power2": {
 			"hid": {
@@ -18141,6 +18974,7 @@
 					"extendselection"
 				]
 			},
+			"karabiner-elements": "ex_sel",
 			"comment": "Legacy extended editing key. ExSel stands for Extend Selection."
 		},
 		"resume": {
@@ -19473,7 +20307,13 @@
 			"keyd": {
 				"name": ";",
 				"aliases": [
-					"semicolon"
+					"semicolon",
+					{
+						"name": ":",
+						"modifiers": [
+							"shift"
+						]
+					}
 				]
 			},
 			"karabiner-elements": "semicolon",
@@ -19825,31 +20665,47 @@
 					"numeric8"
 				]
 			},
-			"alternatives": {
-				"linux-evdev": [
-					{
-						"code": "0xa2",
-						"name": "KEY_EJECTCLOSECD",
-						"comment": "Linux also defines a combined eject/close optical-drive key, but mappy treats it only as an informational variant of eject-cd."
-					}
-				],
-				"linux-xkb": [
-					{
-						"code": "0xaa",
-						"name": "I170"
-					}
-				],
-				"linux-xkb-keysym": [
-					{
-						"code": "0x1008ff2c",
-						"name": "XF86Eject"
-					}
-				]
-			},
 			"comment": "Optical-media eject key for opening the tray / ejecting the disc.",
 			"keyd": "ejectcd",
 			"karabiner-elements": "eject",
 			"autohotkey": "SC12C"
+		},
+		"cd-eject-close": {
+			"hid": {
+				"missing": true,
+				"comment": "Linux defines a distinct combined eject/close optical-drive key, but hid-input only maps the standard Consumer Eject usage to KEY_EJECTCD, not to KEY_EJECTCLOSECD."
+			},
+			"linux-evdev": {
+				"code": "0xa2",
+				"name": "KEY_EJECTCLOSECD"
+			},
+			"linux-xkb": {
+				"code": "0xaa",
+				"name": "I170",
+				"aliasOf": "eject-cd",
+				"comment": "Linux gives the combined eject/close key its own evdev and XKB keycode, but the higher-level XKB meaning still collapses onto the generic eject behavior."
+			},
+			"linux-xkb-keysym": {
+				"code": "0x1008ff2c",
+				"name": "XF86Eject",
+				"aliasOf": "eject-cd",
+				"comment": "XKB collapses the combined eject/close key onto the generic XF86Eject symbolic output."
+			},
+			"windows-scancode": {
+				"api": "scancode",
+				"missing": true
+			},
+			"windows-virtual": {
+				"missing": true
+			},
+			"mac": {
+				"missing": true
+			},
+			"web": {
+				"missing": true
+			},
+			"comment": "Combined optical-drive eject/close key. Linux exposes it separately from plain eject, while higher-level stacks usually collapse it to generic eject semantics.",
+			"keyd": "ejectclosecd"
 		},
 		"forward-mail": {
 			"hid": {
@@ -20635,6 +21491,7 @@
 					"fullscreen"
 				]
 			},
+			"keyd": "zoom",
 			"comment": "Zoom/view-toggle key. Linux aliases KEY_ZOOM to KEY_FULL_SCREEN, and the web mapping names it ZoomToggle."
 		},
 		"contacts": {
