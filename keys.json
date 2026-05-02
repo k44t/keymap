@@ -189,7 +189,8 @@
 					"key0"
 				]
 			},
-			"karabiner-elements": "0"
+			"karabiner-elements": "0",
+			"autohotkey": "0"
 		},
 		"1": {
 			"hid": {
@@ -232,7 +233,8 @@
 					"key1"
 				]
 			},
-			"karabiner-elements": "1"
+			"karabiner-elements": "1",
+			"autohotkey": "1"
 		},
 		"2": {
 			"hid": {
@@ -275,7 +277,8 @@
 					"key2"
 				]
 			},
-			"karabiner-elements": "2"
+			"karabiner-elements": "2",
+			"autohotkey": "2"
 		},
 		"3": {
 			"hid": {
@@ -318,7 +321,8 @@
 					"key3"
 				]
 			},
-			"karabiner-elements": "3"
+			"karabiner-elements": "3",
+			"autohotkey": "3"
 		},
 		"4": {
 			"hid": {
@@ -361,7 +365,8 @@
 					"key4"
 				]
 			},
-			"karabiner-elements": "4"
+			"karabiner-elements": "4",
+			"autohotkey": "4"
 		},
 		"5": {
 			"hid": {
@@ -404,7 +409,8 @@
 					"key5"
 				]
 			},
-			"karabiner-elements": "5"
+			"karabiner-elements": "5",
+			"autohotkey": "5"
 		},
 		"6": {
 			"hid": {
@@ -447,7 +453,8 @@
 					"key6"
 				]
 			},
-			"karabiner-elements": "6"
+			"karabiner-elements": "6",
+			"autohotkey": "6"
 		},
 		"7": {
 			"hid": {
@@ -490,7 +497,8 @@
 					"key7"
 				]
 			},
-			"karabiner-elements": "7"
+			"karabiner-elements": "7",
+			"autohotkey": "7"
 		},
 		"8": {
 			"hid": {
@@ -533,7 +541,8 @@
 					"key8"
 				]
 			},
-			"karabiner-elements": "8"
+			"karabiner-elements": "8",
+			"autohotkey": "8"
 		},
 		"9": {
 			"hid": {
@@ -576,7 +585,8 @@
 					"key9"
 				]
 			},
-			"karabiner-elements": "9"
+			"karabiner-elements": "9",
+			"autohotkey": "9"
 		},
 		"esc": {
 			"hid": {
@@ -621,7 +631,13 @@
 					"esc"
 				]
 			},
-			"karabiner-elements": "escape"
+			"karabiner-elements": "escape",
+			"autohotkey": {
+				"name": "Escape",
+				"aliases": [
+					"Esc"
+				]
+			}
 		},
 		"-": {
 			"hid": {
@@ -668,7 +684,8 @@
 					"min"
 				]
 			},
-			"karabiner-elements": "hyphen"
+			"karabiner-elements": "hyphen",
+			"autohotkey": "-"
 		},
 		"=": {
 			"hid": {
@@ -715,7 +732,8 @@
 					"eql"
 				]
 			},
-			"karabiner-elements": "equal_sign"
+			"karabiner-elements": "equal_sign",
+			"autohotkey": "="
 		},
 		"backspace": {
 			"hid": {
@@ -762,7 +780,13 @@
 					"bspc"
 				]
 			},
-			"karabiner-elements": "delete_or_backspace"
+			"karabiner-elements": "delete_or_backspace",
+			"autohotkey": {
+				"name": "Backspace",
+				"aliases": [
+					"BS"
+				]
+			}
 		},
 		"tab": {
 			"hid": {
@@ -807,7 +831,8 @@
 					"tab"
 				]
 			},
-			"karabiner-elements": "tab"
+			"karabiner-elements": "tab",
+			"autohotkey": "Tab"
 		},
 		"q": {
 			"hid": {
@@ -851,7 +876,8 @@
 					"q"
 				]
 			},
-			"karabiner-elements": "q"
+			"karabiner-elements": "q",
+			"autohotkey": "q"
 		},
 		"w": {
 			"hid": {
@@ -895,7 +921,8 @@
 					"w"
 				]
 			},
-			"karabiner-elements": "w"
+			"karabiner-elements": "w",
+			"autohotkey": "w"
 		},
 		"e": {
 			"hid": {
@@ -939,7 +966,8 @@
 					"e"
 				]
 			},
-			"karabiner-elements": "e"
+			"karabiner-elements": "e",
+			"autohotkey": "e"
 		},
 		"r": {
 			"hid": {
@@ -983,7 +1011,8 @@
 					"r"
 				]
 			},
-			"karabiner-elements": "r"
+			"karabiner-elements": "r",
+			"autohotkey": "r"
 		},
 		"t": {
 			"hid": {
@@ -1027,7 +1056,8 @@
 					"t"
 				]
 			},
-			"karabiner-elements": "t"
+			"karabiner-elements": "t",
+			"autohotkey": "t"
 		},
 		"y": {
 			"hid": {
@@ -1071,7 +1101,8 @@
 					"y"
 				]
 			},
-			"karabiner-elements": "y"
+			"karabiner-elements": "y",
+			"autohotkey": "y"
 		},
 		"u": {
 			"hid": {
@@ -1115,7 +1146,8 @@
 					"u"
 				]
 			},
-			"karabiner-elements": "u"
+			"karabiner-elements": "u",
+			"autohotkey": "u"
 		},
 		"i": {
 			"hid": {
@@ -1159,7 +1191,8 @@
 					"i"
 				]
 			},
-			"karabiner-elements": "i"
+			"karabiner-elements": "i",
+			"autohotkey": "i"
 		},
 		"o": {
 			"hid": {
@@ -1203,7 +1236,8 @@
 					"o"
 				]
 			},
-			"karabiner-elements": "o"
+			"karabiner-elements": "o",
+			"autohotkey": "o"
 		},
 		"p": {
 			"hid": {
@@ -1247,7 +1281,8 @@
 					"p"
 				]
 			},
-			"karabiner-elements": "p"
+			"karabiner-elements": "p",
+			"autohotkey": "p"
 		},
 		"`[`": {
 			"hid": {
@@ -1294,7 +1329,8 @@
 					"lbrc"
 				]
 			},
-			"karabiner-elements": "open_bracket"
+			"karabiner-elements": "open_bracket",
+			"autohotkey": "["
 		},
 		"`]`": {
 			"hid": {
@@ -1341,7 +1377,8 @@
 					"rbrc"
 				]
 			},
-			"karabiner-elements": "close_bracket"
+			"karabiner-elements": "close_bracket",
+			"autohotkey": "]"
 		},
 		"enter": {
 			"hid": {
@@ -1386,7 +1423,8 @@
 					"enter"
 				]
 			},
-			"karabiner-elements": "return_or_enter"
+			"karabiner-elements": "return_or_enter",
+			"autohotkey": "Enter"
 		},
 		"ctrl-left": {
 			"hid": {
@@ -1434,7 +1472,13 @@
 					"lctl"
 				]
 			},
-			"karabiner-elements": "left_control"
+			"karabiner-elements": "left_control",
+			"autohotkey": {
+				"name": "LControl",
+				"aliases": [
+					"LCtrl"
+				]
+			}
 		},
 		"a": {
 			"hid": {
@@ -1478,7 +1522,8 @@
 					"a"
 				]
 			},
-			"karabiner-elements": "a"
+			"karabiner-elements": "a",
+			"autohotkey": "a"
 		},
 		"s": {
 			"hid": {
@@ -1522,7 +1567,8 @@
 					"s"
 				]
 			},
-			"karabiner-elements": "s"
+			"karabiner-elements": "s",
+			"autohotkey": "s"
 		},
 		"d": {
 			"hid": {
@@ -1566,7 +1612,8 @@
 					"d"
 				]
 			},
-			"karabiner-elements": "d"
+			"karabiner-elements": "d",
+			"autohotkey": "d"
 		},
 		"f": {
 			"hid": {
@@ -1610,7 +1657,8 @@
 					"f"
 				]
 			},
-			"karabiner-elements": "f"
+			"karabiner-elements": "f",
+			"autohotkey": "f"
 		},
 		"g": {
 			"hid": {
@@ -1654,7 +1702,8 @@
 					"g"
 				]
 			},
-			"karabiner-elements": "g"
+			"karabiner-elements": "g",
+			"autohotkey": "g"
 		},
 		"h": {
 			"hid": {
@@ -1698,7 +1747,8 @@
 					"h"
 				]
 			},
-			"karabiner-elements": "h"
+			"karabiner-elements": "h",
+			"autohotkey": "h"
 		},
 		"j": {
 			"hid": {
@@ -1742,7 +1792,8 @@
 					"j"
 				]
 			},
-			"karabiner-elements": "j"
+			"karabiner-elements": "j",
+			"autohotkey": "j"
 		},
 		"k": {
 			"hid": {
@@ -1786,7 +1837,8 @@
 					"k"
 				]
 			},
-			"karabiner-elements": "k"
+			"karabiner-elements": "k",
+			"autohotkey": "k"
 		},
 		"l": {
 			"hid": {
@@ -1830,7 +1882,8 @@
 					"l"
 				]
 			},
-			"karabiner-elements": "l"
+			"karabiner-elements": "l",
+			"autohotkey": "l"
 		},
 		"`'`": {
 			"hid": {
@@ -1878,7 +1931,8 @@
 					"apo"
 				]
 			},
-			"karabiner-elements": "quote"
+			"karabiner-elements": "quote",
+			"autohotkey": "'"
 		},
 		"`\\``": {
 			"hid": {
@@ -1928,7 +1982,8 @@
 					"grv"
 				]
 			},
-			"karabiner-elements": "grave_accent_and_tilde"
+			"karabiner-elements": "grave_accent_and_tilde",
+			"autohotkey": "`"
 		},
 		"shift-left": {
 			"hid": {
@@ -1978,7 +2033,8 @@
 					"shft"
 				]
 			},
-			"karabiner-elements": "left_shift"
+			"karabiner-elements": "left_shift",
+			"autohotkey": "LShift"
 		},
 		"backslash": {
 			"hid": {
@@ -2026,7 +2082,8 @@
 					"backslash"
 				]
 			},
-			"karabiner-elements": "backslash"
+			"karabiner-elements": "backslash",
+			"autohotkey": "\\"
 		},
 		"iso-#": {
 			"hid": {
@@ -2117,7 +2174,8 @@
 					"z"
 				]
 			},
-			"karabiner-elements": "z"
+			"karabiner-elements": "z",
+			"autohotkey": "z"
 		},
 		"x": {
 			"hid": {
@@ -2161,7 +2219,8 @@
 					"x"
 				]
 			},
-			"karabiner-elements": "x"
+			"karabiner-elements": "x",
+			"autohotkey": "x"
 		},
 		"c": {
 			"hid": {
@@ -2205,7 +2264,8 @@
 					"c"
 				]
 			},
-			"karabiner-elements": "c"
+			"karabiner-elements": "c",
+			"autohotkey": "c"
 		},
 		"v": {
 			"hid": {
@@ -2249,7 +2309,8 @@
 					"v"
 				]
 			},
-			"karabiner-elements": "v"
+			"karabiner-elements": "v",
+			"autohotkey": "v"
 		},
 		"b": {
 			"hid": {
@@ -2293,7 +2354,8 @@
 					"b"
 				]
 			},
-			"karabiner-elements": "b"
+			"karabiner-elements": "b",
+			"autohotkey": "b"
 		},
 		"n": {
 			"hid": {
@@ -2337,7 +2399,8 @@
 					"n"
 				]
 			},
-			"karabiner-elements": "n"
+			"karabiner-elements": "n",
+			"autohotkey": "n"
 		},
 		"m": {
 			"hid": {
@@ -2381,7 +2444,8 @@
 					"m"
 				]
 			},
-			"karabiner-elements": "m"
+			"karabiner-elements": "m",
+			"autohotkey": "m"
 		},
 		"`,`": {
 			"hid": {
@@ -2428,7 +2492,8 @@
 					"comm"
 				]
 			},
-			"karabiner-elements": "comma"
+			"karabiner-elements": "comma",
+			"autohotkey": ","
 		},
 		"`.`": {
 			"hid": {
@@ -2474,7 +2539,8 @@
 					"dot"
 				]
 			},
-			"karabiner-elements": "period"
+			"karabiner-elements": "period",
+			"autohotkey": "."
 		},
 		"`/`": {
 			"hid": {
@@ -2520,7 +2586,8 @@
 					"slash"
 				]
 			},
-			"karabiner-elements": "slash"
+			"karabiner-elements": "slash",
+			"autohotkey": "/"
 		},
 		"shift-right": {
 			"hid": {
@@ -2568,7 +2635,8 @@
 					"rshft"
 				]
 			},
-			"karabiner-elements": "right_shift"
+			"karabiner-elements": "right_shift",
+			"autohotkey": "RShift"
 		},
 		"`kp*`": {
 			"hid": {
@@ -2614,7 +2682,8 @@
 					"kpasterisk"
 				]
 			},
-			"karabiner-elements": "keypad_asterisk"
+			"karabiner-elements": "keypad_asterisk",
+			"autohotkey": "NumpadMult"
 		},
 		"alt-left": {
 			"hid": {
@@ -2666,7 +2735,8 @@
 				"aliases": [
 					"left_alt"
 				]
-			}
+			},
+			"autohotkey": "LAlt"
 		},
 		"space": {
 			"hid": {
@@ -2712,7 +2782,8 @@
 					"space"
 				]
 			},
-			"karabiner-elements": "spacebar"
+			"karabiner-elements": "spacebar",
+			"autohotkey": "Space"
 		},
 		"caps": {
 			"hid": {
@@ -2758,7 +2829,8 @@
 					"capslock"
 				]
 			},
-			"karabiner-elements": "caps_lock"
+			"karabiner-elements": "caps_lock",
+			"autohotkey": "CapsLock"
 		},
 		"f1": {
 			"hid": {
@@ -2803,7 +2875,8 @@
 					"f1"
 				]
 			},
-			"karabiner-elements": "f1"
+			"karabiner-elements": "f1",
+			"autohotkey": "F1"
 		},
 		"f2": {
 			"hid": {
@@ -2848,7 +2921,8 @@
 					"f2"
 				]
 			},
-			"karabiner-elements": "f2"
+			"karabiner-elements": "f2",
+			"autohotkey": "F2"
 		},
 		"f3": {
 			"hid": {
@@ -2893,7 +2967,8 @@
 					"f3"
 				]
 			},
-			"karabiner-elements": "f3"
+			"karabiner-elements": "f3",
+			"autohotkey": "F3"
 		},
 		"f4": {
 			"hid": {
@@ -2938,7 +3013,8 @@
 					"f4"
 				]
 			},
-			"karabiner-elements": "f4"
+			"karabiner-elements": "f4",
+			"autohotkey": "F4"
 		},
 		"f5": {
 			"hid": {
@@ -2983,7 +3059,8 @@
 					"f5"
 				]
 			},
-			"karabiner-elements": "f5"
+			"karabiner-elements": "f5",
+			"autohotkey": "F5"
 		},
 		"f6": {
 			"hid": {
@@ -3028,7 +3105,8 @@
 					"f6"
 				]
 			},
-			"karabiner-elements": "f6"
+			"karabiner-elements": "f6",
+			"autohotkey": "F6"
 		},
 		"f7": {
 			"hid": {
@@ -3073,7 +3151,8 @@
 					"f7"
 				]
 			},
-			"karabiner-elements": "f7"
+			"karabiner-elements": "f7",
+			"autohotkey": "F7"
 		},
 		"f8": {
 			"hid": {
@@ -3118,7 +3197,8 @@
 					"f8"
 				]
 			},
-			"karabiner-elements": "f8"
+			"karabiner-elements": "f8",
+			"autohotkey": "F8"
 		},
 		"f9": {
 			"hid": {
@@ -3163,7 +3243,8 @@
 					"f9"
 				]
 			},
-			"karabiner-elements": "f9"
+			"karabiner-elements": "f9",
+			"autohotkey": "F9"
 		},
 		"f10": {
 			"hid": {
@@ -3208,7 +3289,8 @@
 					"f10"
 				]
 			},
-			"karabiner-elements": "f10"
+			"karabiner-elements": "f10",
+			"autohotkey": "F10"
 		},
 		"num-lock": {
 			"hid": {
@@ -3254,7 +3336,8 @@
 					"numlock"
 				]
 			},
-			"karabiner-elements": "keypad_num_lock"
+			"karabiner-elements": "keypad_num_lock",
+			"autohotkey": "NumLock"
 		},
 		"scroll-lock": {
 			"hid": {
@@ -3301,7 +3384,8 @@
 					"scrlck"
 				]
 			},
-			"karabiner-elements": "scroll_lock"
+			"karabiner-elements": "scroll_lock",
+			"autohotkey": "ScrollLock"
 		},
 		"kp7": {
 			"hid": {
@@ -3346,7 +3430,18 @@
 					"kp7"
 				]
 			},
-			"karabiner-elements": "keypad_7"
+			"karabiner-elements": "keypad_7",
+			"autohotkey": {
+				"name": "Numpad7",
+				"aliases": [
+					{
+						"name": "NumpadHome",
+						"modifiers": [
+							"!num-lock"
+						]
+					}
+				]
+			}
 		},
 		"kp8": {
 			"hid": {
@@ -3391,7 +3486,18 @@
 					"kp8"
 				]
 			},
-			"karabiner-elements": "keypad_8"
+			"karabiner-elements": "keypad_8",
+			"autohotkey": {
+				"name": "Numpad8",
+				"aliases": [
+					{
+						"name": "NumpadUp",
+						"modifiers": [
+							"!num-lock"
+						]
+					}
+				]
+			}
 		},
 		"kp9": {
 			"hid": {
@@ -3436,7 +3542,18 @@
 					"kp9"
 				]
 			},
-			"karabiner-elements": "keypad_9"
+			"karabiner-elements": "keypad_9",
+			"autohotkey": {
+				"name": "Numpad9",
+				"aliases": [
+					{
+						"name": "NumpadPgUp",
+						"modifiers": [
+							"!num-lock"
+						]
+					}
+				]
+			}
 		},
 		"`kp-`": {
 			"hid": {
@@ -3482,7 +3599,8 @@
 					"kpminus"
 				]
 			},
-			"karabiner-elements": "keypad_hyphen"
+			"karabiner-elements": "keypad_hyphen",
+			"autohotkey": "NumpadSub"
 		},
 		"kp4": {
 			"hid": {
@@ -3527,7 +3645,18 @@
 					"kp4"
 				]
 			},
-			"karabiner-elements": "keypad_4"
+			"karabiner-elements": "keypad_4",
+			"autohotkey": {
+				"name": "Numpad4",
+				"aliases": [
+					{
+						"name": "NumpadLeft",
+						"modifiers": [
+							"!num-lock"
+						]
+					}
+				]
+			}
 		},
 		"kp5": {
 			"hid": {
@@ -3572,7 +3701,18 @@
 					"kp5"
 				]
 			},
-			"karabiner-elements": "keypad_5"
+			"karabiner-elements": "keypad_5",
+			"autohotkey": {
+				"name": "Numpad5",
+				"aliases": [
+					{
+						"name": "NumpadClear",
+						"modifiers": [
+							"!num-lock"
+						]
+					}
+				]
+			}
 		},
 		"kp6": {
 			"hid": {
@@ -3617,7 +3757,18 @@
 					"kp6"
 				]
 			},
-			"karabiner-elements": "keypad_6"
+			"karabiner-elements": "keypad_6",
+			"autohotkey": {
+				"name": "Numpad6",
+				"aliases": [
+					{
+						"name": "NumpadRight",
+						"modifiers": [
+							"!num-lock"
+						]
+					}
+				]
+			}
 		},
 		"`kp+`": {
 			"hid": {
@@ -3663,7 +3814,8 @@
 					"kpplus"
 				]
 			},
-			"karabiner-elements": "keypad_plus"
+			"karabiner-elements": "keypad_plus",
+			"autohotkey": "NumpadAdd"
 		},
 		"kp1": {
 			"hid": {
@@ -3708,7 +3860,18 @@
 					"kp1"
 				]
 			},
-			"karabiner-elements": "keypad_1"
+			"karabiner-elements": "keypad_1",
+			"autohotkey": {
+				"name": "Numpad1",
+				"aliases": [
+					{
+						"name": "NumpadEnd",
+						"modifiers": [
+							"!num-lock"
+						]
+					}
+				]
+			}
 		},
 		"kp2": {
 			"hid": {
@@ -3753,7 +3916,18 @@
 					"kp2"
 				]
 			},
-			"karabiner-elements": "keypad_2"
+			"karabiner-elements": "keypad_2",
+			"autohotkey": {
+				"name": "Numpad2",
+				"aliases": [
+					{
+						"name": "NumpadDown",
+						"modifiers": [
+							"!num-lock"
+						]
+					}
+				]
+			}
 		},
 		"kp3": {
 			"hid": {
@@ -3798,7 +3972,18 @@
 					"kp3"
 				]
 			},
-			"karabiner-elements": "keypad_3"
+			"karabiner-elements": "keypad_3",
+			"autohotkey": {
+				"name": "Numpad3",
+				"aliases": [
+					{
+						"name": "NumpadPgDn",
+						"modifiers": [
+							"!num-lock"
+						]
+					}
+				]
+			}
 		},
 		"kp0": {
 			"hid": {
@@ -3843,7 +4028,18 @@
 					"kp0"
 				]
 			},
-			"karabiner-elements": "keypad_0"
+			"karabiner-elements": "keypad_0",
+			"autohotkey": {
+				"name": "Numpad0",
+				"aliases": [
+					{
+						"name": "NumpadIns",
+						"modifiers": [
+							"!num-lock"
+						]
+					}
+				]
+			}
 		},
 		"`kp.`": {
 			"hid": {
@@ -3889,7 +4085,18 @@
 					"kpdot"
 				]
 			},
-			"karabiner-elements": "keypad_period"
+			"karabiner-elements": "keypad_period",
+			"autohotkey": {
+				"name": "NumpadDot",
+				"aliases": [
+					{
+						"name": "NumpadDel",
+						"modifiers": [
+							"!num-lock"
+						]
+					}
+				]
+			}
 		},
 		"iso-intl-backslash": {
 			"hid": {
@@ -3937,7 +4144,13 @@
 				]
 			},
 			"geometry": "ISO",
-			"karabiner-elements": "non_us_backslash"
+			"karabiner-elements": "non_us_backslash",
+			"autohotkey": {
+				"name": "SC056",
+				"aliases": [
+					"VKE2"
+				]
+			}
 		},
 		"f11": {
 			"hid": {
@@ -3982,7 +4195,8 @@
 					"f11"
 				]
 			},
-			"karabiner-elements": "f11"
+			"karabiner-elements": "f11",
+			"autohotkey": "F11"
 		},
 		"f12": {
 			"hid": {
@@ -4027,7 +4241,8 @@
 					"f12"
 				]
 			},
-			"karabiner-elements": "f12"
+			"karabiner-elements": "f12",
+			"autohotkey": "F12"
 		},
 		"intl-ro": {
 			"hid": {
@@ -4074,7 +4289,13 @@
 			},
 			"geometry": "JIS",
 			"comment": "JIS KEY_RO is primarily a printable key. It has no distinct standard XKB keysym and often produces the printable backslash symbol, so the physical-key-specific mapping is left missing here.",
-			"karabiner-elements": "international1"
+			"karabiner-elements": "international1",
+			"autohotkey": {
+				"name": "SC073",
+				"aliases": [
+					"VKC1"
+				]
+			}
 		},
 		"henkan": {
 			"hid": {
@@ -4125,6 +4346,12 @@
 				"name": "japanese_pc_xfer",
 				"aliases": [
 					"international4"
+				]
+			},
+			"autohotkey": {
+				"name": "SC079",
+				"aliases": [
+					"VK1C"
 				]
 			}
 		},
@@ -4180,6 +4407,12 @@
 				"aliases": [
 					"international2"
 				]
+			},
+			"autohotkey": {
+				"name": "SC070",
+				"aliases": [
+					"VK15"
+				]
 			}
 		},
 		"muhenkan": {
@@ -4232,6 +4465,12 @@
 				"aliases": [
 					"international5"
 				]
+			},
+			"autohotkey": {
+				"name": "SC07B",
+				"aliases": [
+					"VK1D"
+				]
 			}
 		},
 		"kp-enter": {
@@ -4280,7 +4519,8 @@
 					"kp-enter"
 				]
 			},
-			"karabiner-elements": "keypad_enter"
+			"karabiner-elements": "keypad_enter",
+			"autohotkey": "NumpadEnter"
 		},
 		"ctrl-right": {
 			"hid": {
@@ -4327,7 +4567,13 @@
 					"rctrl"
 				]
 			},
-			"karabiner-elements": "right_control"
+			"karabiner-elements": "right_control",
+			"autohotkey": {
+				"name": "RControl",
+				"aliases": [
+					"RCtrl"
+				]
+			}
 		},
 		"`kp/`": {
 			"hid": {
@@ -4373,7 +4619,8 @@
 					"kpslash"
 				]
 			},
-			"karabiner-elements": "keypad_slash"
+			"karabiner-elements": "keypad_slash",
+			"autohotkey": "NumpadDiv"
 		},
 		"print": {
 			"hid": {
@@ -4420,7 +4667,8 @@
 					"ssrq"
 				]
 			},
-			"karabiner-elements": "print_screen"
+			"karabiner-elements": "print_screen",
+			"autohotkey": "PrintScreen"
 		},
 		"alt-right": {
 			"hid": {
@@ -4474,7 +4722,8 @@
 				"aliases": [
 					"right_alt"
 				]
-			}
+			},
+			"autohotkey": "RAlt"
 		},
 		"linefeed": {
 			"hid": {
@@ -4557,7 +4806,8 @@
 					"home"
 				]
 			},
-			"karabiner-elements": "home"
+			"karabiner-elements": "home",
+			"autohotkey": "Home"
 		},
 		"arrow-up": {
 			"hid": {
@@ -4602,7 +4852,8 @@
 					"up"
 				]
 			},
-			"karabiner-elements": "up_arrow"
+			"karabiner-elements": "up_arrow",
+			"autohotkey": "Up"
 		},
 		"page-up": {
 			"hid": {
@@ -4648,7 +4899,8 @@
 					"pageup"
 				]
 			},
-			"karabiner-elements": "page_up"
+			"karabiner-elements": "page_up",
+			"autohotkey": "PgUp"
 		},
 		"arrow-left": {
 			"hid": {
@@ -4694,7 +4946,8 @@
 					"left"
 				]
 			},
-			"karabiner-elements": "left_arrow"
+			"karabiner-elements": "left_arrow",
+			"autohotkey": "Left"
 		},
 		"arrow-right": {
 			"hid": {
@@ -4740,7 +4993,8 @@
 					"right"
 				]
 			},
-			"karabiner-elements": "right_arrow"
+			"karabiner-elements": "right_arrow",
+			"autohotkey": "Right"
 		},
 		"end": {
 			"hid": {
@@ -4785,7 +5039,8 @@
 					"end"
 				]
 			},
-			"karabiner-elements": "end"
+			"karabiner-elements": "end",
+			"autohotkey": "End"
 		},
 		"arrow-down": {
 			"hid": {
@@ -4830,7 +5085,8 @@
 					"down"
 				]
 			},
-			"karabiner-elements": "down_arrow"
+			"karabiner-elements": "down_arrow",
+			"autohotkey": "Down"
 		},
 		"page-down": {
 			"hid": {
@@ -4876,7 +5132,8 @@
 					"pagedown"
 				]
 			},
-			"karabiner-elements": "page_down"
+			"karabiner-elements": "page_down",
+			"autohotkey": "PgDn"
 		},
 		"insert": {
 			"hid": {
@@ -4923,7 +5180,13 @@
 					"insert"
 				]
 			},
-			"karabiner-elements": "insert"
+			"karabiner-elements": "insert",
+			"autohotkey": {
+				"name": "Insert",
+				"aliases": [
+					"Ins"
+				]
+			}
 		},
 		"delete": {
 			"hid": {
@@ -4969,7 +5232,13 @@
 					"delete"
 				]
 			},
-			"karabiner-elements": "delete_forward"
+			"karabiner-elements": "delete_forward",
+			"autohotkey": {
+				"name": "Delete",
+				"aliases": [
+					"Del"
+				]
+			}
 		},
 		"macro": {
 			"hid": {
@@ -5054,7 +5323,8 @@
 					"mininteresting"
 				]
 			},
-			"karabiner-elements": "mute"
+			"karabiner-elements": "mute",
+			"autohotkey": "Volume_Mute"
 		},
 		"media-volume-down": {
 			"hid": {
@@ -5106,7 +5376,8 @@
 				"aliases": [
 					"volume_down"
 				]
-			}
+			},
+			"autohotkey": "Volume_Down"
 		},
 		"media-volume-up": {
 			"hid": {
@@ -5158,7 +5429,8 @@
 				"aliases": [
 					"volume_up"
 				]
-			}
+			},
+			"autohotkey": "Volume_Up"
 		},
 		"kp-sign-change": {
 			"hid": {
@@ -5246,7 +5518,11 @@
 				]
 			},
 			"comment": "Classic keyboard Pause key. On Windows, the special Pause scan code is emitted for this key, while Break is emitted for Ctrl+Pause. GNOME treats the Pause key itself as a media-pause trigger and sends the MPRIS \"Pause\" action.",
-			"karabiner-elements": "pause"
+			"karabiner-elements": "pause",
+			"autohotkey": {
+				"name": "Pause",
+				"comment": "AutoHotkey also recognizes CtrlBreak for the classic Windows Ctrl+Pause behavior on this key."
+			}
 		},
 		"scale": {
 			"hid": {
@@ -5341,6 +5617,12 @@
 				"aliases": [
 					"lang1"
 				]
+			},
+			"autohotkey": {
+				"name": "SC072",
+				"aliases": [
+					"VK15"
+				]
 			}
 		},
 		"hanja": {
@@ -5387,10 +5669,17 @@
 				]
 			},
 			"geometry": "Korean",
+			"comment": "HID LANG2 is dual-use across keyboard ecosystems: Windows and Linux usually expose it as the Korean Hanja conversion key, while Apple Japanese keyboards use the same HID usage for the Eisu key.",
 			"karabiner-elements": {
 				"name": "japanese_eisuu",
 				"aliases": [
 					"lang2"
+				]
+			},
+			"autohotkey": {
+				"name": "SC071",
+				"aliases": [
+					"VK19"
 				]
 			}
 		},
@@ -5442,7 +5731,8 @@
 				]
 			},
 			"geometry": "JIS",
-			"karabiner-elements": "international3"
+			"karabiner-elements": "international3",
+			"autohotkey": "SC07D"
 		},
 		"meta-left": {
 			"hid": {
@@ -5498,7 +5788,8 @@
 				"aliases": [
 					"left_gui"
 				]
-			}
+			},
+			"autohotkey": "LWin"
 		},
 		"meta-right": {
 			"hid": {
@@ -5553,7 +5844,8 @@
 				"aliases": [
 					"right_gui"
 				]
-			}
+			},
+			"autohotkey": "RWin"
 		},
 		"stop": {
 			"hid": {
@@ -5599,6 +5891,7 @@
 			"web": {
 				"name": "BrowserStop"
 			},
+			"autohotkey": "Browser_Stop",
 			"kmonad": {
 				"name": "Stop",
 				"aliases": [
@@ -5658,7 +5951,8 @@
 					"application"
 				]
 			},
-			"karabiner-elements": "application"
+			"karabiner-elements": "application",
+			"autohotkey": "AppsKey"
 		},
 		"setup": {
 			"hid": {
@@ -5851,6 +6145,7 @@
 			"web": {
 				"missing": true
 			},
+			"autohotkey": "Launch_App1",
 			"kmonad": {
 				"name": "Prog1",
 				"aliases": [
@@ -5892,6 +6187,7 @@
 			"web": {
 				"missing": true
 			},
+			"autohotkey": "Launch_App2",
 			"kmonad": {
 				"name": "Prog2",
 				"aliases": [
@@ -6157,7 +6453,8 @@
 				]
 			},
 			"comment": "Bookmarks/favorites key. Use it for bookmark or saved-item lists rather than browser history.",
-			"karabiner-elements": "ac_bookmarks"
+			"karabiner-elements": "ac_bookmarks",
+			"autohotkey": "Browser_Favorites"
 		},
 		"computer": {
 			"hid": {
@@ -6239,7 +6536,8 @@
 					"back"
 				]
 			},
-			"karabiner-elements": "ac_back"
+			"karabiner-elements": "ac_back",
+			"autohotkey": "Browser_Back"
 		},
 		"forward": {
 			"hid": {
@@ -6284,7 +6582,8 @@
 					"forward"
 				]
 			},
-			"karabiner-elements": "ac_forward"
+			"karabiner-elements": "ac_forward",
+			"autohotkey": "Browser_Forward"
 		},
 		"closecd": {
 			"hid": {
@@ -6379,7 +6678,8 @@
 				"aliases": [
 					"vk_consumer_next"
 				]
-			}
+			},
+			"autohotkey": "Media_Next"
 		},
 		"media-play-pause": {
 			"hid": {
@@ -6431,7 +6731,8 @@
 				"aliases": [
 					"vk_consumer_play"
 				]
-			}
+			},
+			"autohotkey": "Media_Play_Pause"
 		},
 		"media-prev": {
 			"hid": {
@@ -6488,7 +6789,8 @@
 				"aliases": [
 					"vk_consumer_previous"
 				]
-			}
+			},
+			"autohotkey": "Media_Prev"
 		},
 		"media-rewind": {
 			"hid": {
@@ -6661,7 +6963,8 @@
 					"refresh"
 				]
 			},
-			"karabiner-elements": "ac_refresh"
+			"karabiner-elements": "ac_refresh",
+			"autohotkey": "Browser_Refresh"
 		},
 		"exit": {
 			"hid": {
@@ -7102,7 +7405,8 @@
 					"f13"
 				]
 			},
-			"karabiner-elements": "f13"
+			"karabiner-elements": "f13",
+			"autohotkey": "F13"
 		},
 		"f14": {
 			"hid": {
@@ -7147,7 +7451,8 @@
 					"f14"
 				]
 			},
-			"karabiner-elements": "f14"
+			"karabiner-elements": "f14",
+			"autohotkey": "F14"
 		},
 		"f15": {
 			"hid": {
@@ -7192,7 +7497,8 @@
 					"f15"
 				]
 			},
-			"karabiner-elements": "f15"
+			"karabiner-elements": "f15",
+			"autohotkey": "F15"
 		},
 		"f16": {
 			"hid": {
@@ -7237,7 +7543,8 @@
 					"f16"
 				]
 			},
-			"karabiner-elements": "f16"
+			"karabiner-elements": "f16",
+			"autohotkey": "F16"
 		},
 		"f17": {
 			"hid": {
@@ -7282,7 +7589,8 @@
 					"f17"
 				]
 			},
-			"karabiner-elements": "f17"
+			"karabiner-elements": "f17",
+			"autohotkey": "F17"
 		},
 		"f18": {
 			"hid": {
@@ -7327,7 +7635,8 @@
 					"f18"
 				]
 			},
-			"karabiner-elements": "f18"
+			"karabiner-elements": "f18",
+			"autohotkey": "F18"
 		},
 		"f19": {
 			"hid": {
@@ -7372,7 +7681,8 @@
 					"f19"
 				]
 			},
-			"karabiner-elements": "f19"
+			"karabiner-elements": "f19",
+			"autohotkey": "F19"
 		},
 		"f20": {
 			"hid": {
@@ -7417,7 +7727,8 @@
 					"f20"
 				]
 			},
-			"karabiner-elements": "f20"
+			"karabiner-elements": "f20",
+			"autohotkey": "F20"
 		},
 		"f21": {
 			"hid": {
@@ -7462,7 +7773,8 @@
 					"f21"
 				]
 			},
-			"karabiner-elements": "f21"
+			"karabiner-elements": "f21",
+			"autohotkey": "F21"
 		},
 		"f22": {
 			"hid": {
@@ -7507,7 +7819,8 @@
 					"f22"
 				]
 			},
-			"karabiner-elements": "f22"
+			"karabiner-elements": "f22",
+			"autohotkey": "F22"
 		},
 		"f23": {
 			"hid": {
@@ -7552,7 +7865,8 @@
 					"f23"
 				]
 			},
-			"karabiner-elements": "f23"
+			"karabiner-elements": "f23",
+			"autohotkey": "F23"
 		},
 		"f24": {
 			"hid": {
@@ -7597,7 +7911,8 @@
 					"f24"
 				]
 			},
-			"karabiner-elements": "f24"
+			"karabiner-elements": "f24",
+			"autohotkey": "F24"
 		},
 		"prog3": {
 			"hid": {
@@ -8255,6 +8570,7 @@
 			"web": {
 				"missing": true
 			},
+			"autohotkey": "VK03",
 			"kmonad": {
 				"name": "Cancel",
 				"aliases": [
@@ -8294,6 +8610,7 @@
 			"web": {
 				"missing": true
 			},
+			"autohotkey": "Launch_Media",
 			"kmonad": {
 				"name": "Media",
 				"aliases": [
@@ -17476,7 +17793,8 @@
 			},
 			"web": {
 				"name": "NumpadClear"
-			}
+			},
+			"autohotkey": "NumpadClear"
 		},
 		"props": {
 			"hid": {
@@ -17674,7 +17992,8 @@
 				]
 			},
 			"comment": "GNOME treats this as the home launcher key and invokes its home action.",
-			"karabiner-elements": "ac_home"
+			"karabiner-elements": "ac_home",
+			"autohotkey": "Browser_Home"
 		},
 		"search": {
 			"hid": {
@@ -17718,7 +18037,8 @@
 				]
 			},
 			"comment": "GNOME treats this as the search launcher key and invokes its search action.",
-			"karabiner-elements": "ac_search"
+			"karabiner-elements": "ac_search",
+			"autohotkey": "Browser_Search"
 		},
 		"katakana": {
 			"hid": {
@@ -17765,7 +18085,8 @@
 				]
 			},
 			"geometry": "JIS",
-			"karabiner-elements": "lang3"
+			"karabiner-elements": "lang3",
+			"autohotkey": "SC078"
 		},
 		"hiragana": {
 			"hid": {
@@ -17810,7 +18131,8 @@
 				]
 			},
 			"geometry": "JIS",
-			"karabiner-elements": "lang4"
+			"karabiner-elements": "lang4",
+			"autohotkey": "SC077"
 		},
 		"zenkakuhankaku": {
 			"hid": {
@@ -17906,7 +18228,8 @@
 					"localmachinebrowser"
 				]
 			},
-			"karabiner-elements": "al_local_machine_browser"
+			"karabiner-elements": "al_local_machine_browser",
+			"autohotkey": "SC16B"
 		},
 		"calc": {
 			"hid": {
@@ -17950,7 +18273,8 @@
 				]
 			},
 			"comment": "GNOME treats this as the calculator launcher key and opens GNOME Calculator.",
-			"karabiner-elements": "al_calculator"
+			"karabiner-elements": "al_calculator",
+			"autohotkey": "SC121"
 		},
 		"mail": {
 			"hid": {
@@ -17994,7 +18318,8 @@
 					"emailreader"
 				]
 			},
-			"karabiner-elements": "al_email_reader"
+			"karabiner-elements": "al_email_reader",
+			"autohotkey": "Launch_Mail"
 		},
 		"reply": {
 			"hid": {
@@ -18118,7 +18443,8 @@
 					"config"
 				]
 			},
-			"karabiner-elements": "al_consumer_control_configuration"
+			"karabiner-elements": "al_consumer_control_configuration",
+			"autohotkey": "SC16D"
 		},
 		"kpequal": {
 			"hid": {
@@ -18160,7 +18486,8 @@
 					"kpequal"
 				]
 			},
-			"karabiner-elements": "keypad_equal_sign"
+			"karabiner-elements": "keypad_equal_sign",
+			"autohotkey": "SC059"
 		},
 		"front": {
 			"hid": {
@@ -18532,7 +18859,8 @@
 					"copy"
 				]
 			},
-			"karabiner-elements": "copy"
+			"karabiner-elements": "copy",
+			"autohotkey": "SC118"
 		},
 		"cut": {
 			"hid": {
@@ -18574,7 +18902,8 @@
 					"cut"
 				]
 			},
-			"karabiner-elements": "cut"
+			"karabiner-elements": "cut",
+			"autohotkey": "SC117"
 		},
 		"find": {
 			"hid": {
@@ -18665,7 +18994,8 @@
 					"helpcenter"
 				]
 			},
-			"karabiner-elements": "help"
+			"karabiner-elements": "help",
+			"autohotkey": "Help"
 		},
 		"open": {
 			"hid": {
@@ -18751,7 +19081,8 @@
 					"paste"
 				]
 			},
-			"karabiner-elements": "paste"
+			"karabiner-elements": "paste",
+			"autohotkey": "SC10A"
 		},
 		"power": {
 			"hid": {
@@ -18795,7 +19126,8 @@
 					"power"
 				]
 			},
-			"karabiner-elements": "power"
+			"karabiner-elements": "power",
+			"autohotkey": "SC15E"
 		},
 		"semicolon": {
 			"hid": {
@@ -18840,7 +19172,8 @@
 					"scln"
 				]
 			},
-			"karabiner-elements": "semicolon"
+			"karabiner-elements": "semicolon",
+			"autohotkey": ";"
 		},
 		"sleep": {
 			"hid": {
@@ -18877,6 +19210,7 @@
 			"web": {
 				"name": "Sleep"
 			},
+			"autohotkey": "Sleep",
 			"kmonad": {
 				"name": "zzz",
 				"aliases": [
@@ -18930,7 +19264,8 @@
 					"undo"
 				]
 			},
-			"karabiner-elements": "undo"
+			"karabiner-elements": "undo",
+			"autohotkey": "SC108"
 		},
 		"print-command": {
 			"hid": {
@@ -19207,7 +19542,8 @@
 				]
 			},
 			"comment": "Optical-media eject key for opening the tray / ejecting the disc.",
-			"karabiner-elements": "eject"
+			"karabiner-elements": "eject",
+			"autohotkey": "SC12C"
 		},
 		"forward-mail": {
 			"hid": {
@@ -19296,7 +19632,8 @@
 				]
 			},
 			"geometry": "JIS",
-			"karabiner-elements": "international6"
+			"karabiner-elements": "international6",
+			"autohotkey": "SC05C"
 		},
 		"display-toggle": {
 			"hid": {
@@ -19575,6 +19912,7 @@
 			"web": {
 				"name": "WakeUp"
 			},
+			"autohotkey": "SC163",
 			"kmonad": {
 				"name": "wkup",
 				"aliases": [
@@ -19662,6 +20000,7 @@
 			"web": {
 				"name": "MediaPlay"
 			},
+			"autohotkey": "VKFA",
 			"kmonad": {
 				"name": "Play",
 				"aliases": [
@@ -19798,7 +20137,13 @@
 				]
 			},
 			"comment": "Optical-media stop key. Distinct from a generic media stop key when devices expose a dedicated CD playback command.",
-			"karabiner-elements": "stop"
+			"karabiner-elements": "stop",
+			"autohotkey": {
+				"name": "SC124",
+				"aliases": [
+					"VKB2"
+				]
+			}
 		},
 		"cd-play": {
 			"hid": {
@@ -19883,7 +20228,8 @@
 				]
 			},
 			"geometry": "ABNT2",
-			"karabiner-elements": "keypad_comma"
+			"karabiner-elements": "keypad_comma",
+			"autohotkey": "SC07E"
 		},
 		"guide": {
 			"hid": {
