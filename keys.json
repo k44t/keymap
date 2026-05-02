@@ -8706,7 +8706,15 @@
 		},
 		"windows-scancode": {
 			"code": "0xe067",
-			"api": "scancode"
+			"api": "scancode",
+			"alternatives": {
+				"appcommand": {
+					"code": "0x3",
+					"name": "APPCOMMAND_BROWSER_REFRESH",
+					"api": "appcommand",
+					"certainty": 0.95
+				}
+			}
 		},
 		"windows-virtual": {
 			"code": "0xa8",
@@ -10365,7 +10373,7 @@
 			]
 		}
 	},
-	"bassboost": {
+	"bass-boost": {
 		"comment": "Consumer-control key for Bass Boost.",
 		"hid": {
 			"code": "0xe5",
@@ -10386,8 +10394,10 @@
 			"name": "XF86AudioBassBoost"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x14",
+			"name": "APPCOMMAND_BASS_BOOST",
+			"api": "appcommand",
+			"certainty": 0.95
 		},
 		"windows-virtual": {
 			"missing": true
@@ -10995,7 +11005,15 @@
 		},
 		"windows-scancode": {
 			"api": "scancode",
-			"missing": true
+			"missing": true,
+			"alternatives": {
+				"appcommand": {
+					"code": "0x10",
+					"name": "APPCOMMAND_LAUNCH_MEDIA_SELECT",
+					"api": "appcommand",
+					"certainty": 0.7
+				}
+			}
 		},
 		"windows-virtual": {
 			"code": "0xb5",
@@ -18323,6 +18341,65 @@
 			]
 		}
 	},
+	"uncertain-dictate-or-command-control-toggle": {
+		"comment": "Windows speech-input mode toggle command. This may overlap semantically with dictate, but the local Windows source describes a broader dictation vs command/control mode switch rather than a direct dictate-launch key.",
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"linux-xkb-keysym": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"code": "0x2b",
+			"name": "APPCOMMAND_DICTATE_OR_COMMAND_CONTROL_TOGGLE",
+			"api": "appcommand",
+			"certainty": 0.35
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		}
+	},
+	"correction-list": {
+		"comment": "Windows speech-input correction-list command for showing alternate recognitions or corrections.",
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"linux-xkb-keysym": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"code": "0x2d",
+			"name": "APPCOMMAND_CORRECTION_LIST",
+			"api": "appcommand"
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		}
+	},
 	"camera-access-enable": {
 		"comment": "Camera control key for access enable.",
 		"hid": {
@@ -22733,6 +22810,124 @@
 		},
 		"keyd": "micmute"
 	},
+	"microphone-volume-down": {
+		"comment": "Windows microphone-volume decrease command.",
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"linux-xkb-keysym": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"code": "0x19",
+			"name": "APPCOMMAND_MICROPHONE_VOLUME_DOWN",
+			"api": "appcommand"
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		}
+	},
+	"uncertain-microphone-volume-mute": {
+		"comment": "Windows microphone-volume mute command. This may overlap semantically with mute-mic, but the local references do not prove that they are the same underlying key identity.",
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"linux-xkb-keysym": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"code": "0x18",
+			"name": "APPCOMMAND_MICROPHONE_VOLUME_MUTE",
+			"api": "appcommand",
+			"certainty": 0.35
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		}
+	},
+	"microphone-volume-up": {
+		"comment": "Windows microphone-volume increase command.",
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"linux-xkb-keysym": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"code": "0x1a",
+			"name": "APPCOMMAND_MICROPHONE_VOLUME_UP",
+			"api": "appcommand"
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		}
+	},
+	"uncertain-mic-on-off-toggle": {
+		"comment": "Windows microphone on/off toggle command. This may overlap semantically with mute-mic or microphone, but the local references do not prove a shared underlying key identity.",
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"linux-xkb-keysym": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"code": "0x2c",
+			"name": "APPCOMMAND_MIC_ON_OFF_TOGGLE",
+			"api": "appcommand",
+			"certainty": 0.35
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		}
+	},
 	"select": {
 		"comment": "Select / menu-pick key. The Linux kernel also maps HID Consumer Menu (0x0c/0x09) and Generic Desktop System Menu Select (0x01/0x89) to the same KEY_SELECT / XKB key, so those alternatives are preserved here for reference. Distinct from KEY_FRONT.",
 		"hid": {
@@ -23715,8 +23910,10 @@
 			"name": "XF86MailForward"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x28",
+			"name": "APPCOMMAND_FORWARD_MAIL",
+			"api": "appcommand",
+			"certainty": 0.85
 		},
 		"windows-virtual": {
 			"missing": true
@@ -25967,6 +26164,64 @@
 			"missing": true
 		},
 		"karabiner-elements": "bass_increment"
+	},
+	"treble-down": {
+		"comment": "Consumer audio-control key for lowering treble.",
+		"hid": {
+			"code": "0x0155",
+			"name": "Treble Decrement",
+			"page-num": "0xc",
+			"page-name": "Consumer"
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"code": "0x16",
+			"name": "APPCOMMAND_TREBLE_DOWN",
+			"api": "appcommand"
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		}
+	},
+	"treble-up": {
+		"comment": "Consumer audio-control key for raising treble.",
+		"hid": {
+			"code": "0x0154",
+			"name": "Treble Increment",
+			"page-num": "0xc",
+			"page-name": "Consumer"
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"code": "0x17",
+			"name": "APPCOMMAND_TREBLE_UP",
+			"api": "appcommand"
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		}
 	},
 	"locking-caps-lock": {
 		"comment": "Legacy mechanical-locking Caps Lock usage, distinct from ordinary Caps Lock.",
