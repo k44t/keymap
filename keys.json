@@ -5315,7 +5315,8 @@
 				"missing": true
 			},
 			"windows-virtual": {
-				"missing": true
+				"code": "0x01",
+				"name": "VK_LBUTTON"
 			},
 			"mac": {
 				"missing": true
@@ -7918,7 +7919,8 @@
 				"missing": true
 			},
 			"comment": "Primary pointer button. Distinct from keyboard keys even when remappers expose it in the same vocabulary.",
-			"keyd": "leftmouse"
+			"keyd": "leftmouse",
+			"autohotkey": "LButton"
 		},
 		"mouse-right": {
 			"hid": {
@@ -7942,7 +7944,8 @@
 				"missing": true
 			},
 			"windows-virtual": {
-				"missing": true
+				"code": "0x02",
+				"name": "VK_RBUTTON"
 			},
 			"mac": {
 				"missing": true
@@ -7951,7 +7954,8 @@
 				"missing": true
 			},
 			"comment": "Secondary pointer button.",
-			"keyd": "rightmouse"
+			"keyd": "rightmouse",
+			"autohotkey": "RButton"
 		},
 		"mouse-middle": {
 			"hid": {
@@ -7975,7 +7979,8 @@
 				"missing": true
 			},
 			"windows-virtual": {
-				"missing": true
+				"code": "0x04",
+				"name": "VK_MBUTTON"
 			},
 			"mac": {
 				"missing": true
@@ -7984,7 +7989,8 @@
 				"missing": true
 			},
 			"comment": "Middle pointer button.",
-			"keyd": "middlemouse"
+			"keyd": "middlemouse",
+			"autohotkey": "MButton"
 		},
 		"mouse-side": {
 			"hid": {
@@ -8008,7 +8014,8 @@
 				"missing": true
 			},
 			"windows-virtual": {
-				"missing": true
+				"code": "0x05",
+				"name": "VK_XBUTTON1"
 			},
 			"mac": {
 				"missing": true
@@ -8016,8 +8023,9 @@
 			"web": {
 				"missing": true
 			},
-			"comment": "Auxiliary side mouse button.",
-			"keyd": "mouse1"
+			"comment": "Auxiliary side mouse button. On Windows and AutoHotkey this is the 4th mouse button / XBUTTON1.",
+			"keyd": "mouse1",
+			"autohotkey": "XButton1"
 		},
 		"mouse-extra": {
 			"hid": {
@@ -8041,7 +8049,8 @@
 				"missing": true
 			},
 			"windows-virtual": {
-				"missing": true
+				"code": "0x06",
+				"name": "VK_XBUTTON2"
 			},
 			"mac": {
 				"missing": true
@@ -8049,8 +8058,9 @@
 			"web": {
 				"missing": true
 			},
-			"comment": "Second auxiliary side mouse button.",
-			"keyd": "mouse2"
+			"comment": "Second auxiliary side mouse button. On Windows and AutoHotkey this is the 5th mouse button / XBUTTON2.",
+			"keyd": "mouse2",
+			"autohotkey": "XButton2"
 		},
 		"mouse-forward": {
 			"hid": {
