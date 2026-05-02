@@ -27,9 +27,10 @@
 			"code": "0x30"
 		},
 		"mac": {
-			"code": "0x1d",
-			"name": "kVK_ANSI_0",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x1d",
+				"name": "kVK_ANSI_0"
+			}
 		},
 		"web": {
 			"name": "Digit0"
@@ -89,9 +90,10 @@
 			"code": "0x31"
 		},
 		"mac": {
-			"code": "0x12",
-			"name": "kVK_ANSI_1",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x12",
+				"name": "kVK_ANSI_1"
+			}
 		},
 		"web": {
 			"name": "Digit1"
@@ -151,9 +153,10 @@
 			"code": "0x32"
 		},
 		"mac": {
-			"code": "0x13",
-			"name": "kVK_ANSI_2",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x13",
+				"name": "kVK_ANSI_2"
+			}
 		},
 		"web": {
 			"name": "Digit2"
@@ -213,9 +216,10 @@
 			"code": "0x33"
 		},
 		"mac": {
-			"code": "0x14",
-			"name": "kVK_ANSI_3",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x14",
+				"name": "kVK_ANSI_3"
+			}
 		},
 		"web": {
 			"name": "Digit3"
@@ -275,9 +279,10 @@
 			"code": "0x34"
 		},
 		"mac": {
-			"code": "0x15",
-			"name": "kVK_ANSI_4",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x15",
+				"name": "kVK_ANSI_4"
+			}
 		},
 		"web": {
 			"name": "Digit4"
@@ -337,9 +342,10 @@
 			"code": "0x35"
 		},
 		"mac": {
-			"code": "0x17",
-			"name": "kVK_ANSI_5",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x17",
+				"name": "kVK_ANSI_5"
+			}
 		},
 		"web": {
 			"name": "Digit5"
@@ -399,9 +405,10 @@
 			"code": "0x36"
 		},
 		"mac": {
-			"code": "0x16",
-			"name": "kVK_ANSI_6",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x16",
+				"name": "kVK_ANSI_6"
+			}
 		},
 		"web": {
 			"name": "Digit6"
@@ -461,9 +468,10 @@
 			"code": "0x37"
 		},
 		"mac": {
-			"code": "0x1a",
-			"name": "kVK_ANSI_7",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x1a",
+				"name": "kVK_ANSI_7"
+			}
 		},
 		"web": {
 			"name": "Digit7"
@@ -523,9 +531,10 @@
 			"code": "0x38"
 		},
 		"mac": {
-			"code": "0x1c",
-			"name": "kVK_ANSI_8",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x1c",
+				"name": "kVK_ANSI_8"
+			}
 		},
 		"web": {
 			"name": "Digit8"
@@ -585,9 +594,10 @@
 			"code": "0x39"
 		},
 		"mac": {
-			"code": "0x19",
-			"name": "kVK_ANSI_9",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x19",
+				"name": "kVK_ANSI_9"
+			}
 		},
 		"web": {
 			"name": "Digit9"
@@ -647,9 +657,10 @@
 			"name": "VK_ESCAPE"
 		},
 		"mac": {
-			"code": "0x35",
-			"name": "kVK_Escape",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x35",
+				"name": "kVK_Escape"
+			}
 		},
 		"web": {
 			"name": "Escape"
@@ -712,9 +723,10 @@
 			"name": "VK_OEM_MINUS"
 		},
 		"mac": {
-			"code": "0x1b",
-			"name": "kVK_ANSI_Minus",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x1b",
+				"name": "kVK_ANSI_Minus"
+			}
 		},
 		"web": {
 			"name": "Minus"
@@ -781,9 +793,10 @@
 			"name": "VK_OEM_PLUS"
 		},
 		"mac": {
-			"code": "0x18",
-			"name": "kVK_ANSI_Equal",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x18",
+				"name": "kVK_ANSI_Equal"
+			}
 		},
 		"web": {
 			"name": "Equal"
@@ -849,9 +862,10 @@
 			"name": "VK_BACK"
 		},
 		"mac": {
-			"code": "0x33",
-			"name": "kVK_Delete",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x33",
+				"name": "kVK_Delete"
+			}
 		},
 		"web": {
 			"name": "Backspace"
@@ -912,9 +926,10 @@
 			"name": "VK_TAB"
 		},
 		"mac": {
-			"code": "0x30",
-			"name": "kVK_Tab",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x30",
+				"name": "kVK_Tab"
+			}
 		},
 		"web": {
 			"name": "Tab"
@@ -966,9 +981,10 @@
 			"code": "0x51"
 		},
 		"mac": {
-			"code": "0xc",
-			"name": "kVK_ANSI_Q",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0xc",
+				"name": "kVK_ANSI_Q"
+			}
 		},
 		"web": {
 			"name": "KeyQ"
@@ -1028,9 +1044,10 @@
 			"code": "0x57"
 		},
 		"mac": {
-			"code": "0xd",
-			"name": "kVK_ANSI_W",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0xd",
+				"name": "kVK_ANSI_W"
+			}
 		},
 		"web": {
 			"name": "KeyW"
@@ -1090,9 +1107,10 @@
 			"code": "0x45"
 		},
 		"mac": {
-			"code": "0xe",
-			"name": "kVK_ANSI_E",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0xe",
+				"name": "kVK_ANSI_E"
+			}
 		},
 		"web": {
 			"name": "KeyE"
@@ -1152,9 +1170,10 @@
 			"code": "0x52"
 		},
 		"mac": {
-			"code": "0xf",
-			"name": "kVK_ANSI_R",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0xf",
+				"name": "kVK_ANSI_R"
+			}
 		},
 		"web": {
 			"name": "KeyR"
@@ -1214,9 +1233,10 @@
 			"code": "0x54"
 		},
 		"mac": {
-			"code": "0x11",
-			"name": "kVK_ANSI_T",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x11",
+				"name": "kVK_ANSI_T"
+			}
 		},
 		"web": {
 			"name": "KeyT"
@@ -1276,9 +1296,10 @@
 			"code": "0x59"
 		},
 		"mac": {
-			"code": "0x10",
-			"name": "kVK_ANSI_Y",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x10",
+				"name": "kVK_ANSI_Y"
+			}
 		},
 		"web": {
 			"name": "KeyY"
@@ -1338,9 +1359,10 @@
 			"code": "0x55"
 		},
 		"mac": {
-			"code": "0x20",
-			"name": "kVK_ANSI_U",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x20",
+				"name": "kVK_ANSI_U"
+			}
 		},
 		"web": {
 			"name": "KeyU"
@@ -1400,9 +1422,10 @@
 			"code": "0x49"
 		},
 		"mac": {
-			"code": "0x22",
-			"name": "kVK_ANSI_I",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x22",
+				"name": "kVK_ANSI_I"
+			}
 		},
 		"web": {
 			"name": "KeyI"
@@ -1462,9 +1485,10 @@
 			"code": "0x4f"
 		},
 		"mac": {
-			"code": "0x1f",
-			"name": "kVK_ANSI_O",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x1f",
+				"name": "kVK_ANSI_O"
+			}
 		},
 		"web": {
 			"name": "KeyO"
@@ -1524,9 +1548,10 @@
 			"code": "0x50"
 		},
 		"mac": {
-			"code": "0x23",
-			"name": "kVK_ANSI_P",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x23",
+				"name": "kVK_ANSI_P"
+			}
 		},
 		"web": {
 			"name": "KeyP"
@@ -1587,9 +1612,10 @@
 			"name": "VK_OEM_4"
 		},
 		"mac": {
-			"code": "0x21",
-			"name": "kVK_ANSI_LeftBracket",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x21",
+				"name": "kVK_ANSI_LeftBracket"
+			}
 		},
 		"web": {
 			"name": "BracketLeft"
@@ -1659,9 +1685,10 @@
 			"name": "VK_OEM_6"
 		},
 		"mac": {
-			"code": "0x1e",
-			"name": "kVK_ANSI_RightBracket",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x1e",
+				"name": "kVK_ANSI_RightBracket"
+			}
 		},
 		"web": {
 			"name": "BracketRight"
@@ -1731,9 +1758,10 @@
 			"name": "VK_RETURN"
 		},
 		"mac": {
-			"code": "0x24",
-			"name": "kVK_Return",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x24",
+				"name": "kVK_Return"
+			}
 		},
 		"web": {
 			"name": "Enter"
@@ -1795,9 +1823,10 @@
 			"name": "VK_LCONTROL"
 		},
 		"mac": {
-			"code": "0x3b",
-			"name": "kVK_Control",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x3b",
+				"name": "kVK_Control"
+			}
 		},
 		"web": {
 			"name": "ControlLeft"
@@ -1858,9 +1887,10 @@
 			"code": "0x41"
 		},
 		"mac": {
-			"code": "0x0",
-			"name": "kVK_ANSI_A",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x0",
+				"name": "kVK_ANSI_A"
+			}
 		},
 		"web": {
 			"name": "KeyA"
@@ -1920,9 +1950,10 @@
 			"code": "0x53"
 		},
 		"mac": {
-			"code": "0x1",
-			"name": "kVK_ANSI_S",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x1",
+				"name": "kVK_ANSI_S"
+			}
 		},
 		"web": {
 			"name": "KeyS"
@@ -1982,9 +2013,10 @@
 			"code": "0x44"
 		},
 		"mac": {
-			"code": "0x2",
-			"name": "kVK_ANSI_D",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x2",
+				"name": "kVK_ANSI_D"
+			}
 		},
 		"web": {
 			"name": "KeyD"
@@ -2044,9 +2076,10 @@
 			"code": "0x46"
 		},
 		"mac": {
-			"code": "0x3",
-			"name": "kVK_ANSI_F",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x3",
+				"name": "kVK_ANSI_F"
+			}
 		},
 		"web": {
 			"name": "KeyF"
@@ -2106,9 +2139,10 @@
 			"code": "0x47"
 		},
 		"mac": {
-			"code": "0x5",
-			"name": "kVK_ANSI_G",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x5",
+				"name": "kVK_ANSI_G"
+			}
 		},
 		"web": {
 			"name": "KeyG"
@@ -2168,9 +2202,10 @@
 			"code": "0x48"
 		},
 		"mac": {
-			"code": "0x4",
-			"name": "kVK_ANSI_H",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x4",
+				"name": "kVK_ANSI_H"
+			}
 		},
 		"web": {
 			"name": "KeyH"
@@ -2230,9 +2265,10 @@
 			"code": "0x4a"
 		},
 		"mac": {
-			"code": "0x26",
-			"name": "kVK_ANSI_J",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x26",
+				"name": "kVK_ANSI_J"
+			}
 		},
 		"web": {
 			"name": "KeyJ"
@@ -2292,9 +2328,10 @@
 			"code": "0x4b"
 		},
 		"mac": {
-			"code": "0x28",
-			"name": "kVK_ANSI_K",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x28",
+				"name": "kVK_ANSI_K"
+			}
 		},
 		"web": {
 			"name": "KeyK"
@@ -2354,9 +2391,10 @@
 			"code": "0x4c"
 		},
 		"mac": {
-			"code": "0x25",
-			"name": "kVK_ANSI_L",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x25",
+				"name": "kVK_ANSI_L"
+			}
 		},
 		"web": {
 			"name": "KeyL"
@@ -2417,9 +2455,10 @@
 			"name": "VK_OEM_7"
 		},
 		"mac": {
-			"code": "0x27",
-			"name": "kVK_ANSI_Quote",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x27",
+				"name": "kVK_ANSI_Quote"
+			}
 		},
 		"web": {
 			"name": "Quote"
@@ -2489,9 +2528,10 @@
 			"name": "VK_OEM_3"
 		},
 		"mac": {
-			"code": "0x32",
-			"name": "kVK_ANSI_Grave",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x32",
+				"name": "kVK_ANSI_Grave"
+			}
 		},
 		"web": {
 			"name": "Backquote"
@@ -2559,9 +2599,10 @@
 			"name": "VK_LSHIFT"
 		},
 		"mac": {
-			"code": "0x38",
-			"name": "kVK_Shift",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x38",
+				"name": "kVK_Shift"
+			}
 		},
 		"web": {
 			"name": "ShiftLeft"
@@ -2624,9 +2665,10 @@
 			"name": "VK_OEM_5"
 		},
 		"mac": {
-			"code": "0x2a",
-			"name": "kVK_ANSI_Backslash",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x2a",
+				"name": "kVK_ANSI_Backslash"
+			}
 		},
 		"web": {
 			"name": "Backslash"
@@ -2696,7 +2738,8 @@
 			"unknown": true
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"unknown": true
 		},
 		"web": {
 			"missing": true,
@@ -2738,9 +2781,10 @@
 			"code": "0x5a"
 		},
 		"mac": {
-			"code": "0x6",
-			"name": "kVK_ANSI_Z",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x6",
+				"name": "kVK_ANSI_Z"
+			}
 		},
 		"web": {
 			"name": "KeyZ"
@@ -2800,9 +2844,10 @@
 			"code": "0x58"
 		},
 		"mac": {
-			"code": "0x7",
-			"name": "kVK_ANSI_X",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x7",
+				"name": "kVK_ANSI_X"
+			}
 		},
 		"web": {
 			"name": "KeyX"
@@ -2862,9 +2907,10 @@
 			"code": "0x43"
 		},
 		"mac": {
-			"code": "0x8",
-			"name": "kVK_ANSI_C",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x8",
+				"name": "kVK_ANSI_C"
+			}
 		},
 		"web": {
 			"name": "KeyC"
@@ -2924,9 +2970,10 @@
 			"code": "0x56"
 		},
 		"mac": {
-			"code": "0x9",
-			"name": "kVK_ANSI_V",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x9",
+				"name": "kVK_ANSI_V"
+			}
 		},
 		"web": {
 			"name": "KeyV"
@@ -2986,9 +3033,10 @@
 			"code": "0x42"
 		},
 		"mac": {
-			"code": "0xb",
-			"name": "kVK_ANSI_B",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0xb",
+				"name": "kVK_ANSI_B"
+			}
 		},
 		"web": {
 			"name": "KeyB"
@@ -3048,9 +3096,10 @@
 			"code": "0x4e"
 		},
 		"mac": {
-			"code": "0x2d",
-			"name": "kVK_ANSI_N",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x2d",
+				"name": "kVK_ANSI_N"
+			}
 		},
 		"web": {
 			"name": "KeyN"
@@ -3110,9 +3159,10 @@
 			"code": "0x4d"
 		},
 		"mac": {
-			"code": "0x2e",
-			"name": "kVK_ANSI_M",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x2e",
+				"name": "kVK_ANSI_M"
+			}
 		},
 		"web": {
 			"name": "KeyM"
@@ -3173,9 +3223,10 @@
 			"name": "VK_OEM_COMMA"
 		},
 		"mac": {
-			"code": "0x2b",
-			"name": "kVK_ANSI_Comma",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x2b",
+				"name": "kVK_ANSI_Comma"
+			}
 		},
 		"web": {
 			"name": "Comma"
@@ -3241,9 +3292,10 @@
 			"name": "VK_OEM_PERIOD"
 		},
 		"mac": {
-			"code": "0x2f",
-			"name": "kVK_ANSI_Period",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x2f",
+				"name": "kVK_ANSI_Period"
+			}
 		},
 		"web": {
 			"name": "Period"
@@ -3307,9 +3359,10 @@
 			"name": "VK_OEM_2"
 		},
 		"mac": {
-			"code": "0x2c",
-			"name": "kVK_ANSI_Slash",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x2c",
+				"name": "kVK_ANSI_Slash"
+			}
 		},
 		"web": {
 			"name": "Slash"
@@ -3373,9 +3426,10 @@
 			"name": "VK_RSHIFT"
 		},
 		"mac": {
-			"code": "0x3c",
-			"name": "kVK_RightShift",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x3c",
+				"name": "kVK_RightShift"
+			}
 		},
 		"web": {
 			"name": "ShiftRight"
@@ -3433,9 +3487,10 @@
 			"name": "VK_MULTIPLY"
 		},
 		"mac": {
-			"code": "0x43",
-			"name": "kVK_ANSI_KeypadMultiply",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x43",
+				"name": "kVK_ANSI_KeypadMultiply"
+			}
 		},
 		"web": {
 			"name": "NumpadMultiply"
@@ -3488,9 +3543,10 @@
 			"name": "VK_LMENU"
 		},
 		"mac": {
-			"code": "0x3a",
-			"name": "kVK_Option",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x3a",
+				"name": "kVK_Option"
+			}
 		},
 		"web": {
 			"name": "AltLeft"
@@ -3550,9 +3606,10 @@
 			"name": "VK_SPACE"
 		},
 		"mac": {
-			"code": "0x31",
-			"name": "kVK_Space",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x31",
+				"name": "kVK_Space"
+			}
 		},
 		"web": {
 			"name": "Space"
@@ -3606,9 +3663,14 @@
 			"name": "VK_CAPITAL"
 		},
 		"mac": {
-			"code": "0x39",
-			"name": "kVK_CapsLock",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x39",
+				"name": "kVK_CapsLock"
+			},
+			"media-event": {
+				"code": "0x4",
+				"name": "NX_KEYTYPE_CAPS_LOCK"
+			}
 		},
 		"web": {
 			"name": "CapsLock"
@@ -3661,9 +3723,14 @@
 			"name": "VK_F1"
 		},
 		"mac": {
-			"code": "0x7a",
-			"name": "kVK_F1",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x7a",
+				"name": "kVK_F1"
+			},
+			"function-character": {
+				"code": "0xF704",
+				"name": "NSF1FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F1"
@@ -3714,9 +3781,14 @@
 			"name": "VK_F2"
 		},
 		"mac": {
-			"code": "0x78",
-			"name": "kVK_F2",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x78",
+				"name": "kVK_F2"
+			},
+			"function-character": {
+				"code": "0xF705",
+				"name": "NSF2FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F2"
@@ -3767,9 +3839,14 @@
 			"name": "VK_F3"
 		},
 		"mac": {
-			"code": "0x63",
-			"name": "kVK_F3",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x63",
+				"name": "kVK_F3"
+			},
+			"function-character": {
+				"code": "0xF706",
+				"name": "NSF3FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F3"
@@ -3820,9 +3897,14 @@
 			"name": "VK_F4"
 		},
 		"mac": {
-			"code": "0x76",
-			"name": "kVK_F4",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x76",
+				"name": "kVK_F4"
+			},
+			"function-character": {
+				"code": "0xF707",
+				"name": "NSF4FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F4"
@@ -3873,9 +3955,14 @@
 			"name": "VK_F5"
 		},
 		"mac": {
-			"code": "0x60",
-			"name": "kVK_F5",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x60",
+				"name": "kVK_F5"
+			},
+			"function-character": {
+				"code": "0xF708",
+				"name": "NSF5FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F5"
@@ -3926,9 +4013,14 @@
 			"name": "VK_F6"
 		},
 		"mac": {
-			"code": "0x61",
-			"name": "kVK_F6",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x61",
+				"name": "kVK_F6"
+			},
+			"function-character": {
+				"code": "0xF709",
+				"name": "NSF6FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F6"
@@ -3979,9 +4071,14 @@
 			"name": "VK_F7"
 		},
 		"mac": {
-			"code": "0x62",
-			"name": "kVK_F7",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x62",
+				"name": "kVK_F7"
+			},
+			"function-character": {
+				"code": "0xF70A",
+				"name": "NSF7FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F7"
@@ -4032,9 +4129,14 @@
 			"name": "VK_F8"
 		},
 		"mac": {
-			"code": "0x64",
-			"name": "kVK_F8",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x64",
+				"name": "kVK_F8"
+			},
+			"function-character": {
+				"code": "0xF70B",
+				"name": "NSF8FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F8"
@@ -4085,9 +4187,14 @@
 			"name": "VK_F9"
 		},
 		"mac": {
-			"code": "0x65",
-			"name": "kVK_F9",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x65",
+				"name": "kVK_F9"
+			},
+			"function-character": {
+				"code": "0xF70C",
+				"name": "NSF9FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F9"
@@ -4138,9 +4245,14 @@
 			"name": "VK_F10"
 		},
 		"mac": {
-			"code": "0x6d",
-			"name": "kVK_F10",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x6d",
+				"name": "kVK_F10"
+			},
+			"function-character": {
+				"code": "0xF70D",
+				"name": "NSF10FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F10"
@@ -4191,9 +4303,14 @@
 			"name": "VK_NUMLOCK"
 		},
 		"mac": {
-			"code": "0x47",
-			"name": "kVK_ANSI_KeypadClear",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x47",
+				"name": "kVK_ANSI_KeypadClear"
+			},
+			"media-event": {
+				"code": "0xa",
+				"name": "NX_KEYTYPE_NUM_LOCK"
+			}
 		},
 		"web": {
 			"name": "NumLock"
@@ -4247,9 +4364,10 @@
 			"name": "VK_SCROLL"
 		},
 		"mac": {
-			"code": "0xF72F",
-			"name": "NSScrollLockFunctionKey",
-			"api": "function-character"
+			"function-character": {
+				"code": "0xF72F",
+				"name": "NSScrollLockFunctionKey"
+			}
 		},
 		"web": {
 			"name": "ScrollLock"
@@ -4304,9 +4422,10 @@
 			"name": "VK_NUMPAD7"
 		},
 		"mac": {
-			"code": "0x59",
-			"name": "kVK_ANSI_Keypad7",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x59",
+				"name": "kVK_ANSI_Keypad7"
+			}
 		},
 		"web": {
 			"name": "Numpad7"
@@ -4368,9 +4487,10 @@
 			"name": "VK_NUMPAD8"
 		},
 		"mac": {
-			"code": "0x5b",
-			"name": "kVK_ANSI_Keypad8",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x5b",
+				"name": "kVK_ANSI_Keypad8"
+			}
 		},
 		"web": {
 			"name": "Numpad8"
@@ -4432,9 +4552,10 @@
 			"name": "VK_NUMPAD9"
 		},
 		"mac": {
-			"code": "0x5c",
-			"name": "kVK_ANSI_Keypad9",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x5c",
+				"name": "kVK_ANSI_Keypad9"
+			}
 		},
 		"web": {
 			"name": "Numpad9"
@@ -4496,9 +4617,10 @@
 			"name": "VK_SUBTRACT"
 		},
 		"mac": {
-			"code": "0x4e",
-			"name": "kVK_ANSI_KeypadMinus",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x4e",
+				"name": "kVK_ANSI_KeypadMinus"
+			}
 		},
 		"web": {
 			"name": "NumpadSubtract"
@@ -4551,9 +4673,10 @@
 			"name": "VK_NUMPAD4"
 		},
 		"mac": {
-			"code": "0x56",
-			"name": "kVK_ANSI_Keypad4",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x56",
+				"name": "kVK_ANSI_Keypad4"
+			}
 		},
 		"web": {
 			"name": "Numpad4"
@@ -4615,9 +4738,10 @@
 			"name": "VK_NUMPAD5"
 		},
 		"mac": {
-			"code": "0x57",
-			"name": "kVK_ANSI_Keypad5",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x57",
+				"name": "kVK_ANSI_Keypad5"
+			}
 		},
 		"web": {
 			"name": "Numpad5"
@@ -4679,9 +4803,10 @@
 			"name": "VK_NUMPAD6"
 		},
 		"mac": {
-			"code": "0x58",
-			"name": "kVK_ANSI_Keypad6",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x58",
+				"name": "kVK_ANSI_Keypad6"
+			}
 		},
 		"web": {
 			"name": "Numpad6"
@@ -4743,9 +4868,10 @@
 			"name": "VK_ADD"
 		},
 		"mac": {
-			"code": "0x45",
-			"name": "kVK_ANSI_KeypadPlus",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x45",
+				"name": "kVK_ANSI_KeypadPlus"
+			}
 		},
 		"web": {
 			"name": "NumpadAdd"
@@ -4799,9 +4925,10 @@
 			"name": "VK_NUMPAD1"
 		},
 		"mac": {
-			"code": "0x53",
-			"name": "kVK_ANSI_Keypad1",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x53",
+				"name": "kVK_ANSI_Keypad1"
+			}
 		},
 		"web": {
 			"name": "Numpad1"
@@ -4863,9 +4990,10 @@
 			"name": "VK_NUMPAD2"
 		},
 		"mac": {
-			"code": "0x54",
-			"name": "kVK_ANSI_Keypad2",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x54",
+				"name": "kVK_ANSI_Keypad2"
+			}
 		},
 		"web": {
 			"name": "Numpad2"
@@ -4927,9 +5055,10 @@
 			"name": "VK_NUMPAD3"
 		},
 		"mac": {
-			"code": "0x55",
-			"name": "kVK_ANSI_Keypad3",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x55",
+				"name": "kVK_ANSI_Keypad3"
+			}
 		},
 		"web": {
 			"name": "Numpad3"
@@ -4991,9 +5120,10 @@
 			"name": "VK_NUMPAD0"
 		},
 		"mac": {
-			"code": "0x52",
-			"name": "kVK_ANSI_Keypad0",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x52",
+				"name": "kVK_ANSI_Keypad0"
+			}
 		},
 		"web": {
 			"name": "Numpad0"
@@ -5055,9 +5185,10 @@
 			"name": "VK_DECIMAL"
 		},
 		"mac": {
-			"code": "0x41",
-			"name": "kVK_ANSI_KeypadDecimal",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x41",
+				"name": "kVK_ANSI_KeypadDecimal"
+			}
 		},
 		"web": {
 			"name": "NumpadDecimal"
@@ -5121,9 +5252,10 @@
 			"name": "VK_OEM_102"
 		},
 		"mac": {
-			"code": "0xa",
-			"name": "kVK_ISO_Section",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0xa",
+				"name": "kVK_ISO_Section"
+			}
 		},
 		"web": {
 			"name": "IntlBackslash"
@@ -5187,9 +5319,14 @@
 			"name": "VK_F11"
 		},
 		"mac": {
-			"code": "0x67",
-			"name": "kVK_F11",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x67",
+				"name": "kVK_F11"
+			},
+			"function-character": {
+				"code": "0xF70E",
+				"name": "NSF11FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F11"
@@ -5240,9 +5377,14 @@
 			"name": "VK_F12"
 		},
 		"mac": {
-			"code": "0x6f",
-			"name": "kVK_F12",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x6f",
+				"name": "kVK_F12"
+			},
+			"function-character": {
+				"code": "0xF70F",
+				"name": "NSF12FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F12"
@@ -5293,7 +5435,10 @@
 			"name": "VK_ABNT_C1"
 		},
 		"mac": {
-			"code": "0x5e"
+			"virtual-keycode": {
+				"code": "0x5e",
+				"name": "kVK_JIS_Underscore"
+			}
 		},
 		"web": {
 			"name": "IntlRo"
@@ -5423,9 +5568,10 @@
 			"name": "VK_KANA"
 		},
 		"mac": {
-			"code": "0x68",
-			"name": "kVK_JIS_Kana",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x68",
+				"name": "kVK_JIS_Kana"
+			}
 		},
 		"web": {
 			"name": "KanaMode"
@@ -5553,9 +5699,10 @@
 			"comment": "Windows exposes keypad Enter through the generic Return virtual key rather than a distinct keypad-enter virtual key."
 		},
 		"mac": {
-			"code": "0x4c",
-			"name": "kVK_ANSI_KeypadEnter",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x4c",
+				"name": "kVK_ANSI_KeypadEnter"
+			}
 		},
 		"web": {
 			"name": "NumpadEnter"
@@ -5616,9 +5763,10 @@
 			"name": "VK_RCONTROL"
 		},
 		"mac": {
-			"code": "0x3e",
-			"name": "kVK_RightControl",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x3e",
+				"name": "kVK_RightControl"
+			}
 		},
 		"web": {
 			"name": "ControlRight"
@@ -5679,9 +5827,10 @@
 			"name": "VK_DIVIDE"
 		},
 		"mac": {
-			"code": "0x4b",
-			"name": "kVK_ANSI_KeypadDivide",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x4b",
+				"name": "kVK_ANSI_KeypadDivide"
+			}
 		},
 		"web": {
 			"name": "NumpadDivide"
@@ -5734,9 +5883,10 @@
 			"name": "VK_SNAPSHOT"
 		},
 		"mac": {
-			"code": "0xF72E",
-			"name": "NSPrintScreenFunctionKey",
-			"api": "function-character"
+			"function-character": {
+				"code": "0xF72E",
+				"name": "NSPrintScreenFunctionKey"
+			}
 		},
 		"web": {
 			"name": "PrintScreen"
@@ -5796,9 +5946,10 @@
 			"name": "VK_RMENU"
 		},
 		"mac": {
-			"code": "0x3d",
-			"name": "kVK_RightOption",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x3d",
+				"name": "kVK_RightOption"
+			}
 		},
 		"web": {
 			"name": "AltRight"
@@ -5900,9 +6051,14 @@
 			"name": "VK_HOME"
 		},
 		"mac": {
-			"code": "0x73",
-			"name": "kVK_Home",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x73",
+				"name": "kVK_Home"
+			},
+			"function-character": {
+				"code": "0xF729",
+				"name": "NSHomeFunctionKey"
+			}
 		},
 		"web": {
 			"name": "Home"
@@ -5928,6 +6084,36 @@
 		"keyd": "home",
 		"karabiner-elements": "home",
 		"autohotkey": "Home"
+	},
+	"uncertain-begin": {
+		"comment": "AppKit semantic begin function-character identity, likely representing begin-of-line behavior rather than a distinct physical key.",
+		"certainty": 0.55,
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"function-character": {
+				"code": "0xF72A",
+				"name": "NSBeginFunctionKey",
+				"certainty": 0.55
+			}
+		},
+		"web": {
+			"missing": true
+		}
 	},
 	"arrow-up": {
 		"hid": {
@@ -5957,9 +6143,14 @@
 			"name": "VK_UP"
 		},
 		"mac": {
-			"code": "0x7e",
-			"name": "kVK_UpArrow",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x7e",
+				"name": "kVK_UpArrow"
+			},
+			"function-character": {
+				"code": "0xF700",
+				"name": "NSUpArrowFunctionKey"
+			}
 		},
 		"web": {
 			"name": "ArrowUp"
@@ -6012,9 +6203,14 @@
 			"name": "VK_PRIOR"
 		},
 		"mac": {
-			"code": "0x74",
-			"name": "kVK_PageUp",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x74",
+				"name": "kVK_PageUp"
+			},
+			"function-character": {
+				"code": "0xF72C",
+				"name": "NSPageUpFunctionKey"
+			}
 		},
 		"web": {
 			"name": "PageUp"
@@ -6068,9 +6264,14 @@
 			"name": "VK_LEFT"
 		},
 		"mac": {
-			"code": "0x7b",
-			"name": "kVK_LeftArrow",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x7b",
+				"name": "kVK_LeftArrow"
+			},
+			"function-character": {
+				"code": "0xF702",
+				"name": "NSLeftArrowFunctionKey"
+			}
 		},
 		"web": {
 			"name": "ArrowLeft"
@@ -6125,9 +6326,14 @@
 			"name": "VK_RIGHT"
 		},
 		"mac": {
-			"code": "0x7c",
-			"name": "kVK_RightArrow",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x7c",
+				"name": "kVK_RightArrow"
+			},
+			"function-character": {
+				"code": "0xF703",
+				"name": "NSRightArrowFunctionKey"
+			}
 		},
 		"web": {
 			"name": "ArrowRight"
@@ -6182,9 +6388,14 @@
 			"name": "VK_END"
 		},
 		"mac": {
-			"code": "0x77",
-			"name": "kVK_End",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x77",
+				"name": "kVK_End"
+			},
+			"function-character": {
+				"code": "0xF72B",
+				"name": "NSEndFunctionKey"
+			}
 		},
 		"web": {
 			"name": "End"
@@ -6239,9 +6450,14 @@
 			"name": "VK_DOWN"
 		},
 		"mac": {
-			"code": "0x7d",
-			"name": "kVK_DownArrow",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x7d",
+				"name": "kVK_DownArrow"
+			},
+			"function-character": {
+				"code": "0xF701",
+				"name": "NSDownArrowFunctionKey"
+			}
 		},
 		"web": {
 			"name": "ArrowDown"
@@ -6294,9 +6510,14 @@
 			"name": "VK_NEXT"
 		},
 		"mac": {
-			"code": "0x79",
-			"name": "kVK_PageDown",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x79",
+				"name": "kVK_PageDown"
+			},
+			"function-character": {
+				"code": "0xF72D",
+				"name": "NSPageDownFunctionKey"
+			}
 		},
 		"web": {
 			"name": "PageDown"
@@ -6350,10 +6571,11 @@
 			"name": "VK_INSERT"
 		},
 		"mac": {
-			"code": "0xF727",
-			"name": "NSInsertFunctionKey",
-			"api": "function-character",
-			"comment": "AppKit distinguishes Insert via NSInsertFunctionKey. In the virtual-keycode API, both Insert and Help collapse onto kVK_Help."
+			"function-character": {
+				"code": "0xF727",
+				"name": "NSInsertFunctionKey",
+				"comment": "AppKit distinguishes Insert via NSInsertFunctionKey. In the virtual-keycode API, both Insert and Help collapse onto kVK_Help."
+			}
 		},
 		"web": {
 			"name": "Insert"
@@ -6411,9 +6633,14 @@
 			"name": "VK_DELETE"
 		},
 		"mac": {
-			"code": "0x75",
-			"name": "kVK_ForwardDelete",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x75",
+				"name": "kVK_ForwardDelete"
+			},
+			"function-character": {
+				"code": "0xF728",
+				"name": "NSDeleteFunctionKey"
+			}
 		},
 		"web": {
 			"name": "Delete"
@@ -6442,6 +6669,36 @@
 			"aliases": [
 				"Del"
 			]
+		}
+	},
+	"uncertain-delete-char": {
+		"comment": "AppKit semantic delete-character function-character identity.",
+		"certainty": 0.6,
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"function-character": {
+				"code": "0xF73E",
+				"name": "NSDeleteCharFunctionKey",
+				"certainty": 0.6
+			}
+		},
+		"web": {
+			"missing": true
 		}
 	},
 	"macro": {
@@ -6513,15 +6770,13 @@
 			"name": "VK_VOLUME_MUTE"
 		},
 		"mac": {
-			"code": "0x7",
-			"name": "NX_KEYTYPE_MUTE",
-			"api": "media-event",
-			"alternatives": {
-				"virtual-keycode": {
-					"code": "0x4a",
-					"name": "kVK_Mute",
-					"api": "virtual-keycode"
-				}
+			"media-event": {
+				"code": "0x7",
+				"name": "NX_KEYTYPE_MUTE"
+			},
+			"virtual-keycode": {
+				"code": "0x4a",
+				"name": "kVK_Mute"
 			}
 		},
 		"web": {
@@ -6579,15 +6834,13 @@
 			"name": "VK_VOLUME_DOWN"
 		},
 		"mac": {
-			"code": "0x1",
-			"name": "NX_KEYTYPE_SOUND_DOWN",
-			"api": "media-event",
-			"alternatives": {
-				"virtual-keycode": {
-					"code": "0x49",
-					"name": "kVK_VolumeDown",
-					"api": "virtual-keycode"
-				}
+			"media-event": {
+				"code": "0x1",
+				"name": "NX_KEYTYPE_SOUND_DOWN"
+			},
+			"virtual-keycode": {
+				"code": "0x49",
+				"name": "kVK_VolumeDown"
 			}
 		},
 		"web": {
@@ -6652,15 +6905,13 @@
 			"name": "VK_VOLUME_UP"
 		},
 		"mac": {
-			"code": "0x0",
-			"name": "NX_KEYTYPE_SOUND_UP",
-			"api": "media-event",
-			"alternatives": {
-				"virtual-keycode": {
-					"code": "0x48",
-					"name": "kVK_VolumeUp",
-					"api": "virtual-keycode"
-				}
+			"media-event": {
+				"code": "0x0",
+				"name": "NX_KEYTYPE_SOUND_UP"
+			},
+			"virtual-keycode": {
+				"code": "0x48",
+				"name": "kVK_VolumeUp"
 			}
 		},
 		"web": {
@@ -6767,9 +7018,10 @@
 			"name": "VK_PAUSE"
 		},
 		"mac": {
-			"code": "0xF730",
-			"name": "NSPauseFunctionKey",
-			"api": "function-character"
+			"function-character": {
+				"code": "0xF730",
+				"name": "NSPauseFunctionKey"
+			}
 		},
 		"web": {
 			"name": "Pause"
@@ -6825,7 +7077,11 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF73B",
+				"name": "NSInsertLineFunctionKey",
+				"certainty": 0.85
+			}
 		},
 		"web": {
 			"name": "ShowAllWindows"
@@ -6872,7 +7128,9 @@
 			"name": "VK_HANGUL"
 		},
 		"mac": {
-			"code": "0x68"
+			"virtual-keycode": {
+				"code": "0x68"
+			}
 		},
 		"web": {
 			"name": "Lang1"
@@ -6931,9 +7189,10 @@
 			"name": "VK_HANJA"
 		},
 		"mac": {
-			"code": "0x66",
-			"name": "kVK_JIS_Eisu",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x66",
+				"name": "kVK_JIS_Eisu"
+			}
 		},
 		"web": {
 			"name": "Lang2"
@@ -6993,9 +7252,10 @@
 			"comment": "Windows distinguishes this key at the scan-code level, but the available JP layout evidence did not establish a distinct canonical virtual key for IntlYen."
 		},
 		"mac": {
-			"code": "0x5d",
-			"name": "kVK_JIS_Yen",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x5d",
+				"name": "kVK_JIS_Yen"
+			}
 		},
 		"web": {
 			"name": "IntlYen"
@@ -7017,7 +7277,7 @@
 		"karabiner-elements": "international3",
 		"autohotkey": "SC07D"
 	},
-	"meta-left": {
+	"system-left": {
 		"hid": {
 			"code": "0xe3",
 			"name": "Keyboard Left GUI",
@@ -7048,9 +7308,10 @@
 			"name": "VK_LWIN"
 		},
 		"mac": {
-			"code": "0x37",
-			"name": "kVK_Command",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x37",
+				"name": "kVK_Command"
+			}
 		},
 		"web": {
 			"name": "MetaLeft"
@@ -7086,7 +7347,7 @@
 		},
 		"autohotkey": "LWin"
 	},
-	"meta-right": {
+	"system-right": {
 		"hid": {
 			"code": "0xe7",
 			"name": "Keyboard Right GUI",
@@ -7117,9 +7378,10 @@
 			"name": "VK_RWIN"
 		},
 		"mac": {
-			"code": "0x36",
-			"name": "kVK_RightCommand",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x36",
+				"name": "kVK_RightCommand"
+			}
 		},
 		"web": {
 			"name": "MetaRight"
@@ -7179,7 +7441,11 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF73C",
+				"name": "NSDeleteLineFunctionKey",
+				"certainty": 0.9
+			}
 		},
 		"web": {
 			"missing": true
@@ -7264,7 +7530,14 @@
 		},
 		"windows-scancode": {
 			"code": "0xe068",
-			"api": "scancode"
+			"api": "scancode",
+			"alternatives": {
+				"appcommand": {
+					"code": "0x4",
+					"name": "APPCOMMAND_BROWSER_STOP",
+					"api": "appcommand"
+				}
+			}
 		},
 		"windows-virtual": {
 			"code": "0xa9",
@@ -7316,9 +7589,19 @@
 			"name": "VK_APPS"
 		},
 		"mac": {
-			"code": "0x6e",
-			"name": "kVK_ContextualMenu",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x6e",
+				"name": "kVK_ContextualMenu"
+			},
+			"media-event": {
+				"code": "0x19",
+				"name": "NX_KEYTYPE_MENU"
+			},
+			"function-character": {
+				"code": "0xF735",
+				"name": "NSMenuFunctionKey",
+				"certainty": 0.9
+			}
 		},
 		"web": {
 			"name": "ContextMenu"
@@ -7358,8 +7641,9 @@
 			"name": "3270_Setup"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x34",
+			"name": "APPCOMMAND_MEDIA_CHANNEL_DOWN",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
@@ -7445,7 +7729,11 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF733",
+				"name": "NSResetFunctionKey",
+				"certainty": 0.4
+			}
 		},
 		"web": {
 			"missing": true
@@ -7484,9 +7772,7 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0xF744",
-			"name": "NSRedoFunctionKey",
-			"api": "function-character"
+			"missing": true
 		},
 		"web": {
 			"missing": true
@@ -7523,16 +7809,21 @@
 		},
 		"windows-scancode": {
 			"api": "scancode",
-			"missing": true
+			"missing": true,
+			"alternatives": {
+				"appcommand": {
+					"code": "0x11",
+					"name": "APPCOMMAND_LAUNCH_APP1",
+					"api": "appcommand"
+				}
+			}
 		},
 		"windows-virtual": {
 			"code": "0xb6",
 			"name": "VK_LAUNCH_APP1"
 		},
 		"mac": {
-			"code": "0xF743",
-			"name": "NSUndoFunctionKey",
-			"api": "function-character"
+			"missing": true
 		},
 		"web": {
 			"missing": true
@@ -7567,16 +7858,21 @@
 		},
 		"windows-scancode": {
 			"api": "scancode",
-			"missing": true
+			"missing": true,
+			"alternatives": {
+				"appcommand": {
+					"code": "0x12",
+					"name": "APPCOMMAND_LAUNCH_APP2",
+					"api": "appcommand"
+				}
+			}
 		},
 		"windows-virtual": {
 			"code": "0xb7",
 			"name": "VK_LAUNCH_APP2"
 		},
 		"mac": {
-			"code": "0xF745",
-			"name": "NSFindFunctionKey",
-			"api": "function-character"
+			"missing": true
 		},
 		"web": {
 			"missing": true
@@ -7620,7 +7916,11 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF734",
+				"name": "NSStopFunctionKey",
+				"certainty": 0.75
+			}
 		},
 		"web": {
 			"missing": true
@@ -7662,9 +7962,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x17",
-			"name": "NX_KEYTYPE_ILLUMINATION_TOGGLE",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x17",
+				"name": "NX_KEYTYPE_ILLUMINATION_TOGGLE"
+			}
 		},
 		"web": {
 			"missing": true
@@ -7710,9 +8011,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x15",
-			"name": "NX_KEYTYPE_ILLUMINATION_UP",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x15",
+				"name": "NX_KEYTYPE_ILLUMINATION_UP"
+			}
 		},
 		"web": {
 			"missing": true
@@ -7758,9 +8060,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x16",
-			"name": "NX_KEYTYPE_ILLUMINATION_DOWN",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x16",
+				"name": "NX_KEYTYPE_ILLUMINATION_DOWN"
+			}
 		},
 		"web": {
 			"missing": true
@@ -8081,9 +8384,10 @@
 			"name": "VK_MEDIA_NEXT_TRACK"
 		},
 		"mac": {
-			"code": "0x11",
-			"name": "NX_KEYTYPE_NEXT",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x11",
+				"name": "NX_KEYTYPE_NEXT"
+			}
 		},
 		"web": {
 			"name": "MediaTrackNext"
@@ -8146,9 +8450,10 @@
 			"name": "VK_MEDIA_PLAY_PAUSE"
 		},
 		"mac": {
-			"code": "0x10",
-			"name": "NX_KEYTYPE_PLAY",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x10",
+				"name": "NX_KEYTYPE_PLAY"
+			}
 		},
 		"web": {
 			"name": "MediaPlayPause"
@@ -8208,9 +8513,10 @@
 			"name": "VK_MEDIA_PREV_TRACK"
 		},
 		"mac": {
-			"code": "0x12",
-			"name": "NX_KEYTYPE_PREVIOUS",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x12",
+				"name": "NX_KEYTYPE_PREVIOUS"
+			}
 		},
 		"web": {
 			"name": "MediaTrackPrevious"
@@ -8274,9 +8580,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x14",
-			"name": "NX_KEYTYPE_REWIND",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x14",
+				"name": "NX_KEYTYPE_REWIND"
+			}
 		},
 		"web": {
 			"name": "MediaRewind"
@@ -9061,8 +9368,9 @@
 			"name": "XF86New"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x1d",
+			"name": "APPCOMMAND_NEW",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
@@ -9103,16 +9411,18 @@
 			"name": "Redo"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x23",
+			"name": "APPCOMMAND_REDO",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
 		},
 		"mac": {
-			"code": "0xF744",
-			"name": "NSRedoFunctionKey",
-			"api": "function-character"
+			"function-character": {
+				"code": "0xF744",
+				"name": "NSRedoFunctionKey"
+			}
 		},
 		"web": {
 			"name": "Redo"
@@ -9155,9 +9465,14 @@
 			"name": "VK_F13"
 		},
 		"mac": {
-			"code": "0x69",
-			"name": "kVK_F13",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x69",
+				"name": "kVK_F13"
+			},
+			"function-character": {
+				"code": "0xF710",
+				"name": "NSF13FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F13"
@@ -9208,9 +9523,14 @@
 			"name": "VK_F14"
 		},
 		"mac": {
-			"code": "0x6b",
-			"name": "kVK_F14",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x6b",
+				"name": "kVK_F14"
+			},
+			"function-character": {
+				"code": "0xF711",
+				"name": "NSF14FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F14"
@@ -9261,9 +9581,14 @@
 			"name": "VK_F15"
 		},
 		"mac": {
-			"code": "0x71",
-			"name": "kVK_F15",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x71",
+				"name": "kVK_F15"
+			},
+			"function-character": {
+				"code": "0xF712",
+				"name": "NSF15FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F15"
@@ -9314,9 +9639,14 @@
 			"name": "VK_F16"
 		},
 		"mac": {
-			"code": "0x6a",
-			"name": "kVK_F16",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x6a",
+				"name": "kVK_F16"
+			},
+			"function-character": {
+				"code": "0xF713",
+				"name": "NSF16FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F16"
@@ -9367,9 +9697,14 @@
 			"name": "VK_F17"
 		},
 		"mac": {
-			"code": "0x40",
-			"name": "kVK_F17",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x40",
+				"name": "kVK_F17"
+			},
+			"function-character": {
+				"code": "0xF714",
+				"name": "NSF17FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F17"
@@ -9420,9 +9755,14 @@
 			"name": "VK_F18"
 		},
 		"mac": {
-			"code": "0x4f",
-			"name": "kVK_F18",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x4f",
+				"name": "kVK_F18"
+			},
+			"function-character": {
+				"code": "0xF715",
+				"name": "NSF18FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F18"
@@ -9473,9 +9813,14 @@
 			"name": "VK_F19"
 		},
 		"mac": {
-			"code": "0x50",
-			"name": "kVK_F19",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x50",
+				"name": "kVK_F19"
+			},
+			"function-character": {
+				"code": "0xF716",
+				"name": "NSF19FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F19"
@@ -9526,9 +9871,14 @@
 			"name": "VK_F20"
 		},
 		"mac": {
-			"code": "0x5a",
-			"name": "kVK_F20",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x5a",
+				"name": "kVK_F20"
+			},
+			"function-character": {
+				"code": "0xF717",
+				"name": "NSF20FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F20"
@@ -9579,9 +9929,10 @@
 			"name": "VK_F21"
 		},
 		"mac": {
-			"code": "0xF718",
-			"name": "NSF21FunctionKey",
-			"api": "function-character"
+			"function-character": {
+				"code": "0xF718",
+				"name": "NSF21FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F21"
@@ -9637,9 +9988,10 @@
 			"name": "VK_F22"
 		},
 		"mac": {
-			"code": "0xF719",
-			"name": "NSF22FunctionKey",
-			"api": "function-character"
+			"function-character": {
+				"code": "0xF719",
+				"name": "NSF22FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F22"
@@ -9695,9 +10047,10 @@
 			"name": "VK_F23"
 		},
 		"mac": {
-			"code": "0xF71A",
-			"name": "NSF23FunctionKey",
-			"api": "function-character"
+			"function-character": {
+				"code": "0xF71A",
+				"name": "NSF23FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F23"
@@ -9753,9 +10106,10 @@
 			"name": "VK_F24"
 		},
 		"mac": {
-			"code": "0xF71B",
-			"name": "NSF24FunctionKey",
-			"api": "function-character"
+			"function-character": {
+				"code": "0xF71B",
+				"name": "NSF24FunctionKey"
+			}
 		},
 		"web": {
 			"name": "F24"
@@ -9930,8 +10284,9 @@
 			"name": "XF86Close"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x1f",
+			"name": "APPCOMMAND_CLOSE",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
@@ -9982,9 +10337,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x13",
-			"name": "NX_KEYTYPE_FAST",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x13",
+				"name": "NX_KEYTYPE_FAST"
+			}
 		},
 		"web": {
 			"name": "MediaFastForward"
@@ -10689,8 +11045,9 @@
 			"name": "XF86Save"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x20",
+			"name": "APPCOMMAND_SAVE",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
@@ -10941,8 +11298,7 @@
 			"unknown": true
 		},
 		"mac": {
-			"missing": true,
-			"unknown": true
+			"missing": true
 		},
 		"web": {
 			"missing": true,
@@ -11173,6 +11529,70 @@
 		},
 		"keyd": "auto"
 	},
+	"contrast-up": {
+		"comment": "Apple display-contrast increase key exposed through the macOS special-key event API.",
+		"hid": {
+			"missing": true,
+			"comment": "No standard HID split contrast-up usage was found in the local reference set. Apple exposes this through NX_KEYTYPE_CONTRAST_UP instead."
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"linux-xkb-keysym": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"media-event": {
+				"code": "0xb",
+				"name": "NX_KEYTYPE_CONTRAST_UP"
+			}
+		},
+		"web": {
+			"missing": true
+		}
+	},
+	"contrast-down": {
+		"comment": "Apple display-contrast decrease key exposed through the macOS special-key event API.",
+		"hid": {
+			"missing": true,
+			"comment": "No standard HID split contrast-down usage was found in the local reference set. Apple exposes this through NX_KEYTYPE_CONTRAST_DOWN instead."
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"linux-xkb-keysym": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"media-event": {
+				"code": "0xc",
+				"name": "NX_KEYTYPE_CONTRAST_DOWN"
+			}
+		},
+		"web": {
+			"missing": true
+		}
+	},
 	"display-off": {
 		"comment": "Display power key. The kernel meaning is “put the display device into the off state”, so this is for turning the display panel off rather than changing brightness.",
 		"hid": {
@@ -11383,6 +11803,36 @@
 			"aliases": [
 				"clear_or_again"
 			]
+		}
+	},
+	"uncertain-clear-line": {
+		"comment": "AppKit semantic clear-line function-character identity.",
+		"certainty": 0.55,
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"function-character": {
+				"code": "0xF739",
+				"name": "NSClearLineFunctionKey",
+				"certainty": 0.55
+			}
+		},
+		"web": {
+			"missing": true
 		}
 	},
 	"sysrq-attention": {
@@ -11829,8 +12279,9 @@
 			"name": "XF86Favorites"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x6",
+			"name": "APPCOMMAND_BROWSER_FAVORITES",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
@@ -13269,8 +13720,9 @@
 			"name": "XF86ChannelUp"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x33",
+			"name": "APPCOMMAND_MEDIA_CHANNEL_UP",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
@@ -13353,8 +13805,9 @@
 			"name": "XF86ChannelDown"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x34",
+			"name": "APPCOMMAND_MEDIA_CHANNEL_DOWN",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
@@ -13465,7 +13918,11 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF740",
+				"name": "NSNextFunctionKey",
+				"certainty": 0.7
+			}
 		},
 		"web": {
 			"missing": true
@@ -13517,7 +13974,11 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF733",
+				"name": "NSResetFunctionKey",
+				"certainty": 0.4
+			}
 		},
 		"web": {
 			"missing": true
@@ -13604,7 +14065,11 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF732",
+				"name": "NSBreakFunctionKey",
+				"certainty": 0.45
+			}
 		},
 		"web": {
 			"missing": true
@@ -13641,7 +14106,11 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF73F",
+				"name": "NSPrevFunctionKey",
+				"certainty": 0.7
+			}
 		},
 		"web": {
 			"missing": true
@@ -14171,8 +14640,9 @@
 			"name": "XF86SpellCheck"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x2a",
+			"name": "APPCOMMAND_SPELL_CHECK",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
@@ -14395,9 +14865,7 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true,
-			"alias-of": "menu",
-			"comment": "macOS exposes System Context Menu through the same native kVK_ContextualMenu key as Keyboard Application, so mappy keeps menu as the canonical Mac key identity."
+			"missing": true
 		},
 		"web": {
 			"missing": true
@@ -14749,7 +15217,11 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF73B",
+				"name": "NSInsertLineFunctionKey",
+				"certainty": 0.85
+			}
 		},
 		"web": {
 			"missing": true
@@ -14783,7 +15255,11 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF73C",
+				"name": "NSDeleteLineFunctionKey",
+				"certainty": 0.9
+			}
 		},
 		"web": {
 			"missing": true
@@ -14795,6 +15271,126 @@
 				"keydelline",
 				"delline"
 			]
+		}
+	},
+	"uncertain-clear-display": {
+		"comment": "AppKit semantic clear-display function-character identity.",
+		"certainty": 0.7,
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"function-character": {
+				"code": "0xF73A",
+				"name": "NSClearDisplayFunctionKey",
+				"certainty": 0.7
+			}
+		},
+		"web": {
+			"missing": true
+		}
+	},
+	"uncertain-mode-switch": {
+		"comment": "AppKit semantic mode-switch function-character identity.",
+		"certainty": 0.35,
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"function-character": {
+				"code": "0xF747",
+				"name": "NSModeSwitchFunctionKey",
+				"certainty": 0.35
+			}
+		},
+		"web": {
+			"missing": true
+		}
+	},
+	"uncertain-apple-user-function": {
+		"comment": "AppKit semantic user-function identity.",
+		"certainty": 0.25,
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"function-character": {
+				"code": "0xF736",
+				"name": "NSUserFunctionKey",
+				"certainty": 0.25
+			}
+		},
+		"web": {
+			"missing": true
+		}
+	},
+	"uncertain-apple-system-function": {
+		"comment": "AppKit semantic system-function identity.",
+		"certainty": 0.2,
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"function-character": {
+				"code": "0xF737",
+				"name": "NSSystemFunctionKey",
+				"certainty": 0.2
+			}
+		},
+		"web": {
+			"missing": true
 		}
 	},
 	"fn-esc": {
@@ -21053,17 +21649,62 @@
 			"name": "FnLock"
 		}
 	},
-	"hyper": {
-		"comment": "Special key identity for hyper.",
+	"hyper-left": {
+		"comment": "Left hyper key identity where a layout exposes Hyper as a distinct sided modifier.",
 		"hid": {
-			"code": "0x10",
-			"page-num": "0x0",
-			"page-name": "Undefined",
-			"definitionMissing": true,
-			"comment": "USB HID page 0x00 is Undefined; no standard usage definition is published for this usage."
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"linux-xkb-keysym": {
+			"code": "0xffed",
+			"name": "Hyper_L"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
 		},
 		"web": {
-			"name": "Hyper"
+			"missing": true
+		}
+	},
+	"hyper-right": {
+		"comment": "Right hyper key identity where a layout exposes Hyper as a distinct sided modifier.",
+		"hid": {
+			"missing": true
+		},
+		"linux-evdev": {
+			"missing": true
+		},
+		"linux-xkb": {
+			"missing": true
+		},
+		"linux-xkb-keysym": {
+			"code": "0xffee",
+			"name": "Hyper_R"
+		},
+		"windows-scancode": {
+			"api": "scancode",
+			"missing": true
+		},
+		"windows-virtual": {
+			"missing": true
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
 		}
 	},
 	"numpad-clear": {
@@ -21170,19 +21811,6 @@
 			"name": "Resume"
 		}
 	},
-	"super": {
-		"comment": "Special key identity for super.",
-		"hid": {
-			"code": "0x11",
-			"page-num": "0x0",
-			"page-name": "Undefined",
-			"definitionMissing": true,
-			"comment": "USB HID page 0x00 is Undefined; no standard usage definition is published for this usage."
-		},
-		"web": {
-			"name": "Super"
-		}
-	},
 	"suspend": {
 		"comment": "System suspend key. systemd-logind treats KEY_SUSPEND as suspend-to-disk / hibernate; KDE binds Qt::Key_Hibernate as “Hibernate”. systemd also supports a distinct long-press action.",
 		"hid": {
@@ -21262,7 +21890,14 @@
 		},
 		"windows-scancode": {
 			"code": "0xe032",
-			"api": "scancode"
+			"api": "scancode",
+			"alternatives": {
+				"appcommand": {
+					"code": "0x7",
+					"name": "APPCOMMAND_BROWSER_HOME",
+					"api": "appcommand"
+				}
+			}
 		},
 		"windows-virtual": {
 			"code": "0xac",
@@ -21314,7 +21949,14 @@
 		},
 		"windows-scancode": {
 			"code": "0xe065",
-			"api": "scancode"
+			"api": "scancode",
+			"alternatives": {
+				"appcommand": {
+					"code": "0x5",
+					"name": "APPCOMMAND_BROWSER_SEARCH",
+					"api": "appcommand"
+				}
+			}
 		},
 		"windows-virtual": {
 			"code": "0xaa",
@@ -21606,7 +22248,14 @@
 		},
 		"windows-scancode": {
 			"code": "0xe06c",
-			"api": "scancode"
+			"api": "scancode",
+			"alternatives": {
+				"appcommand": {
+					"code": "0x15",
+					"name": "APPCOMMAND_LAUNCH_MAIL",
+					"api": "appcommand"
+				}
+			}
 		},
 		"windows-virtual": {
 			"code": "0xb4",
@@ -21657,8 +22306,9 @@
 			"name": "XF86Reply"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x27",
+			"name": "APPCOMMAND_REPLY_TO_MAIL",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
@@ -21700,8 +22350,9 @@
 			"name": "XF86Send"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x29",
+			"name": "APPCOMMAND_SEND_MAIL",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
@@ -21795,9 +22446,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x51",
-			"name": "kVK_ANSI_KeypadEquals",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x51",
+				"name": "kVK_ANSI_KeypadEquals"
+			}
 		},
 		"web": {
 			"name": "NumpadEqual"
@@ -21892,9 +22544,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x17",
-			"name": "NX_KEYTYPE_ILLUMINATION_TOGGLE",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x17",
+				"name": "NX_KEYTYPE_ILLUMINATION_TOGGLE"
+			}
 		},
 		"web": {
 			"missing": true
@@ -21938,9 +22591,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x15",
-			"name": "NX_KEYTYPE_ILLUMINATION_UP",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x15",
+				"name": "NX_KEYTYPE_ILLUMINATION_UP"
+			}
 		},
 		"web": {
 			"missing": true
@@ -22000,9 +22654,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x16",
-			"name": "NX_KEYTYPE_ILLUMINATION_DOWN",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x16",
+				"name": "NX_KEYTYPE_ILLUMINATION_DOWN"
+			}
 		},
 		"web": {
 			"missing": true
@@ -22115,7 +22770,11 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF741",
+				"name": "NSSelectFunctionKey",
+				"certainty": 0.95
+			}
 		},
 		"web": {
 			"missing": true
@@ -22196,7 +22855,14 @@
 		},
 		"windows-scancode": {
 			"code": "0xe018",
-			"api": "scancode"
+			"api": "scancode",
+			"alternatives": {
+				"appcommand": {
+					"code": "0x24",
+					"name": "APPCOMMAND_COPY",
+					"api": "appcommand"
+				}
+			}
 		},
 		"windows-virtual": {
 			"missing": true
@@ -22240,7 +22906,14 @@
 		},
 		"windows-scancode": {
 			"code": "0xe017",
-			"api": "scancode"
+			"api": "scancode",
+			"alternatives": {
+				"appcommand": {
+					"code": "0x25",
+					"name": "APPCOMMAND_CUT",
+					"api": "appcommand"
+				}
+			}
 		},
 		"windows-virtual": {
 			"missing": true
@@ -22283,16 +22956,18 @@
 			"name": "Find"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x1c",
+			"name": "APPCOMMAND_FIND",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
 		},
 		"mac": {
-			"code": "0xF745",
-			"name": "NSFindFunctionKey",
-			"api": "function-character"
+			"function-character": {
+				"code": "0xF745",
+				"name": "NSFindFunctionKey"
+			}
 		},
 		"web": {
 			"name": "Find"
@@ -22336,17 +23011,19 @@
 			"name": "VK_HELP"
 		},
 		"mac": {
-			"code": "0xF746",
-			"name": "NSHelpFunctionKey",
-			"api": "function-character",
-			"alternatives": {
-				"virtual-keycode": {
-					"code": "0x72",
-					"name": "kVK_Help",
-					"api": "virtual-keycode"
-				}
+			"function-character": {
+				"code": "0xF746",
+				"name": "NSHelpFunctionKey",
+				"comment": "AppKit distinguishes Help via NSHelpFunctionKey. In the virtual-keycode API, both Help and Insert collapse onto kVK_Help."
 			},
-			"comment": "AppKit distinguishes Help via NSHelpFunctionKey. In the virtual-keycode API, both Help and Insert collapse onto kVK_Help."
+			"virtual-keycode": {
+				"code": "0x72",
+				"name": "kVK_Help"
+			},
+			"media-event": {
+				"code": "0x5",
+				"name": "NX_KEYTYPE_HELP"
+			}
 		},
 		"web": {
 			"name": "Help"
@@ -22384,14 +23061,19 @@
 			"name": "XF86Open"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x1e",
+			"name": "APPCOMMAND_OPEN",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF742",
+				"name": "NSExecuteFunctionKey",
+				"certainty": 0.65
+			}
 		},
 		"web": {
 			"name": "Open"
@@ -22430,7 +23112,14 @@
 		},
 		"windows-scancode": {
 			"code": "0xe00a",
-			"api": "scancode"
+			"api": "scancode",
+			"alternatives": {
+				"appcommand": {
+					"code": "0x26",
+					"name": "APPCOMMAND_PASTE",
+					"api": "appcommand"
+				}
+			}
 		},
 		"windows-virtual": {
 			"missing": true
@@ -22480,9 +23169,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x6",
-			"name": "NX_POWER_KEY",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x6",
+				"name": "NX_POWER_KEY"
+			}
 		},
 		"web": {
 			"name": "Power"
@@ -22534,9 +23224,10 @@
 			"name": "VK_OEM_1"
 		},
 		"mac": {
-			"code": "0x29",
-			"name": "kVK_ANSI_Semicolon",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x29",
+				"name": "kVK_ANSI_Semicolon"
+			}
 		},
 		"web": {
 			"name": "Semicolon"
@@ -22603,9 +23294,9 @@
 			"name": "VK_SLEEP"
 		},
 		"mac": {
-			"name": "NX_SUBTYPE_SLEEP_EVENT",
-			"api": "system-defined-subtype",
-			"subtype": "0xb"
+			"system-defined-subtype": {
+				"name": "NX_SUBTYPE_SLEEP_EVENT"
+			}
 		},
 		"web": {
 			"name": "Sleep"
@@ -22649,15 +23340,23 @@
 		},
 		"windows-scancode": {
 			"code": "0xe008",
-			"api": "scancode"
+			"api": "scancode",
+			"alternatives": {
+				"appcommand": {
+					"code": "0x22",
+					"name": "APPCOMMAND_UNDO",
+					"api": "appcommand"
+				}
+			}
 		},
 		"windows-virtual": {
 			"missing": true
 		},
 		"mac": {
-			"code": "0xF743",
-			"name": "NSUndoFunctionKey",
-			"api": "function-character"
+			"function-character": {
+				"code": "0xF743",
+				"name": "NSUndoFunctionKey"
+			}
 		},
 		"web": {
 			"name": "Undo"
@@ -22696,8 +23395,9 @@
 			"comment": "XKB commonly reuses Print for KEY_PRINT, but that collapses it with Print Screen / SysRq rather than preserving the distinct consumer print-command semantics."
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x21",
+			"name": "APPCOMMAND_PRINT",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true,
@@ -22705,9 +23405,11 @@
 			"comment": "Windows exposes Print Screen here, not a distinct consumer print-command virtual key."
 		},
 		"mac": {
-			"missing": true,
-			"alias-of": "print",
-			"comment": "macOS AppKit exposes application-level print through NSPrintFunctionKey, but mappy keeps print as the canonical Mac key identity for the shared Print function-character."
+			"function-character": {
+				"code": "0xF738",
+				"name": "NSPrintFunctionKey",
+				"certainty": 0.75
+			}
 		},
 		"web": {
 			"missing": true
@@ -22751,9 +23453,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x2",
-			"name": "NX_KEYTYPE_BRIGHTNESS_UP",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x2",
+				"name": "NX_KEYTYPE_BRIGHTNESS_UP"
+			}
 		},
 		"web": {
 			"name": "BrightnessUp"
@@ -22814,9 +23517,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x3",
-			"name": "NX_KEYTYPE_BRIGHTNESS_DOWN",
-			"api": "media-event"
+			"media-event": {
+				"code": "0x3",
+				"name": "NX_KEYTYPE_BRIGHTNESS_DOWN"
+			}
 		},
 		"web": {
 			"name": "BrightnessDown"
@@ -22922,9 +23626,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0xe",
-			"name": "NX_KEYTYPE_EJECT",
-			"api": "media-event"
+			"media-event": {
+				"code": "0xe",
+				"name": "NX_KEYTYPE_EJECT"
+			}
 		},
 		"web": {
 			"name": "Eject"
@@ -23400,8 +24105,9 @@
 			"name": "XF86AudioPlay"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x2e",
+			"name": "APPCOMMAND_MEDIA_PLAY",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"code": "0xfa",
@@ -23445,8 +24151,9 @@
 			"name": "XF86AudioPause"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x2f",
+			"name": "APPCOMMAND_MEDIA_PAUSE",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
@@ -23488,8 +24195,9 @@
 			"name": "XF86AudioRecord"
 		},
 		"windows-scancode": {
-			"api": "scancode",
-			"missing": true
+			"code": "0x30",
+			"name": "APPCOMMAND_MEDIA_RECORD",
+			"api": "appcommand"
 		},
 		"windows-virtual": {
 			"missing": true
@@ -23532,14 +24240,25 @@
 		},
 		"windows-scancode": {
 			"code": "0xe024",
-			"api": "scancode"
+			"api": "scancode",
+			"alternatives": {
+				"appcommand": {
+					"code": "0xd",
+					"name": "APPCOMMAND_MEDIA_STOP",
+					"api": "appcommand"
+				}
+			}
 		},
 		"windows-virtual": {
 			"code": "0xb2",
 			"name": "VK_MEDIA_STOP"
 		},
 		"mac": {
-			"missing": true
+			"function-character": {
+				"code": "0xF734",
+				"name": "NSStopFunctionKey",
+				"certainty": 0.75
+			}
 		},
 		"web": {
 			"name": "MediaStop"
@@ -23633,9 +24352,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x5f",
-			"name": "kVK_JIS_KeypadComma",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x5f",
+				"name": "kVK_JIS_KeypadComma"
+			}
 		},
 		"web": {
 			"name": "NumpadComma"
@@ -23905,7 +24625,10 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"media-event": {
+				"code": "0xd",
+				"name": "NX_KEYTYPE_LAUNCH_PANEL"
+			}
 		},
 		"web": {
 			"missing": true
@@ -24042,7 +24765,10 @@
 			"missing": true
 		},
 		"mac": {
-			"missing": true
+			"media-event": {
+				"code": "0xf",
+				"name": "NX_KEYTYPE_VIDMIRROR"
+			}
 		},
 		"web": {
 			"missing": true
@@ -24130,9 +24856,10 @@
 			"missing": true
 		},
 		"mac": {
-			"code": "0x3f",
-			"name": "kVK_Function",
-			"api": "virtual-keycode"
+			"virtual-keycode": {
+				"code": "0x3f",
+				"name": "kVK_Function"
+			}
 		},
 		"web": {
 			"missing": true
