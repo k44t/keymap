@@ -189,6 +189,12 @@
 					"key0"
 				]
 			},
+			"kanata": {
+				"name": "0",
+				"aliases": [
+					"Digit0"
+				]
+			},
 			"keyd": {
 				"name": "0",
 				"aliases": [
@@ -242,6 +248,12 @@
 				"aliases": [
 					"Key1",
 					"key1"
+				]
+			},
+			"kanata": {
+				"name": "1",
+				"aliases": [
+					"Digit1"
 				]
 			},
 			"keyd": {
@@ -299,6 +311,12 @@
 					"key2"
 				]
 			},
+			"kanata": {
+				"name": "2",
+				"aliases": [
+					"Digit2"
+				]
+			},
 			"keyd": {
 				"name": "2",
 				"aliases": [
@@ -352,6 +370,12 @@
 				"aliases": [
 					"Key3",
 					"key3"
+				]
+			},
+			"kanata": {
+				"name": "3",
+				"aliases": [
+					"Digit3"
 				]
 			},
 			"keyd": {
@@ -409,6 +433,12 @@
 					"key4"
 				]
 			},
+			"kanata": {
+				"name": "4",
+				"aliases": [
+					"Digit4"
+				]
+			},
 			"keyd": {
 				"name": "4",
 				"aliases": [
@@ -462,6 +492,12 @@
 				"aliases": [
 					"Key5",
 					"key5"
+				]
+			},
+			"kanata": {
+				"name": "5",
+				"aliases": [
+					"Digit5"
 				]
 			},
 			"keyd": {
@@ -519,6 +555,12 @@
 					"key6"
 				]
 			},
+			"kanata": {
+				"name": "6",
+				"aliases": [
+					"Digit6"
+				]
+			},
 			"keyd": {
 				"name": "6",
 				"aliases": [
@@ -572,6 +614,12 @@
 				"aliases": [
 					"Key7",
 					"key7"
+				]
+			},
+			"kanata": {
+				"name": "7",
+				"aliases": [
+					"Digit7"
 				]
 			},
 			"keyd": {
@@ -629,6 +677,12 @@
 					"key8"
 				]
 			},
+			"kanata": {
+				"name": "8",
+				"aliases": [
+					"Digit8"
+				]
+			},
 			"keyd": {
 				"name": "8",
 				"aliases": [
@@ -682,6 +736,12 @@
 				"aliases": [
 					"Key9",
 					"key9"
+				]
+			},
+			"kanata": {
+				"name": "9",
+				"aliases": [
+					"Digit9"
 				]
 			},
 			"keyd": {
@@ -741,6 +801,13 @@
 					"esc"
 				]
 			},
+			"kanata": {
+				"name": "esc",
+				"aliases": [
+					"Escape",
+					"⎋"
+				]
+			},
 			"keyd": {
 				"name": "esc",
 				"aliases": [
@@ -798,6 +865,14 @@
 					"Minus",
 					"minus",
 					"min"
+				]
+			},
+			"kanata": {
+				"name": "-",
+				"aliases": [
+					"Minus",
+					"min",
+					"‐"
 				]
 			},
 			"keyd": {
@@ -860,6 +935,14 @@
 					"eql"
 				]
 			},
+			"kanata": {
+				"name": "=",
+				"aliases": [
+					"Equal",
+					"eql",
+					"₌"
+				]
+			},
 			"keyd": {
 				"name": "=",
 				"aliases": [
@@ -920,6 +1003,15 @@
 					"bspc"
 				]
 			},
+			"kanata": {
+				"name": "bspc",
+				"aliases": [
+					"Backspace",
+					"bks",
+					"␈",
+					"⌫"
+				]
+			},
 			"keyd": "backspace",
 			"karabiner-elements": "delete_or_backspace",
 			"autohotkey": {
@@ -972,6 +1064,14 @@
 					"tab"
 				]
 			},
+			"kanata": {
+				"name": "tab",
+				"aliases": [
+					"Tab",
+					"⭾",
+					"↹"
+				]
+			},
 			"keyd": "tab",
 			"karabiner-elements": "tab",
 			"autohotkey": "Tab"
@@ -1016,6 +1116,12 @@
 					"KeyQ",
 					"keyq",
 					"q"
+				]
+			},
+			"kanata": {
+				"name": "q",
+				"aliases": [
+					"KeyQ"
 				]
 			},
 			"keyd": {
@@ -1074,6 +1180,12 @@
 					"w"
 				]
 			},
+			"kanata": {
+				"name": "w",
+				"aliases": [
+					"KeyW"
+				]
+			},
 			"keyd": {
 				"name": "w",
 				"aliases": [
@@ -1128,6 +1240,12 @@
 					"KeyE",
 					"keye",
 					"e"
+				]
+			},
+			"kanata": {
+				"name": "e",
+				"aliases": [
+					"KeyE"
 				]
 			},
 			"keyd": {
@@ -1186,6 +1304,12 @@
 					"r"
 				]
 			},
+			"kanata": {
+				"name": "r",
+				"aliases": [
+					"KeyR"
+				]
+			},
 			"keyd": {
 				"name": "r",
 				"aliases": [
@@ -1240,6 +1364,12 @@
 					"KeyT",
 					"keyt",
 					"t"
+				]
+			},
+			"kanata": {
+				"name": "t",
+				"aliases": [
+					"KeyT"
 				]
 			},
 			"keyd": {
@@ -1298,6 +1428,12 @@
 					"y"
 				]
 			},
+			"kanata": {
+				"name": "y",
+				"aliases": [
+					"KeyY"
+				]
+			},
 			"keyd": {
 				"name": "y",
 				"aliases": [
@@ -1352,6 +1488,12 @@
 					"KeyU",
 					"keyu",
 					"u"
+				]
+			},
+			"kanata": {
+				"name": "u",
+				"aliases": [
+					"KeyU"
 				]
 			},
 			"keyd": {
@@ -1410,6 +1552,12 @@
 					"i"
 				]
 			},
+			"kanata": {
+				"name": "i",
+				"aliases": [
+					"KeyI"
+				]
+			},
 			"keyd": {
 				"name": "i",
 				"aliases": [
@@ -1466,6 +1614,12 @@
 					"o"
 				]
 			},
+			"kanata": {
+				"name": "o",
+				"aliases": [
+					"KeyO"
+				]
+			},
 			"keyd": {
 				"name": "o",
 				"aliases": [
@@ -1520,6 +1674,12 @@
 					"KeyP",
 					"keyp",
 					"p"
+				]
+			},
+			"kanata": {
+				"name": "p",
+				"aliases": [
+					"KeyP"
 				]
 			},
 			"keyd": {
@@ -1579,6 +1739,18 @@
 					"LeftBrace",
 					"leftbrace",
 					"lbrc"
+				]
+			},
+			"kanata": {
+				"name": "[",
+				"aliases": [
+					"{",
+					"BracketLeft",
+					"lbrc",
+					"【",
+					"「",
+					"〔",
+					"⎡"
 				]
 			},
 			"keyd": {
@@ -1641,6 +1813,18 @@
 					"rbrc"
 				]
 			},
+			"kanata": {
+				"name": "]",
+				"aliases": [
+					"}",
+					"BracketRight",
+					"rbrc",
+					"】",
+					"」",
+					"〕",
+					"⎣"
+				]
+			},
 			"keyd": {
 				"name": "]",
 				"aliases": [
@@ -1699,6 +1883,23 @@
 					"enter"
 				]
 			},
+			"kanata": {
+				"name": "ret",
+				"aliases": [
+					"Enter",
+					"return",
+					"ent",
+					"enter",
+					"⏎",
+					"↩",
+					"↵",
+					"↲",
+					"⤶",
+					"⎆",
+					"⌤",
+					"␤"
+				]
+			},
 			"keyd": "enter",
 			"karabiner-elements": "return_or_enter",
 			"autohotkey": "Enter"
@@ -1747,6 +1948,15 @@
 					"leftctrl",
 					"lctrl",
 					"lctl"
+				]
+			},
+			"kanata": {
+				"name": "lctl",
+				"aliases": [
+					"ControlLeft",
+					"lctrl",
+					"‹⎈",
+					"‹⌃"
 				]
 			},
 			"keyd": "leftcontrol",
@@ -1798,6 +2008,12 @@
 					"KeyA",
 					"keya",
 					"a"
+				]
+			},
+			"kanata": {
+				"name": "a",
+				"aliases": [
+					"KeyA"
 				]
 			},
 			"keyd": {
@@ -1856,6 +2072,12 @@
 					"s"
 				]
 			},
+			"kanata": {
+				"name": "s",
+				"aliases": [
+					"KeyS"
+				]
+			},
 			"keyd": {
 				"name": "s",
 				"aliases": [
@@ -1910,6 +2132,12 @@
 					"KeyD",
 					"keyd",
 					"d"
+				]
+			},
+			"kanata": {
+				"name": "d",
+				"aliases": [
+					"KeyD"
 				]
 			},
 			"keyd": {
@@ -1968,6 +2196,12 @@
 					"f"
 				]
 			},
+			"kanata": {
+				"name": "f",
+				"aliases": [
+					"KeyF"
+				]
+			},
 			"keyd": {
 				"name": "f",
 				"aliases": [
@@ -2022,6 +2256,12 @@
 					"KeyG",
 					"keyg",
 					"g"
+				]
+			},
+			"kanata": {
+				"name": "g",
+				"aliases": [
+					"KeyG"
 				]
 			},
 			"keyd": {
@@ -2080,6 +2320,12 @@
 					"h"
 				]
 			},
+			"kanata": {
+				"name": "h",
+				"aliases": [
+					"KeyH"
+				]
+			},
 			"keyd": {
 				"name": "h",
 				"aliases": [
@@ -2134,6 +2380,12 @@
 					"KeyJ",
 					"keyj",
 					"j"
+				]
+			},
+			"kanata": {
+				"name": "j",
+				"aliases": [
+					"KeyJ"
 				]
 			},
 			"keyd": {
@@ -2192,6 +2444,12 @@
 					"k"
 				]
 			},
+			"kanata": {
+				"name": "k",
+				"aliases": [
+					"KeyK"
+				]
+			},
 			"keyd": {
 				"name": "k",
 				"aliases": [
@@ -2246,6 +2504,12 @@
 					"KeyL",
 					"keyl",
 					"l"
+				]
+			},
+			"kanata": {
+				"name": "l",
+				"aliases": [
+					"KeyL"
 				]
 			},
 			"keyd": {
@@ -2306,6 +2570,14 @@
 					"apostrophe",
 					"apos",
 					"apo"
+				]
+			},
+			"kanata": {
+				"name": "'",
+				"aliases": [
+					"Quote",
+					"apo",
+					"apos"
 				]
 			},
 			"keyd": {
@@ -2371,6 +2643,16 @@
 					"grv"
 				]
 			},
+			"kanata": {
+				"name": "grv",
+				"aliases": [
+					"Backquote",
+					"ˋ",
+					"˜",
+					"`",
+					"grave"
+				]
+			},
 			"keyd": {
 				"name": "`",
 				"aliases": [
@@ -2434,6 +2716,15 @@
 					"shft"
 				]
 			},
+			"kanata": {
+				"name": "lsft",
+				"aliases": [
+					"ShiftLeft",
+					"lshift",
+					"lshft",
+					"‹⇧"
+				]
+			},
 			"keyd": "leftshift",
 			"karabiner-elements": "left_shift",
 			"autohotkey": "LShift"
@@ -2482,6 +2773,16 @@
 					"KeyBackslash",
 					"keybackslash",
 					"backslash"
+				]
+			},
+			"kanata": {
+				"name": "\\",
+				"aliases": [
+					"Backslash",
+					"bksl",
+					"yen",
+					"⧵",
+					"＼"
 				]
 			},
 			"keyd": {
@@ -2588,6 +2889,12 @@
 					"z"
 				]
 			},
+			"kanata": {
+				"name": "z",
+				"aliases": [
+					"KeyZ"
+				]
+			},
 			"keyd": {
 				"name": "z",
 				"aliases": [
@@ -2642,6 +2949,12 @@
 					"KeyX",
 					"keyx",
 					"x"
+				]
+			},
+			"kanata": {
+				"name": "x",
+				"aliases": [
+					"KeyX"
 				]
 			},
 			"keyd": {
@@ -2700,6 +3013,12 @@
 					"c"
 				]
 			},
+			"kanata": {
+				"name": "c",
+				"aliases": [
+					"KeyC"
+				]
+			},
 			"keyd": {
 				"name": "c",
 				"aliases": [
@@ -2754,6 +3073,12 @@
 					"KeyV",
 					"keyv",
 					"v"
+				]
+			},
+			"kanata": {
+				"name": "v",
+				"aliases": [
+					"KeyV"
 				]
 			},
 			"keyd": {
@@ -2812,6 +3137,12 @@
 					"b"
 				]
 			},
+			"kanata": {
+				"name": "b",
+				"aliases": [
+					"KeyB"
+				]
+			},
 			"keyd": {
 				"name": "b",
 				"aliases": [
@@ -2868,6 +3199,12 @@
 					"n"
 				]
 			},
+			"kanata": {
+				"name": "n",
+				"aliases": [
+					"KeyN"
+				]
+			},
 			"keyd": {
 				"name": "n",
 				"aliases": [
@@ -2922,6 +3259,12 @@
 					"KeyM",
 					"keym",
 					"m"
+				]
+			},
+			"kanata": {
+				"name": "m",
+				"aliases": [
+					"KeyM"
 				]
 			},
 			"keyd": {
@@ -2983,6 +3326,14 @@
 					"comm"
 				]
 			},
+			"kanata": {
+				"name": ",",
+				"aliases": [
+					"Comma",
+					"comm",
+					"⸴"
+				]
+			},
 			"keyd": {
 				"name": ",",
 				"aliases": [
@@ -3042,6 +3393,13 @@
 					"dot"
 				]
 			},
+			"kanata": {
+				"name": ".",
+				"aliases": [
+					"Period",
+					"．"
+				]
+			},
 			"keyd": {
 				"name": ".",
 				"aliases": [
@@ -3099,6 +3457,13 @@
 					"keyslash",
 					"Slash",
 					"slash"
+				]
+			},
+			"kanata": {
+				"name": "/",
+				"aliases": [
+					"Slash",
+					"⁄"
 				]
 			},
 			"keyd": {
@@ -3162,6 +3527,16 @@
 					"rshft"
 				]
 			},
+			"kanata": {
+				"name": "rsft",
+				"aliases": [
+					"ShiftRight",
+					"RightShift",
+					"rshift",
+					"rshft",
+					"⇧›"
+				]
+			},
 			"keyd": "rightshift",
 			"karabiner-elements": "right_shift",
 			"autohotkey": "RShift"
@@ -3208,6 +3583,13 @@
 					"keykpasterisk",
 					"KpAsterisk",
 					"kpasterisk"
+				]
+			},
+			"kanata": {
+				"name": "kp*",
+				"aliases": [
+					"NumpadMultiply",
+					"🔢∗"
 				]
 			},
 			"keyd": "kpasterisk",
@@ -3257,6 +3639,14 @@
 					"LeftAlt",
 					"leftalt",
 					"lalt"
+				]
+			},
+			"kanata": {
+				"name": "lalt",
+				"aliases": [
+					"AltLeft",
+					"‹⎇",
+					"‹⌥"
 				]
 			},
 			"keyd": "leftalt",
@@ -3312,6 +3702,14 @@
 					"space"
 				]
 			},
+			"kanata": {
+				"name": "spc",
+				"aliases": [
+					"Space",
+					"␠",
+					"␣"
+				]
+			},
 			"keyd": "space",
 			"karabiner-elements": "spacebar",
 			"autohotkey": "Space"
@@ -3358,6 +3756,13 @@
 					"keycapslock",
 					"CapsLock",
 					"capslock"
+				]
+			},
+			"kanata": {
+				"name": "caps",
+				"aliases": [
+					"CapsLock",
+					"⇪"
 				]
 			},
 			"keyd": "capslock",
@@ -3407,6 +3812,12 @@
 					"f1"
 				]
 			},
+			"kanata": {
+				"name": "f1",
+				"aliases": [
+					"F1"
+				]
+			},
 			"keyd": "f1",
 			"karabiner-elements": "f1",
 			"autohotkey": "F1"
@@ -3452,6 +3863,12 @@
 					"KeyF2",
 					"keyf2",
 					"f2"
+				]
+			},
+			"kanata": {
+				"name": "f2",
+				"aliases": [
+					"F2"
 				]
 			},
 			"keyd": "f2",
@@ -3501,6 +3918,12 @@
 					"f3"
 				]
 			},
+			"kanata": {
+				"name": "f3",
+				"aliases": [
+					"F3"
+				]
+			},
 			"keyd": "f3",
 			"karabiner-elements": "f3",
 			"autohotkey": "F3"
@@ -3546,6 +3969,12 @@
 					"KeyF4",
 					"keyf4",
 					"f4"
+				]
+			},
+			"kanata": {
+				"name": "f4",
+				"aliases": [
+					"F4"
 				]
 			},
 			"keyd": "f4",
@@ -3595,6 +4024,12 @@
 					"f5"
 				]
 			},
+			"kanata": {
+				"name": "f5",
+				"aliases": [
+					"F5"
+				]
+			},
 			"keyd": "f5",
 			"karabiner-elements": "f5",
 			"autohotkey": "F5"
@@ -3640,6 +4075,12 @@
 					"KeyF6",
 					"keyf6",
 					"f6"
+				]
+			},
+			"kanata": {
+				"name": "f6",
+				"aliases": [
+					"F6"
 				]
 			},
 			"keyd": "f6",
@@ -3689,6 +4130,12 @@
 					"f7"
 				]
 			},
+			"kanata": {
+				"name": "f7",
+				"aliases": [
+					"F7"
+				]
+			},
 			"keyd": "f7",
 			"karabiner-elements": "f7",
 			"autohotkey": "F7"
@@ -3734,6 +4181,12 @@
 					"KeyF8",
 					"keyf8",
 					"f8"
+				]
+			},
+			"kanata": {
+				"name": "f8",
+				"aliases": [
+					"F8"
 				]
 			},
 			"keyd": "f8",
@@ -3783,6 +4236,12 @@
 					"f9"
 				]
 			},
+			"kanata": {
+				"name": "f9",
+				"aliases": [
+					"F9"
+				]
+			},
 			"keyd": "f9",
 			"karabiner-elements": "f9",
 			"autohotkey": "F9"
@@ -3828,6 +4287,12 @@
 					"KeyF10",
 					"keyf10",
 					"f10"
+				]
+			},
+			"kanata": {
+				"name": "f10",
+				"aliases": [
+					"F10"
 				]
 			},
 			"keyd": "f10",
@@ -3876,6 +4341,14 @@
 					"keynumlock",
 					"NumLock",
 					"numlock"
+				]
+			},
+			"kanata": {
+				"name": "nlck",
+				"aliases": [
+					"NumLock",
+					"nlk",
+					"⇭"
 				]
 			},
 			"keyd": "numlock",
@@ -3927,6 +4400,14 @@
 					"scrlck"
 				]
 			},
+			"kanata": {
+				"name": "scrlck",
+				"aliases": [
+					"ScrollLock",
+					"slck",
+					"⇳🔒"
+				]
+			},
 			"keyd": "scrolllock",
 			"karabiner-elements": "scroll_lock",
 			"autohotkey": "ScrollLock"
@@ -3972,6 +4453,13 @@
 					"KeyKp7",
 					"keykp7",
 					"kp7"
+				]
+			},
+			"kanata": {
+				"name": "kp7",
+				"aliases": [
+					"Numpad7",
+					"🔢₇"
 				]
 			},
 			"keyd": "kp7",
@@ -4031,6 +4519,13 @@
 					"kp8"
 				]
 			},
+			"kanata": {
+				"name": "kp8",
+				"aliases": [
+					"Numpad8",
+					"🔢₈"
+				]
+			},
 			"keyd": "kp8",
 			"karabiner-elements": "keypad_8",
 			"autohotkey": {
@@ -4086,6 +4581,13 @@
 					"KeyKp9",
 					"keykp9",
 					"kp9"
+				]
+			},
+			"kanata": {
+				"name": "kp9",
+				"aliases": [
+					"Numpad9",
+					"🔢₉"
 				]
 			},
 			"keyd": "kp9",
@@ -4146,6 +4648,13 @@
 					"kpminus"
 				]
 			},
+			"kanata": {
+				"name": "kp-",
+				"aliases": [
+					"NumpadSubtract",
+					"🔢₋"
+				]
+			},
 			"keyd": "kpminus",
 			"karabiner-elements": "keypad_hyphen",
 			"autohotkey": "NumpadSub"
@@ -4191,6 +4700,13 @@
 					"KeyKp4",
 					"keykp4",
 					"kp4"
+				]
+			},
+			"kanata": {
+				"name": "kp4",
+				"aliases": [
+					"Numpad4",
+					"🔢₄"
 				]
 			},
 			"keyd": "kp4",
@@ -4250,6 +4766,13 @@
 					"kp5"
 				]
 			},
+			"kanata": {
+				"name": "kp5",
+				"aliases": [
+					"Numpad5",
+					"🔢₅"
+				]
+			},
 			"keyd": "kp5",
 			"karabiner-elements": "keypad_5",
 			"autohotkey": {
@@ -4305,6 +4828,13 @@
 					"KeyKp6",
 					"keykp6",
 					"kp6"
+				]
+			},
+			"kanata": {
+				"name": "kp6",
+				"aliases": [
+					"Numpad6",
+					"🔢₆"
 				]
 			},
 			"keyd": "kp6",
@@ -4365,6 +4895,14 @@
 					"kpplus"
 				]
 			},
+			"kanata": {
+				"name": "kp+",
+				"aliases": [
+					"+",
+					"NumpadAdd",
+					"🔢₊"
+				]
+			},
 			"keyd": "kpplus",
 			"karabiner-elements": "keypad_plus",
 			"autohotkey": "NumpadAdd"
@@ -4410,6 +4948,13 @@
 					"KeyKp1",
 					"keykp1",
 					"kp1"
+				]
+			},
+			"kanata": {
+				"name": "kp1",
+				"aliases": [
+					"Numpad1",
+					"🔢₁"
 				]
 			},
 			"keyd": "kp1",
@@ -4469,6 +5014,13 @@
 					"kp2"
 				]
 			},
+			"kanata": {
+				"name": "kp2",
+				"aliases": [
+					"Numpad2",
+					"🔢₂"
+				]
+			},
 			"keyd": "kp2",
 			"karabiner-elements": "keypad_2",
 			"autohotkey": {
@@ -4524,6 +5076,13 @@
 					"KeyKp3",
 					"keykp3",
 					"kp3"
+				]
+			},
+			"kanata": {
+				"name": "kp3",
+				"aliases": [
+					"Numpad3",
+					"🔢₃"
 				]
 			},
 			"keyd": "kp3",
@@ -4583,6 +5142,13 @@
 					"kp0"
 				]
 			},
+			"kanata": {
+				"name": "kp0",
+				"aliases": [
+					"Numpad0",
+					"🔢₀"
+				]
+			},
 			"keyd": "kp0",
 			"karabiner-elements": "keypad_0",
 			"autohotkey": {
@@ -4639,6 +5205,13 @@
 					"keykpdot",
 					"KpDot",
 					"kpdot"
+				]
+			},
+			"kanata": {
+				"name": "kp.",
+				"aliases": [
+					"NumpadDecimal",
+					"🔢．"
 				]
 			},
 			"keyd": "kpdot",
@@ -4701,6 +5274,17 @@
 				]
 			},
 			"geometry": "ISO",
+			"kanata": {
+				"name": "nubs",
+				"aliases": [
+					"<",
+					"IntlBackslash",
+					"102d",
+					"lsgt",
+					"nonusbslash",
+					"﹨"
+				]
+			},
 			"keyd": "102nd",
 			"karabiner-elements": "non_us_backslash",
 			"autohotkey": {
@@ -4753,6 +5337,12 @@
 					"f11"
 				]
 			},
+			"kanata": {
+				"name": "f11",
+				"aliases": [
+					"F11"
+				]
+			},
 			"keyd": "f11",
 			"karabiner-elements": "f11",
 			"autohotkey": "F11"
@@ -4798,6 +5388,12 @@
 					"KeyF12",
 					"keyf12",
 					"f12"
+				]
+			},
+			"kanata": {
+				"name": "f12",
+				"aliases": [
+					"F12"
 				]
 			},
 			"keyd": "f12",
@@ -4849,6 +5445,12 @@
 			},
 			"geometry": "JIS",
 			"comment": "JIS KEY_RO is primarily a printable key. It has no distinct standard XKB keysym and often produces the printable backslash symbol, so the physical-key-specific mapping is left missing here.",
+			"kanata": {
+				"name": "ro",
+				"aliases": [
+					"IntlRo"
+				]
+			},
 			"keyd": "ro",
 			"karabiner-elements": "international1",
 			"autohotkey": {
@@ -4903,6 +5505,15 @@
 				]
 			},
 			"geometry": "JIS",
+			"kanata": {
+				"name": "henkan",
+				"aliases": [
+					"cnv",
+					"conv",
+					"henk",
+					"hnk"
+				]
+			},
 			"keyd": "henkan",
 			"karabiner-elements": {
 				"name": "japanese_pc_xfer",
@@ -5023,6 +5634,13 @@
 				]
 			},
 			"geometry": "JIS",
+			"kanata": {
+				"name": "muhenkan",
+				"aliases": [
+					"ncnv",
+					"mhnk"
+				]
+			},
 			"keyd": "muhenkan",
 			"karabiner-elements": {
 				"name": "japanese_pc_nfer",
@@ -5083,6 +5701,20 @@
 					"kp-enter"
 				]
 			},
+			"kanata": {
+				"name": "kprt",
+				"aliases": [
+					"NumpadEnter",
+					"🔢⏎",
+					"🔢↩",
+					"🔢↵",
+					"🔢↲",
+					"🔢⤶",
+					"🔢⎆",
+					"🔢⌤",
+					"🔢␤"
+				]
+			},
 			"keyd": "kpenter",
 			"karabiner-elements": "keypad_enter",
 			"autohotkey": "NumpadEnter"
@@ -5130,6 +5762,15 @@
 					"RightCtrl",
 					"rightctrl",
 					"rctrl"
+				]
+			},
+			"kanata": {
+				"name": "rctl",
+				"aliases": [
+					"ControlRight",
+					"rctrl",
+					"⎈›",
+					"⌃›"
 				]
 			},
 			"keyd": "rightcontrol",
@@ -5185,6 +5826,13 @@
 					"kpslash"
 				]
 			},
+			"kanata": {
+				"name": "kp/",
+				"aliases": [
+					"NumpadDivide",
+					"🔢⁄"
+				]
+			},
 			"keyd": "kpslash",
 			"karabiner-elements": "keypad_slash",
 			"autohotkey": "NumpadDiv"
@@ -5232,6 +5880,16 @@
 					"SysRq",
 					"sysrq",
 					"ssrq"
+				]
+			},
+			"kanata": {
+				"name": "prtsc",
+				"aliases": [
+					"ssrq",
+					"sys",
+					"PrintScreen",
+					"prnt",
+					"⎙"
 				]
 			},
 			"keyd": "sysrq",
@@ -5283,6 +5941,16 @@
 					"keyrightalt",
 					"RightAlt",
 					"rightalt"
+				]
+			},
+			"kanata": {
+				"name": "ralt",
+				"aliases": [
+					"AltRight",
+					"altgr",
+					"⎇›",
+					"⌥›",
+					"⇮"
 				]
 			},
 			"keyd": "rightalt",
@@ -5377,6 +6045,16 @@
 					"home"
 				]
 			},
+			"kanata": {
+				"name": "home",
+				"aliases": [
+					"Home",
+					"⇤",
+					"⤒",
+					"↖",
+					"⇱"
+				]
+			},
 			"keyd": "home",
 			"karabiner-elements": "home",
 			"autohotkey": "Home"
@@ -5422,6 +6100,14 @@
 					"KeyUp",
 					"keyup",
 					"up"
+				]
+			},
+			"kanata": {
+				"name": "up",
+				"aliases": [
+					"ArrowUp",
+					"▲",
+					"↑"
 				]
 			},
 			"keyd": "up",
@@ -5472,6 +6158,14 @@
 					"pageup"
 				]
 			},
+			"kanata": {
+				"name": "pgup",
+				"aliases": [
+					"PageUp",
+					"⇞",
+					"⎗"
+				]
+			},
 			"keyd": "pageup",
 			"karabiner-elements": "page_up",
 			"autohotkey": "PgUp"
@@ -5518,6 +6212,15 @@
 					"keyleft",
 					"Left",
 					"left"
+				]
+			},
+			"kanata": {
+				"name": "lft",
+				"aliases": [
+					"ArrowLeft",
+					"left",
+					"◀",
+					"←"
 				]
 			},
 			"keyd": "left",
@@ -5568,6 +6271,15 @@
 					"right"
 				]
 			},
+			"kanata": {
+				"name": "rght",
+				"aliases": [
+					"ArrowRight",
+					"▶",
+					"→",
+					"right"
+				]
+			},
 			"keyd": "right",
 			"karabiner-elements": "right_arrow",
 			"autohotkey": "Right"
@@ -5615,6 +6327,16 @@
 					"end"
 				]
 			},
+			"kanata": {
+				"name": "end",
+				"aliases": [
+					"End",
+					"⇥",
+					"⤓",
+					"↘",
+					"⇲"
+				]
+			},
 			"keyd": "end",
 			"karabiner-elements": "end",
 			"autohotkey": "End"
@@ -5660,6 +6382,14 @@
 					"KeyDown",
 					"keydown",
 					"down"
+				]
+			},
+			"kanata": {
+				"name": "down",
+				"aliases": [
+					"ArrowDown",
+					"▼",
+					"↓"
 				]
 			},
 			"keyd": "down",
@@ -5710,6 +6440,14 @@
 					"pagedown"
 				]
 			},
+			"kanata": {
+				"name": "pgdn",
+				"aliases": [
+					"PageDown",
+					"⇟",
+					"⎘"
+				]
+			},
 			"keyd": "pagedown",
 			"karabiner-elements": "page_down",
 			"autohotkey": "PgDn"
@@ -5757,6 +6495,13 @@
 					"keyinsert",
 					"Insert",
 					"insert"
+				]
+			},
+			"kanata": {
+				"name": "ins",
+				"aliases": [
+					"Insert",
+					"⎀"
 				]
 			},
 			"keyd": "insert",
@@ -5810,6 +6555,14 @@
 					"keydelete",
 					"Delete",
 					"delete"
+				]
+			},
+			"kanata": {
+				"name": "del",
+				"aliases": [
+					"Delete",
+					"␡",
+					"⌦"
 				]
 			},
 			"keyd": "delete",
@@ -5905,6 +6658,16 @@
 					"mininteresting"
 				]
 			},
+			"kanata": {
+				"name": "mute",
+				"aliases": [
+					"VolumeMute",
+					"🔇",
+					"🔈⓪",
+					"🔈⓿",
+					"🔈₀"
+				]
+			},
 			"keyd": "mute",
 			"karabiner-elements": "mute",
 			"autohotkey": "Volume_Mute"
@@ -5952,6 +6715,18 @@
 					"keyvolumedown",
 					"volumedown",
 					"volumedecrement"
+				]
+			},
+			"kanata": {
+				"name": "vold",
+				"aliases": [
+					"VolumeDown",
+					"voldwn",
+					"🔉",
+					"🔈−",
+					"🔈➖",
+					"🔈₋",
+					"🔈⊖"
 				]
 			},
 			"keyd": "volumedown",
@@ -6006,6 +6781,17 @@
 					"keyvolumeup",
 					"volumeup",
 					"volumeincrement"
+				]
+			},
+			"kanata": {
+				"name": "volu",
+				"aliases": [
+					"VolumeUp",
+					"🔊",
+					"🔈+",
+					"🔈➕",
+					"🔈₊",
+					"🔈⊕"
 				]
 			},
 			"keyd": "volumeup",
@@ -6104,6 +6890,12 @@
 				]
 			},
 			"comment": "Classic keyboard Pause key. On Windows, the special Pause scan code is emitted for this key, while Break is emitted for Ctrl+Pause. GNOME treats the Pause key itself as a media-pause trigger and sends the MPRIS \"Pause\" action.",
+			"kanata": {
+				"name": "pause",
+				"aliases": [
+					"Pause"
+				]
+			},
 			"keyd": "pause",
 			"karabiner-elements": "pause",
 			"autohotkey": {
@@ -6321,6 +7113,7 @@
 				]
 			},
 			"geometry": "JIS",
+			"kanata": "¥",
 			"keyd": "yen",
 			"karabiner-elements": "international3",
 			"autohotkey": "SC07D"
@@ -6372,6 +7165,17 @@
 					"leftmeta",
 					"lmeta",
 					"lmet"
+				]
+			},
+			"kanata": {
+				"name": "lmet",
+				"aliases": [
+					"MetaLeft",
+					"lmeta",
+					"‹◆",
+					"‹⌘",
+					"‹❖",
+					"‹⊞"
 				]
 			},
 			"keyd": "leftmeta",
@@ -6429,6 +7233,17 @@
 					"RightMeta",
 					"rightmeta",
 					"rmeta"
+				]
+			},
+			"kanata": {
+				"name": "rmet",
+				"aliases": [
+					"MetaRight",
+					"rmeta",
+					"◆›",
+					"⌘›",
+					"❖›",
+					"⊞›"
 				]
 			},
 			"keyd": "rightmeta",
@@ -6501,7 +7316,20 @@
 			"web": {
 				"missing": true
 			},
-			"comment": "Linux compose key with the standard XKB Multi_key keysym. This is distinct from the application/menu key.",
+			"kanata": {
+				"name": "ContextMenu",
+				"aliases": [
+					"comp",
+					"cmps",
+					"cmp",
+					"menu",
+					"apps",
+					"▤",
+					"☰",
+					"𝌆"
+				]
+			},
+			"comment": "Linux compose key with the standard XKB Multi_key keysym. This is distinct from the application/menu key. Kanata currently resolves its `ContextMenu`/`menu`/`apps`/`comp` name family to KEY_COMPOSE here rather than to KEY_MENU.",
 			"keyd": "compose"
 		},
 		"stop": {
@@ -6611,7 +7439,8 @@
 			},
 			"keyd": "menu",
 			"karabiner-elements": "application",
-			"autohotkey": "AppsKey"
+			"autohotkey": "AppsKey",
+			"comment": "Application/context-menu key. Kanata does not currently expose a distinct KEY_MENU mapping in its default key-name table; its `menu`/`apps`/`ContextMenu` family resolves to KEY_COMPOSE instead."
 		},
 		"setup": {
 			"hid": {
@@ -7213,6 +8042,12 @@
 					"back"
 				]
 			},
+			"kanata": {
+				"name": "bck",
+				"aliases": [
+					"BrowserBack"
+				]
+			},
 			"keyd": "back",
 			"karabiner-elements": "ac_back",
 			"autohotkey": "Browser_Back"
@@ -7258,6 +8093,12 @@
 					"keyforward",
 					"Forward",
 					"forward"
+				]
+			},
+			"kanata": {
+				"name": "fwd",
+				"aliases": [
+					"BrowserForward"
 				]
 			},
 			"keyd": "forward",
@@ -7353,6 +8194,13 @@
 				]
 			},
 			"comment": "GNOME treats this as the media next-track key and sends the MPRIS \"Next\" action.",
+			"kanata": {
+				"name": "next",
+				"aliases": [
+					"MediaTrackNext",
+					"▶▶"
+				]
+			},
 			"keyd": "nextsong",
 			"karabiner-elements": {
 				"name": "scan_next_track",
@@ -7405,6 +8253,13 @@
 					"keyplaypause",
 					"PlayPause",
 					"playpause"
+				]
+			},
+			"kanata": {
+				"name": "pp",
+				"aliases": [
+					"MediaPlayPause",
+					"▶⏸"
 				]
 			},
 			"keyd": "playpause",
@@ -7466,6 +8321,13 @@
 				]
 			},
 			"comment": "GNOME treats this as the media previous-track key and sends the MPRIS \"Previous\" action.",
+			"kanata": {
+				"name": "prev",
+				"aliases": [
+					"MediaTrackPrevious",
+					"◀◀"
+				]
+			},
 			"keyd": "previoussong",
 			"karabiner-elements": {
 				"name": "scan_previous_track",
@@ -7919,6 +8781,14 @@
 				"missing": true
 			},
 			"comment": "Primary pointer button. Distinct from keyboard keys even when remappers expose it in the same vocabulary.",
+			"kanata": {
+				"name": "mlft",
+				"aliases": [
+					"mouseleft",
+					"🖰1",
+					"‹🖰"
+				]
+			},
 			"keyd": "leftmouse",
 			"autohotkey": "LButton"
 		},
@@ -7954,6 +8824,14 @@
 				"missing": true
 			},
 			"comment": "Secondary pointer button.",
+			"kanata": {
+				"name": "mrgt",
+				"aliases": [
+					"mouseright",
+					"🖰2",
+					"🖰›"
+				]
+			},
 			"keyd": "rightmouse",
 			"autohotkey": "RButton"
 		},
@@ -7989,6 +8867,13 @@
 				"missing": true
 			},
 			"comment": "Middle pointer button.",
+			"kanata": {
+				"name": "mmid",
+				"aliases": [
+					"mousemid",
+					"🖰3"
+				]
+			},
 			"keyd": "middlemouse",
 			"autohotkey": "MButton"
 		},
@@ -8024,6 +8909,13 @@
 				"missing": true
 			},
 			"comment": "Auxiliary side mouse button. On Windows and AutoHotkey this is the 4th mouse button / XBUTTON1.",
+			"kanata": {
+				"name": "mbck",
+				"aliases": [
+					"mousebackward",
+					"🖰4"
+				]
+			},
 			"keyd": "mouse1",
 			"autohotkey": "XButton1"
 		},
@@ -8059,6 +8951,13 @@
 				"missing": true
 			},
 			"comment": "Second auxiliary side mouse button. On Windows and AutoHotkey this is the 5th mouse button / XBUTTON2.",
+			"kanata": {
+				"name": "mfwd",
+				"aliases": [
+					"mouseforward",
+					"🖰5"
+				]
+			},
 			"keyd": "mouse2",
 			"autohotkey": "XButton2"
 		},
@@ -8168,6 +9067,15 @@
 					"kpleftparen"
 				]
 			},
+			"kanata": {
+				"name": "kp(",
+				"aliases": [
+					"NumpadLeftParen",
+					"leftparen",
+					"lpar",
+					"🔢₍"
+				]
+			},
 			"keyd": "kpleftparen"
 		},
 		"kprightparen": {
@@ -8208,6 +9116,15 @@
 					"KeyKpRightParen",
 					"keykprightparen",
 					"kprightparen"
+				]
+			},
+			"kanata": {
+				"name": "kp)",
+				"aliases": [
+					"NumpadRightParen",
+					"rightparen",
+					"rpar",
+					"🔢₎"
 				]
 			},
 			"keyd": "kprightparen"
@@ -8341,6 +9258,12 @@
 					"f13"
 				]
 			},
+			"kanata": {
+				"name": "f13",
+				"aliases": [
+					"F13"
+				]
+			},
 			"keyd": "f13",
 			"karabiner-elements": "f13",
 			"autohotkey": "F13"
@@ -8386,6 +9309,12 @@
 					"KeyF14",
 					"keyf14",
 					"f14"
+				]
+			},
+			"kanata": {
+				"name": "f14",
+				"aliases": [
+					"F14"
 				]
 			},
 			"keyd": "f14",
@@ -8435,6 +9364,12 @@
 					"f15"
 				]
 			},
+			"kanata": {
+				"name": "f15",
+				"aliases": [
+					"F15"
+				]
+			},
 			"keyd": "f15",
 			"karabiner-elements": "f15",
 			"autohotkey": "F15"
@@ -8480,6 +9415,12 @@
 					"KeyF16",
 					"keyf16",
 					"f16"
+				]
+			},
+			"kanata": {
+				"name": "f16",
+				"aliases": [
+					"F16"
 				]
 			},
 			"keyd": "f16",
@@ -8529,6 +9470,12 @@
 					"f17"
 				]
 			},
+			"kanata": {
+				"name": "f17",
+				"aliases": [
+					"F17"
+				]
+			},
 			"keyd": "f17",
 			"karabiner-elements": "f17",
 			"autohotkey": "F17"
@@ -8574,6 +9521,12 @@
 					"KeyF18",
 					"keyf18",
 					"f18"
+				]
+			},
+			"kanata": {
+				"name": "f18",
+				"aliases": [
+					"F18"
 				]
 			},
 			"keyd": "f18",
@@ -8623,6 +9576,12 @@
 					"f19"
 				]
 			},
+			"kanata": {
+				"name": "f19",
+				"aliases": [
+					"F19"
+				]
+			},
 			"keyd": "f19",
 			"karabiner-elements": "f19",
 			"autohotkey": "F19"
@@ -8670,6 +9629,12 @@
 					"f20"
 				]
 			},
+			"kanata": {
+				"name": "f20",
+				"aliases": [
+					"F20"
+				]
+			},
 			"keyd": "f20",
 			"karabiner-elements": "f20",
 			"autohotkey": "F20"
@@ -8715,6 +9680,12 @@
 					"KeyF21",
 					"keyf21",
 					"f21"
+				]
+			},
+			"kanata": {
+				"name": "f21",
+				"aliases": [
+					"F21"
 				]
 			},
 			"keyd": {
@@ -8769,6 +9740,12 @@
 					"f22"
 				]
 			},
+			"kanata": {
+				"name": "f22",
+				"aliases": [
+					"F22"
+				]
+			},
 			"keyd": {
 				"name": "f22",
 				"aliases": [
@@ -8821,6 +9798,12 @@
 					"f23"
 				]
 			},
+			"kanata": {
+				"name": "f23",
+				"aliases": [
+					"F23"
+				]
+			},
 			"keyd": {
 				"name": "f23",
 				"aliases": [
@@ -8871,6 +9854,12 @@
 					"KeyF24",
 					"keyf24",
 					"f24"
+				]
+			},
+			"kanata": {
+				"name": "f24",
+				"aliases": [
+					"F24"
 				]
 			},
 			"keyd": {
@@ -9004,6 +9993,7 @@
 					"allapplications"
 				]
 			},
+			"kanata": "🎛",
 			"keyd": "dashboard"
 		},
 		"close": {
@@ -9311,6 +10301,7 @@
 				]
 			},
 			"comment": "Linux exposes KEY_EMAIL separately from KEY_MAIL, and the kernel maps HID Consumer 0x80 to it even though the HID tables name that usage Selection. XKB and Windows flatten the launcher behavior to the generic mail-launch action, so those canonical mappings live under mail instead.",
+			"kanata": "email",
 			"keyd": "email",
 			"karabiner-elements": "selection"
 		},
@@ -9662,6 +10653,12 @@
 			},
 			"web": {
 				"missing": true
+			},
+			"kanata": {
+				"name": "mdia",
+				"aliases": [
+					"media"
+				]
 			},
 			"autohotkey": "Launch_Media",
 			"kmonad": {
@@ -10325,6 +11322,12 @@
 					"KeyClear",
 					"keyclear",
 					"clear"
+				]
+			},
+			"kanata": {
+				"name": "clr",
+				"aliases": [
+					"kp="
 				]
 			},
 			"karabiner-elements": {
@@ -11606,6 +12609,12 @@
 				]
 			},
 			"comment": "Media-player source/application key for jumping to a playback device or player mode rather than transport control.",
+			"kanata": {
+				"name": "player",
+				"aliases": [
+					"plyr"
+				]
+			},
 			"karabiner-elements": "al_a_or_v_capture_or_playback"
 		},
 		"text": {
@@ -15970,6 +16979,12 @@
 					"keydonotdisturb",
 					"donotdisturb"
 				]
+			},
+			"kanata": {
+				"name": "dnd",
+				"aliases": [
+					"DoNotDisturb"
+				]
 			}
 		},
 		"brightness-min": {
@@ -18855,6 +19870,12 @@
 					"dictation"
 				]
 			},
+			"kanata": {
+				"name": "dtn",
+				"aliases": [
+					"Dictation"
+				]
+			},
 			"karabiner-elements": {
 				"name": "dictation",
 				"aliases": [
@@ -19109,6 +20130,12 @@
 				]
 			},
 			"comment": "GNOME treats this as the home launcher key and invokes its home action.",
+			"kanata": {
+				"name": "hmpg",
+				"aliases": [
+					"homepage"
+				]
+			},
 			"keyd": "homepage",
 			"karabiner-elements": "ac_home",
 			"autohotkey": "Browser_Home"
@@ -19251,6 +20278,7 @@
 				]
 			},
 			"geometry": "JIS",
+			"kanata": "hiragana",
 			"keyd": "hiragana",
 			"karabiner-elements": "lang4",
 			"autohotkey": "SC077"
@@ -19396,6 +20424,7 @@
 				]
 			},
 			"comment": "GNOME treats this as the calculator launcher key and opens GNOME Calculator.",
+			"kanata": "calc",
 			"keyd": "calc",
 			"karabiner-elements": "al_calculator",
 			"autohotkey": "SC121"
@@ -19440,6 +20469,12 @@
 					"keymail",
 					"mail",
 					"emailreader"
+				]
+			},
+			"kanata": {
+				"name": "mail",
+				"aliases": [
+					"LaunchMail"
 				]
 			},
 			"keyd": "mail",
@@ -19614,6 +20649,12 @@
 					"kpequal"
 				]
 			},
+			"kanata": {
+				"name": "NumpadEqual",
+				"aliases": [
+					"🔢₌"
+				]
+			},
 			"keyd": "kpequal",
 			"karabiner-elements": "keypad_equal_sign",
 			"autohotkey": "SC059"
@@ -19752,6 +20793,15 @@
 				]
 			},
 			"comment": "Keyboard backlight increase key. GNOME steps the keyboard-brightness service up; KDE increases keyboard brightness, shows an OSD, and restores keyboard brightness after resume.",
+			"kanata": {
+				"name": "blup",
+				"aliases": [
+					"⌨💡+",
+					"⌨💡➕",
+					"⌨💡₊",
+					"⌨💡⊕"
+				]
+			},
 			"keyd": "kbdillumup",
 			"karabiner-elements": {
 				"name": "illumination_up",
@@ -19805,6 +20855,15 @@
 				]
 			},
 			"comment": "Keyboard backlight decrease key. GNOME steps the keyboard-brightness service down; KDE decreases keyboard brightness, shows an OSD, and restores keyboard brightness after resume.",
+			"kanata": {
+				"name": "bldn",
+				"aliases": [
+					"⌨💡−",
+					"⌨💡➖",
+					"⌨💡₋",
+					"⌨💡⊖"
+				]
+			},
 			"keyd": "kbdillumdown",
 			"karabiner-elements": {
 				"name": "illumination_down",
@@ -20267,6 +21326,12 @@
 					"power"
 				]
 			},
+			"kanata": {
+				"name": "power",
+				"aliases": [
+					"powr"
+				]
+			},
 			"keyd": "power",
 			"karabiner-elements": "power",
 			"autohotkey": "SC15E"
@@ -20312,6 +21377,14 @@
 					"Semicolon",
 					"semicolon",
 					"scln"
+				]
+			},
+			"kanata": {
+				"name": ";",
+				"aliases": [
+					"Semicolon",
+					"scln",
+					"︔"
 				]
 			},
 			"keyd": {
@@ -20363,6 +21436,12 @@
 			},
 			"web": {
 				"name": "Sleep"
+			},
+			"kanata": {
+				"name": "sleep",
+				"aliases": [
+					"zzz"
+				]
 			},
 			"autohotkey": "Sleep",
 			"kmonad": {
@@ -20517,6 +21596,13 @@
 				]
 			},
 			"comment": "Display brightness increase key.",
+			"kanata": {
+				"name": "brup",
+				"aliases": [
+					"bru",
+					"🔆"
+				]
+			},
 			"keyd": "brightnessup",
 			"karabiner-elements": {
 				"name": "display_brightness_increment",
@@ -20574,6 +21660,14 @@
 				]
 			},
 			"comment": "Display brightness decrease key.",
+			"kanata": {
+				"name": "brdown",
+				"aliases": [
+					"brdwn",
+					"brdn",
+					"🔅"
+				]
+			},
 			"keyd": "brightnessdown",
 			"karabiner-elements": {
 				"name": "display_brightness_decrement",
@@ -20676,6 +21770,12 @@
 				]
 			},
 			"comment": "Optical-media eject key for opening the tray / ejecting the disc.",
+			"kanata": {
+				"name": "eject",
+				"aliases": [
+					"EjectCD"
+				]
+			},
 			"keyd": "ejectcd",
 			"karabiner-elements": "eject",
 			"autohotkey": "SC12C"
@@ -21087,6 +22187,12 @@
 			"web": {
 				"name": "WakeUp"
 			},
+			"kanata": {
+				"name": "wkup",
+				"aliases": [
+					"WakeUp"
+				]
+			},
 			"autohotkey": "SC163",
 			"kmonad": {
 				"name": "wkup",
@@ -21410,6 +22516,13 @@
 				]
 			},
 			"geometry": "ABNT2",
+			"kanata": {
+				"name": "kp,",
+				"aliases": [
+					"NumpadComma",
+					"🔢⸴"
+				]
+			},
 			"keyd": "kpcomma",
 			"karabiner-elements": "keypad_comma",
 			"autohotkey": "SC07E"
@@ -21672,6 +22785,12 @@
 					"launchpad"
 				]
 			},
+			"kanata": {
+				"name": "lpad",
+				"aliases": [
+					"LaunchPad"
+				]
+			},
 			"karabiner-elements": {
 				"name": "launchpad",
 				"aliases": [
@@ -21713,6 +22832,12 @@
 					"keyspotlight",
 					"Spotlight",
 					"spotlight"
+				]
+			},
+			"kanata": {
+				"name": "sls",
+				"aliases": [
+					"SpotLightSearch"
 				]
 			},
 			"karabiner-elements": "spotlight"
@@ -21831,6 +22956,18 @@
 					"fn"
 				]
 			},
+			"kanata": {
+				"name": "fn",
+				"aliases": [
+					"🌐",
+					"ƒ",
+					"ⓕ",
+					"Ⓕ",
+					"🄵",
+					"🅕",
+					"🅵"
+				]
+			},
 			"keyd": "fn",
 			"karabiner-elements": {
 				"name": "fn",
@@ -21877,6 +23014,12 @@
 				]
 			},
 			"comment": "Mission Control / all-windows overview key.",
+			"kanata": {
+				"name": "mctl",
+				"aliases": [
+					"MissionControl"
+				]
+			},
 			"karabiner-elements": {
 				"name": "mission_control",
 				"aliases": [
