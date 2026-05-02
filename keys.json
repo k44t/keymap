@@ -6893,7 +6893,9 @@
 			"kanata": {
 				"name": "pause",
 				"aliases": [
-					"Pause"
+					"Pause",
+					"break",
+					"brk"
 				]
 			},
 			"keyd": "pause",

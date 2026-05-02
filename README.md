@@ -7,6 +7,7 @@ Cross-platform keyboard key inventory extracted from `mappy`.
 - `keys.json`: canonical key inventory covering HID, Linux, Windows, Mac, Web, and related metadata.
 - `autohotkey.md`: short coverage note for the AutoHotkey key vocabulary.
 - `karabiner.md`: short coverage note for the Karabiner-Elements key vocabulary.
+- `divergence.md`: notes on remaining semantic divergence across platforms and software vocabularies.
 
 ## Notes
 
