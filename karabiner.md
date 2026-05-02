@@ -6,7 +6,7 @@ Short verification note for Karabiner-Elements key names.
 
 Karabiner coverage in `keys.json` is complete for actual keys.
 
-- Verified against local `#reference/software/karabiner/key_code.hpp`.
+- Verified against the Karabiner-Elements source listed in `sources.md`.
 - Checked both `name_value_pairs` and `other_usage_page_pairs`.
 - Existing canonical keys keep their own names; Karabiner names live under the `karabiner-elements` field on those entries.
 

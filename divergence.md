@@ -8,7 +8,7 @@ Remaining semantic divergence notes across platforms and software vocabularies.
 
 - Canonical `menu` and canonical `compose` are distinct in this inventory.
 - `keyd`, Karabiner-Elements, AutoHotkey, and the platform-native fields keep that distinction.
-- Kanata currently does not: its `ContextMenu` / `menu` / `apps` / `comp` / `cmps` / `cmp` name family resolves to `KEY_COMPOSE` in upstream source.
+- Kanata currently does not: its `ContextMenu` / `menu` / `apps` / `comp` / `cmps` / `cmp` name family resolves to `KEY_COMPOSE` in the upstream source listed in `sources.md`.
 - Current modeling reflects Kanata's actual behavior by attaching that family to canonical `compose` and leaving canonical `menu` without a Kanata mapping.
 
 ### email vs mail
@@ -35,7 +35,7 @@ Remaining semantic divergence notes across platforms and software vocabularies.
 - The Japanese/IME-related keys remain the biggest unresolved cross-platform divergence cluster.
 - Important entries include `kana`, `katakana`, `hiragana`, `henkan`, `muhenkan`, and the `eisu`/`Lang2` family.
 - Web, Linux, Windows scancode-level naming, Karabiner-Elements, and Kanata do not line up on one shared vocabulary here.
-- Kanata is especially likely to need platform-specific modeling for these keys because upstream source maps some of them differently by target platform.
+- Kanata is especially likely to need platform-specific modeling for these keys because its upstream source maps some of them differently by target platform.
 
 ## Resolved / not treated as semantic issues
 

@@ -7,6 +7,7 @@ Short verification note for AutoHotkey key names.
 AutoHotkey coverage in `keys.json` is complete for keyboard keys and named mouse buttons that belong in this inventory.
 
 - Verified against the AutoHotkey v2 key list.
+- Source link is listed in `sources.md`.
 - Named keys are represented either directly or as aliases under the `autohotkey` field on canonical entries.
 - `Media_Stop` is represented under canonical `media-stop`.
 - Mouse buttons are represented under canonical mouse-button entries such as `mouse-left` and `mouse-side`.
