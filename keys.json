@@ -23,8 +23,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xb",
-				"api": "scancode"
+				"code": "0xb"
 			},
 			"virtual": {
 				"code": "0x30"
@@ -63,8 +62,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "0",
-		"autohotkey": "0"
+		"karabiner-elements": {
+			"name": "0"
+		},
+		"autohotkey": {
+			"name": "0"
+		}
 	},
 	"1": {
 		"comment": "Keyboard-page key for Keyboard 1 and !.",
@@ -90,8 +93,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x2",
-				"api": "scancode"
+				"code": "0x2"
 			},
 			"virtual": {
 				"code": "0x31"
@@ -130,8 +132,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "1",
-		"autohotkey": "1"
+		"karabiner-elements": {
+			"name": "1"
+		},
+		"autohotkey": {
+			"name": "1"
+		}
 	},
 	"2": {
 		"comment": "Keyboard-page key for Keyboard 2 and @.",
@@ -157,8 +163,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x3",
-				"api": "scancode"
+				"code": "0x3"
 			},
 			"virtual": {
 				"code": "0x32"
@@ -197,8 +202,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "2",
-		"autohotkey": "2"
+		"karabiner-elements": {
+			"name": "2"
+		},
+		"autohotkey": {
+			"name": "2"
+		}
 	},
 	"3": {
 		"comment": "Keyboard-page key for Keyboard 3 and #.",
@@ -224,8 +233,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x4",
-				"api": "scancode"
+				"code": "0x4"
 			},
 			"virtual": {
 				"code": "0x33"
@@ -264,8 +272,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "3",
-		"autohotkey": "3"
+		"karabiner-elements": {
+			"name": "3"
+		},
+		"autohotkey": {
+			"name": "3"
+		}
 	},
 	"4": {
 		"comment": "Keyboard-page key for Keyboard 4 and $.",
@@ -291,8 +303,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x5",
-				"api": "scancode"
+				"code": "0x5"
 			},
 			"virtual": {
 				"code": "0x34"
@@ -331,8 +342,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "4",
-		"autohotkey": "4"
+		"karabiner-elements": {
+			"name": "4"
+		},
+		"autohotkey": {
+			"name": "4"
+		}
 	},
 	"5": {
 		"comment": "Keyboard-page key for Keyboard 5 and %.",
@@ -358,8 +373,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x6",
-				"api": "scancode"
+				"code": "0x6"
 			},
 			"virtual": {
 				"code": "0x35"
@@ -398,8 +412,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "5",
-		"autohotkey": "5"
+		"karabiner-elements": {
+			"name": "5"
+		},
+		"autohotkey": {
+			"name": "5"
+		}
 	},
 	"6": {
 		"comment": "Keyboard-page key for Keyboard 6 and ^.",
@@ -425,8 +443,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x7",
-				"api": "scancode"
+				"code": "0x7"
 			},
 			"virtual": {
 				"code": "0x36"
@@ -465,8 +482,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "6",
-		"autohotkey": "6"
+		"karabiner-elements": {
+			"name": "6"
+		},
+		"autohotkey": {
+			"name": "6"
+		}
 	},
 	"7": {
 		"comment": "Keyboard-page key for Keyboard 7 and &.",
@@ -492,8 +513,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x8",
-				"api": "scancode"
+				"code": "0x8"
 			},
 			"virtual": {
 				"code": "0x37"
@@ -532,8 +552,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "7",
-		"autohotkey": "7"
+		"karabiner-elements": {
+			"name": "7"
+		},
+		"autohotkey": {
+			"name": "7"
+		}
 	},
 	"8": {
 		"comment": "Keyboard-page key for Keyboard 8 and *.",
@@ -559,8 +583,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x9",
-				"api": "scancode"
+				"code": "0x9"
 			},
 			"virtual": {
 				"code": "0x38"
@@ -599,8 +622,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "8",
-		"autohotkey": "8"
+		"karabiner-elements": {
+			"name": "8"
+		},
+		"autohotkey": {
+			"name": "8"
+		}
 	},
 	"9": {
 		"comment": "Keyboard-page key for Keyboard 9 and (.",
@@ -626,8 +653,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xa",
-				"api": "scancode"
+				"code": "0xa"
 			},
 			"virtual": {
 				"code": "0x39"
@@ -666,8 +692,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "9",
-		"autohotkey": "9"
+		"karabiner-elements": {
+			"name": "9"
+		},
+		"autohotkey": {
+			"name": "9"
+		}
 	},
 	"escape": {
 		"hid": {
@@ -692,8 +722,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x1",
-				"api": "scancode"
+				"code": "0x1"
 			},
 			"virtual": {
 				"code": "0x1b",
@@ -730,7 +759,9 @@
 				"escape"
 			]
 		},
-		"karabiner-elements": "escape",
+		"karabiner-elements": {
+			"name": "escape"
+		},
 		"autohotkey": {
 			"name": "Escape",
 			"aliases": [
@@ -762,8 +793,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xc",
-				"api": "scancode"
+				"code": "0xc"
 			},
 			"virtual": {
 				"code": "0xbd",
@@ -809,8 +839,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "hyphen",
-		"autohotkey": "-"
+		"karabiner-elements": {
+			"name": "hyphen"
+		},
+		"autohotkey": {
+			"name": "-"
+		}
 	},
 	"=": {
 		"comment": "Keyboard-page key for Keyboard = and +.",
@@ -836,8 +870,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xd",
-				"api": "scancode"
+				"code": "0xd"
 			},
 			"virtual": {
 				"code": "0xbb",
@@ -883,8 +916,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "equal_sign",
-		"autohotkey": "="
+		"karabiner-elements": {
+			"name": "equal_sign"
+		},
+		"autohotkey": {
+			"name": "="
+		}
 	},
 	"backspace": {
 		"hid": {
@@ -909,8 +946,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe",
-				"api": "scancode"
+				"code": "0xe"
 			},
 			"virtual": {
 				"code": "0x8",
@@ -946,7 +982,9 @@
 			]
 		},
 		"keyd": "backspace",
-		"karabiner-elements": "delete_or_backspace",
+		"karabiner-elements": {
+			"name": "delete_or_backspace"
+		},
 		"autohotkey": {
 			"name": "Backspace",
 			"aliases": [
@@ -977,8 +1015,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xf",
-				"api": "scancode"
+				"code": "0xf"
 			},
 			"virtual": {
 				"code": "0x9",
@@ -1011,8 +1048,12 @@
 			]
 		},
 		"keyd": "tab",
-		"karabiner-elements": "tab",
-		"autohotkey": "Tab"
+		"karabiner-elements": {
+			"name": "tab"
+		},
+		"autohotkey": {
+			"name": "Tab"
+		}
 	},
 	"q": {
 		"hid": {
@@ -1037,8 +1078,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x10",
-				"api": "scancode"
+				"code": "0x10"
 			},
 			"virtual": {
 				"code": "0x51"
@@ -1078,8 +1118,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "q",
-		"autohotkey": "q"
+		"karabiner-elements": {
+			"name": "q"
+		},
+		"autohotkey": {
+			"name": "q"
+		}
 	},
 	"w": {
 		"hid": {
@@ -1104,8 +1148,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x11",
-				"api": "scancode"
+				"code": "0x11"
 			},
 			"virtual": {
 				"code": "0x57"
@@ -1145,8 +1188,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "w",
-		"autohotkey": "w"
+		"karabiner-elements": {
+			"name": "w"
+		},
+		"autohotkey": {
+			"name": "w"
+		}
 	},
 	"e": {
 		"hid": {
@@ -1171,8 +1218,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x12",
-				"api": "scancode"
+				"code": "0x12"
 			},
 			"virtual": {
 				"code": "0x45"
@@ -1212,8 +1258,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "e",
-		"autohotkey": "e"
+		"karabiner-elements": {
+			"name": "e"
+		},
+		"autohotkey": {
+			"name": "e"
+		}
 	},
 	"r": {
 		"hid": {
@@ -1238,8 +1288,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x13",
-				"api": "scancode"
+				"code": "0x13"
 			},
 			"virtual": {
 				"code": "0x52"
@@ -1279,8 +1328,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "r",
-		"autohotkey": "r"
+		"karabiner-elements": {
+			"name": "r"
+		},
+		"autohotkey": {
+			"name": "r"
+		}
 	},
 	"t": {
 		"hid": {
@@ -1305,8 +1358,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x14",
-				"api": "scancode"
+				"code": "0x14"
 			},
 			"virtual": {
 				"code": "0x54"
@@ -1346,8 +1398,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "t",
-		"autohotkey": "t"
+		"karabiner-elements": {
+			"name": "t"
+		},
+		"autohotkey": {
+			"name": "t"
+		}
 	},
 	"y": {
 		"hid": {
@@ -1372,8 +1428,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x15",
-				"api": "scancode"
+				"code": "0x15"
 			},
 			"virtual": {
 				"code": "0x59"
@@ -1413,8 +1468,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "y",
-		"autohotkey": "y"
+		"karabiner-elements": {
+			"name": "y"
+		},
+		"autohotkey": {
+			"name": "y"
+		}
 	},
 	"u": {
 		"hid": {
@@ -1439,8 +1498,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x16",
-				"api": "scancode"
+				"code": "0x16"
 			},
 			"virtual": {
 				"code": "0x55"
@@ -1480,8 +1538,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "u",
-		"autohotkey": "u"
+		"karabiner-elements": {
+			"name": "u"
+		},
+		"autohotkey": {
+			"name": "u"
+		}
 	},
 	"i": {
 		"hid": {
@@ -1506,8 +1568,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x17",
-				"api": "scancode"
+				"code": "0x17"
 			},
 			"virtual": {
 				"code": "0x49"
@@ -1547,8 +1608,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "i",
-		"autohotkey": "i"
+		"karabiner-elements": {
+			"name": "i"
+		},
+		"autohotkey": {
+			"name": "i"
+		}
 	},
 	"o": {
 		"hid": {
@@ -1573,8 +1638,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x18",
-				"api": "scancode"
+				"code": "0x18"
 			},
 			"virtual": {
 				"code": "0x4f"
@@ -1614,8 +1678,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "o",
-		"autohotkey": "o"
+		"karabiner-elements": {
+			"name": "o"
+		},
+		"autohotkey": {
+			"name": "o"
+		}
 	},
 	"p": {
 		"hid": {
@@ -1640,8 +1708,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x19",
-				"api": "scancode"
+				"code": "0x19"
 			},
 			"virtual": {
 				"code": "0x50"
@@ -1681,8 +1748,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "p",
-		"autohotkey": "p"
+		"karabiner-elements": {
+			"name": "p"
+		},
+		"autohotkey": {
+			"name": "p"
+		}
 	},
 	"`[`": {
 		"hid": {
@@ -1707,8 +1778,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x1a",
-				"api": "scancode"
+				"code": "0x1a"
 			},
 			"virtual": {
 				"code": "0xdb",
@@ -1758,8 +1828,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "open_bracket",
-		"autohotkey": "["
+		"karabiner-elements": {
+			"name": "open_bracket"
+		},
+		"autohotkey": {
+			"name": "["
+		}
 	},
 	"`]`": {
 		"hid": {
@@ -1784,8 +1858,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x1b",
-				"api": "scancode"
+				"code": "0x1b"
 			},
 			"virtual": {
 				"code": "0xdd",
@@ -1835,8 +1908,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "close_bracket",
-		"autohotkey": "]"
+		"karabiner-elements": {
+			"name": "close_bracket"
+		},
+		"autohotkey": {
+			"name": "]"
+		}
 	},
 	"enter": {
 		"hid": {
@@ -1861,8 +1938,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe01c",
-				"api": "scancode"
+				"code": "0xe01c"
 			},
 			"virtual": {
 				"code": "0xd",
@@ -1904,8 +1980,12 @@
 			]
 		},
 		"keyd": "enter",
-		"karabiner-elements": "return_or_enter",
-		"autohotkey": "Enter"
+		"karabiner-elements": {
+			"name": "return_or_enter"
+		},
+		"autohotkey": {
+			"name": "Enter"
+		}
 	},
 	"ctrl-left": {
 		"hid": {
@@ -1930,8 +2010,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe01d",
-				"api": "scancode"
+				"code": "0xe01d"
 			},
 			"virtual": {
 				"code": "0xa2",
@@ -1968,7 +2047,9 @@
 			]
 		},
 		"keyd": "leftcontrol",
-		"karabiner-elements": "left_control",
+		"karabiner-elements": {
+			"name": "left_control"
+		},
 		"autohotkey": {
 			"name": "LControl",
 			"aliases": [
@@ -1999,8 +2080,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x1e",
-				"api": "scancode"
+				"code": "0x1e"
 			},
 			"virtual": {
 				"code": "0x41"
@@ -2040,8 +2120,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "a",
-		"autohotkey": "a"
+		"karabiner-elements": {
+			"name": "a"
+		},
+		"autohotkey": {
+			"name": "a"
+		}
 	},
 	"s": {
 		"hid": {
@@ -2066,8 +2150,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x1f",
-				"api": "scancode"
+				"code": "0x1f"
 			},
 			"virtual": {
 				"code": "0x53"
@@ -2107,8 +2190,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "s",
-		"autohotkey": "s"
+		"karabiner-elements": {
+			"name": "s"
+		},
+		"autohotkey": {
+			"name": "s"
+		}
 	},
 	"d": {
 		"hid": {
@@ -2133,8 +2220,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x20",
-				"api": "scancode"
+				"code": "0x20"
 			},
 			"virtual": {
 				"code": "0x44"
@@ -2174,8 +2260,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "d",
-		"autohotkey": "d"
+		"karabiner-elements": {
+			"name": "d"
+		},
+		"autohotkey": {
+			"name": "d"
+		}
 	},
 	"f": {
 		"hid": {
@@ -2200,8 +2290,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x21",
-				"api": "scancode"
+				"code": "0x21"
 			},
 			"virtual": {
 				"code": "0x46"
@@ -2241,8 +2330,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "f",
-		"autohotkey": "f"
+		"karabiner-elements": {
+			"name": "f"
+		},
+		"autohotkey": {
+			"name": "f"
+		}
 	},
 	"g": {
 		"hid": {
@@ -2267,8 +2360,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x22",
-				"api": "scancode"
+				"code": "0x22"
 			},
 			"virtual": {
 				"code": "0x47"
@@ -2308,8 +2400,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "g",
-		"autohotkey": "g"
+		"karabiner-elements": {
+			"name": "g"
+		},
+		"autohotkey": {
+			"name": "g"
+		}
 	},
 	"h": {
 		"hid": {
@@ -2334,8 +2430,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x23",
-				"api": "scancode"
+				"code": "0x23"
 			},
 			"virtual": {
 				"code": "0x48"
@@ -2375,8 +2470,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "h",
-		"autohotkey": "h"
+		"karabiner-elements": {
+			"name": "h"
+		},
+		"autohotkey": {
+			"name": "h"
+		}
 	},
 	"j": {
 		"hid": {
@@ -2401,8 +2500,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x24",
-				"api": "scancode"
+				"code": "0x24"
 			},
 			"virtual": {
 				"code": "0x4a"
@@ -2442,8 +2540,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "j",
-		"autohotkey": "j"
+		"karabiner-elements": {
+			"name": "j"
+		},
+		"autohotkey": {
+			"name": "j"
+		}
 	},
 	"k": {
 		"hid": {
@@ -2468,8 +2570,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x25",
-				"api": "scancode"
+				"code": "0x25"
 			},
 			"virtual": {
 				"code": "0x4b"
@@ -2509,8 +2610,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "k",
-		"autohotkey": "k"
+		"karabiner-elements": {
+			"name": "k"
+		},
+		"autohotkey": {
+			"name": "k"
+		}
 	},
 	"l": {
 		"hid": {
@@ -2535,8 +2640,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x26",
-				"api": "scancode"
+				"code": "0x26"
 			},
 			"virtual": {
 				"code": "0x4c"
@@ -2576,8 +2680,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "l",
-		"autohotkey": "l"
+		"karabiner-elements": {
+			"name": "l"
+		},
+		"autohotkey": {
+			"name": "l"
+		}
 	},
 	"`'`": {
 		"hid": {
@@ -2602,8 +2710,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x28",
-				"api": "scancode"
+				"code": "0x28"
 			},
 			"virtual": {
 				"code": "0xde",
@@ -2650,8 +2757,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "quote",
-		"autohotkey": "'"
+		"karabiner-elements": {
+			"name": "quote"
+		},
+		"autohotkey": {
+			"name": "'"
+		}
 	},
 	"`\\``": {
 		"hid": {
@@ -2679,8 +2790,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x29",
-				"api": "scancode"
+				"code": "0x29"
 			},
 			"virtual": {
 				"code": "0xc0",
@@ -2728,8 +2838,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "grave_accent_and_tilde",
-		"autohotkey": "`"
+		"karabiner-elements": {
+			"name": "grave_accent_and_tilde"
+		},
+		"autohotkey": {
+			"name": "`"
+		}
 	},
 	"shift-left": {
 		"hid": {
@@ -2754,8 +2868,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x2a",
-				"api": "scancode"
+				"code": "0x2a"
 			},
 			"virtual": {
 				"code": "0xa0",
@@ -2794,8 +2907,12 @@
 			]
 		},
 		"keyd": "leftshift",
-		"karabiner-elements": "left_shift",
-		"autohotkey": "LShift"
+		"karabiner-elements": {
+			"name": "left_shift"
+		},
+		"autohotkey": {
+			"name": "LShift"
+		}
 	},
 	"backslash": {
 		"comment": "Keyboard-page key for Keyboard \\ and |.",
@@ -2824,8 +2941,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x2b",
-				"api": "scancode"
+				"code": "0x2b"
 			},
 			"virtual": {
 				"code": "0xdc",
@@ -2871,8 +2987,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "backslash",
-		"autohotkey": "\\"
+		"karabiner-elements": {
+			"name": "backslash"
+		},
+		"autohotkey": {
+			"name": "\\"
+		}
 	},
 	"iso-#": {
 		"comment": "Distinct HID key for the ISO/UK-style #~ key partially tucked under Enter. It is different from the ISO key next to left Shift (HID 0x64), but many software stacks collapse it onto backslash-like semantics.",
@@ -2923,7 +3043,9 @@
 			"alias-of": "backslash",
 			"comment": "KMonad currently uses the same backslash key name for this physical key rather than a distinct non-US-pound token."
 		},
-		"karabiner-elements": "non_us_pound",
+		"karabiner-elements": {
+			"name": "non_us_pound"
+		},
 		"geometry": "ISO"
 	},
 	"z": {
@@ -2949,8 +3071,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x2c",
-				"api": "scancode"
+				"code": "0x2c"
 			},
 			"virtual": {
 				"code": "0x5a"
@@ -2990,8 +3111,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "z",
-		"autohotkey": "z"
+		"karabiner-elements": {
+			"name": "z"
+		},
+		"autohotkey": {
+			"name": "z"
+		}
 	},
 	"x": {
 		"hid": {
@@ -3016,8 +3141,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x2d",
-				"api": "scancode"
+				"code": "0x2d"
 			},
 			"virtual": {
 				"code": "0x58"
@@ -3057,8 +3181,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "x",
-		"autohotkey": "x"
+		"karabiner-elements": {
+			"name": "x"
+		},
+		"autohotkey": {
+			"name": "x"
+		}
 	},
 	"c": {
 		"hid": {
@@ -3083,8 +3211,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x2e",
-				"api": "scancode"
+				"code": "0x2e"
 			},
 			"virtual": {
 				"code": "0x43"
@@ -3124,8 +3251,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "c",
-		"autohotkey": "c"
+		"karabiner-elements": {
+			"name": "c"
+		},
+		"autohotkey": {
+			"name": "c"
+		}
 	},
 	"v": {
 		"hid": {
@@ -3150,8 +3281,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x2f",
-				"api": "scancode"
+				"code": "0x2f"
 			},
 			"virtual": {
 				"code": "0x56"
@@ -3191,8 +3321,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "v",
-		"autohotkey": "v"
+		"karabiner-elements": {
+			"name": "v"
+		},
+		"autohotkey": {
+			"name": "v"
+		}
 	},
 	"b": {
 		"hid": {
@@ -3217,8 +3351,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x30",
-				"api": "scancode"
+				"code": "0x30"
 			},
 			"virtual": {
 				"code": "0x42"
@@ -3258,8 +3391,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "b",
-		"autohotkey": "b"
+		"karabiner-elements": {
+			"name": "b"
+		},
+		"autohotkey": {
+			"name": "b"
+		}
 	},
 	"n": {
 		"hid": {
@@ -3284,8 +3421,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x31",
-				"api": "scancode"
+				"code": "0x31"
 			},
 			"virtual": {
 				"code": "0x4e"
@@ -3325,8 +3461,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "n",
-		"autohotkey": "n"
+		"karabiner-elements": {
+			"name": "n"
+		},
+		"autohotkey": {
+			"name": "n"
+		}
 	},
 	"m": {
 		"hid": {
@@ -3351,8 +3491,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x32",
-				"api": "scancode"
+				"code": "0x32"
 			},
 			"virtual": {
 				"code": "0x4d"
@@ -3392,8 +3531,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "m",
-		"autohotkey": "m"
+		"karabiner-elements": {
+			"name": "m"
+		},
+		"autohotkey": {
+			"name": "m"
+		}
 	},
 	"`,`": {
 		"hid": {
@@ -3418,8 +3561,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x33",
-				"api": "scancode"
+				"code": "0x33"
 			},
 			"virtual": {
 				"code": "0xbc",
@@ -3465,8 +3607,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "comma",
-		"autohotkey": ","
+		"karabiner-elements": {
+			"name": "comma"
+		},
+		"autohotkey": {
+			"name": ","
+		}
 	},
 	"`.`": {
 		"hid": {
@@ -3491,8 +3637,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x34",
-				"api": "scancode"
+				"code": "0x34"
 			},
 			"virtual": {
 				"code": "0xbe",
@@ -3536,8 +3681,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "period",
-		"autohotkey": "."
+		"karabiner-elements": {
+			"name": "period"
+		},
+		"autohotkey": {
+			"name": "."
+		}
 	},
 	"`/`": {
 		"hid": {
@@ -3562,8 +3711,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe035",
-				"api": "scancode"
+				"code": "0xe035"
 			},
 			"virtual": {
 				"code": "0xbf",
@@ -3607,8 +3755,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "slash",
-		"autohotkey": "/"
+		"karabiner-elements": {
+			"name": "slash"
+		},
+		"autohotkey": {
+			"name": "/"
+		}
 	},
 	"shift-right": {
 		"hid": {
@@ -3633,8 +3785,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x36",
-				"api": "scancode"
+				"code": "0x36"
 			},
 			"virtual": {
 				"code": "0xa1",
@@ -3672,8 +3823,12 @@
 			]
 		},
 		"keyd": "rightshift",
-		"karabiner-elements": "right_shift",
-		"autohotkey": "RShift"
+		"karabiner-elements": {
+			"name": "right_shift"
+		},
+		"autohotkey": {
+			"name": "RShift"
+		}
 	},
 	"win-shift": {
 		"comment": "Generic Windows Shift virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_SHIFT in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LSHIFT or VK_RSHIFT. Keep this unsided Windows emission when that is what was reported, but prefer shift-left or shift-right when sided identity is available.",
@@ -3693,7 +3848,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -3731,8 +3885,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x37",
-				"api": "scancode"
+				"code": "0x37"
 			},
 			"virtual": {
 				"code": "0x6a",
@@ -3765,8 +3918,12 @@
 			]
 		},
 		"keyd": "kpasterisk",
-		"karabiner-elements": "keypad_asterisk",
-		"autohotkey": "NumpadMult"
+		"karabiner-elements": {
+			"name": "keypad_asterisk"
+		},
+		"autohotkey": {
+			"name": "NumpadMult"
+		}
 	},
 	"alt-left": {
 		"hid": {
@@ -3791,8 +3948,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x38",
-				"api": "scancode"
+				"code": "0x38"
 			},
 			"virtual": {
 				"code": "0xa4",
@@ -3833,7 +3989,9 @@
 				"left_alt"
 			]
 		},
-		"autohotkey": "LAlt"
+		"autohotkey": {
+			"name": "LAlt"
+		}
 	},
 	"space": {
 		"hid": {
@@ -3858,8 +4016,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x39",
-				"api": "scancode"
+				"code": "0x39"
 			},
 			"virtual": {
 				"code": "0x20",
@@ -3893,8 +4050,12 @@
 			]
 		},
 		"keyd": "space",
-		"karabiner-elements": "spacebar",
-		"autohotkey": "Space"
+		"karabiner-elements": {
+			"name": "spacebar"
+		},
+		"autohotkey": {
+			"name": "Space"
+		}
 	},
 	"caps-lock": {
 		"hid": {
@@ -3919,8 +4080,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x3a",
-				"api": "scancode"
+				"code": "0x3a"
 			},
 			"virtual": {
 				"code": "0x14",
@@ -3957,8 +4117,12 @@
 			]
 		},
 		"keyd": "capslock",
-		"karabiner-elements": "caps_lock",
-		"autohotkey": "CapsLock"
+		"karabiner-elements": {
+			"name": "caps_lock"
+		},
+		"autohotkey": {
+			"name": "CapsLock"
+		}
 	},
 	"f1": {
 		"hid": {
@@ -3983,8 +4147,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x3b",
-				"api": "scancode"
+				"code": "0x3b"
 			},
 			"virtual": {
 				"code": "0x70",
@@ -4019,8 +4182,12 @@
 			]
 		},
 		"keyd": "f1",
-		"karabiner-elements": "f1",
-		"autohotkey": "F1"
+		"karabiner-elements": {
+			"name": "f1"
+		},
+		"autohotkey": {
+			"name": "F1"
+		}
 	},
 	"f2": {
 		"hid": {
@@ -4045,8 +4212,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x3c",
-				"api": "scancode"
+				"code": "0x3c"
 			},
 			"virtual": {
 				"code": "0x71",
@@ -4081,8 +4247,12 @@
 			]
 		},
 		"keyd": "f2",
-		"karabiner-elements": "f2",
-		"autohotkey": "F2"
+		"karabiner-elements": {
+			"name": "f2"
+		},
+		"autohotkey": {
+			"name": "F2"
+		}
 	},
 	"f3": {
 		"hid": {
@@ -4107,8 +4277,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x3d",
-				"api": "scancode"
+				"code": "0x3d"
 			},
 			"virtual": {
 				"code": "0x72",
@@ -4143,8 +4312,12 @@
 			]
 		},
 		"keyd": "f3",
-		"karabiner-elements": "f3",
-		"autohotkey": "F3"
+		"karabiner-elements": {
+			"name": "f3"
+		},
+		"autohotkey": {
+			"name": "F3"
+		}
 	},
 	"f4": {
 		"hid": {
@@ -4169,8 +4342,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x3e",
-				"api": "scancode"
+				"code": "0x3e"
 			},
 			"virtual": {
 				"code": "0x73",
@@ -4205,8 +4377,12 @@
 			]
 		},
 		"keyd": "f4",
-		"karabiner-elements": "f4",
-		"autohotkey": "F4"
+		"karabiner-elements": {
+			"name": "f4"
+		},
+		"autohotkey": {
+			"name": "F4"
+		}
 	},
 	"f5": {
 		"hid": {
@@ -4231,8 +4407,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x3f",
-				"api": "scancode"
+				"code": "0x3f"
 			},
 			"virtual": {
 				"code": "0x74",
@@ -4267,8 +4442,12 @@
 			]
 		},
 		"keyd": "f5",
-		"karabiner-elements": "f5",
-		"autohotkey": "F5"
+		"karabiner-elements": {
+			"name": "f5"
+		},
+		"autohotkey": {
+			"name": "F5"
+		}
 	},
 	"f6": {
 		"hid": {
@@ -4293,8 +4472,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x40",
-				"api": "scancode"
+				"code": "0x40"
 			},
 			"virtual": {
 				"code": "0x75",
@@ -4329,8 +4507,12 @@
 			]
 		},
 		"keyd": "f6",
-		"karabiner-elements": "f6",
-		"autohotkey": "F6"
+		"karabiner-elements": {
+			"name": "f6"
+		},
+		"autohotkey": {
+			"name": "F6"
+		}
 	},
 	"f7": {
 		"hid": {
@@ -4355,8 +4537,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x41",
-				"api": "scancode"
+				"code": "0x41"
 			},
 			"virtual": {
 				"code": "0x76",
@@ -4391,8 +4572,12 @@
 			]
 		},
 		"keyd": "f7",
-		"karabiner-elements": "f7",
-		"autohotkey": "F7"
+		"karabiner-elements": {
+			"name": "f7"
+		},
+		"autohotkey": {
+			"name": "F7"
+		}
 	},
 	"f8": {
 		"hid": {
@@ -4417,8 +4602,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x42",
-				"api": "scancode"
+				"code": "0x42"
 			},
 			"virtual": {
 				"code": "0x77",
@@ -4453,8 +4637,12 @@
 			]
 		},
 		"keyd": "f8",
-		"karabiner-elements": "f8",
-		"autohotkey": "F8"
+		"karabiner-elements": {
+			"name": "f8"
+		},
+		"autohotkey": {
+			"name": "F8"
+		}
 	},
 	"f9": {
 		"hid": {
@@ -4479,8 +4667,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x43",
-				"api": "scancode"
+				"code": "0x43"
 			},
 			"virtual": {
 				"code": "0x78",
@@ -4515,8 +4702,12 @@
 			]
 		},
 		"keyd": "f9",
-		"karabiner-elements": "f9",
-		"autohotkey": "F9"
+		"karabiner-elements": {
+			"name": "f9"
+		},
+		"autohotkey": {
+			"name": "F9"
+		}
 	},
 	"f10": {
 		"hid": {
@@ -4541,8 +4732,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x44",
-				"api": "scancode"
+				"code": "0x44"
 			},
 			"virtual": {
 				"code": "0x79",
@@ -4577,8 +4767,12 @@
 			]
 		},
 		"keyd": "f10",
-		"karabiner-elements": "f10",
-		"autohotkey": "F10"
+		"karabiner-elements": {
+			"name": "f10"
+		},
+		"autohotkey": {
+			"name": "F10"
+		}
 	},
 	"num-lock": {
 		"hid": {
@@ -4603,8 +4797,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x45",
-				"api": "scancode"
+				"code": "0x45"
 			},
 			"virtual": {
 				"code": "0x90",
@@ -4642,8 +4835,12 @@
 			]
 		},
 		"keyd": "numlock",
-		"karabiner-elements": "keypad_num_lock",
-		"autohotkey": "NumLock"
+		"karabiner-elements": {
+			"name": "keypad_num_lock"
+		},
+		"autohotkey": {
+			"name": "NumLock"
+		}
 	},
 	"scroll-lock": {
 		"hid": {
@@ -4668,8 +4865,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x46",
-				"api": "scancode"
+				"code": "0x46"
 			},
 			"virtual": {
 				"code": "0x91",
@@ -4704,8 +4900,12 @@
 			]
 		},
 		"keyd": "scrolllock",
-		"karabiner-elements": "scroll_lock",
-		"autohotkey": "ScrollLock"
+		"karabiner-elements": {
+			"name": "scroll_lock"
+		},
+		"autohotkey": {
+			"name": "ScrollLock"
+		}
 	},
 	"kp7": {
 		"hid": {
@@ -4730,8 +4930,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x47",
-				"api": "scancode"
+				"code": "0x47"
 			},
 			"virtual": {
 				"code": "0x67",
@@ -4763,7 +4962,9 @@
 			]
 		},
 		"keyd": "kp7",
-		"karabiner-elements": "keypad_7",
+		"karabiner-elements": {
+			"name": "keypad_7"
+		},
 		"autohotkey": {
 			"name": "Numpad7",
 			"aliases": [
@@ -4799,8 +5000,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x48",
-				"api": "scancode"
+				"code": "0x48"
 			},
 			"virtual": {
 				"code": "0x68",
@@ -4832,7 +5032,9 @@
 			]
 		},
 		"keyd": "kp8",
-		"karabiner-elements": "keypad_8",
+		"karabiner-elements": {
+			"name": "keypad_8"
+		},
 		"autohotkey": {
 			"name": "Numpad8",
 			"aliases": [
@@ -4868,8 +5070,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x49",
-				"api": "scancode"
+				"code": "0x49"
 			},
 			"virtual": {
 				"code": "0x69",
@@ -4901,7 +5102,9 @@
 			]
 		},
 		"keyd": "kp9",
-		"karabiner-elements": "keypad_9",
+		"karabiner-elements": {
+			"name": "keypad_9"
+		},
 		"autohotkey": {
 			"name": "Numpad9",
 			"aliases": [
@@ -4937,8 +5140,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x4a",
-				"api": "scancode"
+				"code": "0x4a"
 			},
 			"virtual": {
 				"code": "0x6d",
@@ -4971,8 +5173,12 @@
 			]
 		},
 		"keyd": "kpminus",
-		"karabiner-elements": "keypad_hyphen",
-		"autohotkey": "NumpadSub"
+		"karabiner-elements": {
+			"name": "keypad_hyphen"
+		},
+		"autohotkey": {
+			"name": "NumpadSub"
+		}
 	},
 	"kp4": {
 		"hid": {
@@ -4997,8 +5203,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x4b",
-				"api": "scancode"
+				"code": "0x4b"
 			},
 			"virtual": {
 				"code": "0x64",
@@ -5030,7 +5235,9 @@
 			]
 		},
 		"keyd": "kp4",
-		"karabiner-elements": "keypad_4",
+		"karabiner-elements": {
+			"name": "keypad_4"
+		},
 		"autohotkey": {
 			"name": "Numpad4",
 			"aliases": [
@@ -5066,8 +5273,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x4c",
-				"api": "scancode"
+				"code": "0x4c"
 			},
 			"virtual": {
 				"code": "0x65",
@@ -5099,7 +5305,9 @@
 			]
 		},
 		"keyd": "kp5",
-		"karabiner-elements": "keypad_5",
+		"karabiner-elements": {
+			"name": "keypad_5"
+		},
 		"autohotkey": {
 			"name": "Numpad5",
 			"aliases": [
@@ -5135,8 +5343,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x4d",
-				"api": "scancode"
+				"code": "0x4d"
 			},
 			"virtual": {
 				"code": "0x66",
@@ -5168,7 +5375,9 @@
 			]
 		},
 		"keyd": "kp6",
-		"karabiner-elements": "keypad_6",
+		"karabiner-elements": {
+			"name": "keypad_6"
+		},
 		"autohotkey": {
 			"name": "Numpad6",
 			"aliases": [
@@ -5204,8 +5413,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x4e",
-				"api": "scancode"
+				"code": "0x4e"
 			},
 			"virtual": {
 				"code": "0x6b",
@@ -5239,8 +5447,12 @@
 			]
 		},
 		"keyd": "kpplus",
-		"karabiner-elements": "keypad_plus",
-		"autohotkey": "NumpadAdd"
+		"karabiner-elements": {
+			"name": "keypad_plus"
+		},
+		"autohotkey": {
+			"name": "NumpadAdd"
+		}
 	},
 	"kp1": {
 		"hid": {
@@ -5265,8 +5477,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x4f",
-				"api": "scancode"
+				"code": "0x4f"
 			},
 			"virtual": {
 				"code": "0x61",
@@ -5298,7 +5509,9 @@
 			]
 		},
 		"keyd": "kp1",
-		"karabiner-elements": "keypad_1",
+		"karabiner-elements": {
+			"name": "keypad_1"
+		},
 		"autohotkey": {
 			"name": "Numpad1",
 			"aliases": [
@@ -5334,8 +5547,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x50",
-				"api": "scancode"
+				"code": "0x50"
 			},
 			"virtual": {
 				"code": "0x62",
@@ -5367,7 +5579,9 @@
 			]
 		},
 		"keyd": "kp2",
-		"karabiner-elements": "keypad_2",
+		"karabiner-elements": {
+			"name": "keypad_2"
+		},
 		"autohotkey": {
 			"name": "Numpad2",
 			"aliases": [
@@ -5403,8 +5617,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x51",
-				"api": "scancode"
+				"code": "0x51"
 			},
 			"virtual": {
 				"code": "0x63",
@@ -5436,7 +5649,9 @@
 			]
 		},
 		"keyd": "kp3",
-		"karabiner-elements": "keypad_3",
+		"karabiner-elements": {
+			"name": "keypad_3"
+		},
 		"autohotkey": {
 			"name": "Numpad3",
 			"aliases": [
@@ -5472,8 +5687,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x52",
-				"api": "scancode"
+				"code": "0x52"
 			},
 			"virtual": {
 				"code": "0x60",
@@ -5505,7 +5719,9 @@
 			]
 		},
 		"keyd": "kp0",
-		"karabiner-elements": "keypad_0",
+		"karabiner-elements": {
+			"name": "keypad_0"
+		},
 		"autohotkey": {
 			"name": "Numpad0",
 			"aliases": [
@@ -5541,8 +5757,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x53",
-				"api": "scancode"
+				"code": "0x53"
 			},
 			"virtual": {
 				"code": "0x6e",
@@ -5575,7 +5790,9 @@
 			]
 		},
 		"keyd": "kpdot",
-		"karabiner-elements": "keypad_period",
+		"karabiner-elements": {
+			"name": "keypad_period"
+		},
 		"autohotkey": {
 			"name": "NumpadDot",
 			"aliases": [
@@ -5612,8 +5829,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x56",
-				"api": "scancode"
+				"code": "0x56"
 			},
 			"virtual": {
 				"code": "0xe2",
@@ -5652,7 +5868,9 @@
 			]
 		},
 		"keyd": "102nd",
-		"karabiner-elements": "non_us_backslash",
+		"karabiner-elements": {
+			"name": "non_us_backslash"
+		},
 		"autohotkey": {
 			"name": "SC056",
 			"aliases": [
@@ -5683,8 +5901,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x57",
-				"api": "scancode"
+				"code": "0x57"
 			},
 			"virtual": {
 				"code": "0x7a",
@@ -5719,8 +5936,12 @@
 			]
 		},
 		"keyd": "f11",
-		"karabiner-elements": "f11",
-		"autohotkey": "F11"
+		"karabiner-elements": {
+			"name": "f11"
+		},
+		"autohotkey": {
+			"name": "F11"
+		}
 	},
 	"f12": {
 		"hid": {
@@ -5745,8 +5966,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x58",
-				"api": "scancode"
+				"code": "0x58"
 			},
 			"virtual": {
 				"code": "0x7b",
@@ -5781,8 +6001,12 @@
 			]
 		},
 		"keyd": "f12",
-		"karabiner-elements": "f12",
-		"autohotkey": "F12"
+		"karabiner-elements": {
+			"name": "f12"
+		},
+		"autohotkey": {
+			"name": "F12"
+		}
 	},
 	"intl-ro": {
 		"comment": "JIS KEY_RO is primarily a printable key. It has no distinct standard XKB keysym and often produces the printable backslash symbol, so the physical-key-specific mapping is left missing here.",
@@ -5807,8 +6031,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x73",
-				"api": "scancode"
+				"code": "0x73"
 			},
 			"virtual": {
 				"code": "0xc1",
@@ -5843,7 +6066,9 @@
 			]
 		},
 		"keyd": "ro",
-		"karabiner-elements": "international1",
+		"karabiner-elements": {
+			"name": "international1"
+		},
 		"autohotkey": {
 			"name": "SC073",
 			"aliases": [
@@ -5875,8 +6100,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x79",
-				"api": "scancode"
+				"code": "0x79"
 			},
 			"virtual": {
 				"code": "0x1c",
@@ -5948,8 +6172,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x70",
-				"api": "scancode"
+				"code": "0x70"
 			},
 			"virtual": {
 				"code": "0x15",
@@ -6015,8 +6238,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x7b",
-				"api": "scancode"
+				"code": "0x7b"
 			},
 			"virtual": {
 				"code": "0x1d",
@@ -6086,8 +6308,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x1c",
-				"api": "scancode"
+				"code": "0x1c"
 			},
 			"virtual": {
 				"missing": true,
@@ -6129,8 +6350,12 @@
 			]
 		},
 		"keyd": "kpenter",
-		"karabiner-elements": "keypad_enter",
-		"autohotkey": "NumpadEnter"
+		"karabiner-elements": {
+			"name": "keypad_enter"
+		},
+		"autohotkey": {
+			"name": "NumpadEnter"
+		}
 	},
 	"ctrl-right": {
 		"hid": {
@@ -6155,8 +6380,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x1d",
-				"api": "scancode"
+				"code": "0x1d"
 			},
 			"virtual": {
 				"code": "0xa3",
@@ -6192,7 +6416,9 @@
 			]
 		},
 		"keyd": "rightcontrol",
-		"karabiner-elements": "right_control",
+		"karabiner-elements": {
+			"name": "right_control"
+		},
 		"autohotkey": {
 			"name": "RControl",
 			"aliases": [
@@ -6218,7 +6444,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -6256,8 +6481,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x35",
-				"api": "scancode"
+				"code": "0x35"
 			},
 			"virtual": {
 				"code": "0x6f",
@@ -6290,8 +6514,12 @@
 			]
 		},
 		"keyd": "kpslash",
-		"karabiner-elements": "keypad_slash",
-		"autohotkey": "NumpadDiv"
+		"karabiner-elements": {
+			"name": "keypad_slash"
+		},
+		"autohotkey": {
+			"name": "NumpadDiv"
+		}
 	},
 	"print": {
 		"hid": {
@@ -6316,8 +6544,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe037",
-				"api": "scancode"
+				"code": "0xe037"
 			},
 			"virtual": {
 				"code": "0x2c",
@@ -6361,8 +6588,12 @@
 			]
 		},
 		"keyd": "sysrq",
-		"karabiner-elements": "print_screen",
-		"autohotkey": "PrintScreen"
+		"karabiner-elements": {
+			"name": "print_screen"
+		},
+		"autohotkey": {
+			"name": "PrintScreen"
+		}
 	},
 	"alt-right": {
 		"hid": {
@@ -6390,8 +6621,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe038",
-				"api": "scancode"
+				"code": "0xe038"
 			},
 			"virtual": {
 				"code": "0xa5",
@@ -6433,7 +6663,9 @@
 				"right_alt"
 			]
 		},
-		"autohotkey": "RAlt"
+		"autohotkey": {
+			"name": "RAlt"
+		}
 	},
 	"win-alt": {
 		"comment": "Generic Windows Alt virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_MENU in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LMENU or VK_RMENU. Keep this unsided Windows emission when that is what was reported, but prefer alt-left or alt-right when sided identity is available.",
@@ -6453,7 +6685,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -6489,7 +6720,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -6536,8 +6766,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe047",
-				"api": "scancode"
+				"code": "0xe047"
 			},
 			"virtual": {
 				"code": "0x24",
@@ -6576,8 +6805,12 @@
 			]
 		},
 		"keyd": "home",
-		"karabiner-elements": "home",
-		"autohotkey": "Home"
+		"karabiner-elements": {
+			"name": "home"
+		},
+		"autohotkey": {
+			"name": "Home"
+		}
 	},
 	"uncertain-begin": {
 		"comment": "AppKit semantic begin function-character identity, likely representing begin-of-line behavior rather than a distinct physical key.",
@@ -6595,7 +6828,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -6636,8 +6868,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe048",
-				"api": "scancode"
+				"code": "0xe048"
 			},
 			"virtual": {
 				"code": "0x26",
@@ -6674,8 +6905,12 @@
 			]
 		},
 		"keyd": "up",
-		"karabiner-elements": "up_arrow",
-		"autohotkey": "Up"
+		"karabiner-elements": {
+			"name": "up_arrow"
+		},
+		"autohotkey": {
+			"name": "Up"
+		}
 	},
 	"page-up": {
 		"hid": {
@@ -6700,8 +6935,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe049",
-				"api": "scancode"
+				"code": "0xe049"
 			},
 			"virtual": {
 				"code": "0x21",
@@ -6739,8 +6973,12 @@
 			]
 		},
 		"keyd": "pageup",
-		"karabiner-elements": "page_up",
-		"autohotkey": "PgUp"
+		"karabiner-elements": {
+			"name": "page_up"
+		},
+		"autohotkey": {
+			"name": "PgUp"
+		}
 	},
 	"arrow-left": {
 		"hid": {
@@ -6765,8 +7003,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe04b",
-				"api": "scancode"
+				"code": "0xe04b"
 			},
 			"virtual": {
 				"code": "0x25",
@@ -6805,8 +7042,12 @@
 			]
 		},
 		"keyd": "left",
-		"karabiner-elements": "left_arrow",
-		"autohotkey": "Left"
+		"karabiner-elements": {
+			"name": "left_arrow"
+		},
+		"autohotkey": {
+			"name": "Left"
+		}
 	},
 	"arrow-right": {
 		"hid": {
@@ -6831,8 +7072,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe04d",
-				"api": "scancode"
+				"code": "0xe04d"
 			},
 			"virtual": {
 				"code": "0x27",
@@ -6871,8 +7111,12 @@
 			]
 		},
 		"keyd": "right",
-		"karabiner-elements": "right_arrow",
-		"autohotkey": "Right"
+		"karabiner-elements": {
+			"name": "right_arrow"
+		},
+		"autohotkey": {
+			"name": "Right"
+		}
 	},
 	"end": {
 		"hid": {
@@ -6897,8 +7141,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe04f",
-				"api": "scancode"
+				"code": "0xe04f"
 			},
 			"virtual": {
 				"code": "0x23",
@@ -6937,8 +7180,12 @@
 			]
 		},
 		"keyd": "end",
-		"karabiner-elements": "end",
-		"autohotkey": "End"
+		"karabiner-elements": {
+			"name": "end"
+		},
+		"autohotkey": {
+			"name": "End"
+		}
 	},
 	"arrow-down": {
 		"hid": {
@@ -6963,8 +7210,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe050",
-				"api": "scancode"
+				"code": "0xe050"
 			},
 			"virtual": {
 				"code": "0x28",
@@ -7001,8 +7247,12 @@
 			]
 		},
 		"keyd": "down",
-		"karabiner-elements": "down_arrow",
-		"autohotkey": "Down"
+		"karabiner-elements": {
+			"name": "down_arrow"
+		},
+		"autohotkey": {
+			"name": "Down"
+		}
 	},
 	"page-down": {
 		"hid": {
@@ -7027,8 +7277,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe051",
-				"api": "scancode"
+				"code": "0xe051"
 			},
 			"virtual": {
 				"code": "0x22",
@@ -7066,8 +7315,12 @@
 			]
 		},
 		"keyd": "pagedown",
-		"karabiner-elements": "page_down",
-		"autohotkey": "PgDn"
+		"karabiner-elements": {
+			"name": "page_down"
+		},
+		"autohotkey": {
+			"name": "PgDn"
+		}
 	},
 	"insert": {
 		"hid": {
@@ -7092,8 +7345,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe052",
-				"api": "scancode"
+				"code": "0xe052"
 			},
 			"virtual": {
 				"code": "0x2d",
@@ -7127,7 +7379,9 @@
 			]
 		},
 		"keyd": "insert",
-		"karabiner-elements": "insert",
+		"karabiner-elements": {
+			"name": "insert"
+		},
 		"autohotkey": {
 			"name": "Insert",
 			"aliases": [
@@ -7158,8 +7412,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe053",
-				"api": "scancode"
+				"code": "0xe053"
 			},
 			"virtual": {
 				"code": "0x2e",
@@ -7197,7 +7450,9 @@
 			]
 		},
 		"keyd": "delete",
-		"karabiner-elements": "delete_forward",
+		"karabiner-elements": {
+			"name": "delete_forward"
+		},
 		"autohotkey": {
 			"name": "Delete",
 			"aliases": [
@@ -7221,7 +7476,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -7260,7 +7514,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -7305,14 +7558,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x8",
-				"name": "APPCOMMAND_VOLUME_MUTE",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"code": "0xad",
 				"name": "VK_VOLUME_MUTE"
+			},
+			"appcommand": {
+				"code": "0x8",
+				"name": "APPCOMMAND_VOLUME_MUTE"
 			}
 		},
 		"mac": {
@@ -7348,8 +7600,12 @@
 			]
 		},
 		"keyd": "mute",
-		"karabiner-elements": "mute",
-		"autohotkey": "Volume_Mute"
+		"karabiner-elements": {
+			"name": "mute"
+		},
+		"autohotkey": {
+			"name": "Volume_Mute"
+		}
 	},
 	"media-volume-down": {
 		"hid": {
@@ -7373,14 +7629,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x9",
-				"name": "APPCOMMAND_VOLUME_DOWN",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"code": "0xae",
 				"name": "VK_VOLUME_DOWN"
+			},
+			"appcommand": {
+				"code": "0x9",
+				"name": "APPCOMMAND_VOLUME_DOWN"
 			}
 		},
 		"mac": {
@@ -7424,7 +7679,9 @@
 				"volume_down"
 			]
 		},
-		"autohotkey": "Volume_Down"
+		"autohotkey": {
+			"name": "Volume_Down"
+		}
 	},
 	"media-volume-up": {
 		"hid": {
@@ -7448,14 +7705,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0xa",
-				"name": "APPCOMMAND_VOLUME_UP",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"code": "0xaf",
 				"name": "VK_VOLUME_UP"
+			},
+			"appcommand": {
+				"code": "0xa",
+				"name": "APPCOMMAND_VOLUME_UP"
 			}
 		},
 		"mac": {
@@ -7498,7 +7754,9 @@
 				"volume_up"
 			]
 		},
-		"autohotkey": "Volume_Up"
+		"autohotkey": {
+			"name": "Volume_Up"
+		}
 	},
 	"kp-sign-change": {
 		"comment": "Calculator-style keypad sign toggle: changes the current numeric entry between positive and negative rather than acting as an arithmetic operator.",
@@ -7524,7 +7782,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -7571,8 +7828,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe11d45",
-				"api": "scancode"
+				"code": "0xe11d45"
 			},
 			"virtual": {
 				"code": "0x13",
@@ -7605,7 +7861,9 @@
 			]
 		},
 		"keyd": "pause",
-		"karabiner-elements": "pause",
+		"karabiner-elements": {
+			"name": "pause"
+		},
 		"autohotkey": {
 			"name": "Pause",
 			"comment": "AutoHotkey also recognizes CtrlBreak for the classic Windows Ctrl+Pause behavior on this key."
@@ -7635,7 +7893,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -7689,8 +7946,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x72",
-				"api": "scancode"
+				"code": "0x72"
 			},
 			"virtual": {
 				"code": "0x15",
@@ -7760,8 +8016,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x71",
-				"api": "scancode"
+				"code": "0x71"
 			},
 			"virtual": {
 				"code": "0x19",
@@ -7832,8 +8087,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x7d",
-				"api": "scancode"
+				"code": "0x7d"
 			},
 			"virtual": {
 				"missing": true,
@@ -7864,8 +8118,12 @@
 		"geometry": "JIS",
 		"kanata": "¥",
 		"keyd": "yen",
-		"karabiner-elements": "international3",
-		"autohotkey": "SC07D"
+		"karabiner-elements": {
+			"name": "international3"
+		},
+		"autohotkey": {
+			"name": "SC07D"
+		}
 	},
 	"system-left": {
 		"hid": {
@@ -7893,8 +8151,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x5b",
-				"api": "scancode"
+				"code": "0x5b"
 			},
 			"virtual": {
 				"code": "0x5b",
@@ -7939,7 +8196,9 @@
 				"left_gui"
 			]
 		},
-		"autohotkey": "LWin"
+		"autohotkey": {
+			"name": "LWin"
+		}
 	},
 	"system-right": {
 		"hid": {
@@ -7967,8 +8226,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe05c",
-				"api": "scancode"
+				"code": "0xe05c"
 			},
 			"virtual": {
 				"code": "0x5c",
@@ -8012,7 +8270,9 @@
 				"right_gui"
 			]
 		},
-		"autohotkey": "RWin"
+		"autohotkey": {
+			"name": "RWin"
+		}
 	},
 	"iso-level3-shift": {
 		"comment": "Level-3 shift / AltGr-style modifier key represented by the XKB ISO_Level3_Shift keysym.",
@@ -8035,7 +8295,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -8075,7 +8334,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -8138,19 +8396,15 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe068",
-				"api": "scancode",
-				"alternatives": {
-					"appcommand": {
-						"code": "0x4",
-						"name": "APPCOMMAND_BROWSER_STOP",
-						"api": "appcommand"
-					}
-				}
+				"code": "0xe068"
 			},
 			"virtual": {
 				"code": "0xa9",
 				"name": "VK_BROWSER_STOP"
+			},
+			"appcommand": {
+				"code": "0x4",
+				"name": "APPCOMMAND_BROWSER_STOP"
 			}
 		},
 		"mac": {
@@ -8159,7 +8413,9 @@
 		"web": {
 			"name": "BrowserStop"
 		},
-		"autohotkey": "Browser_Stop",
+		"autohotkey": {
+			"name": "Browser_Stop"
+		},
 		"kmonad": {
 			"name": "Stop",
 			"aliases": [
@@ -8194,8 +8450,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x5d",
-				"api": "scancode"
+				"code": "0x5d"
 			},
 			"virtual": {
 				"code": "0x5d",
@@ -8235,8 +8490,12 @@
 			]
 		},
 		"keyd": "menu",
-		"karabiner-elements": "application",
-		"autohotkey": "AppsKey"
+		"karabiner-elements": {
+			"name": "application"
+		},
+		"autohotkey": {
+			"name": "AppsKey"
+		}
 	},
 	"setup": {
 		"hid": {
@@ -8257,13 +8516,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x34",
-				"name": "APPCOMMAND_MEDIA_CHANNEL_DOWN",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x34",
+				"name": "APPCOMMAND_MEDIA_CHANNEL_DOWN"
 			}
 		},
 		"mac": {
@@ -8303,7 +8561,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -8347,7 +8604,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -8394,7 +8650,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -8441,19 +8696,15 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
-				"missing": true,
-				"alternatives": {
-					"appcommand": {
-						"code": "0x11",
-						"name": "APPCOMMAND_LAUNCH_APP1",
-						"api": "appcommand"
-					}
-				}
+				"missing": true
 			},
 			"virtual": {
 				"code": "0xb6",
 				"name": "VK_LAUNCH_APP1"
+			},
+			"appcommand": {
+				"code": "0x11",
+				"name": "APPCOMMAND_LAUNCH_APP1"
 			}
 		},
 		"mac": {
@@ -8462,7 +8713,9 @@
 		"web": {
 			"missing": true
 		},
-		"autohotkey": "Launch_App1",
+		"autohotkey": {
+			"name": "Launch_App1"
+		},
 		"kmonad": {
 			"name": "Prog1",
 			"aliases": [
@@ -8494,19 +8747,15 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
-				"missing": true,
-				"alternatives": {
-					"appcommand": {
-						"code": "0x12",
-						"name": "APPCOMMAND_LAUNCH_APP2",
-						"api": "appcommand"
-					}
-				}
+				"missing": true
 			},
 			"virtual": {
 				"code": "0xb7",
 				"name": "VK_LAUNCH_APP2"
+			},
+			"appcommand": {
+				"code": "0x12",
+				"name": "APPCOMMAND_LAUNCH_APP2"
 			}
 		},
 		"mac": {
@@ -8515,7 +8764,9 @@
 		"web": {
 			"missing": true
 		},
-		"autohotkey": "Launch_App2",
+		"autohotkey": {
+			"name": "Launch_App2"
+		},
 		"kmonad": {
 			"name": "Prog2",
 			"aliases": [
@@ -8550,7 +8801,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -8577,7 +8827,9 @@
 			]
 		},
 		"keyd": "www",
-		"karabiner-elements": "al_internet_browser"
+		"karabiner-elements": {
+			"name": "al_internet_browser"
+		}
 	},
 	"launch-msdos": {
 		"comment": "Legacy DOS-launch key. Linux exposes it as KEY_MSDOS and XKB uses XF86DOS, reflecting an old application-launch identity rather than a normal text or system-control key.",
@@ -8600,7 +8852,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -8653,7 +8904,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -8680,7 +8930,9 @@
 			]
 		},
 		"keyd": "coffee",
-		"karabiner-elements": "al_terminal_lock_or_screensaver"
+		"karabiner-elements": {
+			"name": "al_terminal_lock_or_screensaver"
+		}
 	},
 	"rotate-display": {
 		"comment": "Linux key exposed as KEY_ROTATE_DISPLAY.",
@@ -8706,7 +8958,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -8754,7 +9005,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -8802,8 +9052,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe066",
-				"api": "scancode"
+				"code": "0xe066"
 			},
 			"virtual": {
 				"missing": true
@@ -8829,8 +9078,12 @@
 				"bookmarks"
 			]
 		},
-		"karabiner-elements": "ac_bookmarks",
-		"autohotkey": "Browser_Favorites"
+		"karabiner-elements": {
+			"name": "ac_bookmarks"
+		},
+		"autohotkey": {
+			"name": "Browser_Favorites"
+		}
 	},
 	"computer": {
 		"hid": {
@@ -8852,7 +9105,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -8897,14 +9149,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x1",
-				"name": "APPCOMMAND_BROWSER_BACKWARD",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"code": "0xa6",
 				"name": "VK_BROWSER_BACK"
+			},
+			"appcommand": {
+				"code": "0x1",
+				"name": "APPCOMMAND_BROWSER_BACKWARD"
 			}
 		},
 		"mac": {
@@ -8928,8 +9179,12 @@
 			]
 		},
 		"keyd": "back",
-		"karabiner-elements": "ac_back",
-		"autohotkey": "Browser_Back"
+		"karabiner-elements": {
+			"name": "ac_back"
+		},
+		"autohotkey": {
+			"name": "Browser_Back"
+		}
 	},
 	"forward": {
 		"hid": {
@@ -8953,14 +9208,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x2",
-				"name": "APPCOMMAND_BROWSER_FORWARD",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"code": "0xa7",
 				"name": "VK_BROWSER_FORWARD"
+			},
+			"appcommand": {
+				"code": "0x2",
+				"name": "APPCOMMAND_BROWSER_FORWARD"
 			}
 		},
 		"mac": {
@@ -8985,8 +9239,12 @@
 			]
 		},
 		"keyd": "forward",
-		"karabiner-elements": "ac_forward",
-		"autohotkey": "Browser_Forward"
+		"karabiner-elements": {
+			"name": "ac_forward"
+		},
+		"autohotkey": {
+			"name": "Browser_Forward"
+		}
 	},
 	"media-cd-close": {
 		"comment": "Linux key exposed as KEY_CLOSECD.",
@@ -9009,7 +9267,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9055,14 +9312,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0xb",
-				"name": "APPCOMMAND_MEDIA_NEXTTRACK",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"code": "0xb0",
 				"name": "VK_MEDIA_NEXT_TRACK"
+			},
+			"appcommand": {
+				"code": "0xb",
+				"name": "APPCOMMAND_MEDIA_NEXTTRACK"
 			}
 		},
 		"mac": {
@@ -9101,7 +9357,9 @@
 				"vk_consumer_next"
 			]
 		},
-		"autohotkey": "Media_Next"
+		"autohotkey": {
+			"name": "Media_Next"
+		}
 	},
 	"media-play-pause": {
 		"hid": {
@@ -9125,14 +9383,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0xe",
-				"name": "APPCOMMAND_MEDIA_PLAY_PAUSE",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"code": "0xb3",
 				"name": "VK_MEDIA_PLAY_PAUSE"
+			},
+			"appcommand": {
+				"code": "0xe",
+				"name": "APPCOMMAND_MEDIA_PLAY_PAUSE"
 			}
 		},
 		"mac": {
@@ -9167,7 +9424,9 @@
 				"vk_consumer_play"
 			]
 		},
-		"autohotkey": "Media_Play_Pause"
+		"autohotkey": {
+			"name": "Media_Play_Pause"
+		}
 	},
 	"media-prev": {
 		"comment": "GNOME treats this as the media previous-track key and sends the MPRIS \"Previous\" action.",
@@ -9192,14 +9451,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0xc",
-				"name": "APPCOMMAND_MEDIA_PREVIOUSTRACK",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"code": "0xb1",
 				"name": "VK_MEDIA_PREV_TRACK"
+			},
+			"appcommand": {
+				"code": "0xc",
+				"name": "APPCOMMAND_MEDIA_PREVIOUSTRACK"
 			}
 		},
 		"mac": {
@@ -9238,7 +9496,9 @@
 				"vk_consumer_previous"
 			]
 		},
-		"autohotkey": "Media_Prev"
+		"autohotkey": {
+			"name": "Media_Prev"
+		}
 	},
 	"media-rewind": {
 		"comment": "GNOME treats this as the media rewind key and sends the MPRIS \"Rewind\" action.",
@@ -9263,14 +9523,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x32",
-				"name": "APPCOMMAND_MEDIA_REWIND",
-				"api": "appcommand"
-			},
 			"virtual": {
-				"api": "appcommand",
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x32",
+				"name": "APPCOMMAND_MEDIA_REWIND"
 			}
 		},
 		"mac": {
@@ -9295,7 +9553,9 @@
 			]
 		},
 		"keyd": "rewind",
-		"karabiner-elements": "rewind"
+		"karabiner-elements": {
+			"name": "rewind"
+		}
 	},
 	"phone": {
 		"hid": {
@@ -9320,7 +9580,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9364,7 +9623,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9410,20 +9668,16 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe067",
-				"api": "scancode",
-				"alternatives": {
-					"appcommand": {
-						"code": "0x3",
-						"name": "APPCOMMAND_BROWSER_REFRESH",
-						"api": "appcommand",
-						"certainty": 0.95
-					}
-				}
+				"code": "0xe067"
 			},
 			"virtual": {
 				"code": "0xa8",
 				"name": "VK_BROWSER_REFRESH"
+			},
+			"appcommand": {
+				"code": "0x3",
+				"name": "APPCOMMAND_BROWSER_REFRESH",
+				"certainty": 0.95
 			}
 		},
 		"mac": {
@@ -9441,8 +9695,12 @@
 			]
 		},
 		"keyd": "refresh",
-		"karabiner-elements": "ac_refresh",
-		"autohotkey": "Browser_Refresh"
+		"karabiner-elements": {
+			"name": "ac_refresh"
+		},
+		"autohotkey": {
+			"name": "Browser_Refresh"
+		}
 	},
 	"exit": {
 		"comment": "Exit / quit key. The Linux kernel also maps HID Generic Desktop System Menu Exit (0x01/0x88) and Consumer AC Exit (0x0c/0x204) to the same KEY_EXIT / XKB key. XKB additionally has an active xkeyboard-config mapping to XF86Close, but xkbcommon-keysyms.h defines XF86Exit specifically for KEY_EXIT, so the other mapping is preserved here only for reference.",
@@ -9489,7 +9747,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9533,7 +9790,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9579,7 +9835,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9626,7 +9881,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9675,7 +9929,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9723,7 +9976,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9745,7 +9997,9 @@
 			]
 		},
 		"keyd": "leftmouse",
-		"autohotkey": "LButton"
+		"autohotkey": {
+			"name": "LButton"
+		}
 	},
 	"mouse-right": {
 		"comment": "Secondary pointer button.",
@@ -9769,7 +10023,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9792,7 +10045,9 @@
 			]
 		},
 		"keyd": "rightmouse",
-		"autohotkey": "RButton"
+		"autohotkey": {
+			"name": "RButton"
+		}
 	},
 	"mouse-middle": {
 		"comment": "Middle pointer button.",
@@ -9816,7 +10071,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9838,7 +10092,9 @@
 			]
 		},
 		"keyd": "middlemouse",
-		"autohotkey": "MButton"
+		"autohotkey": {
+			"name": "MButton"
+		}
 	},
 	"mouse-side": {
 		"comment": "Auxiliary side mouse button. On Windows and AutoHotkey this is the 4th mouse button / XBUTTON1.",
@@ -9862,7 +10118,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9884,7 +10139,9 @@
 			]
 		},
 		"keyd": "mouse1",
-		"autohotkey": "XButton1"
+		"autohotkey": {
+			"name": "XButton1"
+		}
 	},
 	"mouse-extra": {
 		"comment": "Second auxiliary side mouse button. On Windows and AutoHotkey this is the 5th mouse button / XBUTTON2.",
@@ -9908,7 +10165,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9930,7 +10186,9 @@
 			]
 		},
 		"keyd": "mouse2",
-		"autohotkey": "XButton2"
+		"autohotkey": {
+			"name": "XButton2"
+		}
 	},
 	"mouse-forward": {
 		"comment": "Forward thumb/button mouse control. Distinct from the keyboard/browser forward key.",
@@ -9954,7 +10212,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -9991,7 +10248,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -10030,7 +10286,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -10086,7 +10341,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -10140,13 +10394,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x1d",
-				"name": "APPCOMMAND_NEW",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x1d",
+				"name": "APPCOMMAND_NEW"
 			}
 		},
 		"mac": {
@@ -10187,13 +10440,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x23",
-				"name": "APPCOMMAND_REDO",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x23",
+				"name": "APPCOMMAND_REDO"
 			}
 		},
 		"mac": {
@@ -10238,8 +10490,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x64",
-				"api": "scancode"
+				"code": "0x64"
 			},
 			"virtual": {
 				"code": "0x7c",
@@ -10274,8 +10525,12 @@
 			]
 		},
 		"keyd": "f13",
-		"karabiner-elements": "f13",
-		"autohotkey": "F13"
+		"karabiner-elements": {
+			"name": "f13"
+		},
+		"autohotkey": {
+			"name": "F13"
+		}
 	},
 	"f14": {
 		"hid": {
@@ -10300,8 +10555,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x65",
-				"api": "scancode"
+				"code": "0x65"
 			},
 			"virtual": {
 				"code": "0x7d",
@@ -10336,8 +10590,12 @@
 			]
 		},
 		"keyd": "f14",
-		"karabiner-elements": "f14",
-		"autohotkey": "F14"
+		"karabiner-elements": {
+			"name": "f14"
+		},
+		"autohotkey": {
+			"name": "F14"
+		}
 	},
 	"f15": {
 		"hid": {
@@ -10362,8 +10620,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x66",
-				"api": "scancode"
+				"code": "0x66"
 			},
 			"virtual": {
 				"code": "0x7e",
@@ -10398,8 +10655,12 @@
 			]
 		},
 		"keyd": "f15",
-		"karabiner-elements": "f15",
-		"autohotkey": "F15"
+		"karabiner-elements": {
+			"name": "f15"
+		},
+		"autohotkey": {
+			"name": "F15"
+		}
 	},
 	"f16": {
 		"hid": {
@@ -10424,8 +10685,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x67",
-				"api": "scancode"
+				"code": "0x67"
 			},
 			"virtual": {
 				"code": "0x7f",
@@ -10460,8 +10720,12 @@
 			]
 		},
 		"keyd": "f16",
-		"karabiner-elements": "f16",
-		"autohotkey": "F16"
+		"karabiner-elements": {
+			"name": "f16"
+		},
+		"autohotkey": {
+			"name": "F16"
+		}
 	},
 	"f17": {
 		"hid": {
@@ -10486,8 +10750,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x68",
-				"api": "scancode"
+				"code": "0x68"
 			},
 			"virtual": {
 				"code": "0x80",
@@ -10522,8 +10785,12 @@
 			]
 		},
 		"keyd": "f17",
-		"karabiner-elements": "f17",
-		"autohotkey": "F17"
+		"karabiner-elements": {
+			"name": "f17"
+		},
+		"autohotkey": {
+			"name": "F17"
+		}
 	},
 	"f18": {
 		"hid": {
@@ -10548,8 +10815,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x69",
-				"api": "scancode"
+				"code": "0x69"
 			},
 			"virtual": {
 				"code": "0x81",
@@ -10584,8 +10850,12 @@
 			]
 		},
 		"keyd": "f18",
-		"karabiner-elements": "f18",
-		"autohotkey": "F18"
+		"karabiner-elements": {
+			"name": "f18"
+		},
+		"autohotkey": {
+			"name": "F18"
+		}
 	},
 	"f19": {
 		"hid": {
@@ -10610,8 +10880,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x6a",
-				"api": "scancode"
+				"code": "0x6a"
 			},
 			"virtual": {
 				"code": "0x82",
@@ -10646,8 +10915,12 @@
 			]
 		},
 		"keyd": "f19",
-		"karabiner-elements": "f19",
-		"autohotkey": "F19"
+		"karabiner-elements": {
+			"name": "f19"
+		},
+		"autohotkey": {
+			"name": "F19"
+		}
 	},
 	"f20": {
 		"hid": {
@@ -10672,8 +10945,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x6b",
-				"api": "scancode"
+				"code": "0x6b"
 			},
 			"virtual": {
 				"code": "0x83",
@@ -10708,8 +10980,12 @@
 			]
 		},
 		"keyd": "f20",
-		"karabiner-elements": "f20",
-		"autohotkey": "F20"
+		"karabiner-elements": {
+			"name": "f20"
+		},
+		"autohotkey": {
+			"name": "F20"
+		}
 	},
 	"f21": {
 		"hid": {
@@ -10734,8 +11010,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x6c",
-				"api": "scancode"
+				"code": "0x6c"
 			},
 			"virtual": {
 				"code": "0x84",
@@ -10771,8 +11046,12 @@
 				"prog1"
 			]
 		},
-		"karabiner-elements": "f21",
-		"autohotkey": "F21"
+		"karabiner-elements": {
+			"name": "f21"
+		},
+		"autohotkey": {
+			"name": "F21"
+		}
 	},
 	"f22": {
 		"hid": {
@@ -10797,8 +11076,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x6d",
-				"api": "scancode"
+				"code": "0x6d"
 			},
 			"virtual": {
 				"code": "0x85",
@@ -10834,8 +11112,12 @@
 				"prog2"
 			]
 		},
-		"karabiner-elements": "f22",
-		"autohotkey": "F22"
+		"karabiner-elements": {
+			"name": "f22"
+		},
+		"autohotkey": {
+			"name": "F22"
+		}
 	},
 	"f23": {
 		"hid": {
@@ -10860,8 +11142,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x6e",
-				"api": "scancode"
+				"code": "0x6e"
 			},
 			"virtual": {
 				"code": "0x86",
@@ -10897,8 +11178,12 @@
 				"prog3"
 			]
 		},
-		"karabiner-elements": "f23",
-		"autohotkey": "F23"
+		"karabiner-elements": {
+			"name": "f23"
+		},
+		"autohotkey": {
+			"name": "F23"
+		}
 	},
 	"f24": {
 		"hid": {
@@ -10923,8 +11208,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x76",
-				"api": "scancode"
+				"code": "0x76"
 			},
 			"virtual": {
 				"code": "0x87",
@@ -10960,8 +11244,12 @@
 				"prog4"
 			]
 		},
-		"karabiner-elements": "f24",
-		"autohotkey": "F24"
+		"karabiner-elements": {
+			"name": "f24"
+		},
+		"autohotkey": {
+			"name": "F24"
+		}
 	},
 	"prog3": {
 		"comment": "Linux key exposed as KEY_PROG3.",
@@ -10984,7 +11272,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11028,7 +11315,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11077,7 +11363,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11124,13 +11409,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x1f",
-				"name": "APPCOMMAND_CLOSE",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x1f",
+				"name": "APPCOMMAND_CLOSE"
 			}
 		},
 		"mac": {
@@ -11172,14 +11456,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x31",
-				"name": "APPCOMMAND_MEDIA_FAST_FORWARD",
-				"api": "appcommand"
-			},
 			"virtual": {
-				"api": "appcommand",
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x31",
+				"name": "APPCOMMAND_MEDIA_FAST_FORWARD"
 			}
 		},
 		"mac": {
@@ -11234,14 +11516,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x14",
-				"name": "APPCOMMAND_BASS_BOOST",
-				"api": "appcommand",
-				"certainty": 0.95
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x14",
+				"name": "APPCOMMAND_BASS_BOOST",
+				"certainty": 0.95
 			}
 		},
 		"mac": {
@@ -11259,7 +11540,9 @@
 			]
 		},
 		"keyd": "bassboost",
-		"karabiner-elements": "bass_boost"
+		"karabiner-elements": {
+			"name": "bass_boost"
+		}
 	},
 	"camera": {
 		"hid": {
@@ -11295,7 +11578,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11342,7 +11624,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11388,7 +11669,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11427,7 +11707,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11465,7 +11744,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11488,7 +11766,9 @@
 		},
 		"kanata": "email",
 		"keyd": "email",
-		"karabiner-elements": "selection"
+		"karabiner-elements": {
+			"name": "selection"
+		}
 	},
 	"chat": {
 		"hid": {
@@ -11524,7 +11804,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11570,7 +11849,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11617,7 +11895,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11670,7 +11947,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11717,7 +11993,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11763,7 +12038,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11807,7 +12081,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11830,7 +12103,9 @@
 			]
 		},
 		"keyd": "voicecommand",
-		"karabiner-elements": "alternate_erase"
+		"karabiner-elements": {
+			"name": "alternate_erase"
+		}
 	},
 	"cancel": {
 		"hid": {
@@ -11855,7 +12130,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -11869,7 +12143,9 @@
 		"web": {
 			"missing": true
 		},
-		"autohotkey": "VK03",
+		"autohotkey": {
+			"name": "VK03"
+		},
 		"kmonad": {
 			"name": "Cancel",
 			"aliases": [
@@ -11901,20 +12177,16 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
-				"missing": true,
-				"alternatives": {
-					"appcommand": {
-						"code": "0x10",
-						"name": "APPCOMMAND_LAUNCH_MEDIA_SELECT",
-						"api": "appcommand",
-						"certainty": 0.7
-					}
-				}
+				"missing": true
 			},
 			"virtual": {
 				"code": "0xb5",
 				"name": "VK_LAUNCH_MEDIA_SELECT"
+			},
+			"appcommand": {
+				"code": "0x10",
+				"name": "APPCOMMAND_LAUNCH_MEDIA_SELECT",
+				"certainty": 0.7
 			}
 		},
 		"mac": {
@@ -11929,7 +12201,9 @@
 				"media"
 			]
 		},
-		"autohotkey": "Launch_Media",
+		"autohotkey": {
+			"name": "Launch_Media"
+		},
 		"kmonad": {
 			"name": "Media",
 			"aliases": [
@@ -11963,13 +12237,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x20",
-				"name": "APPCOMMAND_SAVE",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x20",
+				"name": "APPCOMMAND_SAVE"
 			}
 		},
 		"mac": {
@@ -12011,7 +12284,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12033,7 +12305,9 @@
 			]
 		},
 		"keyd": "documents",
-		"karabiner-elements": "al_documents"
+		"karabiner-elements": {
+			"name": "al_documents"
+		}
 	},
 	"battery": {
 		"comment": "GNOME treats this as the battery-status key and shows battery information/OSD.",
@@ -12056,7 +12330,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12100,7 +12373,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12144,7 +12416,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12188,7 +12459,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12232,7 +12502,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true,
 				"unknown": true
 			},
@@ -12274,7 +12543,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12320,7 +12588,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12366,7 +12633,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12416,7 +12682,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12469,7 +12734,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12512,7 +12776,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12548,7 +12811,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12586,7 +12848,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12633,7 +12894,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12673,7 +12933,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12714,7 +12973,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12763,7 +13021,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12815,7 +13072,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12851,7 +13107,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12864,7 +13119,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "sys_req_or_attention"
+		"karabiner-elements": {
+			"name": "sys_req_or_attention"
+		}
 	},
 	"prior": {
 		"comment": "Legacy extended keyboard control key on the HID keyboard page.",
@@ -12884,7 +13141,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12897,7 +13153,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "prior"
+		"karabiner-elements": {
+			"name": "prior"
+		}
 	},
 	"legacy-return": {
 		"comment": "Legacy extended keyboard control key, distinct from the normal Return/Enter key and keypad Enter.",
@@ -12917,7 +13175,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12930,7 +13187,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "return"
+		"karabiner-elements": {
+			"name": "return"
+		}
 	},
 	"separator": {
 		"comment": "Legacy extended keyboard control key on the HID keyboard page.",
@@ -12950,7 +13209,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12965,7 +13223,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "separator"
+		"karabiner-elements": {
+			"name": "separator"
+		}
 	},
 	"out": {
 		"comment": "Legacy extended keyboard control key on the HID keyboard page.",
@@ -12985,7 +13245,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -12998,7 +13257,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "out"
+		"karabiner-elements": {
+			"name": "out"
+		}
 	},
 	"oper": {
 		"comment": "Legacy extended keyboard control key on the HID keyboard page.",
@@ -13018,7 +13279,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13031,7 +13291,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "oper"
+		"karabiner-elements": {
+			"name": "oper"
+		}
 	},
 	"power2": {
 		"comment": "Secondary power key. systemd-logind handles KEY_POWER2 through the same power-button path as KEY_POWER, and also supports a distinct long-press action.",
@@ -13052,7 +13314,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13090,7 +13351,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13136,7 +13396,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13159,7 +13418,9 @@
 				"tipsbrowser"
 			]
 		},
-		"karabiner-elements": "data_on_screen"
+		"karabiner-elements": {
+			"name": "data_on_screen"
+		}
 	},
 	"time": {
 		"comment": "Time-display key. On consumer/media devices this is typically used to show or enter a time/timecode/clock-style view rather than general scheduling logic.",
@@ -13177,7 +13438,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13215,7 +13475,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13253,7 +13512,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13291,7 +13549,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13333,14 +13590,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x6",
-				"name": "APPCOMMAND_BROWSER_FAVORITES",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"code": "0xAB",
 				"name": "VK_BROWSER_FAVORITES"
+			},
+			"appcommand": {
+				"code": "0x6",
+				"name": "APPCOMMAND_BROWSER_FAVORITES"
 			}
 		},
 		"mac": {
@@ -13378,7 +13634,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13424,7 +13679,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13462,7 +13716,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13500,7 +13753,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13521,7 +13773,9 @@
 				"language"
 			]
 		},
-		"karabiner-elements": "language"
+		"karabiner-elements": {
+			"name": "language"
+		}
 	},
 	"title": {
 		"comment": "Linux key exposed as KEY_TITLE.",
@@ -13539,7 +13793,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13585,7 +13838,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13607,7 +13859,9 @@
 				"subtitle"
 			]
 		},
-		"karabiner-elements": "closed_caption"
+		"karabiner-elements": {
+			"name": "closed_caption"
+		}
 	},
 	"angle": {
 		"comment": "Linux key exposed as KEY_ANGLE.",
@@ -13625,7 +13879,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13663,7 +13916,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13709,7 +13961,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13730,7 +13981,9 @@
 				"keyboard"
 			]
 		},
-		"karabiner-elements": "al_keyboard_layout"
+		"karabiner-elements": {
+			"name": "al_keyboard_layout"
+		}
 	},
 	"aspect-ratio": {
 		"comment": "Aspect-ratio switching key for display/video devices.",
@@ -13754,7 +14007,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13776,7 +14028,9 @@
 				"aspectratio"
 			]
 		},
-		"karabiner-elements": "aspect"
+		"karabiner-elements": {
+			"name": "aspect"
+		}
 	},
 	"pc": {
 		"comment": "Source-selection key for switching to a PC/computer input on a display or media device.",
@@ -13797,7 +14051,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13838,7 +14091,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13879,7 +14131,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13929,7 +14180,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -13970,7 +14220,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14012,7 +14261,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14050,7 +14298,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14091,7 +14338,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14132,7 +14378,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14170,7 +14415,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14211,7 +14455,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14252,7 +14495,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14279,7 +14521,9 @@
 				"plyr"
 			]
 		},
-		"karabiner-elements": "al_a_or_v_capture_or_playback"
+		"karabiner-elements": {
+			"name": "al_a_or_v_capture_or_playback"
+		}
 	},
 	"text": {
 		"comment": "Linux key exposed as KEY_TEXT.",
@@ -14297,7 +14541,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14346,7 +14589,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14389,7 +14631,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14422,7 +14663,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14460,7 +14700,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14506,7 +14745,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14527,7 +14765,9 @@
 				"audio"
 			]
 		},
-		"karabiner-elements": "al_audio_browser"
+		"karabiner-elements": {
+			"name": "al_audio_browser"
+		}
 	},
 	"media-video": {
 		"comment": "Consumer-control key for AL Movie Browser.",
@@ -14548,7 +14788,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14569,7 +14808,9 @@
 				"video"
 			]
 		},
-		"karabiner-elements": "al_movie_browser"
+		"karabiner-elements": {
+			"name": "al_movie_browser"
+		}
 	},
 	"directory": {
 		"comment": "Linux key exposed as KEY_DIRECTORY.",
@@ -14587,7 +14828,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14625,7 +14865,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14666,7 +14905,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14713,7 +14951,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14755,7 +14992,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14776,7 +15012,9 @@
 				"red"
 			]
 		},
-		"karabiner-elements": "red_menu_button"
+		"karabiner-elements": {
+			"name": "red_menu_button"
+		}
 	},
 	"green": {
 		"comment": "Consumer-control key for Green Menu Button.",
@@ -14797,7 +15035,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14818,7 +15055,9 @@
 				"green"
 			]
 		},
-		"karabiner-elements": "green_menu_button"
+		"karabiner-elements": {
+			"name": "green_menu_button"
+		}
 	},
 	"yellow": {
 		"comment": "Consumer-control key for Yellow Menu Button.",
@@ -14839,7 +15078,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14860,7 +15098,9 @@
 				"yellow"
 			]
 		},
-		"karabiner-elements": "yellow_menu_button"
+		"karabiner-elements": {
+			"name": "yellow_menu_button"
+		}
 	},
 	"blue": {
 		"comment": "Consumer-control key for Blue Menu Button.",
@@ -14881,7 +15121,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -14902,7 +15141,9 @@
 				"blue"
 			]
 		},
-		"karabiner-elements": "blue_menu_button"
+		"karabiner-elements": {
+			"name": "blue_menu_button"
+		}
 	},
 	"media-channel-up": {
 		"comment": "Channel-selection key for channel up.",
@@ -14927,13 +15168,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x33",
-				"name": "APPCOMMAND_MEDIA_CHANNEL_UP",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x33",
+				"name": "APPCOMMAND_MEDIA_CHANNEL_UP"
 			}
 		},
 		"mac": {
@@ -14975,7 +15215,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15020,13 +15259,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x34",
-				"name": "APPCOMMAND_MEDIA_CHANNEL_DOWN",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x34",
+				"name": "APPCOMMAND_MEDIA_CHANNEL_DOWN"
 			}
 		},
 		"mac": {
@@ -15060,7 +15298,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15098,7 +15335,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15139,7 +15375,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15164,7 +15399,9 @@
 				"nexttask"
 			]
 		},
-		"karabiner-elements": "al_next_task_or_application"
+		"karabiner-elements": {
+			"name": "al_next_task_or_application"
+		}
 	},
 	"restart": {
 		"comment": "Restart / reset key. The Linux kernel also maps HID Consumer Restart (0x0c/0x0f) and Generic Desktop System Warm Restart (0x01/0x8f) to the same KEY_RESTART / XKB key, so those alternatives are preserved here for reference.",
@@ -15199,7 +15436,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15252,7 +15488,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15298,7 +15533,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15343,7 +15577,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15368,7 +15601,9 @@
 				"previoustask"
 			]
 		},
-		"karabiner-elements": "al_previous_task_or_application"
+		"karabiner-elements": {
+			"name": "al_previous_task_or_application"
+		}
 	},
 	"digits": {
 		"comment": "Linux key exposed as KEY_DIGITS.",
@@ -15386,7 +15621,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15424,7 +15658,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15462,7 +15695,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15503,7 +15735,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15544,7 +15775,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15566,7 +15796,9 @@
 				"texteditor"
 			]
 		},
-		"karabiner-elements": "al_text_editor"
+		"karabiner-elements": {
+			"name": "al_text_editor"
+		}
 	},
 	"spreadsheet": {
 		"comment": "Consumer-control key for AL Spreadsheet.",
@@ -15592,7 +15824,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15613,7 +15844,9 @@
 				"spreadsheet"
 			]
 		},
-		"karabiner-elements": "al_spreadsheet"
+		"karabiner-elements": {
+			"name": "al_spreadsheet"
+		}
 	},
 	"graphics-editor": {
 		"comment": "Consumer-control key for AL Graphics Editor.",
@@ -15634,7 +15867,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15655,7 +15887,9 @@
 				"graphicseditor"
 			]
 		},
-		"karabiner-elements": "al_graphics_editor"
+		"karabiner-elements": {
+			"name": "al_graphics_editor"
+		}
 	},
 	"presentation": {
 		"comment": "Consumer-control key for AL Presentation App.",
@@ -15676,7 +15910,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15697,7 +15930,9 @@
 				"presentation"
 			]
 		},
-		"karabiner-elements": "al_presentation_app"
+		"karabiner-elements": {
+			"name": "al_presentation_app"
+		}
 	},
 	"database": {
 		"comment": "Consumer-control key for AL Database App.",
@@ -15718,7 +15953,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15739,7 +15973,9 @@
 				"database"
 			]
 		},
-		"karabiner-elements": "al_database_app"
+		"karabiner-elements": {
+			"name": "al_database_app"
+		}
 	},
 	"news": {
 		"comment": "Consumer-control key for AL Newsreader.",
@@ -15760,7 +15996,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15782,7 +16017,9 @@
 				"newsreader"
 			]
 		},
-		"karabiner-elements": "al_newsreader"
+		"karabiner-elements": {
+			"name": "al_newsreader"
+		}
 	},
 	"voicemail": {
 		"comment": "Voicemail/messages launcher key.",
@@ -15803,7 +16040,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15824,7 +16060,9 @@
 				"voicemail"
 			]
 		},
-		"karabiner-elements": "al_voicemail"
+		"karabiner-elements": {
+			"name": "al_voicemail"
+		}
 	},
 	"messenger": {
 		"comment": "Consumer-control key for AL Instant Messaging.",
@@ -15845,7 +16083,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15867,7 +16104,9 @@
 				"instantmessaging"
 			]
 		},
-		"karabiner-elements": "al_instant_messaging"
+		"karabiner-elements": {
+			"name": "al_instant_messaging"
+		}
 	},
 	"display-toggle": {
 		"comment": "Display/input switching key. Use it for toggling display outputs or cycling video sources, matching the web `DisplayToggleIntExt` meaning.",
@@ -15893,7 +16132,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -15939,13 +16177,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x2a",
-				"name": "APPCOMMAND_SPELL_CHECK",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x2a",
+				"name": "APPCOMMAND_SPELL_CHECK"
 			}
 		},
 		"mac": {
@@ -15962,7 +16199,9 @@
 				"spellcheck"
 			]
 		},
-		"karabiner-elements": "al_spell_check"
+		"karabiner-elements": {
+			"name": "al_spell_check"
+		}
 	},
 	"logoff": {
 		"comment": "Consumer-control key for AL Logoff.",
@@ -15988,7 +16227,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16009,7 +16247,9 @@
 				"logoff"
 			]
 		},
-		"karabiner-elements": "al_logoff"
+		"karabiner-elements": {
+			"name": "al_logoff"
+		}
 	},
 	"dollar": {
 		"comment": "Linux key exposed as KEY_DOLLAR.",
@@ -16027,7 +16267,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16065,7 +16304,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16103,7 +16341,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16141,7 +16378,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16182,7 +16418,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16223,7 +16458,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16266,7 +16500,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16304,7 +16537,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16345,7 +16577,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16366,7 +16597,9 @@
 				"images"
 			]
 		},
-		"karabiner-elements": "al_image_browser"
+		"karabiner-elements": {
+			"name": "al_image_browser"
+		}
 	},
 	"notification-center": {
 		"comment": "Notification-center launcher key.",
@@ -16384,7 +16617,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16422,7 +16654,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16460,7 +16691,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16498,7 +16728,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16536,7 +16765,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16574,7 +16802,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16616,7 +16843,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16658,7 +16884,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16692,7 +16917,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16726,7 +16950,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16760,7 +16983,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16799,7 +17021,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16842,7 +17063,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16885,7 +17105,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16928,7 +17147,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -16971,7 +17189,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17014,7 +17231,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17057,7 +17273,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17100,7 +17315,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17143,7 +17357,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17186,7 +17399,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17229,7 +17441,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17272,7 +17483,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17315,7 +17525,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17358,7 +17567,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17401,7 +17609,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17444,7 +17651,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17487,7 +17693,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17530,7 +17735,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17573,7 +17777,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17616,7 +17819,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17659,7 +17861,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17697,7 +17898,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17735,7 +17935,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17773,7 +17972,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17811,7 +18009,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17849,7 +18046,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17887,7 +18083,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17925,7 +18120,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -17963,7 +18157,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18001,7 +18194,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18039,7 +18231,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18085,7 +18276,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18131,7 +18321,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18177,7 +18366,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18223,7 +18411,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18269,7 +18456,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18315,7 +18501,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18361,7 +18546,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18407,7 +18591,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18453,7 +18636,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18499,7 +18681,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18545,7 +18726,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18591,7 +18771,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18637,7 +18816,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18683,7 +18861,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18729,7 +18906,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18775,7 +18951,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18813,7 +18988,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18851,7 +19025,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18889,7 +19062,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18927,7 +19099,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -18965,7 +19136,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19003,7 +19173,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19041,7 +19210,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19079,7 +19247,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19117,7 +19284,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19155,7 +19321,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19193,7 +19358,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19231,7 +19395,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19269,7 +19432,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19307,7 +19469,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19345,7 +19506,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19388,7 +19548,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19431,7 +19590,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19469,7 +19627,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19510,7 +19667,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19556,7 +19712,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19569,7 +19724,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_process_or_task_manager"
+		"karabiner-elements": {
+			"name": "al_process_or_task_manager"
+		}
 	},
 	"action-on-selection": {
 		"comment": "Application-launch HID key for action on selection.",
@@ -19595,7 +19752,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19633,7 +19789,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19671,7 +19826,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19709,7 +19863,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19730,7 +19883,9 @@
 				"journal"
 			]
 		},
-		"karabiner-elements": "al_log_or_journal_or_timecard"
+		"karabiner-elements": {
+			"name": "al_log_or_journal_or_timecard"
+		}
 	},
 	"screensaver": {
 		"comment": "GNOME treats this as the screensaver/lock key and locks the session.",
@@ -19756,7 +19911,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19777,7 +19931,9 @@
 				"screensaver"
 			]
 		},
-		"karabiner-elements": "al_screen_saver"
+		"karabiner-elements": {
+			"name": "al_screen_saver"
+		}
 	},
 	"voice-command": {
 		"comment": "Voice-command launcher key.",
@@ -19803,7 +19959,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19855,7 +20010,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19876,7 +20030,9 @@
 				"assistant"
 			]
 		},
-		"karabiner-elements": "al_contextaware_desktop_assistant"
+		"karabiner-elements": {
+			"name": "al_contextaware_desktop_assistant"
+		}
 	},
 	"keyboard-layout-next": {
 		"comment": "Keyboard-layout switching key for advancing to the next active input layout or XKB group.",
@@ -19902,7 +20058,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19948,7 +20103,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -19994,7 +20148,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20018,6 +20171,7 @@
 	},
 	"uncertain-dictate-or-command-control-toggle": {
 		"comment": "Windows speech-input mode toggle command. This may overlap semantically with dictate, but the local Windows source describes a broader dictation vs command/control mode switch rather than a direct dictate-launch key.",
+		"certainty": 0.35,
 		"hid": {
 			"missing": true
 		},
@@ -20033,14 +20187,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x2b",
-				"name": "APPCOMMAND_DICTATE_OR_COMMAND_CONTROL_TOGGLE",
-				"api": "appcommand",
-				"certainty": 0.35
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x2b",
+				"name": "APPCOMMAND_DICTATE_OR_COMMAND_CONTROL_TOGGLE",
+				"certainty": 0.35
 			}
 		},
 		"mac": {
@@ -20067,13 +20220,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x2d",
-				"name": "APPCOMMAND_CORRECTION_LIST",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x2d",
+				"name": "APPCOMMAND_CORRECTION_LIST"
 			}
 		},
 		"mac": {
@@ -20102,7 +20254,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20143,7 +20294,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20189,7 +20339,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20235,7 +20384,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20281,7 +20429,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20333,7 +20480,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20383,7 +20529,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20424,7 +20569,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20465,7 +20609,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20506,7 +20649,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20547,7 +20689,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20588,7 +20729,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20629,7 +20769,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20667,7 +20806,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20705,7 +20843,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20743,7 +20880,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20781,7 +20917,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20819,7 +20954,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20857,7 +20991,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20900,7 +21033,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20943,7 +21075,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -20981,7 +21112,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21019,7 +21149,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21057,7 +21186,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21095,7 +21223,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21133,7 +21260,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21171,7 +21297,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21209,7 +21334,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21247,7 +21371,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21285,7 +21408,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21323,7 +21445,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21361,7 +21482,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21407,7 +21527,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21450,7 +21569,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21488,7 +21606,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21526,7 +21643,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21559,7 +21675,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21597,7 +21712,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21635,7 +21749,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21673,7 +21786,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21711,7 +21823,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21749,7 +21860,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21787,7 +21897,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21825,7 +21934,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21863,7 +21971,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21901,7 +22008,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21939,7 +22045,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -21977,7 +22082,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22015,7 +22119,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22053,7 +22156,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22091,7 +22193,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22129,7 +22230,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22167,7 +22267,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22205,7 +22304,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22243,7 +22341,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22281,7 +22378,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22319,7 +22415,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22357,7 +22452,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22395,7 +22489,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22433,7 +22526,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22471,7 +22563,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22509,7 +22600,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22547,7 +22637,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22585,7 +22674,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22623,7 +22711,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22661,7 +22748,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22699,7 +22785,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22737,7 +22822,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22775,7 +22859,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22813,7 +22896,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22851,7 +22933,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22889,7 +22970,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22927,7 +23007,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -22965,7 +23044,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23003,7 +23081,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23041,7 +23118,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23079,7 +23155,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23117,7 +23192,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23155,7 +23229,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23193,7 +23266,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23231,7 +23303,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23269,7 +23340,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23307,7 +23377,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23345,7 +23414,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23383,7 +23451,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23421,7 +23488,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23459,7 +23525,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23497,7 +23562,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23535,7 +23599,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23573,7 +23636,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23611,7 +23673,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23649,7 +23710,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23687,7 +23747,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23724,7 +23783,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23770,7 +23828,9 @@
 		"web": {
 			"name": "Abort"
 		},
-		"karabiner-elements": "cancel"
+		"karabiner-elements": {
+			"name": "cancel"
+		}
 	},
 	"fn-lock": {
 		"comment": "Laptop Fn-layer key identity for lock when firmware or the OS exposes it as a distinct key.",
@@ -23804,7 +23864,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23837,7 +23896,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23862,7 +23920,9 @@
 		"web": {
 			"name": "NumpadClear"
 		},
-		"autohotkey": "NumpadClear"
+		"autohotkey": {
+			"name": "NumpadClear"
+		}
 	},
 	"props": {
 		"comment": "Keyboard-page key for CrSel/Props.",
@@ -23883,7 +23943,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23908,7 +23967,9 @@
 			]
 		},
 		"keyd": "props",
-		"karabiner-elements": "cr_sel_or_props"
+		"karabiner-elements": {
+			"name": "cr_sel_or_props"
+		}
 	},
 	"extend-selection": {
 		"comment": "Legacy extended editing key. ExSel stands for Extend Selection.",
@@ -23928,7 +23989,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -23952,7 +24012,9 @@
 				"extendselection"
 			]
 		},
-		"karabiner-elements": "ex_sel"
+		"karabiner-elements": {
+			"name": "ex_sel"
+		}
 	},
 	"resume": {
 		"comment": "Special key identity for resume.",
@@ -23992,7 +24054,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -24052,19 +24113,15 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe032",
-				"api": "scancode",
-				"alternatives": {
-					"appcommand": {
-						"code": "0x7",
-						"name": "APPCOMMAND_BROWSER_HOME",
-						"api": "appcommand"
-					}
-				}
+				"code": "0xe032"
 			},
 			"virtual": {
 				"code": "0xac",
 				"name": "VK_BROWSER_HOME"
+			},
+			"appcommand": {
+				"code": "0x7",
+				"name": "APPCOMMAND_BROWSER_HOME"
 			}
 		},
 		"mac": {
@@ -24088,8 +24145,12 @@
 			]
 		},
 		"keyd": "homepage",
-		"karabiner-elements": "ac_home",
-		"autohotkey": "Browser_Home"
+		"karabiner-elements": {
+			"name": "ac_home"
+		},
+		"autohotkey": {
+			"name": "Browser_Home"
+		}
 	},
 	"search": {
 		"comment": "GNOME treats this as the search launcher key and invokes its search action.",
@@ -24115,19 +24176,15 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe065",
-				"api": "scancode",
-				"alternatives": {
-					"appcommand": {
-						"code": "0x5",
-						"name": "APPCOMMAND_BROWSER_SEARCH",
-						"api": "appcommand"
-					}
-				}
+				"code": "0xe065"
 			},
 			"virtual": {
 				"code": "0xaa",
 				"name": "VK_BROWSER_SEARCH"
+			},
+			"appcommand": {
+				"code": "0x5",
+				"name": "APPCOMMAND_BROWSER_SEARCH"
 			}
 		},
 		"mac": {
@@ -24145,8 +24202,12 @@
 			]
 		},
 		"keyd": "search",
-		"karabiner-elements": "ac_search",
-		"autohotkey": "Browser_Search"
+		"karabiner-elements": {
+			"name": "ac_search"
+		},
+		"autohotkey": {
+			"name": "Browser_Search"
+		}
 	},
 	"katakana": {
 		"comment": "Japanese katakana-mode key. Platform vocabularies do not line up cleanly on this key.",
@@ -24172,8 +24233,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x78",
-				"api": "scancode"
+				"code": "0x78"
 			},
 			"virtual": {
 				"missing": true,
@@ -24199,8 +24259,12 @@
 		},
 		"geometry": "JIS",
 		"keyd": "katakana",
-		"karabiner-elements": "lang3",
-		"autohotkey": "SC078"
+		"karabiner-elements": {
+			"name": "lang3"
+		},
+		"autohotkey": {
+			"name": "SC078"
+		}
 	},
 	"hiragana": {
 		"comment": "Japanese hiragana-mode key. Platform vocabularies do not line up cleanly on this key.",
@@ -24226,8 +24290,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x77",
-				"api": "scancode"
+				"code": "0x77"
 			},
 			"virtual": {
 				"missing": true
@@ -24252,8 +24315,12 @@
 		"geometry": "JIS",
 		"kanata": "hiragana",
 		"keyd": "hiragana",
-		"karabiner-elements": "lang4",
-		"autohotkey": "SC077"
+		"karabiner-elements": {
+			"name": "lang4"
+		},
+		"autohotkey": {
+			"name": "SC077"
+		}
 	},
 	"zenkaku-hankaku": {
 		"comment": "Keyboard-page key for LANG5.",
@@ -24279,7 +24346,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -24304,7 +24370,9 @@
 		},
 		"geometry": "JIS",
 		"keyd": "zenkakuhankaku",
-		"karabiner-elements": "lang5"
+		"karabiner-elements": {
+			"name": "lang5"
+		}
 	},
 	"file": {
 		"comment": "Consumer-control key for AL File Browser.",
@@ -24338,8 +24406,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe06b",
-				"api": "scancode"
+				"code": "0xe06b"
 			},
 			"virtual": {
 				"missing": true
@@ -24361,8 +24428,12 @@
 			]
 		},
 		"keyd": "file",
-		"karabiner-elements": "al_local_machine_browser",
-		"autohotkey": "SC16B"
+		"karabiner-elements": {
+			"name": "al_local_machine_browser"
+		},
+		"autohotkey": {
+			"name": "SC16B"
+		}
 	},
 	"calc": {
 		"comment": "GNOME treats this as the calculator launcher key and opens GNOME Calculator.",
@@ -24388,8 +24459,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe021",
-				"api": "scancode"
+				"code": "0xe021"
 			},
 			"virtual": {
 				"missing": true
@@ -24412,8 +24482,12 @@
 		},
 		"kanata": "calc",
 		"keyd": "calc",
-		"karabiner-elements": "al_calculator",
-		"autohotkey": "SC121"
+		"karabiner-elements": {
+			"name": "al_calculator"
+		},
+		"autohotkey": {
+			"name": "SC121"
+		}
 	},
 	"mail": {
 		"hid": {
@@ -24438,19 +24512,15 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe06c",
-				"api": "scancode",
-				"alternatives": {
-					"appcommand": {
-						"code": "0x15",
-						"name": "APPCOMMAND_LAUNCH_MAIL",
-						"api": "appcommand"
-					}
-				}
+				"code": "0xe06c"
 			},
 			"virtual": {
 				"code": "0xb4",
 				"name": "VK_LAUNCH_MAIL"
+			},
+			"appcommand": {
+				"code": "0x15",
+				"name": "APPCOMMAND_LAUNCH_MAIL"
 			}
 		},
 		"mac": {
@@ -24475,8 +24545,12 @@
 			]
 		},
 		"keyd": "mail",
-		"karabiner-elements": "al_email_reader",
-		"autohotkey": "Launch_Mail"
+		"karabiner-elements": {
+			"name": "al_email_reader"
+		},
+		"autohotkey": {
+			"name": "Launch_Mail"
+		}
 	},
 	"reply": {
 		"hid": {
@@ -24500,13 +24574,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x27",
-				"name": "APPCOMMAND_REPLY_TO_MAIL",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x27",
+				"name": "APPCOMMAND_REPLY_TO_MAIL"
 			}
 		},
 		"mac": {
@@ -24548,13 +24621,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x29",
-				"name": "APPCOMMAND_SEND_MAIL",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x29",
+				"name": "APPCOMMAND_SEND_MAIL"
 			}
 		},
 		"mac": {
@@ -24597,8 +24669,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe06d",
-				"api": "scancode"
+				"code": "0xe06d"
 			},
 			"virtual": {
 				"missing": true
@@ -24619,8 +24690,12 @@
 			]
 		},
 		"keyd": "config",
-		"karabiner-elements": "al_consumer_control_configuration",
-		"autohotkey": "SC16D"
+		"karabiner-elements": {
+			"name": "al_consumer_control_configuration"
+		},
+		"autohotkey": {
+			"name": "SC16D"
+		}
 	},
 	"kpequal": {
 		"comment": "Keyboard-page key for Keypad =.",
@@ -24646,8 +24721,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x59",
-				"api": "scancode"
+				"code": "0x59"
 			},
 			"virtual": {
 				"missing": true
@@ -24677,8 +24751,12 @@
 			]
 		},
 		"keyd": "kpequal",
-		"karabiner-elements": "keypad_equal_sign",
-		"autohotkey": "SC059"
+		"karabiner-elements": {
+			"name": "keypad_equal_sign"
+		},
+		"autohotkey": {
+			"name": "SC059"
+		}
 	},
 	"front": {
 		"comment": "Legacy front-page/front-panel style key from the Linux input namespace. KMonad avoids the alias `select` here because it conflicts with KEY_SELECT, so keep it distinct from the generic select/menu-pick key.",
@@ -24704,7 +24782,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -24726,7 +24803,9 @@
 			]
 		},
 		"keyd": "front",
-		"karabiner-elements": "select"
+		"karabiner-elements": {
+			"name": "select"
+		}
 	},
 	"keyboard-illumination-toggle": {
 		"comment": "Keyboard backlight toggle key. GNOME toggles the keyboard-brightness service; KDE binds it as “Toggle Keyboard Backlight”, shows an OSD, and restores keyboard brightness after resume.",
@@ -24752,7 +24831,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -24777,7 +24855,9 @@
 			]
 		},
 		"keyd": "kbdillumtoggle",
-		"karabiner-elements": "illumination_toggle"
+		"karabiner-elements": {
+			"name": "illumination_toggle"
+		}
 	},
 	"keyboard-illumination-up": {
 		"comment": "Keyboard backlight increase key. GNOME steps the keyboard-brightness service up; KDE increases keyboard brightness, shows an OSD, and restores keyboard brightness after resume.",
@@ -24803,7 +24883,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -24870,7 +24949,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -24937,7 +25015,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -24978,13 +25055,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x19",
-				"name": "APPCOMMAND_MICROPHONE_VOLUME_DOWN",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x19",
+				"name": "APPCOMMAND_MICROPHONE_VOLUME_DOWN"
 			}
 		},
 		"mac": {
@@ -24996,6 +25072,7 @@
 	},
 	"uncertain-microphone-volume-mute": {
 		"comment": "Windows microphone-volume mute command. This may overlap semantically with mute-mic, but the local references do not prove that they are the same underlying key identity.",
+		"certainty": 0.35,
 		"hid": {
 			"missing": true
 		},
@@ -25011,14 +25088,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x18",
-				"name": "APPCOMMAND_MICROPHONE_VOLUME_MUTE",
-				"api": "appcommand",
-				"certainty": 0.35
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x18",
+				"name": "APPCOMMAND_MICROPHONE_VOLUME_MUTE",
+				"certainty": 0.35
 			}
 		},
 		"mac": {
@@ -25045,13 +25121,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x1a",
-				"name": "APPCOMMAND_MICROPHONE_VOLUME_UP",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x1a",
+				"name": "APPCOMMAND_MICROPHONE_VOLUME_UP"
 			}
 		},
 		"mac": {
@@ -25063,6 +25138,7 @@
 	},
 	"uncertain-mic-on-off-toggle": {
 		"comment": "Windows microphone on/off toggle command. This may overlap semantically with mute-mic or microphone, but the local references do not prove a shared underlying key identity.",
+		"certainty": 0.35,
 		"hid": {
 			"missing": true
 		},
@@ -25078,14 +25154,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x2c",
-				"name": "APPCOMMAND_MIC_ON_OFF_TOGGLE",
-				"api": "appcommand",
-				"certainty": 0.35
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x2c",
+				"name": "APPCOMMAND_MIC_ON_OFF_TOGGLE",
+				"certainty": 0.35
 			}
 		},
 		"mac": {
@@ -25128,7 +25203,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -25155,7 +25229,9 @@
 				"select"
 			]
 		},
-		"karabiner-elements": "menu_pick"
+		"karabiner-elements": {
+			"name": "menu_pick"
+		}
 	},
 	"again": {
 		"comment": "Canonical key retained even though some native stacks collapse it onto another underlying identity.",
@@ -25182,7 +25258,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -25204,7 +25279,9 @@
 			]
 		},
 		"keyd": "again",
-		"karabiner-elements": "again"
+		"karabiner-elements": {
+			"name": "again"
+		}
 	},
 	"copy": {
 		"hid": {
@@ -25229,18 +25306,14 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe018",
-				"api": "scancode",
-				"alternatives": {
-					"appcommand": {
-						"code": "0x24",
-						"name": "APPCOMMAND_COPY",
-						"api": "appcommand"
-					}
-				}
+				"code": "0xe018"
 			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x24",
+				"name": "APPCOMMAND_COPY"
 			}
 		},
 		"mac": {
@@ -25258,8 +25331,12 @@
 			]
 		},
 		"keyd": "copy",
-		"karabiner-elements": "copy",
-		"autohotkey": "SC118"
+		"karabiner-elements": {
+			"name": "copy"
+		},
+		"autohotkey": {
+			"name": "SC118"
+		}
 	},
 	"cut": {
 		"hid": {
@@ -25284,18 +25361,14 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe017",
-				"api": "scancode",
-				"alternatives": {
-					"appcommand": {
-						"code": "0x25",
-						"name": "APPCOMMAND_CUT",
-						"api": "appcommand"
-					}
-				}
+				"code": "0xe017"
 			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x25",
+				"name": "APPCOMMAND_CUT"
 			}
 		},
 		"mac": {
@@ -25313,8 +25386,12 @@
 			]
 		},
 		"keyd": "cut",
-		"karabiner-elements": "cut",
-		"autohotkey": "SC117"
+		"karabiner-elements": {
+			"name": "cut"
+		},
+		"autohotkey": {
+			"name": "SC117"
+		}
 	},
 	"find": {
 		"hid": {
@@ -25338,13 +25415,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x1c",
-				"name": "APPCOMMAND_FIND",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x1c",
+				"name": "APPCOMMAND_FIND"
 			}
 		},
 		"mac": {
@@ -25365,7 +25441,9 @@
 			]
 		},
 		"keyd": "find",
-		"karabiner-elements": "find"
+		"karabiner-elements": {
+			"name": "find"
+		}
 	},
 	"help": {
 		"hid": {
@@ -25390,8 +25468,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe03b",
-				"api": "scancode"
+				"code": "0xe03b"
 			},
 			"virtual": {
 				"code": "0x2f",
@@ -25426,8 +25503,12 @@
 			]
 		},
 		"keyd": "help",
-		"karabiner-elements": "help",
-		"autohotkey": "Help"
+		"karabiner-elements": {
+			"name": "help"
+		},
+		"autohotkey": {
+			"name": "Help"
+		}
 	},
 	"execute": {
 		"comment": "Keyboard-page Execute identity. Linux, XKB, web, and Windows APPCOMMAND expose this action as Open, while HID and several toolchains use Execute; this canonical follows the HID naming.",
@@ -25452,15 +25533,14 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x1e",
-				"name": "APPCOMMAND_OPEN",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"code": "0x2B",
 				"name": "VK_EXECUTE",
 				"certainty": 0.95
+			},
+			"appcommand": {
+				"code": "0x1e",
+				"name": "APPCOMMAND_OPEN"
 			}
 		},
 		"mac": {
@@ -25486,7 +25566,9 @@
 			]
 		},
 		"keyd": "open",
-		"karabiner-elements": "execute"
+		"karabiner-elements": {
+			"name": "execute"
+		}
 	},
 	"paste": {
 		"hid": {
@@ -25511,18 +25593,14 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe00a",
-				"api": "scancode",
-				"alternatives": {
-					"appcommand": {
-						"code": "0x26",
-						"name": "APPCOMMAND_PASTE",
-						"api": "appcommand"
-					}
-				}
+				"code": "0xe00a"
 			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x26",
+				"name": "APPCOMMAND_PASTE"
 			}
 		},
 		"mac": {
@@ -25540,8 +25618,12 @@
 			]
 		},
 		"keyd": "paste",
-		"karabiner-elements": "paste",
-		"autohotkey": "SC10A"
+		"karabiner-elements": {
+			"name": "paste"
+		},
+		"autohotkey": {
+			"name": "SC10A"
+		}
 	},
 	"power": {
 		"hid": {
@@ -25566,8 +25648,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe05e",
-				"api": "scancode"
+				"code": "0xe05e"
 			},
 			"virtual": {
 				"missing": true
@@ -25597,8 +25678,12 @@
 			]
 		},
 		"keyd": "power",
-		"karabiner-elements": "power",
-		"autohotkey": "SC15E"
+		"karabiner-elements": {
+			"name": "power"
+		},
+		"autohotkey": {
+			"name": "SC15E"
+		}
 	},
 	"semicolon": {
 		"comment": "Keyboard-page key for Keyboard ; or :.",
@@ -25624,8 +25709,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x27",
-				"api": "scancode"
+				"code": "0x27"
 			},
 			"virtual": {
 				"code": "0xba",
@@ -25671,8 +25755,12 @@
 				}
 			]
 		},
-		"karabiner-elements": "semicolon",
-		"autohotkey": ";"
+		"karabiner-elements": {
+			"name": "semicolon"
+		},
+		"autohotkey": {
+			"name": ";"
+		}
 	},
 	"sleep": {
 		"comment": "System sleep key. systemd-logind treats KEY_SLEEP as suspend-to-RAM; KDE binds Qt::Key_Sleep as “Suspend”. Both allow configured system behavior, and systemd also supports a distinct long-press action.",
@@ -25698,8 +25786,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe05f",
-				"api": "scancode"
+				"code": "0xe05f"
 			},
 			"virtual": {
 				"code": "0x5f",
@@ -25720,7 +25807,9 @@
 				"zzz"
 			]
 		},
-		"autohotkey": "Sleep",
+		"autohotkey": {
+			"name": "Sleep"
+		},
 		"kmonad": {
 			"name": "zzz",
 			"aliases": [
@@ -25755,18 +25844,14 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe008",
-				"api": "scancode",
-				"alternatives": {
-					"appcommand": {
-						"code": "0x22",
-						"name": "APPCOMMAND_UNDO",
-						"api": "appcommand"
-					}
-				}
+				"code": "0xe008"
 			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x22",
+				"name": "APPCOMMAND_UNDO"
 			}
 		},
 		"mac": {
@@ -25787,8 +25872,12 @@
 			]
 		},
 		"keyd": "undo",
-		"karabiner-elements": "undo",
-		"autohotkey": "SC108"
+		"karabiner-elements": {
+			"name": "undo"
+		},
+		"autohotkey": {
+			"name": "SC108"
+		}
 	},
 	"print-command": {
 		"comment": "Consumer-key print command. This is distinct from Print Screen / SysRq: use it for an application-level print action rather than screen capture.",
@@ -25814,15 +25903,14 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x21",
-				"name": "APPCOMMAND_PRINT",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true,
 				"alias-of": "print",
 				"comment": "Windows exposes Print Screen here, not a distinct consumer print-command virtual key."
+			},
+			"appcommand": {
+				"code": "0x21",
+				"name": "APPCOMMAND_PRINT"
 			}
 		},
 		"mac": {
@@ -25870,7 +25958,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -25938,7 +26025,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -26008,7 +26094,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -26029,7 +26114,9 @@
 				"controlpanel"
 			]
 		},
-		"karabiner-elements": "al_control_panel"
+		"karabiner-elements": {
+			"name": "al_control_panel"
+		}
 	},
 	"media-cd-eject": {
 		"comment": "Optical-media eject key for opening the tray / ejecting the disc.",
@@ -26055,8 +26142,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe02c",
-				"api": "scancode"
+				"code": "0xe02c"
 			},
 			"virtual": {
 				"missing": true
@@ -26091,8 +26177,12 @@
 			]
 		},
 		"keyd": "ejectcd",
-		"karabiner-elements": "eject",
-		"autohotkey": "SC12C"
+		"karabiner-elements": {
+			"name": "eject"
+		},
+		"autohotkey": {
+			"name": "SC12C"
+		}
 	},
 	"media-cd-eject-close": {
 		"comment": "Combined optical-drive eject/close key. Linux exposes it separately from plain eject, while higher-level stacks usually collapse it to generic eject semantics.",
@@ -26120,7 +26210,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -26158,14 +26247,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x28",
-				"name": "APPCOMMAND_FORWARD_MAIL",
-				"api": "appcommand",
-				"certainty": 0.85
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x28",
+				"name": "APPCOMMAND_FORWARD_MAIL",
+				"certainty": 0.85
 			}
 		},
 		"mac": {
@@ -26209,8 +26297,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x5c",
-				"api": "scancode"
+				"code": "0x5c"
 			},
 			"virtual": {
 				"missing": true
@@ -26235,8 +26322,12 @@
 		},
 		"geometry": "JIS",
 		"keyd": "kpjpcomma",
-		"karabiner-elements": "international6",
-		"autohotkey": "SC05C"
+		"karabiner-elements": {
+			"name": "international6"
+		},
+		"autohotkey": {
+			"name": "SC05C"
+		}
 	},
 	"video-phone": {
 		"comment": "Video-phone / video-call launcher key.",
@@ -26257,7 +26348,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -26303,7 +26393,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -26324,7 +26413,9 @@
 				"wordprocessor"
 			]
 		},
-		"karabiner-elements": "al_word_processor"
+		"karabiner-elements": {
+			"name": "al_word_processor"
+		}
 	},
 	"zoom-in": {
 		"comment": "Zoom-in key.",
@@ -26350,7 +26441,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -26371,7 +26461,9 @@
 				"zoomin"
 			]
 		},
-		"karabiner-elements": "ac_zoom_out"
+		"karabiner-elements": {
+			"name": "ac_zoom_out"
+		}
 	},
 	"zoom-out": {
 		"comment": "Zoom-out key.",
@@ -26397,7 +26489,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -26418,7 +26509,9 @@
 				"zoomout"
 			]
 		},
-		"karabiner-elements": "ac_zoom_in"
+		"karabiner-elements": {
+			"name": "ac_zoom_in"
+		}
 	},
 	"zoom-reset": {
 		"comment": "Zoom reset key.",
@@ -26439,7 +26532,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -26485,8 +26577,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe063",
-				"api": "scancode"
+				"code": "0xe063"
 			},
 			"virtual": {
 				"missing": true
@@ -26504,7 +26595,9 @@
 				"WakeUp"
 			]
 		},
-		"autohotkey": "SC163",
+		"autohotkey": {
+			"name": "SC163"
+		},
 		"kmonad": {
 			"name": "wkup",
 			"aliases": [
@@ -26540,7 +26633,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -26561,7 +26653,9 @@
 				"appselect"
 			]
 		},
-		"karabiner-elements": "al_select_task_or_application"
+		"karabiner-elements": {
+			"name": "al_select_task_or_application"
+		}
 	},
 	"media-play": {
 		"comment": "Media play key.",
@@ -26586,14 +26680,13 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x2e",
-				"name": "APPCOMMAND_MEDIA_PLAY",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"code": "0xfa",
 				"name": "VK_PLAY"
+			},
+			"appcommand": {
+				"code": "0x2e",
+				"name": "APPCOMMAND_MEDIA_PLAY"
 			}
 		},
 		"mac": {
@@ -26602,7 +26695,9 @@
 		"web": {
 			"name": "MediaPlay"
 		},
-		"autohotkey": "VKFA",
+		"autohotkey": {
+			"name": "VKFA"
+		},
 		"kmonad": {
 			"name": "Play",
 			"aliases": [
@@ -26636,13 +26731,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x2f",
-				"name": "APPCOMMAND_MEDIA_PAUSE",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x2f",
+				"name": "APPCOMMAND_MEDIA_PAUSE"
 			}
 		},
 		"mac": {
@@ -26684,13 +26778,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x30",
-				"name": "APPCOMMAND_MEDIA_RECORD",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x30",
+				"name": "APPCOMMAND_MEDIA_RECORD"
 			}
 		},
 		"mac": {
@@ -26733,19 +26826,15 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0xe024",
-				"api": "scancode",
-				"alternatives": {
-					"appcommand": {
-						"code": "0xd",
-						"name": "APPCOMMAND_MEDIA_STOP",
-						"api": "appcommand"
-					}
-				}
+				"code": "0xe024"
 			},
 			"virtual": {
 				"code": "0xb2",
 				"name": "VK_MEDIA_STOP"
+			},
+			"appcommand": {
+				"code": "0xd",
+				"name": "APPCOMMAND_MEDIA_STOP"
 			}
 		},
 		"mac": {
@@ -26767,7 +26856,9 @@
 			]
 		},
 		"keyd": "stopcd",
-		"karabiner-elements": "stop",
+		"karabiner-elements": {
+			"name": "stop"
+		},
 		"autohotkey": {
 			"name": "Media_Stop",
 			"aliases": [
@@ -26797,7 +26888,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -26847,8 +26937,7 @@
 		},
 		"windows": {
 			"scancode": {
-				"code": "0x7e",
-				"api": "scancode"
+				"code": "0x7e"
 			},
 			"virtual": {
 				"missing": true
@@ -26880,8 +26969,12 @@
 			]
 		},
 		"keyd": "kpcomma",
-		"karabiner-elements": "keypad_comma",
-		"autohotkey": "SC07E"
+		"karabiner-elements": {
+			"name": "keypad_comma"
+		},
+		"autohotkey": {
+			"name": "SC07E"
+		}
 	},
 	"media-guide": {
 		"comment": "Program-guide key. The Linux kernel comment identifies this as “Media Select Program Guide”, so it is the guide/listings key.",
@@ -26907,7 +27000,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -26957,7 +27049,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27007,7 +27098,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27029,7 +27119,9 @@
 				"addressbook"
 			]
 		},
-		"karabiner-elements": "al_contacts_or_address_book"
+		"karabiner-elements": {
+			"name": "al_contacts_or_address_book"
+		}
 	},
 	"airplane-mode": {
 		"comment": "Global radio toggle / airplane-mode key. GNOME toggles airplane mode for it, and the kernel describes it as the key that controls all radios.",
@@ -27055,7 +27147,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27106,7 +27197,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27146,7 +27236,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27203,7 +27292,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27231,7 +27319,9 @@
 				"SpotLightSearch"
 			]
 		},
-		"karabiner-elements": "spotlight"
+		"karabiner-elements": {
+			"name": "spotlight"
+		}
 	},
 	"apple-show-desktop": {
 		"comment": "Apple Show Desktop / Expose Desktop key on the Apple vendor keyboard page.",
@@ -27255,7 +27345,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27268,7 +27357,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "expose_desktop"
+		"karabiner-elements": {
+			"name": "expose_desktop"
+		}
 	},
 	"apple-video-mirror": {
 		"comment": "Apple video-mirroring key on the Apple vendor top-case page.",
@@ -27298,7 +27389,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27314,7 +27404,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "video_mirror"
+		"karabiner-elements": {
+			"name": "video_mirror"
+		}
 	},
 	"fn": {
 		"comment": "Generic Fn identity as exposed by Chromium/Web using the HID System Function Shift usage.",
@@ -27340,7 +27432,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27397,7 +27488,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27447,7 +27537,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27492,7 +27581,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27546,7 +27634,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27559,7 +27646,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_alarms"
+		"karabiner-elements": {
+			"name": "al_alarms"
+		}
 	},
 	"media-audio-player": {
 		"comment": "Application-launch HID key.",
@@ -27579,7 +27668,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27592,7 +27680,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_audio_player"
+		"karabiner-elements": {
+			"name": "al_audio_player"
+		}
 	},
 	"clock": {
 		"comment": "Application-launch HID key.",
@@ -27612,7 +27702,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27625,7 +27714,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_clock"
+		"karabiner-elements": {
+			"name": "al_clock"
+		}
 	},
 	"terminal-or-run": {
 		"comment": "Application-launch HID key for a terminal or run-command interface.",
@@ -27645,7 +27736,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27658,7 +27748,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_command_line_processor_or_run"
+		"karabiner-elements": {
+			"name": "al_command_line_processor_or_run"
+		}
 	},
 	"contact-sync": {
 		"comment": "Application-launch HID key.",
@@ -27678,7 +27770,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27691,7 +27782,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_contact_sync"
+		"karabiner-elements": {
+			"name": "al_contact_sync"
+		}
 	},
 	"corporate-news-browser": {
 		"comment": "Application-launch HID key.",
@@ -27711,7 +27804,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27724,7 +27816,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_customized_corporate_news_browser"
+		"karabiner-elements": {
+			"name": "al_customized_corporate_news_browser"
+		}
 	},
 	"desktop": {
 		"comment": "Application-launch HID key.",
@@ -27744,7 +27838,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27757,7 +27850,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_desktop"
+		"karabiner-elements": {
+			"name": "al_desktop"
+		}
 	},
 	"dictionary": {
 		"comment": "Application-launch HID key.",
@@ -27777,7 +27872,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27790,7 +27884,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_dictionary"
+		"karabiner-elements": {
+			"name": "al_dictionary"
+		}
 	},
 	"digital-rights-manager": {
 		"comment": "Application-launch key for Digital Rights Manager software or settings. This is a specialized consumer-device launcher rather than a general keyboard or media-transport key.",
@@ -27810,7 +27906,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27823,7 +27918,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_digital_rights_manager"
+		"karabiner-elements": {
+			"name": "al_digital_rights_manager"
+		}
 	},
 	"digital-wallet": {
 		"comment": "Application-launch HID key.",
@@ -27843,7 +27940,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27856,7 +27952,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_digital_wallet"
+		"karabiner-elements": {
+			"name": "al_digital_wallet"
+		}
 	},
 	"encryption": {
 		"comment": "Application-launch HID key.",
@@ -27876,7 +27974,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27889,7 +27986,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_encryption"
+		"karabiner-elements": {
+			"name": "al_encryption"
+		}
 	},
 	"entertainment-browser": {
 		"comment": "Application-launch HID key.",
@@ -27909,7 +28008,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27922,7 +28020,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_entertainment_content_browser"
+		"karabiner-elements": {
+			"name": "al_entertainment_content_browser"
+		}
 	},
 	"grammar-check": {
 		"comment": "Application-launch HID key.",
@@ -27942,7 +28042,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27955,7 +28054,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_grammer_check"
+		"karabiner-elements": {
+			"name": "al_grammer_check"
+		}
 	},
 	"lan-wan-browser": {
 		"comment": "Application-launch HID key.",
@@ -27975,7 +28076,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -27988,7 +28088,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_lan_or_wan_browser"
+		"karabiner-elements": {
+			"name": "al_lan_or_wan_browser"
+		}
 	},
 	"logon": {
 		"comment": "Application-launch HID key.",
@@ -28016,7 +28118,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28029,7 +28130,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_logon"
+		"karabiner-elements": {
+			"name": "al_logon"
+		}
 	},
 	"message-status": {
 		"comment": "Application-launch HID key.",
@@ -28049,7 +28152,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28062,7 +28164,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_message_status"
+		"karabiner-elements": {
+			"name": "al_message_status"
+		}
 	},
 	"navigation": {
 		"comment": "Application-launch HID key.",
@@ -28082,7 +28186,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28095,7 +28198,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_navigation"
+		"karabiner-elements": {
+			"name": "al_navigation"
+		}
 	},
 	"network-conference": {
 		"comment": "Application-launch HID key.",
@@ -28115,7 +28220,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28128,7 +28232,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_network_conference"
+		"karabiner-elements": {
+			"name": "al_network_conference"
+		}
 	},
 	"oem-help": {
 		"comment": "Application-launch HID key. keyd upstream exposes the Linux OEM-help key as hp, which is treated here as vocabulary for this canonical OEM-help key rather than as a separate canonical key.",
@@ -28148,7 +28254,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28162,7 +28267,9 @@
 			"missing": true
 		},
 		"keyd": "hp",
-		"karabiner-elements": "al_oem_help"
+		"karabiner-elements": {
+			"name": "al_oem_help"
+		}
 	},
 	"online-activity-browser": {
 		"comment": "Application-launch HID key.",
@@ -28182,7 +28289,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28195,7 +28301,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_online_activity_browswer"
+		"karabiner-elements": {
+			"name": "al_online_activity_browswer"
+		}
 	},
 	"online-community": {
 		"comment": "Application-launch HID key.",
@@ -28215,7 +28323,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28228,7 +28335,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_online_community"
+		"karabiner-elements": {
+			"name": "al_online_community"
+		}
 	},
 	"online-shopping-browser": {
 		"comment": "Application-launch HID key.",
@@ -28248,7 +28357,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28261,7 +28369,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_online_shopping_browswer"
+		"karabiner-elements": {
+			"name": "al_online_shopping_browswer"
+		}
 	},
 	"power-status": {
 		"comment": "Application-launch HID key.",
@@ -28281,7 +28391,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28294,7 +28403,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_power_status"
+		"karabiner-elements": {
+			"name": "al_power_status"
+		}
 	},
 	"halt-task": {
 		"comment": "Application-launch HID key.",
@@ -28314,7 +28425,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28327,7 +28437,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_preemptive_halt_task_or_application"
+		"karabiner-elements": {
+			"name": "al_preemptive_halt_task_or_application"
+		}
 	},
 	"isp-connect": {
 		"comment": "Application-launch HID key.",
@@ -28347,7 +28459,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28360,7 +28471,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_remote_networking_or_isp_connect"
+		"karabiner-elements": {
+			"name": "al_remote_networking_or_isp_connect"
+		}
 	},
 	"research-search-browser": {
 		"comment": "Application-launch HID key.",
@@ -28380,7 +28493,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28393,7 +28505,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_research_or_search_browswer"
+		"karabiner-elements": {
+			"name": "al_research_or_search_browswer"
+		}
 	},
 	"smart-card-help": {
 		"comment": "Application-launch HID key.",
@@ -28413,7 +28527,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28426,7 +28539,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_smart_card_information_or_help"
+		"karabiner-elements": {
+			"name": "al_smart_card_information_or_help"
+		}
 	},
 	"dialer": {
 		"comment": "Application-launch HID key.",
@@ -28446,7 +28561,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28459,7 +28573,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_telephony_or_dialer"
+		"karabiner-elements": {
+			"name": "al_telephony_or_dialer"
+		}
 	},
 	"thesaurus": {
 		"comment": "Application-launch HID key.",
@@ -28479,7 +28595,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28492,7 +28607,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_thesaurus"
+		"karabiner-elements": {
+			"name": "al_thesaurus"
+		}
 	},
 	"virus-protection": {
 		"comment": "Application-launch HID key.",
@@ -28512,7 +28629,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28525,7 +28641,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_virus_protection"
+		"karabiner-elements": {
+			"name": "al_virus_protection"
+		}
 	},
 	"wireless-status": {
 		"comment": "Application-launch HID key.",
@@ -28545,7 +28663,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28558,7 +28675,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_wireless_status"
+		"karabiner-elements": {
+			"name": "al_wireless_status"
+		}
 	},
 	"kp-equals-as400": {
 		"comment": "Distinct from standard keypad equals; HID defines a separate keypad-equals usage for AS/400 keyboards.",
@@ -28578,7 +28697,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28591,7 +28709,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "keypad_equal_sign_as400"
+		"karabiner-elements": {
+			"name": "keypad_equal_sign_as400"
+		}
 	},
 	"bass-down": {
 		"comment": "Consumer audio-control key for lowering bass.",
@@ -28610,13 +28730,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x13",
-				"name": "APPCOMMAND_BASS_DOWN",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x13",
+				"name": "APPCOMMAND_BASS_DOWN"
 			}
 		},
 		"mac": {
@@ -28625,7 +28744,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "bass_decrement"
+		"karabiner-elements": {
+			"name": "bass_decrement"
+		}
 	},
 	"bass-up": {
 		"comment": "Consumer audio-control key for raising bass.",
@@ -28644,13 +28765,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x15",
-				"name": "APPCOMMAND_BASS_UP",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x15",
+				"name": "APPCOMMAND_BASS_UP"
 			}
 		},
 		"mac": {
@@ -28659,7 +28779,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "bass_increment"
+		"karabiner-elements": {
+			"name": "bass_increment"
+		}
 	},
 	"treble-down": {
 		"comment": "Consumer audio-control key for lowering treble.",
@@ -28678,13 +28800,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x16",
-				"name": "APPCOMMAND_TREBLE_DOWN",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x16",
+				"name": "APPCOMMAND_TREBLE_DOWN"
 			}
 		},
 		"mac": {
@@ -28711,13 +28832,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x17",
-				"name": "APPCOMMAND_TREBLE_UP",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x17",
+				"name": "APPCOMMAND_TREBLE_UP"
 			}
 		},
 		"mac": {
@@ -28745,7 +28865,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28758,7 +28877,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "locking_caps_lock"
+		"karabiner-elements": {
+			"name": "locking_caps_lock"
+		}
 	},
 	"locking-num-lock": {
 		"comment": "Legacy mechanical-locking Num Lock usage, distinct from ordinary Num Lock.",
@@ -28778,7 +28899,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28791,7 +28911,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "locking_num_lock"
+		"karabiner-elements": {
+			"name": "locking_num_lock"
+		}
 	},
 	"locking-scroll-lock": {
 		"comment": "Legacy mechanical-locking Scroll Lock usage, distinct from ordinary Scroll Lock.",
@@ -28811,7 +28933,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28824,7 +28945,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "locking_scroll_lock"
+		"karabiner-elements": {
+			"name": "locking_scroll_lock"
+		}
 	},
 	"loudness": {
 		"comment": "Consumer audio-control key for loudness mode.",
@@ -28844,7 +28967,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28857,7 +28979,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "loudness"
+		"karabiner-elements": {
+			"name": "loudness"
+		}
 	},
 	"menu-consumer": {
 		"comment": "Consumer-page menu key, distinct from keyboard-menu usages.",
@@ -28881,7 +29005,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28894,7 +29017,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "menu"
+		"karabiner-elements": {
+			"name": "menu"
+		}
 	},
 	"menu-down": {
 		"comment": "Consumer-page menu navigation key.",
@@ -28921,7 +29046,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28934,7 +29058,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "menu_down"
+		"karabiner-elements": {
+			"name": "menu_down"
+		}
 	},
 	"menu-escape": {
 		"comment": "Consumer-page menu navigation key.",
@@ -28961,7 +29087,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -28974,7 +29099,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "menu_escape"
+		"karabiner-elements": {
+			"name": "menu_escape"
+		}
 	},
 	"menu-left": {
 		"comment": "Consumer-page menu navigation key.",
@@ -29001,7 +29128,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29014,7 +29140,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "menu_left"
+		"karabiner-elements": {
+			"name": "menu_left"
+		}
 	},
 	"menu-right": {
 		"comment": "Consumer-page menu navigation key.",
@@ -29041,7 +29169,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29054,7 +29181,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "menu_right"
+		"karabiner-elements": {
+			"name": "menu_right"
+		}
 	},
 	"menu-up": {
 		"comment": "Consumer-page menu navigation key.",
@@ -29081,7 +29210,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29094,7 +29222,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "menu_up"
+		"karabiner-elements": {
+			"name": "menu_up"
+		}
 	},
 	"menu-value-decrease": {
 		"comment": "Consumer-page menu value adjustment key.",
@@ -29121,7 +29251,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29134,7 +29263,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "menu_value_decrease"
+		"karabiner-elements": {
+			"name": "menu_value_decrease"
+		}
 	},
 	"menu-value-increase": {
 		"comment": "Consumer-page menu value adjustment key.",
@@ -29161,7 +29292,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29174,7 +29304,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "menu_value_increase"
+		"karabiner-elements": {
+			"name": "menu_value_increase"
+		}
 	},
 	"picture-in-picture-swap": {
 		"comment": "Consumer display-control key for picture-in-picture source swapping.",
@@ -29194,7 +29326,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29207,7 +29338,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "picture_in_picture_swap"
+		"karabiner-elements": {
+			"name": "picture_in_picture_swap"
+		}
 	},
 	"picture-in-picture-toggle": {
 		"comment": "Consumer display-control key for picture-in-picture mode.",
@@ -29227,7 +29360,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29240,7 +29372,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "picture_in_picture_toggle"
+		"karabiner-elements": {
+			"name": "picture_in_picture_toggle"
+		}
 	},
 	"still-camera": {
 		"comment": "Consumer camera-control key labeled Still.",
@@ -29260,7 +29394,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29273,7 +29406,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "still"
+		"karabiner-elements": {
+			"name": "still"
+		}
 	},
 	"3d-mode-select": {
 		"comment": "Consumer display-mode selector for 3D mode.",
@@ -29299,7 +29434,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29312,7 +29446,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "three_dimensional_mode_select"
+		"karabiner-elements": {
+			"name": "three_dimensional_mode_select"
+		}
 	},
 	"help-center": {
 		"comment": "Application-launch HID key for an integrated help center.",
@@ -29335,13 +29471,12 @@
 			}
 		},
 		"windows": {
-			"scancode": {
-				"code": "0x1b",
-				"name": "APPCOMMAND_HELP",
-				"api": "appcommand"
-			},
 			"virtual": {
 				"missing": true
+			},
+			"appcommand": {
+				"code": "0x1b",
+				"name": "APPCOMMAND_HELP"
 			}
 		},
 		"mac": {
@@ -29350,7 +29485,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_integrated_help_center"
+		"karabiner-elements": {
+			"name": "al_integrated_help_center"
+		}
 	},
 	"oem-feature-browser": {
 		"comment": "Application-launch HID key for an OEM feature browser.",
@@ -29374,7 +29511,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29387,7 +29523,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "al_oem_feature_browser"
+		"karabiner-elements": {
+			"name": "al_oem_feature_browser"
+		}
 	},
 	"broadcast-mode": {
 		"comment": "Consumer broadcast-control key.",
@@ -29407,7 +29545,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29420,7 +29557,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "broadcast_mode"
+		"karabiner-elements": {
+			"name": "broadcast_mode"
+		}
 	},
 	"media-caption-select": {
 		"comment": "Consumer subtitle/caption-selection key.",
@@ -29440,7 +29579,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29453,7 +29591,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "closed_caption_select"
+		"karabiner-elements": {
+			"name": "closed_caption_select"
+		}
 	},
 	"microphone": {
 		"comment": "Consumer microphone-control key. Linux folds this usage into brightness-up, but that is not a semantic match.",
@@ -29485,7 +29625,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29498,7 +29637,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "microphone"
+		"karabiner-elements": {
+			"name": "microphone"
+		}
 	},
 	"international7": {
 		"comment": "Region- or vendor-specific keyboard usage. These International7+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
@@ -29518,7 +29659,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29531,7 +29671,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "international7"
+		"karabiner-elements": {
+			"name": "international7"
+		}
 	},
 	"international8": {
 		"comment": "Region- or vendor-specific keyboard usage. These International7+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
@@ -29551,7 +29693,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29564,7 +29705,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "international8"
+		"karabiner-elements": {
+			"name": "international8"
+		}
 	},
 	"international9": {
 		"comment": "Region- or vendor-specific keyboard usage. These International7+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
@@ -29584,7 +29727,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29597,7 +29739,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "international9"
+		"karabiner-elements": {
+			"name": "international9"
+		}
 	},
 	"lang6": {
 		"comment": "Region- or vendor-specific keyboard usage. These Lang6+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
@@ -29617,7 +29761,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29630,7 +29773,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "lang6"
+		"karabiner-elements": {
+			"name": "lang6"
+		}
 	},
 	"lang7": {
 		"comment": "Region- or vendor-specific keyboard usage. These Lang6+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
@@ -29650,7 +29795,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29663,7 +29807,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "lang7"
+		"karabiner-elements": {
+			"name": "lang7"
+		}
 	},
 	"lang8": {
 		"comment": "Region- or vendor-specific keyboard usage. These Lang6+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
@@ -29683,7 +29829,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29696,7 +29841,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "lang8"
+		"karabiner-elements": {
+			"name": "lang8"
+		}
 	},
 	"lang9": {
 		"comment": "Region- or vendor-specific keyboard usage. These Lang6+ keys are part of the HID keyboard page but are rarely present on actual modern keyboards.",
@@ -29716,7 +29863,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29729,7 +29875,9 @@
 		"web": {
 			"missing": true
 		},
-		"karabiner-elements": "lang9"
+		"karabiner-elements": {
+			"name": "lang9"
+		}
 	},
 	"gamepad-south": {
 		"comment": "Canonical south face-button identity for modern gamepads. Linux defines this position explicitly; Windows exposes an A-labeled button that usually occupies this location on Xbox-style pads.",
@@ -29751,7 +29899,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29762,7 +29909,10 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "ButtonA",
+				"comment": "Apple GameController exposes this on GCExtendedGamepad. Apple's documented face-button diamond places A at the south position."
+			}
 		},
 		"web": {
 			"missing": true
@@ -29788,7 +29938,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29799,7 +29948,10 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "ButtonB",
+				"comment": "Apple GameController exposes this on GCExtendedGamepad. Apple's documented face-button diamond places B at the east position."
+			}
 		},
 		"web": {
 			"missing": true
@@ -29825,7 +29977,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29836,7 +29987,10 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "ButtonY",
+				"comment": "Apple GameController exposes this on GCExtendedGamepad. Apple's documented face-button diamond places Y at the north position."
+			}
 		},
 		"web": {
 			"missing": true
@@ -29862,7 +30016,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29873,7 +30026,10 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "ButtonX",
+				"comment": "Apple GameController exposes this on GCExtendedGamepad. Apple's documented face-button diamond places X at the west position."
+			}
 		},
 		"web": {
 			"missing": true
@@ -29899,7 +30055,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29908,7 +30063,9 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "LeftShoulder"
+			}
 		},
 		"web": {
 			"missing": true
@@ -29934,7 +30091,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29943,7 +30099,9 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "RightShoulder"
+			}
 		},
 		"web": {
 			"missing": true
@@ -29969,7 +30127,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -29978,7 +30135,9 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "LeftTrigger"
+			}
 		},
 		"web": {
 			"missing": true
@@ -30004,7 +30163,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30013,7 +30171,9 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "RightTrigger"
+			}
 		},
 		"web": {
 			"missing": true
@@ -30039,7 +30199,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30050,7 +30209,10 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "ButtonOptions",
+				"comment": "Apple GameController exposes ButtonOptions as the secondary menu button on GCExtendedGamepad. This is the closest mac-native counterpart to the select/back role."
+			}
 		},
 		"web": {
 			"missing": true
@@ -30076,7 +30238,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30087,7 +30248,10 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "ButtonMenu",
+				"comment": "Apple GameController exposes ButtonMenu as the primary menu button on GCExtendedGamepad. This is the closest mac-native counterpart to the start/menu role."
+			}
 		},
 		"web": {
 			"missing": true
@@ -30113,7 +30277,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30122,7 +30285,10 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "ButtonHome",
+				"comment": "Apple GameController exposes ButtonHome as the special Home-style system button on GCExtendedGamepad."
+			}
 		},
 		"web": {
 			"missing": true
@@ -30147,7 +30313,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30156,7 +30321,9 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "LeftThumbstickButton"
+			}
 		},
 		"web": {
 			"missing": true
@@ -30181,7 +30348,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30190,7 +30356,9 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"gamecontroller": {
+				"name": "RightThumbstickButton"
+			}
 		},
 		"web": {
 			"missing": true
@@ -30217,7 +30385,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30226,7 +30393,8 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"comment": "Apple GameController exposes the DPad as a directional element rather than four separately named button properties. Map this in directional-handling code rather than as a raw key identity in keys.json."
 		},
 		"web": {
 			"missing": true
@@ -30253,7 +30421,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30262,7 +30429,8 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"comment": "Apple GameController exposes the DPad as a directional element rather than four separately named button properties. Map this in directional-handling code rather than as a raw key identity in keys.json."
 		},
 		"web": {
 			"missing": true
@@ -30289,7 +30457,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30298,7 +30465,8 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"comment": "Apple GameController exposes the DPad as a directional element rather than four separately named button properties. Map this in directional-handling code rather than as a raw key identity in keys.json."
 		},
 		"web": {
 			"missing": true
@@ -30325,7 +30493,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30334,7 +30501,8 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"comment": "Apple GameController exposes the DPad as a directional element rather than four separately named button properties. Map this in directional-handling code rather than as a raw key identity in keys.json."
 		},
 		"web": {
 			"missing": true
@@ -30359,7 +30527,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30368,7 +30535,8 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"comment": "Apple GameController exposes LeftThumbstick as a directional element with analog tilt. Map this in axis-threshold handling code rather than as a raw key identity in keys.json."
 		},
 		"web": {
 			"missing": true
@@ -30393,7 +30561,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30402,7 +30569,8 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"comment": "Apple GameController exposes LeftThumbstick as a directional element with analog tilt. Map this in axis-threshold handling code rather than as a raw key identity in keys.json."
 		},
 		"web": {
 			"missing": true
@@ -30427,7 +30595,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30436,7 +30603,8 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"comment": "Apple GameController exposes LeftThumbstick as a directional element with analog tilt. Map this in axis-threshold handling code rather than as a raw key identity in keys.json."
 		},
 		"web": {
 			"missing": true
@@ -30461,7 +30629,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30470,7 +30637,8 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"comment": "Apple GameController exposes LeftThumbstick as a directional element with analog tilt. Map this in axis-threshold handling code rather than as a raw key identity in keys.json."
 		},
 		"web": {
 			"missing": true
@@ -30495,7 +30663,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30504,7 +30671,8 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"comment": "Apple GameController exposes RightThumbstick as a directional element with analog tilt. Map this in axis-threshold handling code rather than as a raw key identity in keys.json."
 		},
 		"web": {
 			"missing": true
@@ -30529,7 +30697,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30538,7 +30705,8 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"comment": "Apple GameController exposes RightThumbstick as a directional element with analog tilt. Map this in axis-threshold handling code rather than as a raw key identity in keys.json."
 		},
 		"web": {
 			"missing": true
@@ -30563,7 +30731,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30572,7 +30739,8 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"comment": "Apple GameController exposes RightThumbstick as a directional element with analog tilt. Map this in axis-threshold handling code rather than as a raw key identity in keys.json."
 		},
 		"web": {
 			"missing": true
@@ -30597,7 +30765,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30606,7 +30773,8 @@
 			}
 		},
 		"mac": {
-			"missing": true
+			"missing": true,
+			"comment": "Apple GameController exposes RightThumbstick as a directional element with analog tilt. Map this in axis-threshold handling code rather than as a raw key identity in keys.json."
 		},
 		"web": {
 			"missing": true
@@ -30631,7 +30799,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30666,7 +30833,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30701,7 +30867,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30736,7 +30901,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30771,7 +30935,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30806,7 +30969,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30841,7 +31003,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30876,7 +31037,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30911,7 +31071,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30946,7 +31105,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -30981,7 +31139,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -31016,7 +31173,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -31051,7 +31207,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
@@ -31086,7 +31241,6 @@
 		},
 		"windows": {
 			"scancode": {
-				"api": "scancode",
 				"missing": true
 			},
 			"virtual": {
