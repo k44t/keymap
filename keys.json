@@ -12,7 +12,7 @@
 				"code": "0xb",
 				"name": "KEY_0"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x13",
 				"name": "AE10"
 			},
@@ -26,7 +26,9 @@
 				"code": "0xb"
 			},
 			"virtual": {
-				"code": "0x30"
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x30 is the ASCII code for '0'.",
+				"code": "0x30",
+				"name": "0"
 			}
 		},
 		"mac": {
@@ -82,7 +84,7 @@
 				"code": "0x2",
 				"name": "KEY_1"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xa",
 				"name": "AE01"
 			},
@@ -96,7 +98,9 @@
 				"code": "0x2"
 			},
 			"virtual": {
-				"code": "0x31"
+				"code": "0x31",
+				"name": "1",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x31 is the ASCII code for '1'."
 			}
 		},
 		"mac": {
@@ -152,7 +156,7 @@
 				"code": "0x3",
 				"name": "KEY_2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xb",
 				"name": "AE02"
 			},
@@ -166,7 +170,9 @@
 				"code": "0x3"
 			},
 			"virtual": {
-				"code": "0x32"
+				"code": "0x32",
+				"name": "2",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x32 is the ASCII code for '2'."
 			}
 		},
 		"mac": {
@@ -222,7 +228,7 @@
 				"code": "0x4",
 				"name": "KEY_3"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xc",
 				"name": "AE03"
 			},
@@ -236,7 +242,9 @@
 				"code": "0x4"
 			},
 			"virtual": {
-				"code": "0x33"
+				"code": "0x33",
+				"name": "3",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x33 is the ASCII code for '3'."
 			}
 		},
 		"mac": {
@@ -292,7 +300,7 @@
 				"code": "0x5",
 				"name": "KEY_4"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xd",
 				"name": "AE04"
 			},
@@ -306,7 +314,9 @@
 				"code": "0x5"
 			},
 			"virtual": {
-				"code": "0x34"
+				"code": "0x34",
+				"name": "4",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x34 is the ASCII code for '4'."
 			}
 		},
 		"mac": {
@@ -362,7 +372,7 @@
 				"code": "0x6",
 				"name": "KEY_5"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xe",
 				"name": "AE05"
 			},
@@ -376,7 +386,9 @@
 				"code": "0x6"
 			},
 			"virtual": {
-				"code": "0x35"
+				"code": "0x35",
+				"name": "5",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x35 is the ASCII code for '5'."
 			}
 		},
 		"mac": {
@@ -432,7 +444,7 @@
 				"code": "0x7",
 				"name": "KEY_6"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xf",
 				"name": "AE06"
 			},
@@ -446,7 +458,9 @@
 				"code": "0x7"
 			},
 			"virtual": {
-				"code": "0x36"
+				"code": "0x36",
+				"name": "6",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x36 is the ASCII code for '6'."
 			}
 		},
 		"mac": {
@@ -502,7 +516,7 @@
 				"code": "0x8",
 				"name": "KEY_7"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x10",
 				"name": "AE07"
 			},
@@ -516,7 +530,9 @@
 				"code": "0x8"
 			},
 			"virtual": {
-				"code": "0x37"
+				"code": "0x37",
+				"name": "7",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x37 is the ASCII code for '7'."
 			}
 		},
 		"mac": {
@@ -572,7 +588,7 @@
 				"code": "0x9",
 				"name": "KEY_8"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x11",
 				"name": "AE08"
 			},
@@ -586,7 +602,9 @@
 				"code": "0x9"
 			},
 			"virtual": {
-				"code": "0x38"
+				"code": "0x38",
+				"name": "8",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x38 is the ASCII code for '8'."
 			}
 		},
 		"mac": {
@@ -642,7 +660,7 @@
 				"code": "0xa",
 				"name": "KEY_9"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x12",
 				"name": "AE09"
 			},
@@ -656,7 +674,9 @@
 				"code": "0xa"
 			},
 			"virtual": {
-				"code": "0x39"
+				"code": "0x39",
+				"name": "9",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x39 is the ASCII code for '9'."
 			}
 		},
 		"mac": {
@@ -711,7 +731,7 @@
 				"code": "0x1",
 				"name": "KEY_ESC"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x9",
 				"name": "ESC"
 			},
@@ -782,7 +802,7 @@
 				"code": "0xc",
 				"name": "KEY_MINUS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x14",
 				"name": "AE11"
 			},
@@ -859,7 +879,7 @@
 				"code": "0xd",
 				"name": "KEY_EQUAL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x15",
 				"name": "AE12"
 			},
@@ -935,7 +955,7 @@
 				"code": "0xe",
 				"name": "KEY_BACKSPACE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x16",
 				"name": "BKSP"
 			},
@@ -1004,7 +1024,7 @@
 				"code": "0xf",
 				"name": "KEY_TAB"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x17",
 				"name": "TAB"
 			},
@@ -1067,7 +1087,7 @@
 				"code": "0x10",
 				"name": "KEY_Q"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x18",
 				"name": "AD01"
 			},
@@ -1081,7 +1101,9 @@
 				"code": "0x10"
 			},
 			"virtual": {
-				"code": "0x51"
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x51 is the ASCII code for 'Q'.",
+				"code": "0x51",
+				"name": "Q"
 			}
 		},
 		"mac": {
@@ -1137,7 +1159,7 @@
 				"code": "0x11",
 				"name": "KEY_W"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x19",
 				"name": "AD02"
 			},
@@ -1151,7 +1173,9 @@
 				"code": "0x11"
 			},
 			"virtual": {
-				"code": "0x57"
+				"code": "0x57",
+				"name": "W",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x57 is the ASCII code for 'W'."
 			}
 		},
 		"mac": {
@@ -1207,7 +1231,7 @@
 				"code": "0x12",
 				"name": "KEY_E"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1a",
 				"name": "AD03"
 			},
@@ -1221,7 +1245,9 @@
 				"code": "0x12"
 			},
 			"virtual": {
-				"code": "0x45"
+				"code": "0x45",
+				"name": "E",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x45 is the ASCII code for 'E'."
 			}
 		},
 		"mac": {
@@ -1277,7 +1303,7 @@
 				"code": "0x13",
 				"name": "KEY_R"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1b",
 				"name": "AD04"
 			},
@@ -1291,7 +1317,9 @@
 				"code": "0x13"
 			},
 			"virtual": {
-				"code": "0x52"
+				"code": "0x52",
+				"name": "R",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x52 is the ASCII code for 'R'."
 			}
 		},
 		"mac": {
@@ -1347,7 +1375,7 @@
 				"code": "0x14",
 				"name": "KEY_T"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1c",
 				"name": "AD05"
 			},
@@ -1361,7 +1389,9 @@
 				"code": "0x14"
 			},
 			"virtual": {
-				"code": "0x54"
+				"code": "0x54",
+				"name": "T",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x54 is the ASCII code for 'T'."
 			}
 		},
 		"mac": {
@@ -1417,7 +1447,7 @@
 				"code": "0x15",
 				"name": "KEY_Y"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1d",
 				"name": "AD06"
 			},
@@ -1431,7 +1461,9 @@
 				"code": "0x15"
 			},
 			"virtual": {
-				"code": "0x59"
+				"code": "0x59",
+				"name": "Y",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x59 is the ASCII code for 'Y'."
 			}
 		},
 		"mac": {
@@ -1487,7 +1519,7 @@
 				"code": "0x16",
 				"name": "KEY_U"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1e",
 				"name": "AD07"
 			},
@@ -1501,7 +1533,9 @@
 				"code": "0x16"
 			},
 			"virtual": {
-				"code": "0x55"
+				"code": "0x55",
+				"name": "U",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x55 is the ASCII code for 'U'."
 			}
 		},
 		"mac": {
@@ -1557,7 +1591,7 @@
 				"code": "0x17",
 				"name": "KEY_I"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1f",
 				"name": "AD08"
 			},
@@ -1571,7 +1605,9 @@
 				"code": "0x17"
 			},
 			"virtual": {
-				"code": "0x49"
+				"code": "0x49",
+				"name": "I",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x49 is the ASCII code for 'I'."
 			}
 		},
 		"mac": {
@@ -1627,7 +1663,7 @@
 				"code": "0x18",
 				"name": "KEY_O"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x20",
 				"name": "AD09"
 			},
@@ -1641,7 +1677,9 @@
 				"code": "0x18"
 			},
 			"virtual": {
-				"code": "0x4f"
+				"code": "0x4f",
+				"name": "O",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x4f is the ASCII code for 'O'."
 			}
 		},
 		"mac": {
@@ -1697,7 +1735,7 @@
 				"code": "0x19",
 				"name": "KEY_P"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x21",
 				"name": "AD10"
 			},
@@ -1711,7 +1749,9 @@
 				"code": "0x19"
 			},
 			"virtual": {
-				"code": "0x50"
+				"code": "0x50",
+				"name": "P",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x50 is the ASCII code for 'P'."
 			}
 		},
 		"mac": {
@@ -1767,7 +1807,7 @@
 				"code": "0x1a",
 				"name": "KEY_LEFTBRACE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x22",
 				"name": "AD11"
 			},
@@ -1847,7 +1887,7 @@
 				"code": "0x1b",
 				"name": "KEY_RIGHTBRACE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x23",
 				"name": "AD12"
 			},
@@ -1927,7 +1967,7 @@
 				"code": "0x1c",
 				"name": "KEY_ENTER"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x24",
 				"name": "RTRN"
 			},
@@ -1999,7 +2039,7 @@
 				"code": "0x1d",
 				"name": "KEY_LEFTCTRL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x25",
 				"name": "LCTL"
 			},
@@ -2069,7 +2109,7 @@
 				"code": "0x1e",
 				"name": "KEY_A"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x26",
 				"name": "AC01"
 			},
@@ -2083,7 +2123,9 @@
 				"code": "0x1e"
 			},
 			"virtual": {
-				"code": "0x41"
+				"code": "0x41",
+				"name": "A",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x41 is the ASCII code for 'A'."
 			}
 		},
 		"mac": {
@@ -2139,7 +2181,7 @@
 				"code": "0x1f",
 				"name": "KEY_S"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x27",
 				"name": "AC02"
 			},
@@ -2153,7 +2195,9 @@
 				"code": "0x1f"
 			},
 			"virtual": {
-				"code": "0x53"
+				"code": "0x53",
+				"name": "S",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x53 is the ASCII code for 'S'."
 			}
 		},
 		"mac": {
@@ -2209,7 +2253,7 @@
 				"code": "0x20",
 				"name": "KEY_D"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x28",
 				"name": "AC03"
 			},
@@ -2223,7 +2267,9 @@
 				"code": "0x20"
 			},
 			"virtual": {
-				"code": "0x44"
+				"code": "0x44",
+				"name": "D",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x44 is the ASCII code for 'D'."
 			}
 		},
 		"mac": {
@@ -2279,7 +2325,7 @@
 				"code": "0x21",
 				"name": "KEY_F"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x29",
 				"name": "AC04"
 			},
@@ -2293,7 +2339,9 @@
 				"code": "0x21"
 			},
 			"virtual": {
-				"code": "0x46"
+				"code": "0x46",
+				"name": "F",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x46 is the ASCII code for 'F'."
 			}
 		},
 		"mac": {
@@ -2349,7 +2397,7 @@
 				"code": "0x22",
 				"name": "KEY_G"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x2a",
 				"name": "AC05"
 			},
@@ -2363,7 +2411,9 @@
 				"code": "0x22"
 			},
 			"virtual": {
-				"code": "0x47"
+				"code": "0x47",
+				"name": "G",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x47 is the ASCII code for 'G'."
 			}
 		},
 		"mac": {
@@ -2419,7 +2469,7 @@
 				"code": "0x23",
 				"name": "KEY_H"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x2b",
 				"name": "AC06"
 			},
@@ -2433,7 +2483,9 @@
 				"code": "0x23"
 			},
 			"virtual": {
-				"code": "0x48"
+				"code": "0x48",
+				"name": "H",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x48 is the ASCII code for 'H'."
 			}
 		},
 		"mac": {
@@ -2489,7 +2541,7 @@
 				"code": "0x24",
 				"name": "KEY_J"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x2c",
 				"name": "AC07"
 			},
@@ -2503,7 +2555,9 @@
 				"code": "0x24"
 			},
 			"virtual": {
-				"code": "0x4a"
+				"code": "0x4a",
+				"name": "J",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x4a is the ASCII code for 'J'."
 			}
 		},
 		"mac": {
@@ -2559,7 +2613,7 @@
 				"code": "0x25",
 				"name": "KEY_K"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x2d",
 				"name": "AC08"
 			},
@@ -2573,7 +2627,9 @@
 				"code": "0x25"
 			},
 			"virtual": {
-				"code": "0x4b"
+				"code": "0x4b",
+				"name": "K",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x4b is the ASCII code for 'K'."
 			}
 		},
 		"mac": {
@@ -2629,7 +2685,7 @@
 				"code": "0x26",
 				"name": "KEY_L"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x2e",
 				"name": "AC09"
 			},
@@ -2643,7 +2699,9 @@
 				"code": "0x26"
 			},
 			"virtual": {
-				"code": "0x4c"
+				"code": "0x4c",
+				"name": "L",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x4c is the ASCII code for 'L'."
 			}
 		},
 		"mac": {
@@ -2699,7 +2757,7 @@
 				"code": "0x28",
 				"name": "KEY_APOSTROPHE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x30",
 				"name": "AC11"
 			},
@@ -2776,7 +2834,7 @@
 				"code": "0x29",
 				"name": "KEY_GRAVE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x31",
 				"name": "TLDE",
 				"aliases": [
@@ -2857,7 +2915,7 @@
 				"code": "0x2a",
 				"name": "KEY_LEFTSHIFT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x32",
 				"name": "LFSH"
 			},
@@ -2927,7 +2985,7 @@
 				"code": "0x2b",
 				"name": "KEY_BACKSLASH"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x33",
 				"name": "BKSL",
 				"aliases": [
@@ -3008,7 +3066,7 @@
 				"alias-of": "backslash",
 				"comment": "Linux hid-input folds HID keyboard usages 0x31 and 0x32 onto the same KEY_BACKSLASH evdev keycode."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true,
 				"alias-of": "backslash",
 				"comment": "Because the Linux kernel maps this HID usage to KEY_BACKSLASH, XKB also sees it through the same BKSL key path."
@@ -3060,7 +3118,7 @@
 				"code": "0x2c",
 				"name": "KEY_Z"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x34",
 				"name": "AB01"
 			},
@@ -3074,7 +3132,9 @@
 				"code": "0x2c"
 			},
 			"virtual": {
-				"code": "0x5a"
+				"code": "0x5a",
+				"name": "Z",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x5a is the ASCII code for 'Z'."
 			}
 		},
 		"mac": {
@@ -3130,7 +3190,7 @@
 				"code": "0x2d",
 				"name": "KEY_X"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x35",
 				"name": "AB02"
 			},
@@ -3144,7 +3204,9 @@
 				"code": "0x2d"
 			},
 			"virtual": {
-				"code": "0x58"
+				"code": "0x58",
+				"name": "X",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x58 is the ASCII code for 'X'."
 			}
 		},
 		"mac": {
@@ -3200,7 +3262,7 @@
 				"code": "0x2e",
 				"name": "KEY_C"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x36",
 				"name": "AB03"
 			},
@@ -3214,7 +3276,9 @@
 				"code": "0x2e"
 			},
 			"virtual": {
-				"code": "0x43"
+				"code": "0x43",
+				"name": "C",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x43 is the ASCII code for 'C'."
 			}
 		},
 		"mac": {
@@ -3270,7 +3334,7 @@
 				"code": "0x2f",
 				"name": "KEY_V"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x37",
 				"name": "AB04"
 			},
@@ -3284,7 +3348,9 @@
 				"code": "0x2f"
 			},
 			"virtual": {
-				"code": "0x56"
+				"code": "0x56",
+				"name": "V",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x56 is the ASCII code for 'V'."
 			}
 		},
 		"mac": {
@@ -3340,7 +3406,7 @@
 				"code": "0x30",
 				"name": "KEY_B"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x38",
 				"name": "AB05"
 			},
@@ -3354,7 +3420,9 @@
 				"code": "0x30"
 			},
 			"virtual": {
-				"code": "0x42"
+				"code": "0x42",
+				"name": "B",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x42 is the ASCII code for 'B'."
 			}
 		},
 		"mac": {
@@ -3410,7 +3478,7 @@
 				"code": "0x31",
 				"name": "KEY_N"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x39",
 				"name": "AB06"
 			},
@@ -3424,7 +3492,9 @@
 				"code": "0x31"
 			},
 			"virtual": {
-				"code": "0x4e"
+				"code": "0x4e",
+				"name": "N",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x4e is the ASCII code for 'N'."
 			}
 		},
 		"mac": {
@@ -3480,7 +3550,7 @@
 				"code": "0x32",
 				"name": "KEY_M"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x3a",
 				"name": "AB07"
 			},
@@ -3494,7 +3564,9 @@
 				"code": "0x32"
 			},
 			"virtual": {
-				"code": "0x4d"
+				"code": "0x4d",
+				"name": "M",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x4d is the ASCII code for 'M'."
 			}
 		},
 		"mac": {
@@ -3550,7 +3622,7 @@
 				"code": "0x33",
 				"name": "KEY_COMMA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x3b",
 				"name": "AB08"
 			},
@@ -3626,7 +3698,7 @@
 				"code": "0x34",
 				"name": "KEY_DOT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x3c",
 				"name": "AB09"
 			},
@@ -3700,7 +3772,7 @@
 				"code": "0x35",
 				"name": "KEY_SLASH"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x3d",
 				"name": "AB10"
 			},
@@ -3774,7 +3846,7 @@
 				"code": "0x36",
 				"name": "KEY_RIGHTSHIFT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x3e",
 				"name": "RTSH"
 			},
@@ -3839,7 +3911,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -3874,7 +3946,7 @@
 				"code": "0x37",
 				"name": "KEY_KPASTERISK"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x3f",
 				"name": "KPMU"
 			},
@@ -3937,7 +4009,7 @@
 				"code": "0x38",
 				"name": "KEY_LEFTALT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x40",
 				"name": "LALT"
 			},
@@ -4005,7 +4077,7 @@
 				"code": "0x39",
 				"name": "KEY_SPACE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x41",
 				"name": "SPCE"
 			},
@@ -4069,7 +4141,7 @@
 				"code": "0x3a",
 				"name": "KEY_CAPSLOCK"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x42",
 				"name": "CAPS"
 			},
@@ -4136,7 +4208,7 @@
 				"code": "0x3b",
 				"name": "KEY_F1"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x43",
 				"name": "FK01"
 			},
@@ -4201,7 +4273,7 @@
 				"code": "0x3c",
 				"name": "KEY_F2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x44",
 				"name": "FK02"
 			},
@@ -4266,7 +4338,7 @@
 				"code": "0x3d",
 				"name": "KEY_F3"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x45",
 				"name": "FK03"
 			},
@@ -4331,7 +4403,7 @@
 				"code": "0x3e",
 				"name": "KEY_F4"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x46",
 				"name": "FK04"
 			},
@@ -4396,7 +4468,7 @@
 				"code": "0x3f",
 				"name": "KEY_F5"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x47",
 				"name": "FK05"
 			},
@@ -4461,7 +4533,7 @@
 				"code": "0x40",
 				"name": "KEY_F6"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x48",
 				"name": "FK06"
 			},
@@ -4526,7 +4598,7 @@
 				"code": "0x41",
 				"name": "KEY_F7"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x49",
 				"name": "FK07"
 			},
@@ -4591,7 +4663,7 @@
 				"code": "0x42",
 				"name": "KEY_F8"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x4a",
 				"name": "FK08"
 			},
@@ -4656,7 +4728,7 @@
 				"code": "0x43",
 				"name": "KEY_F9"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x4b",
 				"name": "FK09"
 			},
@@ -4721,7 +4793,7 @@
 				"code": "0x44",
 				"name": "KEY_F10"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x4c",
 				"name": "FK10"
 			},
@@ -4786,7 +4858,7 @@
 				"code": "0x45",
 				"name": "KEY_NUMLOCK"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x4d",
 				"name": "NMLK"
 			},
@@ -4854,7 +4926,7 @@
 				"code": "0x46",
 				"name": "KEY_SCROLLLOCK"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x4e",
 				"name": "SCLK"
 			},
@@ -4919,7 +4991,7 @@
 				"code": "0x47",
 				"name": "KEY_KP7"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x4f",
 				"name": "KP7"
 			},
@@ -4989,7 +5061,7 @@
 				"code": "0x48",
 				"name": "KEY_KP8"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x50",
 				"name": "KP8"
 			},
@@ -5059,7 +5131,7 @@
 				"code": "0x49",
 				"name": "KEY_KP9"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x51",
 				"name": "KP9"
 			},
@@ -5129,7 +5201,7 @@
 				"code": "0x4a",
 				"name": "KEY_KPMINUS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x52",
 				"name": "KPSU"
 			},
@@ -5192,7 +5264,7 @@
 				"code": "0x4b",
 				"name": "KEY_KP4"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x53",
 				"name": "KP4"
 			},
@@ -5262,7 +5334,7 @@
 				"code": "0x4c",
 				"name": "KEY_KP5"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x54",
 				"name": "KP5"
 			},
@@ -5332,7 +5404,7 @@
 				"code": "0x4d",
 				"name": "KEY_KP6"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x55",
 				"name": "KP6"
 			},
@@ -5402,7 +5474,7 @@
 				"code": "0x4e",
 				"name": "KEY_KPPLUS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x56",
 				"name": "KPAD"
 			},
@@ -5466,7 +5538,7 @@
 				"code": "0x4f",
 				"name": "KEY_KP1"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x57",
 				"name": "KP1"
 			},
@@ -5536,7 +5608,7 @@
 				"code": "0x50",
 				"name": "KEY_KP2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x58",
 				"name": "KP2"
 			},
@@ -5606,7 +5678,7 @@
 				"code": "0x51",
 				"name": "KEY_KP3"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x59",
 				"name": "KP3"
 			},
@@ -5676,7 +5748,7 @@
 				"code": "0x52",
 				"name": "KEY_KP0"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x5a",
 				"name": "KP0"
 			},
@@ -5746,7 +5818,7 @@
 				"code": "0x53",
 				"name": "KEY_KPDOT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x5b",
 				"name": "KPDL"
 			},
@@ -5818,7 +5890,7 @@
 				"code": "0x56",
 				"name": "KEY_102ND"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x5e",
 				"name": "LSGT"
 			},
@@ -5890,7 +5962,7 @@
 				"code": "0x57",
 				"name": "KEY_F11"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x5f",
 				"name": "FK11"
 			},
@@ -5955,7 +6027,7 @@
 				"code": "0x58",
 				"name": "KEY_F12"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x60",
 				"name": "FK12"
 			},
@@ -6021,7 +6093,7 @@
 				"code": "0x59",
 				"name": "KEY_RO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x61",
 				"name": "AB11"
 			},
@@ -6089,7 +6161,7 @@
 				"code": "0x5c",
 				"name": "KEY_HENKAN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x64",
 				"name": "HENK"
 			},
@@ -6161,7 +6233,7 @@
 				"code": "0x5d",
 				"name": "KEY_KATAKANAHIRAGANA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x65",
 				"name": "HKTG"
 			},
@@ -6227,7 +6299,7 @@
 				"code": "0x5e",
 				"name": "KEY_MUHENKAN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x66",
 				"name": "MUHE"
 			},
@@ -6297,7 +6369,7 @@
 				"code": "0x60",
 				"name": "KEY_KPENTER"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x68",
 				"name": "KPEN"
 			},
@@ -6369,7 +6441,7 @@
 				"code": "0x61",
 				"name": "KEY_RIGHTCTRL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x69",
 				"name": "RCTL"
 			},
@@ -6435,7 +6507,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -6470,7 +6542,7 @@
 				"code": "0x62",
 				"name": "KEY_KPSLASH"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x6a",
 				"name": "KPDV"
 			},
@@ -6533,7 +6605,7 @@
 				"code": "0x63",
 				"name": "KEY_SYSRQ"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x6b",
 				"name": "PRSC"
 			},
@@ -6607,7 +6679,7 @@
 				"code": "0x64",
 				"name": "KEY_RIGHTALT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x6c",
 				"name": "RALT",
 				"aliases": [
@@ -6676,7 +6748,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -6709,7 +6781,7 @@
 				"code": "0x65",
 				"name": "KEY_LINEFEED"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x6d",
 				"name": "LNFD"
 			},
@@ -6755,7 +6827,7 @@
 				"code": "0x66",
 				"name": "KEY_HOME"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x6e",
 				"name": "HOME"
 			},
@@ -6822,7 +6894,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -6857,7 +6929,7 @@
 				"code": "0x67",
 				"name": "KEY_UP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x6f",
 				"name": "UP"
 			},
@@ -6924,7 +6996,7 @@
 				"code": "0x68",
 				"name": "KEY_PAGEUP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x70",
 				"name": "PGUP"
 			},
@@ -6992,7 +7064,7 @@
 				"code": "0x69",
 				"name": "KEY_LEFT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x71",
 				"name": "LEFT"
 			},
@@ -7061,7 +7133,7 @@
 				"code": "0x6a",
 				"name": "KEY_RIGHT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x72",
 				"name": "RGHT"
 			},
@@ -7130,7 +7202,7 @@
 				"code": "0x6b",
 				"name": "KEY_END"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x73",
 				"name": "END"
 			},
@@ -7199,7 +7271,7 @@
 				"code": "0x6c",
 				"name": "KEY_DOWN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x74",
 				"name": "DOWN"
 			},
@@ -7266,7 +7338,7 @@
 				"code": "0x6d",
 				"name": "KEY_PAGEDOWN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x75",
 				"name": "PGDN"
 			},
@@ -7334,7 +7406,7 @@
 				"code": "0x6e",
 				"name": "KEY_INSERT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x76",
 				"name": "INS"
 			},
@@ -7401,7 +7473,7 @@
 				"code": "0x6f",
 				"name": "KEY_DELETE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x77",
 				"name": "DELE"
 			},
@@ -7470,7 +7542,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -7503,7 +7575,7 @@
 				"code": "0x70",
 				"name": "KEY_MACRO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x78",
 				"name": "I120"
 			},
@@ -7548,7 +7620,7 @@
 				"code": "0x71",
 				"name": "KEY_MUTE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x79",
 				"name": "MUTE"
 			},
@@ -7619,7 +7691,7 @@
 				"code": "0x72",
 				"name": "KEY_VOLUMEDOWN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x7a",
 				"name": "VOL-"
 			},
@@ -7695,7 +7767,7 @@
 				"code": "0x73",
 				"name": "KEY_VOLUMEUP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x7b",
 				"name": "VOL+"
 			},
@@ -7771,7 +7843,7 @@
 				"code": "0x76",
 				"name": "KEY_KPPLUSMINUS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x7e",
 				"name": "I126"
 			},
@@ -7817,7 +7889,7 @@
 				"code": "0x77",
 				"name": "KEY_PAUSE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x7f",
 				"name": "PAUS"
 			},
@@ -7882,7 +7954,7 @@
 				"code": "0x78",
 				"name": "KEY_SCALE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x80",
 				"name": "I128"
 			},
@@ -7935,7 +8007,7 @@
 					"KEY_HANGUEL"
 				]
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x82",
 				"name": "HNGL"
 			},
@@ -8005,7 +8077,7 @@
 				"code": "0x7b",
 				"name": "KEY_HANJA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x83",
 				"name": "HJCV"
 			},
@@ -8076,7 +8148,7 @@
 				"code": "0x7c",
 				"name": "KEY_YEN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x84",
 				"name": "AE13"
 			},
@@ -8137,7 +8209,7 @@
 				"code": "0x7d",
 				"name": "KEY_LEFTMETA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x85",
 				"name": "LWIN",
 				"aliases": [
@@ -8212,7 +8284,7 @@
 				"code": "0x7e",
 				"name": "KEY_RIGHTMETA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x86",
 				"name": "RWIN",
 				"aliases": [
@@ -8284,7 +8356,7 @@
 				"missing": true,
 				"comment": "keyd defines iso-level3-shift as a special extra keycode and notes that it is missing from Linux input-event-codes.h."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true,
 				"comment": "Treat this key primarily through its XKB keysym meaning rather than through a stable evdev/XKB keycode name."
 			},
@@ -8323,7 +8395,7 @@
 				"code": "0x7f",
 				"name": "KEY_COMPOSE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x87",
 				"name": "COMP"
 			},
@@ -8383,7 +8455,7 @@
 				"code": "0x80",
 				"name": "KEY_STOP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x88",
 				"name": "STOP"
 			},
@@ -8439,7 +8511,7 @@
 				"code": "0x8b",
 				"name": "KEY_MENU"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x93",
 				"name": "I147"
 			},
@@ -8506,7 +8578,7 @@
 				"code": "0x8d",
 				"name": "KEY_SETUP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x95",
 				"name": "I149"
 			},
@@ -8549,7 +8621,7 @@
 				"code": "0x91",
 				"name": "KEY_SENDFILE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x99",
 				"name": "I153"
 			},
@@ -8593,7 +8665,7 @@
 				"code": "0x92",
 				"name": "KEY_DELETEFILE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x9a",
 				"name": "I154"
 			},
@@ -8639,7 +8711,7 @@
 				"code": "0x93",
 				"name": "KEY_XFER"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x9b",
 				"name": "I155"
 			},
@@ -8685,7 +8757,7 @@
 				"code": "0x94",
 				"name": "KEY_PROG1"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x9c",
 				"name": "I156"
 			},
@@ -8736,7 +8808,7 @@
 				"code": "0x95",
 				"name": "KEY_PROG2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x9d",
 				"name": "I157"
 			},
@@ -8790,7 +8862,7 @@
 				"code": "0x96",
 				"name": "KEY_WWW"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x9e",
 				"name": "I158"
 			},
@@ -8841,7 +8913,7 @@
 				"code": "0x97",
 				"name": "KEY_MSDOS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x9f",
 				"name": "I159"
 			},
@@ -8893,7 +8965,7 @@
 					"KEY_SCREENLOCK"
 				]
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xa0",
 				"name": "I160"
 			},
@@ -8947,7 +9019,7 @@
 					"KEY_DIRECTION"
 				]
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xa1",
 				"name": "I161"
 			},
@@ -8994,7 +9066,7 @@
 				"code": "0x9a",
 				"name": "KEY_CYCLEWINDOWS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xa2",
 				"name": "I162"
 			},
@@ -9040,7 +9112,7 @@
 				"code": "0x9c",
 				"name": "KEY_BOOKMARKS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xa4",
 				"name": "I164"
 			},
@@ -9094,7 +9166,7 @@
 				"code": "0x9d",
 				"name": "KEY_COMPUTER"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xa5",
 				"name": "I165"
 			},
@@ -9139,7 +9211,7 @@
 				"code": "0x9e",
 				"name": "KEY_BACK"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xa6",
 				"name": "I166"
 			},
@@ -9198,7 +9270,7 @@
 				"code": "0x9f",
 				"name": "KEY_FORWARD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xa7",
 				"name": "I167"
 			},
@@ -9256,7 +9328,7 @@
 				"code": "0xa0",
 				"name": "KEY_CLOSECD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xa8",
 				"name": "I168"
 			},
@@ -9302,7 +9374,7 @@
 				"code": "0xa3",
 				"name": "KEY_NEXTSONG"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xab",
 				"name": "I171"
 			},
@@ -9373,7 +9445,7 @@
 				"code": "0xa4",
 				"name": "KEY_PLAYPAUSE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xac",
 				"name": "I172"
 			},
@@ -9441,7 +9513,7 @@
 				"code": "0xa5",
 				"name": "KEY_PREVIOUSSONG"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xad",
 				"name": "I173"
 			},
@@ -9513,7 +9585,7 @@
 				"code": "0xa8",
 				"name": "KEY_REWIND"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xb0",
 				"name": "I176"
 			},
@@ -9569,7 +9641,7 @@
 				"code": "0xa9",
 				"name": "KEY_PHONE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xb1",
 				"name": "I177"
 			},
@@ -9612,7 +9684,7 @@
 				"code": "0xaa",
 				"name": "KEY_ISO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xb2",
 				"name": "I178"
 			},
@@ -9657,7 +9729,7 @@
 				"code": "0xad",
 				"name": "KEY_REFRESH"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xb5",
 				"name": "I181"
 			},
@@ -9729,7 +9801,7 @@
 				"code": "0xae",
 				"name": "KEY_EXIT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xb6",
 				"name": "I182"
 			},
@@ -9779,7 +9851,7 @@
 				"code": "0xaf",
 				"name": "KEY_MOVE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xb7",
 				"name": "I183"
 			},
@@ -9824,7 +9896,7 @@
 				"code": "0xb0",
 				"name": "KEY_EDIT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xb8",
 				"name": "I184"
 			},
@@ -9870,7 +9942,7 @@
 				"code": "0xb1",
 				"name": "KEY_SCROLLUP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xb9",
 				"name": "I185"
 			},
@@ -9918,7 +9990,7 @@
 				"code": "0xb2",
 				"name": "KEY_SCROLLDOWN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xba",
 				"name": "I186"
 			},
@@ -9967,7 +10039,7 @@
 				"code": "0x110",
 				"name": "BTN_LEFT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -10014,7 +10086,7 @@
 				"code": "0x111",
 				"name": "BTN_RIGHT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -10062,7 +10134,7 @@
 				"code": "0x112",
 				"name": "BTN_MIDDLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -10109,7 +10181,7 @@
 				"code": "0x113",
 				"name": "BTN_SIDE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -10156,7 +10228,7 @@
 				"code": "0x114",
 				"name": "BTN_EXTRA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -10203,7 +10275,7 @@
 				"code": "0x115",
 				"name": "BTN_FORWARD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -10239,7 +10311,7 @@
 				"code": "0x116",
 				"name": "BTN_BACK"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -10275,7 +10347,7 @@
 				"code": "0xb3",
 				"name": "KEY_KPLEFTPAREN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xbb",
 				"name": "I187"
 			},
@@ -10330,7 +10402,7 @@
 				"code": "0xb4",
 				"name": "KEY_KPRIGHTPAREN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xbc",
 				"name": "I188"
 			},
@@ -10384,7 +10456,7 @@
 				"code": "0xb5",
 				"name": "KEY_NEW"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xbd",
 				"name": "I189"
 			},
@@ -10430,7 +10502,7 @@
 				"code": "0xb6",
 				"name": "KEY_REDO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xbe",
 				"name": "I190"
 			},
@@ -10479,7 +10551,7 @@
 				"code": "0xb7",
 				"name": "KEY_F13"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xbf",
 				"name": "FK13"
 			},
@@ -10544,7 +10616,7 @@
 				"code": "0xb8",
 				"name": "KEY_F14"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xc0",
 				"name": "FK14"
 			},
@@ -10609,7 +10681,7 @@
 				"code": "0xb9",
 				"name": "KEY_F15"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xc1",
 				"name": "FK15"
 			},
@@ -10674,7 +10746,7 @@
 				"code": "0xba",
 				"name": "KEY_F16"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xc2",
 				"name": "FK16"
 			},
@@ -10739,7 +10811,7 @@
 				"code": "0xbb",
 				"name": "KEY_F17"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xc3",
 				"name": "FK17"
 			},
@@ -10804,7 +10876,7 @@
 				"code": "0xbc",
 				"name": "KEY_F18"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xc4",
 				"name": "FK18"
 			},
@@ -10869,7 +10941,7 @@
 				"code": "0xbd",
 				"name": "KEY_F19"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xc5",
 				"name": "FK19"
 			},
@@ -10934,7 +11006,7 @@
 				"code": "0xbe",
 				"name": "KEY_F20"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xc6",
 				"name": "FK20"
 			},
@@ -10999,7 +11071,7 @@
 				"code": "0xbf",
 				"name": "KEY_F21"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xc7",
 				"name": "FK21"
 			},
@@ -11065,7 +11137,7 @@
 				"code": "0xc0",
 				"name": "KEY_F22"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xc8",
 				"name": "FK22"
 			},
@@ -11131,7 +11203,7 @@
 				"code": "0xc1",
 				"name": "KEY_F23"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xc9",
 				"name": "FK23"
 			},
@@ -11197,7 +11269,7 @@
 				"code": "0xc2",
 				"name": "KEY_F24"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xca",
 				"name": "FK24"
 			},
@@ -11261,7 +11333,7 @@
 				"code": "0xca",
 				"name": "KEY_PROG3"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xd2",
 				"name": "I210"
 			},
@@ -11304,7 +11376,7 @@
 				"code": "0xcb",
 				"name": "KEY_PROG4"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xd3",
 				"name": "I211"
 			},
@@ -11352,7 +11424,7 @@
 					"KEY_DASHBOARD"
 				]
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xd4",
 				"name": "I212"
 			},
@@ -11399,7 +11471,7 @@
 				"code": "0xce",
 				"name": "KEY_CLOSE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xd6",
 				"name": "I214"
 			},
@@ -11446,7 +11518,7 @@
 				"code": "0xd0",
 				"name": "KEY_FASTFORWARD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xd8",
 				"name": "I216"
 			},
@@ -11506,7 +11578,7 @@
 				"code": "0xd1",
 				"name": "KEY_BASSBOOST"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xd9",
 				"name": "I217"
 			},
@@ -11567,7 +11639,7 @@
 				"code": "0xd4",
 				"name": "KEY_CAMERA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xdc",
 				"name": "I220"
 			},
@@ -11613,7 +11685,7 @@
 				"code": "0xd3",
 				"name": "KEY_HP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true,
 				"comment": "xkbcommon comments KEY_HP out as an unclear HP-specific key and does not expose a canonical XKB keycode name for it."
 			},
@@ -11658,7 +11730,7 @@
 				"code": "0xd5",
 				"name": "KEY_SOUND"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true,
 				"comment": "xkbcommon comments KEY_SOUND out as an unclear HP-specific key and does not expose a canonical XKB keycode name for it."
 			},
@@ -11696,7 +11768,7 @@
 				"code": "0xd6",
 				"name": "KEY_QUESTION"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true,
 				"comment": "xkbcommon comments KEY_QUESTION out as an unclear HP-specific key and does not expose a canonical XKB keycode name for it."
 			},
@@ -11734,7 +11806,7 @@
 				"code": "0xd7",
 				"name": "KEY_EMAIL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xdf",
 				"name": "I223"
 			},
@@ -11793,7 +11865,7 @@
 				"code": "0xd8",
 				"name": "KEY_CHAT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xe0",
 				"name": "I224"
 			},
@@ -11838,7 +11910,7 @@
 				"code": "0xda",
 				"name": "KEY_CONNECT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xe2",
 				"name": "I226"
 			},
@@ -11884,7 +11956,7 @@
 				"code": "0x195",
 				"name": "KEY_LAST"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true,
 				"comment": "xkbcommon marks KEY_LAST as an unclear function and does not expose a canonical XKB keycode name for it."
 			},
@@ -11936,7 +12008,7 @@
 				"code": "0xdb",
 				"name": "KEY_FINANCE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xe3",
 				"name": "I227"
 			},
@@ -11982,7 +12054,7 @@
 				"code": "0xdc",
 				"name": "KEY_SPORT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xe4",
 				"name": "I228"
 			},
@@ -12027,7 +12099,7 @@
 				"code": "0xdd",
 				"name": "KEY_SHOP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xe5",
 				"name": "I229"
 			},
@@ -12070,7 +12142,7 @@
 				"code": "0xde",
 				"name": "KEY_ALTERASE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xe6",
 				"name": "I230"
 			},
@@ -12119,7 +12191,7 @@
 				"code": "0xdf",
 				"name": "KEY_CANCEL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xe7",
 				"name": "I231"
 			},
@@ -12166,7 +12238,7 @@
 				"code": "0xe2",
 				"name": "KEY_MEDIA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xea",
 				"name": "I234"
 			},
@@ -12227,7 +12299,7 @@
 				"code": "0xea",
 				"name": "KEY_SAVE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xf2",
 				"name": "I242"
 			},
@@ -12273,7 +12345,7 @@
 				"code": "0xeb",
 				"name": "KEY_DOCUMENTS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xf3",
 				"name": "I243"
 			},
@@ -12319,7 +12391,7 @@
 				"code": "0xec",
 				"name": "KEY_BATTERY"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xf4",
 				"name": "I244"
 			},
@@ -12362,7 +12434,7 @@
 				"code": "0xed",
 				"name": "KEY_BLUETOOTH"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xf5",
 				"name": "I245"
 			},
@@ -12405,7 +12477,7 @@
 				"code": "0xee",
 				"name": "KEY_WLAN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xf6",
 				"name": "I246"
 			},
@@ -12448,7 +12520,7 @@
 				"code": "0xef",
 				"name": "KEY_UWB"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xff",
 				"name": "I247"
 			},
@@ -12493,7 +12565,7 @@
 				"code": "0xf0",
 				"name": "KEY_UNKNOWN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -12532,7 +12604,7 @@
 				"code": "0xf1",
 				"name": "KEY_VIDEO_NEXT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xf9",
 				"name": "I249"
 			},
@@ -12577,7 +12649,7 @@
 				"code": "0xf2",
 				"name": "KEY_VIDEO_PREV"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xfa",
 				"name": "I250"
 			},
@@ -12622,7 +12694,7 @@
 				"code": "0xf3",
 				"name": "KEY_BRIGHTNESS_CYCLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xfb",
 				"name": "I251"
 			},
@@ -12671,7 +12743,7 @@
 					"KEY_DISPLAYTOGGLE"
 				]
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1b7",
 				"name": "I439"
 			},
@@ -12720,7 +12792,7 @@
 					"KEY_BRIGHTNESS_ZERO"
 				]
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xfc",
 				"name": "I252"
 			},
@@ -12767,7 +12839,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -12802,7 +12874,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -12837,7 +12909,7 @@
 				"code": "0xf5",
 				"name": "KEY_DISPLAY_OFF"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xfd",
 				"name": "I253"
 			},
@@ -12883,7 +12955,7 @@
 					"KEY_WIMAX"
 				]
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xfe",
 				"name": "I254"
 			},
@@ -12927,7 +12999,7 @@
 				"code": "0x160",
 				"name": "KEY_OK"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -12967,7 +13039,7 @@
 				"code": "0x162",
 				"name": "KEY_GOTO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13015,7 +13087,7 @@
 				"code": "0x163",
 				"name": "KEY_CLEAR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13066,7 +13138,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13101,7 +13173,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13135,7 +13207,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13169,7 +13241,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13203,7 +13275,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13239,7 +13311,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13273,7 +13345,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13308,7 +13380,7 @@
 				"code": "0x164",
 				"name": "KEY_POWER2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13345,7 +13417,7 @@
 				"code": "0x165",
 				"name": "KEY_OPTION"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13385,7 +13457,7 @@
 				"code": "0x166",
 				"name": "KEY_INFO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x16e",
 				"name": "I366"
 			},
@@ -13432,7 +13504,7 @@
 				"code": "0x167",
 				"name": "KEY_TIME"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13469,7 +13541,7 @@
 				"code": "0x168",
 				"name": "KEY_VENDOR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13506,7 +13578,7 @@
 				"code": "0x169",
 				"name": "KEY_ARCHIVE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13543,7 +13615,7 @@
 				"code": "0x16b",
 				"name": "KEY_CHANNEL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13580,7 +13652,7 @@
 				"code": "0x16c",
 				"name": "KEY_FAVORITES"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x174",
 				"name": "I372"
 			},
@@ -13624,7 +13696,7 @@
 				"code": "0x16d",
 				"name": "KEY_EPG"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x175",
 				"name": "I373"
 			},
@@ -13668,7 +13740,7 @@
 				"code": "0x16e",
 				"name": "KEY_PVR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x176",
 				"name": "I374"
 			},
@@ -13710,7 +13782,7 @@
 				"code": "0x16f",
 				"name": "KEY_MHP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13747,7 +13819,7 @@
 				"code": "0x170",
 				"name": "KEY_LANGUAGE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13787,7 +13859,7 @@
 				"code": "0x171",
 				"name": "KEY_TITLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13827,7 +13899,7 @@
 				"code": "0x172",
 				"name": "KEY_SUBTITLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x17a",
 				"name": "I378"
 			},
@@ -13873,7 +13945,7 @@
 				"code": "0x173",
 				"name": "KEY_ANGLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13910,7 +13982,7 @@
 				"code": "0x175",
 				"name": "KEY_MODE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -13950,7 +14022,7 @@
 				"code": "0x176",
 				"name": "KEY_KEYBOARD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x17e",
 				"name": "I382"
 			},
@@ -14001,7 +14073,7 @@
 					"KEY_SCREEN"
 				]
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14045,7 +14117,7 @@
 				"code": "0x178",
 				"name": "KEY_PC"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14085,7 +14157,7 @@
 				"code": "0x179",
 				"name": "KEY_TV"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14125,7 +14197,7 @@
 				"code": "0x17a",
 				"name": "KEY_TV2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14174,7 +14246,7 @@
 				"code": "0x17b",
 				"name": "KEY_VCR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14214,7 +14286,7 @@
 				"code": "0x17c",
 				"name": "KEY_VCR2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14255,7 +14327,7 @@
 				"code": "0x17d",
 				"name": "KEY_SAT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14292,7 +14364,7 @@
 				"code": "0x17e",
 				"name": "KEY_SAT2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14332,7 +14404,7 @@
 				"code": "0x17f",
 				"name": "KEY_CD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14372,7 +14444,7 @@
 				"code": "0x180",
 				"name": "KEY_TAPE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14409,7 +14481,7 @@
 				"code": "0x181",
 				"name": "KEY_RADIO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14449,7 +14521,7 @@
 				"code": "0x182",
 				"name": "KEY_TUNER"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14489,7 +14561,7 @@
 				"code": "0x183",
 				"name": "KEY_PLAYER"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14535,7 +14607,7 @@
 				"code": "0x184",
 				"name": "KEY_TEXT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14575,7 +14647,7 @@
 				"code": "0x185",
 				"name": "KEY_DVD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x18d",
 				"name": "I389"
 			},
@@ -14620,7 +14692,7 @@
 				"code": "0x1bf",
 				"name": "KEY_LINK_PHONE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1c7",
 				"name": "I455"
 			},
@@ -14657,7 +14729,7 @@
 				"code": "0x186",
 				"name": "KEY_AUX"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14694,7 +14766,7 @@
 				"code": "0x187",
 				"name": "KEY_MP3"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14734,7 +14806,7 @@
 				"code": "0x188",
 				"name": "KEY_AUDIO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x190",
 				"name": "I400"
 			},
@@ -14782,7 +14854,7 @@
 				"code": "0x189",
 				"name": "KEY_VIDEO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14822,7 +14894,7 @@
 				"code": "0x18a",
 				"name": "KEY_DIRECTORY"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14859,7 +14931,7 @@
 				"code": "0x18b",
 				"name": "KEY_LIST"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14899,7 +14971,7 @@
 				"code": "0x18c",
 				"name": "KEY_MEMO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -14940,7 +15012,7 @@
 				"code": "0x18d",
 				"name": "KEY_CALENDAR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x195",
 				"name": "I405"
 			},
@@ -14986,7 +15058,7 @@
 				"code": "0x18e",
 				"name": "KEY_RED"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15029,7 +15101,7 @@
 				"code": "0x18f",
 				"name": "KEY_GREEN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15072,7 +15144,7 @@
 				"code": "0x190",
 				"name": "KEY_YELLOW"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15115,7 +15187,7 @@
 				"code": "0x191",
 				"name": "KEY_BLUE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15158,7 +15230,7 @@
 				"code": "0x192",
 				"name": "KEY_CHANNELUP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x19a",
 				"name": "I410"
 			},
@@ -15204,7 +15276,7 @@
 				"code": "0x19a",
 				"name": "KEY_SHUFFLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1a2",
 				"name": "I418"
 			},
@@ -15249,7 +15321,7 @@
 				"code": "0x193",
 				"name": "KEY_CHANNELDOWN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x19b",
 				"name": "I411"
 			},
@@ -15292,7 +15364,7 @@
 				"code": "0x194",
 				"name": "KEY_FIRST"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15329,7 +15401,7 @@
 				"code": "0x196",
 				"name": "KEY_AB"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15369,7 +15441,7 @@
 				"code": "0x197",
 				"name": "KEY_NEXT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15430,7 +15502,7 @@
 				"code": "0x198",
 				"name": "KEY_RESTART"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15482,7 +15554,7 @@
 				"code": "0x199",
 				"name": "KEY_SLOW"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15522,7 +15594,7 @@
 				"code": "0x19b",
 				"name": "KEY_BREAK"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1a3",
 				"name": "I419"
 			},
@@ -15571,7 +15643,7 @@
 				"code": "0x19c",
 				"name": "KEY_PREVIOUS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15615,7 +15687,7 @@
 				"code": "0x19d",
 				"name": "KEY_DIGITS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15652,7 +15724,7 @@
 				"code": "0x19e",
 				"name": "KEY_TEEN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15689,7 +15761,7 @@
 				"code": "0x19f",
 				"name": "KEY_TWEN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15729,7 +15801,7 @@
 				"code": "0x1a1",
 				"name": "KEY_GAMES"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15769,7 +15841,7 @@
 				"code": "0x1a6",
 				"name": "KEY_EDITOR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15813,7 +15885,7 @@
 				"code": "0x1a7",
 				"name": "KEY_SPREADSHEET"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1af",
 				"name": "I431"
 			},
@@ -15861,7 +15933,7 @@
 				"code": "0x1a8",
 				"name": "KEY_GRAPHICSEDITOR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15904,7 +15976,7 @@
 				"code": "0x1a9",
 				"name": "KEY_PRESENTATION"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15947,7 +16019,7 @@
 				"code": "0x1aa",
 				"name": "KEY_DATABASE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -15990,7 +16062,7 @@
 				"code": "0x1ab",
 				"name": "KEY_NEWS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16034,7 +16106,7 @@
 				"code": "0x1ac",
 				"name": "KEY_VOICEMAIL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16077,7 +16149,7 @@
 				"code": "0x1ae",
 				"name": "KEY_MESSENGER"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16121,7 +16193,7 @@
 				"code": "0xe3",
 				"name": "KEY_SWITCHVIDEOMODE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xeb",
 				"name": "I235"
 			},
@@ -16167,7 +16239,7 @@
 				"code": "0x1b0",
 				"name": "KEY_SPELLCHECK"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1b8",
 				"name": "I440"
 			},
@@ -16216,7 +16288,7 @@
 				"code": "0x1b1",
 				"name": "KEY_LOGOFF"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1b9",
 				"name": "I441"
 			},
@@ -16261,7 +16333,7 @@
 				"code": "0x1b2",
 				"name": "KEY_DOLLAR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16298,7 +16370,7 @@
 				"code": "0x1b3",
 				"name": "KEY_EURO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16335,7 +16407,7 @@
 				"code": "0x1b4",
 				"name": "KEY_FRAMEBACK"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16372,7 +16444,7 @@
 				"code": "0x1b5",
 				"name": "KEY_FRAMEFORWARD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16412,7 +16484,7 @@
 				"code": "0x1b6",
 				"name": "KEY_CONTEXT_MENU"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16452,7 +16524,7 @@
 				"code": "0x1b7",
 				"name": "KEY_MEDIA_REPEAT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16494,7 +16566,7 @@
 				"code": "0x1b8",
 				"name": "KEY_10CHANNELSUP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16531,7 +16603,7 @@
 				"code": "0x1b9",
 				"name": "KEY_10CHANNELSDOWN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16571,7 +16643,7 @@
 				"code": "0x1ba",
 				"name": "KEY_IMAGES"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16611,7 +16683,7 @@
 				"code": "0x1bc",
 				"name": "KEY_NOTIFICATION_CENTER"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16648,7 +16720,7 @@
 				"code": "0x1bd",
 				"name": "KEY_PICKUP_PHONE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16685,7 +16757,7 @@
 				"code": "0x1be",
 				"name": "KEY_HANGUP_PHONE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16722,7 +16794,7 @@
 				"code": "0x1c0",
 				"name": "KEY_DEL_EOL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16759,7 +16831,7 @@
 				"code": "0x1c1",
 				"name": "KEY_DEL_EOS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16796,7 +16868,7 @@
 				"code": "0x1c2",
 				"name": "KEY_INS_LINE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16837,7 +16909,7 @@
 				"code": "0x1c3",
 				"name": "KEY_DEL_LINE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16878,7 +16950,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16911,7 +16983,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16944,7 +17016,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -16977,7 +17049,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -17010,7 +17082,7 @@
 				"code": "0x1d1",
 				"name": "KEY_FN_ESC"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1d9",
 				"name": "I473"
 			},
@@ -17052,7 +17124,7 @@
 				"code": "0x1d2",
 				"name": "KEY_FN_F1"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1da",
 				"name": "I474"
 			},
@@ -17094,7 +17166,7 @@
 				"code": "0x1d3",
 				"name": "KEY_FN_F2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1db",
 				"name": "I475"
 			},
@@ -17136,7 +17208,7 @@
 				"code": "0x1d4",
 				"name": "KEY_FN_F3"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1dc",
 				"name": "I476"
 			},
@@ -17178,7 +17250,7 @@
 				"code": "0x1d5",
 				"name": "KEY_FN_F4"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1dd",
 				"name": "I477"
 			},
@@ -17220,7 +17292,7 @@
 				"code": "0x1d6",
 				"name": "KEY_FN_F5"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1de",
 				"name": "I478"
 			},
@@ -17262,7 +17334,7 @@
 				"code": "0x1d7",
 				"name": "KEY_FN_F6"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1df",
 				"name": "I479"
 			},
@@ -17304,7 +17376,7 @@
 				"code": "0x1d8",
 				"name": "KEY_FN_F7"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1e0",
 				"name": "I480"
 			},
@@ -17346,7 +17418,7 @@
 				"code": "0x1d9",
 				"name": "KEY_FN_F8"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1e1",
 				"name": "I481"
 			},
@@ -17388,7 +17460,7 @@
 				"code": "0x1da",
 				"name": "KEY_FN_F9"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1e2",
 				"name": "I482"
 			},
@@ -17430,7 +17502,7 @@
 				"code": "0x1db",
 				"name": "KEY_FN_F10"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1e3",
 				"name": "I483"
 			},
@@ -17472,7 +17544,7 @@
 				"code": "0x1dc",
 				"name": "KEY_FN_F11"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1e4",
 				"name": "I484"
 			},
@@ -17514,7 +17586,7 @@
 				"code": "0x1dd",
 				"name": "KEY_FN_F12"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1e5",
 				"name": "I485"
 			},
@@ -17556,7 +17628,7 @@
 				"code": "0x1de",
 				"name": "KEY_FN_1"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1e6",
 				"name": "I486"
 			},
@@ -17598,7 +17670,7 @@
 				"code": "0x1df",
 				"name": "KEY_FN_2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1e7",
 				"name": "I487"
 			},
@@ -17640,7 +17712,7 @@
 				"code": "0x1e0",
 				"name": "KEY_FN_D"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1e8",
 				"name": "I488"
 			},
@@ -17682,7 +17754,7 @@
 				"code": "0x1e1",
 				"name": "KEY_FN_E"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1e9",
 				"name": "I489"
 			},
@@ -17724,7 +17796,7 @@
 				"code": "0x1e2",
 				"name": "KEY_FN_F"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1ea",
 				"name": "I490"
 			},
@@ -17766,7 +17838,7 @@
 				"code": "0x1e3",
 				"name": "KEY_FN_S"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1eb",
 				"name": "I491"
 			},
@@ -17808,7 +17880,7 @@
 				"code": "0x1e4",
 				"name": "KEY_FN_B"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1ec",
 				"name": "I492"
 			},
@@ -17850,7 +17922,7 @@
 				"code": "0x1e5",
 				"name": "KEY_FN_RIGHT_SHIFT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1ed",
 				"name": "I493"
 			},
@@ -17892,7 +17964,7 @@
 				"code": "0x1f1",
 				"name": "KEY_BRL_DOT1"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -17929,7 +18001,7 @@
 				"code": "0x1f2",
 				"name": "KEY_BRL_DOT2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -17966,7 +18038,7 @@
 				"code": "0x1f3",
 				"name": "KEY_BRL_DOT3"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -18003,7 +18075,7 @@
 				"code": "0x1f4",
 				"name": "KEY_BRL_DOT4"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -18040,7 +18112,7 @@
 				"code": "0x1f5",
 				"name": "KEY_BRL_DOT5"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -18077,7 +18149,7 @@
 				"code": "0x1f6",
 				"name": "KEY_BRL_DOT6"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -18114,7 +18186,7 @@
 				"code": "0x1f7",
 				"name": "KEY_BRL_DOT7"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -18151,7 +18223,7 @@
 				"code": "0x1f8",
 				"name": "KEY_BRL_DOT8"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -18188,7 +18260,7 @@
 				"code": "0x1f9",
 				"name": "KEY_BRL_DOT9"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -18225,7 +18297,7 @@
 				"code": "0x1fa",
 				"name": "KEY_BRL_DOT10"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -18265,7 +18337,7 @@
 				"code": "0x200",
 				"name": "KEY_NUMERIC_0"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x208",
 				"name": "I520"
 			},
@@ -18310,7 +18382,7 @@
 				"code": "0x201",
 				"name": "KEY_NUMERIC_1"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x209",
 				"name": "I521"
 			},
@@ -18355,7 +18427,7 @@
 				"code": "0x202",
 				"name": "KEY_NUMERIC_2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x20a",
 				"name": "I522"
 			},
@@ -18400,7 +18472,7 @@
 				"code": "0x203",
 				"name": "KEY_NUMERIC_3"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x20b",
 				"name": "I523"
 			},
@@ -18445,7 +18517,7 @@
 				"code": "0x204",
 				"name": "KEY_NUMERIC_4"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x20c",
 				"name": "I524"
 			},
@@ -18490,7 +18562,7 @@
 				"code": "0x205",
 				"name": "KEY_NUMERIC_5"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x20d",
 				"name": "I525"
 			},
@@ -18535,7 +18607,7 @@
 				"code": "0x206",
 				"name": "KEY_NUMERIC_6"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x20e",
 				"name": "I526"
 			},
@@ -18580,7 +18652,7 @@
 				"code": "0x207",
 				"name": "KEY_NUMERIC_7"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x20f",
 				"name": "I527"
 			},
@@ -18625,7 +18697,7 @@
 				"code": "0x208",
 				"name": "KEY_NUMERIC_8"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x210",
 				"name": "I528"
 			},
@@ -18670,7 +18742,7 @@
 				"code": "0x209",
 				"name": "KEY_NUMERIC_9"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x211",
 				"name": "I529"
 			},
@@ -18715,7 +18787,7 @@
 				"code": "0x20a",
 				"name": "KEY_NUMERIC_STAR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x212",
 				"name": "I530"
 			},
@@ -18760,7 +18832,7 @@
 				"code": "0x20b",
 				"name": "KEY_NUMERIC_POUND"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x213",
 				"name": "I531"
 			},
@@ -18805,7 +18877,7 @@
 				"code": "0x20c",
 				"name": "KEY_NUMERIC_A"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x214",
 				"name": "I532"
 			},
@@ -18850,7 +18922,7 @@
 				"code": "0x20d",
 				"name": "KEY_NUMERIC_B"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x215",
 				"name": "I533"
 			},
@@ -18895,7 +18967,7 @@
 				"code": "0x20e",
 				"name": "KEY_NUMERIC_C"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x216",
 				"name": "I534"
 			},
@@ -18940,7 +19012,7 @@
 				"code": "0x20f",
 				"name": "KEY_NUMERIC_D"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x217",
 				"name": "I535"
 			},
@@ -18982,7 +19054,7 @@
 				"code": "0x210",
 				"name": "KEY_CAMERA_FOCUS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19019,7 +19091,7 @@
 				"code": "0x211",
 				"name": "KEY_WPS_BUTTON"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19056,7 +19128,7 @@
 				"code": "0x212",
 				"name": "KEY_TOUCHPAD_TOGGLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19093,7 +19165,7 @@
 				"code": "0x213",
 				"name": "KEY_TOUCHPAD_ON"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19130,7 +19202,7 @@
 				"code": "0x214",
 				"name": "KEY_TOUCHPAD_OFF"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19167,7 +19239,7 @@
 				"code": "0x215",
 				"name": "KEY_CAMERA_ZOOMIN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19204,7 +19276,7 @@
 				"code": "0x216",
 				"name": "KEY_CAMERA_ZOOMOUT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19241,7 +19313,7 @@
 				"code": "0x217",
 				"name": "KEY_CAMERA_UP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19278,7 +19350,7 @@
 				"code": "0x218",
 				"name": "KEY_CAMERA_DOWN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19315,7 +19387,7 @@
 				"code": "0x219",
 				"name": "KEY_CAMERA_LEFT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19352,7 +19424,7 @@
 				"code": "0x21a",
 				"name": "KEY_CAMERA_RIGHT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19389,7 +19461,7 @@
 				"code": "0x21b",
 				"name": "KEY_ATTENDANT_ON"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19426,7 +19498,7 @@
 				"code": "0x21c",
 				"name": "KEY_ATTENDANT_OFF"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19463,7 +19535,7 @@
 				"code": "0x21d",
 				"name": "KEY_ATTENDANT_TOGGLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19500,7 +19572,7 @@
 				"code": "0x21e",
 				"name": "KEY_LIGHTS_TOGGLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19537,7 +19609,7 @@
 				"code": "0x230",
 				"name": "KEY_ALS_TOGGLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x238",
 				"name": "I568"
 			},
@@ -19579,7 +19651,7 @@
 				"code": "0x231",
 				"name": "KEY_ROTATE_LOCK_TOGGLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x239",
 				"name": "I569"
 			},
@@ -19621,7 +19693,7 @@
 				"code": "0x232",
 				"name": "KEY_REFRESH_RATE_TOGGLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19661,7 +19733,7 @@
 				"code": "0x240",
 				"name": "KEY_BUTTONCONFIG"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -19701,7 +19773,7 @@
 				"code": "0x241",
 				"name": "KEY_TASKMANAGER"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x249",
 				"name": "I585"
 			},
@@ -19741,7 +19813,7 @@
 				"code": "0x254",
 				"name": "KEY_ACTION_ON_SELECTION"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x25c",
 				"name": "I604"
 			},
@@ -19778,7 +19850,7 @@
 				"code": "0x255",
 				"name": "KEY_CONTEXTUAL_INSERT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x25d",
 				"name": "I605"
 			},
@@ -19815,7 +19887,7 @@
 				"code": "0x256",
 				"name": "KEY_CONTEXTUAL_QUERY"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x25e",
 				"name": "I606"
 			},
@@ -19852,7 +19924,7 @@
 				"code": "0x242",
 				"name": "KEY_JOURNAL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x24a",
 				"name": "I586"
 			},
@@ -19900,7 +19972,7 @@
 				"code": "0x245",
 				"name": "KEY_SCREENSAVER"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x24d",
 				"name": "I589"
 			},
@@ -19948,7 +20020,7 @@
 				"code": "0x246",
 				"name": "KEY_VOICECOMMAND"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x24e",
 				"name": "I590"
 			},
@@ -19999,7 +20071,7 @@
 				"code": "0x247",
 				"name": "KEY_ASSISTANT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x24f",
 				"name": "I591"
 			},
@@ -20047,7 +20119,7 @@
 				"code": "0x248",
 				"name": "KEY_KBD_LAYOUT_NEXT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x250",
 				"name": "I592"
 			},
@@ -20092,7 +20164,7 @@
 				"code": "0x249",
 				"name": "KEY_EMOJI_PICKER"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x251",
 				"name": "I593"
 			},
@@ -20137,7 +20209,7 @@
 				"code": "0x24a",
 				"name": "KEY_DICTATE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x252",
 				"name": "I594"
 			},
@@ -20179,7 +20251,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -20212,7 +20284,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -20248,7 +20320,7 @@
 				"code": "0x24b",
 				"name": "KEY_CAMERA_ACCESS_ENABLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20288,7 +20360,7 @@
 				"code": "0x24c",
 				"name": "KEY_CAMERA_ACCESS_DISABLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20328,7 +20400,7 @@
 				"code": "0x24d",
 				"name": "KEY_CAMERA_ACCESS_TOGGLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x255",
 				"name": "I597"
 			},
@@ -20373,7 +20445,7 @@
 				"code": "0x24e",
 				"name": "KEY_ACCESSIBILITY"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x256",
 				"name": "I598"
 			},
@@ -20418,7 +20490,7 @@
 				"code": "0x24f",
 				"name": "KEY_DO_NOT_DISTURB"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x257",
 				"name": "I599"
 			},
@@ -20469,7 +20541,7 @@
 				"code": "0x250",
 				"name": "KEY_BRIGHTNESS_MIN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x258",
 				"name": "I222"
 			},
@@ -20518,7 +20590,7 @@
 				"code": "0x251",
 				"name": "KEY_BRIGHTNESS_MAX"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x259",
 				"name": "I601"
 			},
@@ -20563,7 +20635,7 @@
 				"code": "0x260",
 				"name": "KEY_KBDINPUTASSIST_PREV"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20603,7 +20675,7 @@
 				"code": "0x261",
 				"name": "KEY_KBDINPUTASSIST_NEXT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20643,7 +20715,7 @@
 				"code": "0x262",
 				"name": "KEY_KBDINPUTASSIST_PREVGROUP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20683,7 +20755,7 @@
 				"code": "0x263",
 				"name": "KEY_KBDINPUTASSIST_NEXTGROUP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20723,7 +20795,7 @@
 				"code": "0x264",
 				"name": "KEY_KBDINPUTASSIST_ACCEPT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20763,7 +20835,7 @@
 				"code": "0x265",
 				"name": "KEY_KBDINPUTASSIST_CANCEL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20800,7 +20872,7 @@
 				"code": "0x266",
 				"name": "KEY_RIGHT_UP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20837,7 +20909,7 @@
 				"code": "0x267",
 				"name": "KEY_RIGHT_DOWN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20874,7 +20946,7 @@
 				"code": "0x268",
 				"name": "KEY_LEFT_UP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20911,7 +20983,7 @@
 				"code": "0x269",
 				"name": "KEY_LEFT_DOWN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20948,7 +21020,7 @@
 				"code": "0x26a",
 				"name": "KEY_ROOT_MENU"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -20985,7 +21057,7 @@
 				"code": "0x26b",
 				"name": "KEY_MEDIA_TOP_MENU"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21022,7 +21094,7 @@
 				"code": "0x26c",
 				"name": "KEY_NUMERIC_11"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x274",
 				"name": "I620"
 			},
@@ -21064,7 +21136,7 @@
 				"code": "0x26d",
 				"name": "KEY_NUMERIC_12"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x275",
 				"name": "I621"
 			},
@@ -21106,7 +21178,7 @@
 				"code": "0x26e",
 				"name": "KEY_AUDIO_DESC"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21143,7 +21215,7 @@
 				"code": "0x26f",
 				"name": "KEY_3D_MODE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21180,7 +21252,7 @@
 				"code": "0x270",
 				"name": "KEY_NEXT_FAVORITE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21217,7 +21289,7 @@
 				"code": "0x271",
 				"name": "KEY_STOP_RECORD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21254,7 +21326,7 @@
 				"code": "0x272",
 				"name": "KEY_PAUSE_RECORD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21291,7 +21363,7 @@
 				"code": "0x273",
 				"name": "KEY_VOD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21328,7 +21400,7 @@
 				"code": "0x274",
 				"name": "KEY_UNMUTE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21365,7 +21437,7 @@
 				"code": "0x275",
 				"name": "KEY_FASTREVERSE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21402,7 +21474,7 @@
 				"code": "0x276",
 				"name": "KEY_SLOWREVERSE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21439,7 +21511,7 @@
 				"code": "0x277",
 				"name": "KEY_DATA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21476,7 +21548,7 @@
 				"code": "0x278",
 				"name": "KEY_ONSCREEN_KEYBOARD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21516,7 +21588,7 @@
 				"code": "0x279",
 				"name": "KEY_PRIVACY_SCREEN_TOGGLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x281",
 				"name": "I641"
 			},
@@ -21558,7 +21630,7 @@
 				"code": "0x252",
 				"name": "KEY_EPRIVACY_SCREEN_ON"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x25a",
 				"name": "I602"
 			},
@@ -21595,7 +21667,7 @@
 				"code": "0x253",
 				"name": "KEY_EPRIVACY_SCREEN_OFF"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x25b",
 				"name": "I603"
 			},
@@ -21632,7 +21704,7 @@
 				"code": "0x2bd",
 				"name": "KEY_PERFORMANCE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x2c5",
 				"name": "I709"
 			},
@@ -21669,7 +21741,7 @@
 				"code": "0x27a",
 				"name": "KEY_SELECTIVE_SCREENSHOT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21706,7 +21778,7 @@
 				"code": "0x27b",
 				"name": "KEY_NEXT_ELEMENT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21743,7 +21815,7 @@
 				"code": "0x27c",
 				"name": "KEY_PREVIOUS_ELEMENT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21780,7 +21852,7 @@
 				"code": "0x27d",
 				"name": "KEY_AUTOPILOT_ENGAGE_TOGGLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21817,7 +21889,7 @@
 				"code": "0x27e",
 				"name": "KEY_MARK_WAYPOINT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21854,7 +21926,7 @@
 				"code": "0x27f",
 				"name": "KEY_SOS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21891,7 +21963,7 @@
 				"code": "0x280",
 				"name": "KEY_NAV_CHART"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21928,7 +22000,7 @@
 				"code": "0x281",
 				"name": "KEY_FISHING_CHART"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -21965,7 +22037,7 @@
 				"code": "0x282",
 				"name": "KEY_SINGLE_RANGE_RADAR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22002,7 +22074,7 @@
 				"code": "0x283",
 				"name": "KEY_DUAL_RANGE_RADAR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22039,7 +22111,7 @@
 				"code": "0x284",
 				"name": "KEY_RADAR_OVERLAY"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22076,7 +22148,7 @@
 				"code": "0x285",
 				"name": "KEY_TRADITIONAL_SONAR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22113,7 +22185,7 @@
 				"code": "0x286",
 				"name": "KEY_CLEARVU_SONAR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22150,7 +22222,7 @@
 				"code": "0x287",
 				"name": "KEY_SIDEVU_SONAR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22187,7 +22259,7 @@
 				"code": "0x288",
 				"name": "KEY_NAV_INFO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22224,7 +22296,7 @@
 				"code": "0x289",
 				"name": "KEY_BRIGHTNESS_MENU"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22261,7 +22333,7 @@
 				"code": "0x290",
 				"name": "KEY_MACRO1"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22298,7 +22370,7 @@
 				"code": "0x291",
 				"name": "KEY_MACRO2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22335,7 +22407,7 @@
 				"code": "0x292",
 				"name": "KEY_MACRO3"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22372,7 +22444,7 @@
 				"code": "0x293",
 				"name": "KEY_MACRO4"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22409,7 +22481,7 @@
 				"code": "0x294",
 				"name": "KEY_MACRO5"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22446,7 +22518,7 @@
 				"code": "0x295",
 				"name": "KEY_MACRO6"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22483,7 +22555,7 @@
 				"code": "0x296",
 				"name": "KEY_MACRO7"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22520,7 +22592,7 @@
 				"code": "0x297",
 				"name": "KEY_MACRO8"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22557,7 +22629,7 @@
 				"code": "0x298",
 				"name": "KEY_MACRO9"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22594,7 +22666,7 @@
 				"code": "0x299",
 				"name": "KEY_MACRO10"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22631,7 +22703,7 @@
 				"code": "0x29a",
 				"name": "KEY_MACRO11"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22668,7 +22740,7 @@
 				"code": "0x29b",
 				"name": "KEY_MACRO12"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22705,7 +22777,7 @@
 				"code": "0x29c",
 				"name": "KEY_MACRO13"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22742,7 +22814,7 @@
 				"code": "0x29d",
 				"name": "KEY_MACRO14"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22779,7 +22851,7 @@
 				"code": "0x29e",
 				"name": "KEY_MACRO15"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22816,7 +22888,7 @@
 				"code": "0x29f",
 				"name": "KEY_MACRO16"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22853,7 +22925,7 @@
 				"code": "0x2a0",
 				"name": "KEY_MACRO17"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22890,7 +22962,7 @@
 				"code": "0x2a1",
 				"name": "KEY_MACRO18"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22927,7 +22999,7 @@
 				"code": "0x2a2",
 				"name": "KEY_MACRO19"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -22964,7 +23036,7 @@
 				"code": "0x2a3",
 				"name": "KEY_MACRO20"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23001,7 +23073,7 @@
 				"code": "0x2a4",
 				"name": "KEY_MACRO21"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23038,7 +23110,7 @@
 				"code": "0x2a5",
 				"name": "KEY_MACRO22"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23075,7 +23147,7 @@
 				"code": "0x2a6",
 				"name": "KEY_MACRO23"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23112,7 +23184,7 @@
 				"code": "0x2a7",
 				"name": "KEY_MACRO24"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23149,7 +23221,7 @@
 				"code": "0x2a8",
 				"name": "KEY_MACRO25"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23186,7 +23258,7 @@
 				"code": "0x2a9",
 				"name": "KEY_MACRO26"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23223,7 +23295,7 @@
 				"code": "0x2aa",
 				"name": "KEY_MACRO27"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23260,7 +23332,7 @@
 				"code": "0x2ab",
 				"name": "KEY_MACRO28"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23297,7 +23369,7 @@
 				"code": "0x2ac",
 				"name": "KEY_MACRO29"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23334,7 +23406,7 @@
 				"code": "0x2ad",
 				"name": "KEY_MACRO30"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23371,7 +23443,7 @@
 				"code": "0x2b0",
 				"name": "KEY_MACRO_RECORD_START"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23408,7 +23480,7 @@
 				"code": "0x2b1",
 				"name": "KEY_MACRO_RECORD_STOP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23445,7 +23517,7 @@
 				"code": "0x2b2",
 				"name": "KEY_MACRO_PRESET_CYCLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23482,7 +23554,7 @@
 				"code": "0x2b3",
 				"name": "KEY_MACRO_PRESET1"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23519,7 +23591,7 @@
 				"code": "0x2b4",
 				"name": "KEY_MACRO_PRESET2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23556,7 +23628,7 @@
 				"code": "0x2b5",
 				"name": "KEY_MACRO_PRESET3"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23593,7 +23665,7 @@
 				"code": "0x2b8",
 				"name": "KEY_KBD_LCD_MENU1"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23630,7 +23702,7 @@
 				"code": "0x2b9",
 				"name": "KEY_KBD_LCD_MENU2"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23667,7 +23739,7 @@
 				"code": "0x2ba",
 				"name": "KEY_KBD_LCD_MENU3"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23704,7 +23776,7 @@
 				"code": "0x2bb",
 				"name": "KEY_KBD_LCD_MENU4"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23741,7 +23813,7 @@
 				"code": "0x2bc",
 				"name": "KEY_KBD_LCD_MENU5"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23777,7 +23849,7 @@
 			"evdev": {
 				"code": "0x302"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23854,7 +23926,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -23886,7 +23958,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -23937,7 +24009,7 @@
 				"code": "0x82",
 				"name": "KEY_PROPS"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -23983,7 +24055,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -24043,7 +24115,7 @@
 				"code": "0xcd",
 				"name": "KEY_SUSPEND"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xd5",
 				"name": "I213"
 			},
@@ -24102,7 +24174,7 @@
 				"code": "0xac",
 				"name": "KEY_HOMEPAGE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xb4",
 				"name": "I180"
 			},
@@ -24165,7 +24237,7 @@
 				"code": "0xd9",
 				"name": "KEY_SEARCH"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xe1",
 				"name": "I225"
 			},
@@ -24222,7 +24294,7 @@
 				"code": "0x5a",
 				"name": "KEY_KATAKANA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x62",
 				"name": "KATA"
 			},
@@ -24279,7 +24351,7 @@
 				"code": "0x5b",
 				"name": "KEY_HIRAGANA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x63",
 				"name": "HIRA"
 			},
@@ -24335,7 +24407,7 @@
 				"code": "0x55",
 				"name": "KEY_ZENKAKUHANKAKU"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x5d",
 				"name": "HZTG"
 			},
@@ -24395,7 +24467,7 @@
 				"code": "0x90",
 				"name": "KEY_FILE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x98",
 				"name": "I152"
 			},
@@ -24448,7 +24520,7 @@
 				"code": "0x8c",
 				"name": "KEY_CALC"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x94",
 				"name": "I148"
 			},
@@ -24501,7 +24573,7 @@
 				"code": "0x9b",
 				"name": "KEY_MAIL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xa3",
 				"name": "I163"
 			},
@@ -24564,7 +24636,7 @@
 				"code": "0xe8",
 				"name": "KEY_REPLY"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xf0",
 				"name": "I240"
 			},
@@ -24611,7 +24683,7 @@
 				"code": "0xe7",
 				"name": "KEY_SEND"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xef",
 				"name": "I239"
 			},
@@ -24658,7 +24730,7 @@
 				"code": "0xab",
 				"name": "KEY_CONFIG"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xb3",
 				"name": "I179"
 			},
@@ -24710,7 +24782,7 @@
 				"code": "0x75",
 				"name": "KEY_KPEQUAL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x7d",
 				"name": "KPEQ"
 			},
@@ -24771,7 +24843,7 @@
 				"code": "0x84",
 				"name": "KEY_FRONT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x8c",
 				"name": "FRNT"
 			},
@@ -24820,7 +24892,7 @@
 				"code": "0xe4",
 				"name": "KEY_KBDILLUMTOGGLE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xec",
 				"name": "I236"
 			},
@@ -24872,7 +24944,7 @@
 				"code": "0xe6",
 				"name": "KEY_KBDILLUMUP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xee",
 				"name": "I238"
 			},
@@ -24938,7 +25010,7 @@
 				"code": "0xe5",
 				"name": "KEY_KBDILLUMDOWN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xed",
 				"name": "I237"
 			},
@@ -25004,7 +25076,7 @@
 				"code": "0xf8",
 				"name": "KEY_MICMUTE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x100",
 				"name": "I256"
 			},
@@ -25047,7 +25119,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -25080,7 +25152,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -25113,7 +25185,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -25146,7 +25218,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -25197,7 +25269,7 @@
 				"code": "0x161",
 				"name": "KEY_SELECT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -25246,7 +25318,7 @@
 				"code": "0x81",
 				"name": "KEY_AGAIN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x89",
 				"name": "AGAI"
 			},
@@ -25295,7 +25367,7 @@
 				"code": "0x85",
 				"name": "KEY_COPY"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x8d",
 				"name": "COPY"
 			},
@@ -25350,7 +25422,7 @@
 				"code": "0x89",
 				"name": "KEY_CUT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x91",
 				"name": "CUT"
 			},
@@ -25405,7 +25477,7 @@
 				"code": "0x88",
 				"name": "KEY_FIND"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x90",
 				"name": "FIND"
 			},
@@ -25457,7 +25529,7 @@
 				"code": "0x8a",
 				"name": "KEY_HELP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x92",
 				"name": "HELP"
 			},
@@ -25523,7 +25595,7 @@
 				"code": "0x86",
 				"name": "KEY_OPEN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x8e",
 				"name": "OPEN"
 			},
@@ -25582,7 +25654,7 @@
 				"code": "0x87",
 				"name": "KEY_PASTE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x8f",
 				"name": "PAST"
 			},
@@ -25637,7 +25709,7 @@
 				"code": "0x74",
 				"name": "KEY_POWER"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x7c",
 				"name": "POWR"
 			},
@@ -25698,7 +25770,7 @@
 				"code": "0x27",
 				"name": "KEY_SEMICOLON"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x2f",
 				"name": "AC10"
 			},
@@ -25775,7 +25847,7 @@
 				"code": "0x8e",
 				"name": "KEY_SLEEP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x96",
 				"name": "I150"
 			},
@@ -25833,7 +25905,7 @@
 				"code": "0x83",
 				"name": "KEY_UNDO"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x8b",
 				"name": "UNDO"
 			},
@@ -25892,7 +25964,7 @@
 				"code": "0xd2",
 				"name": "KEY_PRINT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xda",
 				"name": "I218"
 			},
@@ -25947,7 +26019,7 @@
 				"code": "0xe1",
 				"name": "KEY_BRIGHTNESSUP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xe9",
 				"name": "I233"
 			},
@@ -26014,7 +26086,7 @@
 				"code": "0xe0",
 				"name": "KEY_BRIGHTNESSDOWN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xe8",
 				"name": "I232"
 			},
@@ -26083,7 +26155,7 @@
 				"code": "0x243",
 				"name": "KEY_CONTROLPANEL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x24b",
 				"name": "I587"
 			},
@@ -26131,7 +26203,7 @@
 				"code": "0xa1",
 				"name": "KEY_EJECTCD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xa9",
 				"name": "I169"
 			},
@@ -26195,7 +26267,7 @@
 				"code": "0xa2",
 				"name": "KEY_EJECTCLOSECD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xaa",
 				"name": "I170",
 				"alias-of": "media-cd-eject",
@@ -26237,7 +26309,7 @@
 				"code": "0xe9",
 				"name": "KEY_FORWARDMAIL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xf1",
 				"name": "I241"
 			},
@@ -26286,7 +26358,7 @@
 				"code": "0x5f",
 				"name": "KEY_KPJPCOMMA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x67",
 				"name": "JPCM"
 			},
@@ -26342,7 +26414,7 @@
 				"code": "0x1a0",
 				"name": "KEY_VIDEOPHONE"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -26382,7 +26454,7 @@
 				"code": "0x1a5",
 				"name": "KEY_WORDPROCESSOR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1ad",
 				"name": "I429"
 			},
@@ -26430,7 +26502,7 @@
 				"code": "0x1a2",
 				"name": "KEY_ZOOMIN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1aa",
 				"name": "I426"
 			},
@@ -26478,7 +26550,7 @@
 				"code": "0x1a3",
 				"name": "KEY_ZOOMOUT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1ab",
 				"name": "I427"
 			},
@@ -26526,7 +26598,7 @@
 				"code": "0x1a4",
 				"name": "KEY_ZOOMRESET"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -26566,7 +26638,7 @@
 				"code": "0x8f",
 				"name": "KEY_WAKEUP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x97",
 				"name": "I151"
 			},
@@ -26622,7 +26694,7 @@
 				"code": "0x244",
 				"name": "KEY_APPSELECT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x24c",
 				"name": "I588"
 			},
@@ -26670,7 +26742,7 @@
 				"code": "0xcf",
 				"name": "KEY_PLAY"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xd7",
 				"name": "I215"
 			},
@@ -26721,7 +26793,7 @@
 				"code": "0xc9",
 				"name": "KEY_PAUSECD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xd1",
 				"name": "I209"
 			},
@@ -26768,7 +26840,7 @@
 				"code": "0xa7",
 				"name": "KEY_RECORD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xaf",
 				"name": "I175"
 			},
@@ -26815,7 +26887,7 @@
 				"code": "0xa6",
 				"name": "KEY_STOPCD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xae",
 				"name": "I174"
 			},
@@ -26877,7 +26949,7 @@
 				"code": "0xc8",
 				"name": "KEY_PLAYCD"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xd0",
 				"name": "I208"
 			},
@@ -26923,7 +26995,7 @@
 				"code": "0x79",
 				"name": "KEY_KPCOMMA"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x81",
 				"name": "I129",
 				"aliases": [
@@ -26989,7 +27061,7 @@
 				"code": "0x16a",
 				"name": "KEY_PROGRAM"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x172",
 				"name": "I370"
 			},
@@ -27038,7 +27110,7 @@
 					"KEY_ZOOM"
 				]
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x17c",
 				"name": "I380"
 			},
@@ -27087,7 +27159,7 @@
 				"code": "0x1ad",
 				"name": "KEY_ADDRESSBOOK"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1b5",
 				"name": "I437"
 			},
@@ -27136,7 +27208,7 @@
 				"code": "0xf7",
 				"name": "KEY_RFKILL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0xff",
 				"name": "I255"
 			},
@@ -27184,7 +27256,7 @@
 				"alias-of": "all-applications",
 				"comment": "Linux treats Apple Dashboard as the same evdev key identity used for All Applications. KEY_DASHBOARD is an alias of KEY_ALL_APPLICATIONS."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true,
 				"alias-of": "all-applications",
 				"comment": "Linux maps the collapsed Dashboard/All Applications evdev identity to the same XKB key as all-applications."
@@ -27230,7 +27302,7 @@
 				"code": "0x2ff",
 				"name": "KEY_MAX"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27286,7 +27358,7 @@
 			"evdev": {
 				"code": "0x301"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27336,7 +27408,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -27376,7 +27448,7 @@
 				"alias-of": "display-toggle",
 				"comment": "Linux maps Apple Video Mirror to the same evdev key identity used for display-toggle."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true,
 				"alias-of": "display-toggle",
 				"comment": "Linux exposes Apple Video Mirror through the same XKB key as display-toggle."
@@ -27421,7 +27493,7 @@
 				"code": "0x1d0",
 				"name": "KEY_FN"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x1d8",
 				"name": "I472"
 			},
@@ -27482,7 +27554,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27531,7 +27603,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27575,7 +27647,7 @@
 			"evdev": {
 				"code": "0x300"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27628,7 +27700,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27662,7 +27734,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27696,7 +27768,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27730,7 +27802,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27764,7 +27836,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27798,7 +27870,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27832,7 +27904,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27866,7 +27938,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27900,7 +27972,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27934,7 +28006,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -27968,7 +28040,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28002,7 +28074,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28036,7 +28108,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28070,7 +28142,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28112,7 +28184,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28146,7 +28218,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28180,7 +28252,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28214,7 +28286,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28248,7 +28320,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28283,7 +28355,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28317,7 +28389,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28351,7 +28423,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28385,7 +28457,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28419,7 +28491,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28453,7 +28525,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28487,7 +28559,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28521,7 +28593,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28555,7 +28627,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28589,7 +28661,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28623,7 +28695,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28657,7 +28729,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28691,7 +28763,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28725,7 +28797,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28760,7 +28832,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28795,7 +28867,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28827,7 +28899,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28859,7 +28931,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28893,7 +28965,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28927,7 +28999,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28961,7 +29033,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -28996,7 +29068,7 @@
 				"alias-of": "menu",
 				"comment": "Linux hid-input maps HID Consumer 0x40 to KEY_MENU, the same evdev key used for Keyboard Application."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"alias-of": "menu"
 			},
 			"xkb-keysym": {
@@ -29035,7 +29107,7 @@
 				"semantic-miss": true,
 				"comment": "Linux hid-input maps HID Consumer 0x43 to KEY_DOWN."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"alias-of": "arrow-down",
 				"semantic-miss": true
 			},
@@ -29076,7 +29148,7 @@
 				"semantic-miss": true,
 				"comment": "Linux hid-input maps HID Consumer 0x46 to KEY_ESC."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"alias-of": "escape",
 				"semantic-miss": true
 			},
@@ -29117,7 +29189,7 @@
 				"semantic-miss": true,
 				"comment": "Linux hid-input maps HID Consumer 0x44 to KEY_LEFT."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"alias-of": "arrow-left",
 				"semantic-miss": true
 			},
@@ -29158,7 +29230,7 @@
 				"semantic-miss": true,
 				"comment": "Linux hid-input maps HID Consumer 0x45 to KEY_RIGHT."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"alias-of": "arrow-right",
 				"semantic-miss": true
 			},
@@ -29199,7 +29271,7 @@
 				"semantic-miss": true,
 				"comment": "Linux hid-input maps HID Consumer 0x42 to KEY_UP."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"alias-of": "arrow-up",
 				"semantic-miss": true
 			},
@@ -29240,7 +29312,7 @@
 				"semantic-miss": true,
 				"comment": "Linux hid-input maps HID Consumer 0x48 to KEY_KPMINUS."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"alias-of": "`kp-`",
 				"semantic-miss": true
 			},
@@ -29281,7 +29353,7 @@
 				"semantic-miss": true,
 				"comment": "Linux hid-input maps HID Consumer 0x47 to KEY_KPPLUS."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"alias-of": "`kp+`",
 				"semantic-miss": true
 			},
@@ -29320,7 +29392,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -29354,7 +29426,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -29388,7 +29460,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -29423,7 +29495,7 @@
 				"missing": true,
 				"comment": "Linux defines KEY_3D_MODE, but hid-input does not map HID Consumer 0x6e to that evdev key."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"code": "0x277",
 				"name": "I631"
 			},
@@ -29463,7 +29535,7 @@
 				"alias-of": "help",
 				"comment": "Linux hid-input maps HID Consumer 0x1a6 to KEY_HELP."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"alias-of": "help"
 			},
 			"xkb-keysym": {
@@ -29502,7 +29574,7 @@
 				"alias-of": "info",
 				"comment": "Linux hid-input maps HID Consumer 0x1bd to KEY_INFO."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"alias-of": "info"
 			},
 			"xkb-keysym": {
@@ -29539,7 +29611,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -29573,7 +29645,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -29610,7 +29682,7 @@
 				"semantic-miss": true,
 				"comment": "the kernel maps HID Consumer 0x0004 to KEY_BRIGHTNESSUP"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true,
 				"alias-of": "brightness-up",
 				"semantic-miss": true,
@@ -29653,7 +29725,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -29687,7 +29759,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -29721,7 +29793,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -29755,7 +29827,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -29789,7 +29861,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -29823,7 +29895,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -29857,7 +29929,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			}
 		},
@@ -29890,7 +29962,7 @@
 				"code": "0x130",
 				"name": "BTN_SOUTH"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -29929,7 +30001,7 @@
 				"code": "0x131",
 				"name": "BTN_EAST"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -29968,7 +30040,7 @@
 				"code": "0x133",
 				"name": "BTN_NORTH"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30007,7 +30079,7 @@
 				"code": "0x134",
 				"name": "BTN_WEST"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30046,7 +30118,7 @@
 				"name": "BTN_TL",
 				"comment": "Linux uses TL as the terse name for the left upper shoulder button."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30082,7 +30154,7 @@
 				"name": "BTN_TR",
 				"comment": "Linux uses TR as the terse name for the right upper shoulder button."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30118,7 +30190,7 @@
 				"name": "BTN_TL2",
 				"comment": "Linux uses TL2 as the terse name for the left lower trigger button."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30154,7 +30226,7 @@
 				"name": "BTN_TR2",
 				"comment": "Linux uses TR2 as the terse name for the right lower trigger button."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30190,7 +30262,7 @@
 				"code": "0x13a",
 				"name": "BTN_SELECT"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30229,7 +30301,7 @@
 				"code": "0x13b",
 				"name": "BTN_START"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30268,7 +30340,7 @@
 				"name": "BTN_MODE",
 				"comment": "The Linux gamepad specification uses BTN_MODE for the branded special button, with examples including Nintendo HOME, the Xbox center logo button, and PlayStation PS."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30304,7 +30376,7 @@
 				"code": "0x13d",
 				"name": "BTN_THUMBL"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30339,7 +30411,7 @@
 				"code": "0x13e",
 				"name": "BTN_THUMBR"
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30376,7 +30448,7 @@
 				"name": "BTN_DPAD_UP",
 				"comment": "Some Linux devices expose the same logical direction through ABS_HAT0Y instead of or in addition to BTN_DPAD_UP."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30412,7 +30484,7 @@
 				"name": "BTN_DPAD_DOWN",
 				"comment": "Some Linux devices expose the same logical direction through ABS_HAT0Y instead of or in addition to BTN_DPAD_DOWN."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30448,7 +30520,7 @@
 				"name": "BTN_DPAD_LEFT",
 				"comment": "Some Linux devices expose the same logical direction through ABS_HAT0X instead of or in addition to BTN_DPAD_LEFT."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30484,7 +30556,7 @@
 				"name": "BTN_DPAD_RIGHT",
 				"comment": "Some Linux devices expose the same logical direction through ABS_HAT0X instead of or in addition to BTN_DPAD_RIGHT."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30518,7 +30590,7 @@
 				"missing": true,
 				"comment": "Linux typically reports this through negative ABS_Y on the left stick rather than a discrete button code."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30552,7 +30624,7 @@
 				"missing": true,
 				"comment": "Linux typically reports this through positive ABS_Y on the left stick rather than a discrete button code."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30586,7 +30658,7 @@
 				"missing": true,
 				"comment": "Linux typically reports this through positive ABS_X on the left stick rather than a discrete button code."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30620,7 +30692,7 @@
 				"missing": true,
 				"comment": "Linux typically reports this through negative ABS_X on the left stick rather than a discrete button code."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30654,7 +30726,7 @@
 				"missing": true,
 				"comment": "Linux typically reports this through negative ABS_RY on the right stick rather than a discrete button code."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30688,7 +30760,7 @@
 				"missing": true,
 				"comment": "Linux typically reports this through positive ABS_RY on the right stick rather than a discrete button code."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30722,7 +30794,7 @@
 				"missing": true,
 				"comment": "Linux typically reports this through positive ABS_RX on the right stick rather than a discrete button code."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30756,7 +30828,7 @@
 				"missing": true,
 				"comment": "Linux typically reports this through negative ABS_RX on the right stick rather than a discrete button code."
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30790,7 +30862,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30824,7 +30896,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30858,7 +30930,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30892,7 +30964,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30926,7 +30998,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30960,7 +31032,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -30994,7 +31066,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -31028,7 +31100,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -31062,7 +31134,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -31096,7 +31168,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -31130,7 +31202,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -31164,7 +31236,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -31198,7 +31270,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {
@@ -31232,7 +31304,7 @@
 			"evdev": {
 				"missing": true
 			},
-			"xkb": {
+			"xkb-keycode": {
 				"missing": true
 			},
 			"xkb-keysym": {

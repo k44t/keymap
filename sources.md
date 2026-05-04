@@ -14,7 +14,7 @@ This file preserves the source taxonomy previously embedded in `keys.json`.
 - define: <https://raw.githubusercontent.com/torvalds/linux/master/include/uapi/linux/input-event-codes.h>
 - map: <https://raw.githubusercontent.com/torvalds/linux/master/drivers/hid/hid-input.c>
 
-## linux-xkb
+## linux-xkb-keycode
 
 - define: <https://raw.githubusercontent.com/chromium/chromium/main/ui/events/keycodes/dom/dom_code_data.inc>
 - map:
