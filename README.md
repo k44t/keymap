@@ -1,6 +1,6 @@
 # keymap
 
-Cross-platform keyboard key inventory extracted from `mappy`.
+Cross-platform keyboard key inventory.
 
 ## Contents
 
