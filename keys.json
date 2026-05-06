@@ -1,724 +1,4 @@
 {
-	"0": {
-		"comment": "Keyboard-page key for Keyboard 0 and ).",
-		"hid": {
-			"code": "0x27",
-			"name": "Keyboard 0 and )",
-			"page-num": "0x7",
-			"page-name": "Keyboard/Keypad"
-		},
-		"linux": {
-			"evdev": {
-				"code": "0xb",
-				"name": "KEY_0"
-			},
-			"xkb-keycode": {
-				"code": "0x13",
-				"name": "AE10"
-			},
-			"xkb-keysym": {
-				"code": "0x0030",
-				"name": "0"
-			}
-		},
-		"windows": {
-			"scancode": {
-				"code": "0xb"
-			},
-			"virtual": {
-				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x30 is the ASCII code for '0'.",
-				"code": "0x30",
-				"name": "0"
-			}
-		},
-		"mac": {
-			"virtual-keycode": {
-				"code": "0x1d",
-				"name": "kVK_ANSI_0"
-			}
-		},
-		"web": {
-			"name": "Digit0"
-		},
-		"kmonad": {
-			"name": "0",
-			"aliases": [
-				"Key0",
-				"key0"
-			]
-		},
-		"kanata": {
-			"name": "0",
-			"aliases": [
-				"Digit0"
-			]
-		},
-		"keyd": {
-			"name": "0",
-			"aliases": [
-				{
-					"name": ")",
-					"modifiers": [
-						"shift"
-					]
-				}
-			]
-		},
-		"karabiner-elements": {
-			"name": "0"
-		},
-		"autohotkey": {
-			"name": "0"
-		}
-	},
-	"1": {
-		"comment": "Keyboard-page key for Keyboard 1 and !.",
-		"hid": {
-			"code": "0x1e",
-			"name": "Keyboard 1 and !",
-			"page-num": "0x7",
-			"page-name": "Keyboard/Keypad"
-		},
-		"linux": {
-			"evdev": {
-				"code": "0x2",
-				"name": "KEY_1"
-			},
-			"xkb-keycode": {
-				"code": "0xa",
-				"name": "AE01"
-			},
-			"xkb-keysym": {
-				"code": "0x0031",
-				"name": "1"
-			}
-		},
-		"windows": {
-			"scancode": {
-				"code": "0x2"
-			},
-			"virtual": {
-				"code": "0x31",
-				"name": "1",
-				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x31 is the ASCII code for '1'."
-			}
-		},
-		"mac": {
-			"virtual-keycode": {
-				"code": "0x12",
-				"name": "kVK_ANSI_1"
-			}
-		},
-		"web": {
-			"name": "Digit1"
-		},
-		"kmonad": {
-			"name": "1",
-			"aliases": [
-				"Key1",
-				"key1"
-			]
-		},
-		"kanata": {
-			"name": "1",
-			"aliases": [
-				"Digit1"
-			]
-		},
-		"keyd": {
-			"name": "1",
-			"aliases": [
-				{
-					"name": "!",
-					"modifiers": [
-						"shift"
-					]
-				}
-			]
-		},
-		"karabiner-elements": {
-			"name": "1"
-		},
-		"autohotkey": {
-			"name": "1"
-		}
-	},
-	"2": {
-		"comment": "Keyboard-page key for Keyboard 2 and @.",
-		"hid": {
-			"code": "0x1f",
-			"name": "Keyboard 2 and @",
-			"page-num": "0x7",
-			"page-name": "Keyboard/Keypad"
-		},
-		"linux": {
-			"evdev": {
-				"code": "0x3",
-				"name": "KEY_2"
-			},
-			"xkb-keycode": {
-				"code": "0xb",
-				"name": "AE02"
-			},
-			"xkb-keysym": {
-				"code": "0x0032",
-				"name": "2"
-			}
-		},
-		"windows": {
-			"scancode": {
-				"code": "0x3"
-			},
-			"virtual": {
-				"code": "0x32",
-				"name": "2",
-				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x32 is the ASCII code for '2'."
-			}
-		},
-		"mac": {
-			"virtual-keycode": {
-				"code": "0x13",
-				"name": "kVK_ANSI_2"
-			}
-		},
-		"web": {
-			"name": "Digit2"
-		},
-		"kmonad": {
-			"name": "2",
-			"aliases": [
-				"Key2",
-				"key2"
-			]
-		},
-		"kanata": {
-			"name": "2",
-			"aliases": [
-				"Digit2"
-			]
-		},
-		"keyd": {
-			"name": "2",
-			"aliases": [
-				{
-					"name": "@",
-					"modifiers": [
-						"shift"
-					]
-				}
-			]
-		},
-		"karabiner-elements": {
-			"name": "2"
-		},
-		"autohotkey": {
-			"name": "2"
-		}
-	},
-	"3": {
-		"comment": "Keyboard-page key for Keyboard 3 and #.",
-		"hid": {
-			"code": "0x20",
-			"name": "Keyboard 3 and #",
-			"page-num": "0x7",
-			"page-name": "Keyboard/Keypad"
-		},
-		"linux": {
-			"evdev": {
-				"code": "0x4",
-				"name": "KEY_3"
-			},
-			"xkb-keycode": {
-				"code": "0xc",
-				"name": "AE03"
-			},
-			"xkb-keysym": {
-				"code": "0x0033",
-				"name": "3"
-			}
-		},
-		"windows": {
-			"scancode": {
-				"code": "0x4"
-			},
-			"virtual": {
-				"code": "0x33",
-				"name": "3",
-				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x33 is the ASCII code for '3'."
-			}
-		},
-		"mac": {
-			"virtual-keycode": {
-				"code": "0x14",
-				"name": "kVK_ANSI_3"
-			}
-		},
-		"web": {
-			"name": "Digit3"
-		},
-		"kmonad": {
-			"name": "3",
-			"aliases": [
-				"Key3",
-				"key3"
-			]
-		},
-		"kanata": {
-			"name": "3",
-			"aliases": [
-				"Digit3"
-			]
-		},
-		"keyd": {
-			"name": "3",
-			"aliases": [
-				{
-					"name": "#",
-					"modifiers": [
-						"shift"
-					]
-				}
-			]
-		},
-		"karabiner-elements": {
-			"name": "3"
-		},
-		"autohotkey": {
-			"name": "3"
-		}
-	},
-	"4": {
-		"comment": "Keyboard-page key for Keyboard 4 and $.",
-		"hid": {
-			"code": "0x21",
-			"name": "Keyboard 4 and $",
-			"page-num": "0x7",
-			"page-name": "Keyboard/Keypad"
-		},
-		"linux": {
-			"evdev": {
-				"code": "0x5",
-				"name": "KEY_4"
-			},
-			"xkb-keycode": {
-				"code": "0xd",
-				"name": "AE04"
-			},
-			"xkb-keysym": {
-				"code": "0x0034",
-				"name": "4"
-			}
-		},
-		"windows": {
-			"scancode": {
-				"code": "0x5"
-			},
-			"virtual": {
-				"code": "0x34",
-				"name": "4",
-				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x34 is the ASCII code for '4'."
-			}
-		},
-		"mac": {
-			"virtual-keycode": {
-				"code": "0x15",
-				"name": "kVK_ANSI_4"
-			}
-		},
-		"web": {
-			"name": "Digit4"
-		},
-		"kmonad": {
-			"name": "4",
-			"aliases": [
-				"Key4",
-				"key4"
-			]
-		},
-		"kanata": {
-			"name": "4",
-			"aliases": [
-				"Digit4"
-			]
-		},
-		"keyd": {
-			"name": "4",
-			"aliases": [
-				{
-					"name": "$",
-					"modifiers": [
-						"shift"
-					]
-				}
-			]
-		},
-		"karabiner-elements": {
-			"name": "4"
-		},
-		"autohotkey": {
-			"name": "4"
-		}
-	},
-	"5": {
-		"comment": "Keyboard-page key for Keyboard 5 and %.",
-		"hid": {
-			"code": "0x22",
-			"name": "Keyboard 5 and %",
-			"page-num": "0x7",
-			"page-name": "Keyboard/Keypad"
-		},
-		"linux": {
-			"evdev": {
-				"code": "0x6",
-				"name": "KEY_5"
-			},
-			"xkb-keycode": {
-				"code": "0xe",
-				"name": "AE05"
-			},
-			"xkb-keysym": {
-				"code": "0x0035",
-				"name": "5"
-			}
-		},
-		"windows": {
-			"scancode": {
-				"code": "0x6"
-			},
-			"virtual": {
-				"code": "0x35",
-				"name": "5",
-				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x35 is the ASCII code for '5'."
-			}
-		},
-		"mac": {
-			"virtual-keycode": {
-				"code": "0x17",
-				"name": "kVK_ANSI_5"
-			}
-		},
-		"web": {
-			"name": "Digit5"
-		},
-		"kmonad": {
-			"name": "5",
-			"aliases": [
-				"Key5",
-				"key5"
-			]
-		},
-		"kanata": {
-			"name": "5",
-			"aliases": [
-				"Digit5"
-			]
-		},
-		"keyd": {
-			"name": "5",
-			"aliases": [
-				{
-					"name": "%",
-					"modifiers": [
-						"shift"
-					]
-				}
-			]
-		},
-		"karabiner-elements": {
-			"name": "5"
-		},
-		"autohotkey": {
-			"name": "5"
-		}
-	},
-	"6": {
-		"comment": "Keyboard-page key for Keyboard 6 and ^.",
-		"hid": {
-			"code": "0x23",
-			"name": "Keyboard 6 and ^",
-			"page-num": "0x7",
-			"page-name": "Keyboard/Keypad"
-		},
-		"linux": {
-			"evdev": {
-				"code": "0x7",
-				"name": "KEY_6"
-			},
-			"xkb-keycode": {
-				"code": "0xf",
-				"name": "AE06"
-			},
-			"xkb-keysym": {
-				"code": "0x0036",
-				"name": "6"
-			}
-		},
-		"windows": {
-			"scancode": {
-				"code": "0x7"
-			},
-			"virtual": {
-				"code": "0x36",
-				"name": "6",
-				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x36 is the ASCII code for '6'."
-			}
-		},
-		"mac": {
-			"virtual-keycode": {
-				"code": "0x16",
-				"name": "kVK_ANSI_6"
-			}
-		},
-		"web": {
-			"name": "Digit6"
-		},
-		"kmonad": {
-			"name": "6",
-			"aliases": [
-				"Key6",
-				"key6"
-			]
-		},
-		"kanata": {
-			"name": "6",
-			"aliases": [
-				"Digit6"
-			]
-		},
-		"keyd": {
-			"name": "6",
-			"aliases": [
-				{
-					"name": "^",
-					"modifiers": [
-						"shift"
-					]
-				}
-			]
-		},
-		"karabiner-elements": {
-			"name": "6"
-		},
-		"autohotkey": {
-			"name": "6"
-		}
-	},
-	"7": {
-		"comment": "Keyboard-page key for Keyboard 7 and &.",
-		"hid": {
-			"code": "0x24",
-			"name": "Keyboard 7 and &",
-			"page-num": "0x7",
-			"page-name": "Keyboard/Keypad"
-		},
-		"linux": {
-			"evdev": {
-				"code": "0x8",
-				"name": "KEY_7"
-			},
-			"xkb-keycode": {
-				"code": "0x10",
-				"name": "AE07"
-			},
-			"xkb-keysym": {
-				"code": "0x0037",
-				"name": "7"
-			}
-		},
-		"windows": {
-			"scancode": {
-				"code": "0x8"
-			},
-			"virtual": {
-				"code": "0x37",
-				"name": "7",
-				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x37 is the ASCII code for '7'."
-			}
-		},
-		"mac": {
-			"virtual-keycode": {
-				"code": "0x1a",
-				"name": "kVK_ANSI_7"
-			}
-		},
-		"web": {
-			"name": "Digit7"
-		},
-		"kmonad": {
-			"name": "7",
-			"aliases": [
-				"Key7",
-				"key7"
-			]
-		},
-		"kanata": {
-			"name": "7",
-			"aliases": [
-				"Digit7"
-			]
-		},
-		"keyd": {
-			"name": "7",
-			"aliases": [
-				{
-					"name": "&",
-					"modifiers": [
-						"shift"
-					]
-				}
-			]
-		},
-		"karabiner-elements": {
-			"name": "7"
-		},
-		"autohotkey": {
-			"name": "7"
-		}
-	},
-	"8": {
-		"comment": "Keyboard-page key for Keyboard 8 and *.",
-		"hid": {
-			"code": "0x25",
-			"name": "Keyboard 8 and *",
-			"page-num": "0x7",
-			"page-name": "Keyboard/Keypad"
-		},
-		"linux": {
-			"evdev": {
-				"code": "0x9",
-				"name": "KEY_8"
-			},
-			"xkb-keycode": {
-				"code": "0x11",
-				"name": "AE08"
-			},
-			"xkb-keysym": {
-				"code": "0x0038",
-				"name": "8"
-			}
-		},
-		"windows": {
-			"scancode": {
-				"code": "0x9"
-			},
-			"virtual": {
-				"code": "0x38",
-				"name": "8",
-				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x38 is the ASCII code for '8'."
-			}
-		},
-		"mac": {
-			"virtual-keycode": {
-				"code": "0x1c",
-				"name": "kVK_ANSI_8"
-			}
-		},
-		"web": {
-			"name": "Digit8"
-		},
-		"kmonad": {
-			"name": "8",
-			"aliases": [
-				"Key8",
-				"key8"
-			]
-		},
-		"kanata": {
-			"name": "8",
-			"aliases": [
-				"Digit8"
-			]
-		},
-		"keyd": {
-			"name": "8",
-			"aliases": [
-				{
-					"name": "*",
-					"modifiers": [
-						"shift"
-					]
-				}
-			]
-		},
-		"karabiner-elements": {
-			"name": "8"
-		},
-		"autohotkey": {
-			"name": "8"
-		}
-	},
-	"9": {
-		"comment": "Keyboard-page key for Keyboard 9 and (.",
-		"hid": {
-			"code": "0x26",
-			"name": "Keyboard 9 and (",
-			"page-num": "0x7",
-			"page-name": "Keyboard/Keypad"
-		},
-		"linux": {
-			"evdev": {
-				"code": "0xa",
-				"name": "KEY_9"
-			},
-			"xkb-keycode": {
-				"code": "0x12",
-				"name": "AE09"
-			},
-			"xkb-keysym": {
-				"code": "0x0039",
-				"name": "9"
-			}
-		},
-		"windows": {
-			"scancode": {
-				"code": "0xa"
-			},
-			"virtual": {
-				"code": "0x39",
-				"name": "9",
-				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x39 is the ASCII code for '9'."
-			}
-		},
-		"mac": {
-			"virtual-keycode": {
-				"code": "0x19",
-				"name": "kVK_ANSI_9"
-			}
-		},
-		"web": {
-			"name": "Digit9"
-		},
-		"kmonad": {
-			"name": "9",
-			"aliases": [
-				"Key9",
-				"key9"
-			]
-		},
-		"kanata": {
-			"name": "9",
-			"aliases": [
-				"Digit9"
-			]
-		},
-		"keyd": {
-			"name": "9",
-			"aliases": [
-				{
-					"name": "(",
-					"modifiers": [
-						"shift"
-					]
-				}
-			]
-		},
-		"karabiner-elements": {
-			"name": "9"
-		},
-		"autohotkey": {
-			"name": "9"
-		}
-	},
 	"escape": {
 		"hid": {
 			"code": "0x29",
@@ -789,7 +69,7 @@
 			]
 		}
 	},
-	"-": {
+	"minus": {
 		"comment": "Keyboard-page key for Keyboard - and _.",
 		"hid": {
 			"code": "0x2d",
@@ -866,7 +146,7 @@
 			"name": "-"
 		}
 	},
-	"=": {
+	"equal": {
 		"comment": "Keyboard-page key for Keyboard = and +.",
 		"hid": {
 			"code": "0x2e",
@@ -1795,7 +1075,7 @@
 			"name": "p"
 		}
 	},
-	"`[`": {
+	"bracket-left": {
 		"hid": {
 			"code": "0x2f",
 			"name": "Keyboard [ and {",
@@ -1875,7 +1155,7 @@
 			"name": "["
 		}
 	},
-	"`]`": {
+	"bracket-right": {
 		"hid": {
 			"code": "0x30",
 			"name": "Keyboard ] and }",
@@ -2745,7 +2025,7 @@
 			"name": "l"
 		}
 	},
-	"`'`": {
+	"quote": {
 		"hid": {
 			"code": "0x34",
 			"name": "Keyboard ' and \"",
@@ -2822,7 +2102,7 @@
 			"name": "'"
 		}
 	},
-	"`\\``": {
+	"backquote": {
 		"hid": {
 			"code": "0x35",
 			"name": "Keyboard Grave Accent and Tilde",
@@ -3610,7 +2890,7 @@
 			"name": "m"
 		}
 	},
-	"`,`": {
+	"comma": {
 		"hid": {
 			"code": "0x36",
 			"name": "Keyboard , and <",
@@ -3686,7 +2966,7 @@
 			"name": ","
 		}
 	},
-	"`.`": {
+	"period": {
 		"hid": {
 			"code": "0x37",
 			"name": "Keyboard . and >",
@@ -3760,7 +3040,7 @@
 			"name": "."
 		}
 	},
-	"`/`": {
+	"slash": {
 		"hid": {
 			"code": "0x38",
 			"name": "Keyboard / and ?",
@@ -3932,69 +3212,6 @@
 		},
 		"web": {
 			"missing": true
-		}
-	},
-	"`kp*`": {
-		"hid": {
-			"code": "0x55",
-			"name": "Keypad *",
-			"page-num": "0x7",
-			"page-name": "Keyboard/Keypad"
-		},
-		"linux": {
-			"evdev": {
-				"code": "0x37",
-				"name": "KEY_KPASTERISK"
-			},
-			"xkb-keycode": {
-				"code": "0x3f",
-				"name": "KPMU"
-			},
-			"xkb-keysym": {
-				"code": "0xffaa",
-				"name": "KP_Multiply"
-			}
-		},
-		"windows": {
-			"scancode": {
-				"code": "0x37"
-			},
-			"virtual": {
-				"code": "0x6a",
-				"name": "VK_MULTIPLY"
-			}
-		},
-		"mac": {
-			"virtual-keycode": {
-				"code": "0x43",
-				"name": "kVK_ANSI_KeypadMultiply"
-			}
-		},
-		"web": {
-			"name": "NumpadMultiply"
-		},
-		"kmonad": {
-			"name": "kp*",
-			"aliases": [
-				"KeyKpAsterisk",
-				"keykpasterisk",
-				"KpAsterisk",
-				"kpasterisk"
-			]
-		},
-		"kanata": {
-			"name": "kp*",
-			"aliases": [
-				"NumpadMultiply",
-				"🔢∗"
-			]
-		},
-		"keyd": "kpasterisk",
-		"karabiner-elements": {
-			"name": "keypad_asterisk"
-		},
-		"autohotkey": {
-			"name": "NumpadMult"
 		}
 	},
 	"alt-left": {
@@ -5189,7 +4406,7 @@
 			]
 		}
 	},
-	"`kp-`": {
+	"kp-minus": {
 		"hid": {
 			"code": "0x56",
 			"name": "Keypad -",
@@ -5462,7 +4679,7 @@
 			]
 		}
 	},
-	"`kp+`": {
+	"kp-plus": {
 		"hid": {
 			"code": "0x57",
 			"name": "Keypad +",
@@ -5806,7 +5023,7 @@
 			]
 		}
 	},
-	"`kp.`": {
+	"kp-period": {
 		"hid": {
 			"code": "0x63",
 			"name": "Keypad . and Delete",
@@ -6530,7 +5747,7 @@
 			"missing": true
 		}
 	},
-	"`kp/`": {
+	"kp-slash": {
 		"hid": {
 			"code": "0x54",
 			"name": "Keypad /",
@@ -29308,16 +28525,16 @@
 		},
 		"linux": {
 			"evdev": {
-				"alias-of": "`kp-`",
+				"alias-of": "kp-minus",
 				"semantic-miss": true,
 				"comment": "Linux hid-input maps HID Consumer 0x48 to KEY_KPMINUS."
 			},
 			"xkb-keycode": {
-				"alias-of": "`kp-`",
+				"alias-of": "kp-minus",
 				"semantic-miss": true
 			},
 			"xkb-keysym": {
-				"alias-of": "`kp-`",
+				"alias-of": "kp-minus",
 				"semantic-miss": true
 			}
 		},
@@ -29349,16 +28566,16 @@
 		},
 		"linux": {
 			"evdev": {
-				"alias-of": "`kp+`",
+				"alias-of": "kp-plus",
 				"semantic-miss": true,
 				"comment": "Linux hid-input maps HID Consumer 0x47 to KEY_KPPLUS."
 			},
 			"xkb-keycode": {
-				"alias-of": "`kp+`",
+				"alias-of": "kp-plus",
 				"semantic-miss": true
 			},
 			"xkb-keysym": {
-				"alias-of": "`kp+`",
+				"alias-of": "kp-plus",
 				"semantic-miss": true
 			}
 		},
@@ -31326,6 +30543,789 @@
 		},
 		"web": {
 			"missing": true
+		}
+	},
+	"kp-asterisk": {
+		"hid": {
+			"code": "0x55",
+			"name": "Keypad *",
+			"page-num": "0x7",
+			"page-name": "Keyboard/Keypad"
+		},
+		"linux": {
+			"evdev": {
+				"code": "0x37",
+				"name": "KEY_KPASTERISK"
+			},
+			"xkb-keycode": {
+				"code": "0x3f",
+				"name": "KPMU"
+			},
+			"xkb-keysym": {
+				"code": "0xffaa",
+				"name": "KP_Multiply"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"code": "0x37"
+			},
+			"virtual": {
+				"code": "0x6a",
+				"name": "VK_MULTIPLY"
+			}
+		},
+		"mac": {
+			"virtual-keycode": {
+				"code": "0x43",
+				"name": "kVK_ANSI_KeypadMultiply"
+			}
+		},
+		"web": {
+			"name": "NumpadMultiply"
+		},
+		"kmonad": {
+			"name": "kp*",
+			"aliases": [
+				"KeyKpAsterisk",
+				"keykpasterisk",
+				"KpAsterisk",
+				"kpasterisk"
+			]
+		},
+		"kanata": {
+			"name": "kp*",
+			"aliases": [
+				"NumpadMultiply",
+				"🔢∗"
+			]
+		},
+		"keyd": "kpasterisk",
+		"karabiner-elements": {
+			"name": "keypad_asterisk"
+		},
+		"autohotkey": {
+			"name": "NumpadMult"
+		}
+	},
+	"digit-0": {
+		"comment": "Keyboard-page key for Keyboard 0 and ).",
+		"hid": {
+			"code": "0x27",
+			"name": "Keyboard 0 and )",
+			"page-num": "0x7",
+			"page-name": "Keyboard/Keypad"
+		},
+		"linux": {
+			"evdev": {
+				"code": "0xb",
+				"name": "KEY_0"
+			},
+			"xkb-keycode": {
+				"code": "0x13",
+				"name": "AE10"
+			},
+			"xkb-keysym": {
+				"code": "0x0030",
+				"name": "0"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"code": "0xb"
+			},
+			"virtual": {
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x30 is the ASCII code for '0'.",
+				"code": "0x30",
+				"name": "0"
+			}
+		},
+		"mac": {
+			"virtual-keycode": {
+				"code": "0x1d",
+				"name": "kVK_ANSI_0"
+			}
+		},
+		"web": {
+			"name": "Digit0"
+		},
+		"kmonad": {
+			"name": "0",
+			"aliases": [
+				"Key0",
+				"key0"
+			]
+		},
+		"kanata": {
+			"name": "0",
+			"aliases": [
+				"Digit0"
+			]
+		},
+		"keyd": {
+			"name": "0",
+			"aliases": [
+				{
+					"name": ")",
+					"modifiers": [
+						"shift"
+					]
+				}
+			]
+		},
+		"karabiner-elements": {
+			"name": "0"
+		},
+		"autohotkey": {
+			"name": "0"
+		}
+	},
+	"digit-1": {
+		"comment": "Keyboard-page key for Keyboard 1 and !.",
+		"hid": {
+			"code": "0x1e",
+			"name": "Keyboard 1 and !",
+			"page-num": "0x7",
+			"page-name": "Keyboard/Keypad"
+		},
+		"linux": {
+			"evdev": {
+				"code": "0x2",
+				"name": "KEY_1"
+			},
+			"xkb-keycode": {
+				"code": "0xa",
+				"name": "AE01"
+			},
+			"xkb-keysym": {
+				"code": "0x0031",
+				"name": "1"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"code": "0x2"
+			},
+			"virtual": {
+				"code": "0x31",
+				"name": "1",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x31 is the ASCII code for '1'."
+			}
+		},
+		"mac": {
+			"virtual-keycode": {
+				"code": "0x12",
+				"name": "kVK_ANSI_1"
+			}
+		},
+		"web": {
+			"name": "Digit1"
+		},
+		"kmonad": {
+			"name": "1",
+			"aliases": [
+				"Key1",
+				"key1"
+			]
+		},
+		"kanata": {
+			"name": "1",
+			"aliases": [
+				"Digit1"
+			]
+		},
+		"keyd": {
+			"name": "1",
+			"aliases": [
+				{
+					"name": "!",
+					"modifiers": [
+						"shift"
+					]
+				}
+			]
+		},
+		"karabiner-elements": {
+			"name": "1"
+		},
+		"autohotkey": {
+			"name": "1"
+		}
+	},
+	"digit-2": {
+		"comment": "Keyboard-page key for Keyboard 2 and @.",
+		"hid": {
+			"code": "0x1f",
+			"name": "Keyboard 2 and @",
+			"page-num": "0x7",
+			"page-name": "Keyboard/Keypad"
+		},
+		"linux": {
+			"evdev": {
+				"code": "0x3",
+				"name": "KEY_2"
+			},
+			"xkb-keycode": {
+				"code": "0xb",
+				"name": "AE02"
+			},
+			"xkb-keysym": {
+				"code": "0x0032",
+				"name": "2"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"code": "0x3"
+			},
+			"virtual": {
+				"code": "0x32",
+				"name": "2",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x32 is the ASCII code for '2'."
+			}
+		},
+		"mac": {
+			"virtual-keycode": {
+				"code": "0x13",
+				"name": "kVK_ANSI_2"
+			}
+		},
+		"web": {
+			"name": "Digit2"
+		},
+		"kmonad": {
+			"name": "2",
+			"aliases": [
+				"Key2",
+				"key2"
+			]
+		},
+		"kanata": {
+			"name": "2",
+			"aliases": [
+				"Digit2"
+			]
+		},
+		"keyd": {
+			"name": "2",
+			"aliases": [
+				{
+					"name": "@",
+					"modifiers": [
+						"shift"
+					]
+				}
+			]
+		},
+		"karabiner-elements": {
+			"name": "2"
+		},
+		"autohotkey": {
+			"name": "2"
+		}
+	},
+	"digit-3": {
+		"comment": "Keyboard-page key for Keyboard 3 and #.",
+		"hid": {
+			"code": "0x20",
+			"name": "Keyboard 3 and #",
+			"page-num": "0x7",
+			"page-name": "Keyboard/Keypad"
+		},
+		"linux": {
+			"evdev": {
+				"code": "0x4",
+				"name": "KEY_3"
+			},
+			"xkb-keycode": {
+				"code": "0xc",
+				"name": "AE03"
+			},
+			"xkb-keysym": {
+				"code": "0x0033",
+				"name": "3"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"code": "0x4"
+			},
+			"virtual": {
+				"code": "0x33",
+				"name": "3",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x33 is the ASCII code for '3'."
+			}
+		},
+		"mac": {
+			"virtual-keycode": {
+				"code": "0x14",
+				"name": "kVK_ANSI_3"
+			}
+		},
+		"web": {
+			"name": "Digit3"
+		},
+		"kmonad": {
+			"name": "3",
+			"aliases": [
+				"Key3",
+				"key3"
+			]
+		},
+		"kanata": {
+			"name": "3",
+			"aliases": [
+				"Digit3"
+			]
+		},
+		"keyd": {
+			"name": "3",
+			"aliases": [
+				{
+					"name": "#",
+					"modifiers": [
+						"shift"
+					]
+				}
+			]
+		},
+		"karabiner-elements": {
+			"name": "3"
+		},
+		"autohotkey": {
+			"name": "3"
+		}
+	},
+	"digit-4": {
+		"comment": "Keyboard-page key for Keyboard 4 and $.",
+		"hid": {
+			"code": "0x21",
+			"name": "Keyboard 4 and $",
+			"page-num": "0x7",
+			"page-name": "Keyboard/Keypad"
+		},
+		"linux": {
+			"evdev": {
+				"code": "0x5",
+				"name": "KEY_4"
+			},
+			"xkb-keycode": {
+				"code": "0xd",
+				"name": "AE04"
+			},
+			"xkb-keysym": {
+				"code": "0x0034",
+				"name": "4"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"code": "0x5"
+			},
+			"virtual": {
+				"code": "0x34",
+				"name": "4",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x34 is the ASCII code for '4'."
+			}
+		},
+		"mac": {
+			"virtual-keycode": {
+				"code": "0x15",
+				"name": "kVK_ANSI_4"
+			}
+		},
+		"web": {
+			"name": "Digit4"
+		},
+		"kmonad": {
+			"name": "4",
+			"aliases": [
+				"Key4",
+				"key4"
+			]
+		},
+		"kanata": {
+			"name": "4",
+			"aliases": [
+				"Digit4"
+			]
+		},
+		"keyd": {
+			"name": "4",
+			"aliases": [
+				{
+					"name": "$",
+					"modifiers": [
+						"shift"
+					]
+				}
+			]
+		},
+		"karabiner-elements": {
+			"name": "4"
+		},
+		"autohotkey": {
+			"name": "4"
+		}
+	},
+	"digit-5": {
+		"comment": "Keyboard-page key for Keyboard 5 and %.",
+		"hid": {
+			"code": "0x22",
+			"name": "Keyboard 5 and %",
+			"page-num": "0x7",
+			"page-name": "Keyboard/Keypad"
+		},
+		"linux": {
+			"evdev": {
+				"code": "0x6",
+				"name": "KEY_5"
+			},
+			"xkb-keycode": {
+				"code": "0xe",
+				"name": "AE05"
+			},
+			"xkb-keysym": {
+				"code": "0x0035",
+				"name": "5"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"code": "0x6"
+			},
+			"virtual": {
+				"code": "0x35",
+				"name": "5",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x35 is the ASCII code for '5'."
+			}
+		},
+		"mac": {
+			"virtual-keycode": {
+				"code": "0x17",
+				"name": "kVK_ANSI_5"
+			}
+		},
+		"web": {
+			"name": "Digit5"
+		},
+		"kmonad": {
+			"name": "5",
+			"aliases": [
+				"Key5",
+				"key5"
+			]
+		},
+		"kanata": {
+			"name": "5",
+			"aliases": [
+				"Digit5"
+			]
+		},
+		"keyd": {
+			"name": "5",
+			"aliases": [
+				{
+					"name": "%",
+					"modifiers": [
+						"shift"
+					]
+				}
+			]
+		},
+		"karabiner-elements": {
+			"name": "5"
+		},
+		"autohotkey": {
+			"name": "5"
+		}
+	},
+	"digit-6": {
+		"comment": "Keyboard-page key for Keyboard 6 and ^.",
+		"hid": {
+			"code": "0x23",
+			"name": "Keyboard 6 and ^",
+			"page-num": "0x7",
+			"page-name": "Keyboard/Keypad"
+		},
+		"linux": {
+			"evdev": {
+				"code": "0x7",
+				"name": "KEY_6"
+			},
+			"xkb-keycode": {
+				"code": "0xf",
+				"name": "AE06"
+			},
+			"xkb-keysym": {
+				"code": "0x0036",
+				"name": "6"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"code": "0x7"
+			},
+			"virtual": {
+				"code": "0x36",
+				"name": "6",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x36 is the ASCII code for '6'."
+			}
+		},
+		"mac": {
+			"virtual-keycode": {
+				"code": "0x16",
+				"name": "kVK_ANSI_6"
+			}
+		},
+		"web": {
+			"name": "Digit6"
+		},
+		"kmonad": {
+			"name": "6",
+			"aliases": [
+				"Key6",
+				"key6"
+			]
+		},
+		"kanata": {
+			"name": "6",
+			"aliases": [
+				"Digit6"
+			]
+		},
+		"keyd": {
+			"name": "6",
+			"aliases": [
+				{
+					"name": "^",
+					"modifiers": [
+						"shift"
+					]
+				}
+			]
+		},
+		"karabiner-elements": {
+			"name": "6"
+		},
+		"autohotkey": {
+			"name": "6"
+		}
+	},
+	"digit-7": {
+		"comment": "Keyboard-page key for Keyboard 7 and &.",
+		"hid": {
+			"code": "0x24",
+			"name": "Keyboard 7 and &",
+			"page-num": "0x7",
+			"page-name": "Keyboard/Keypad"
+		},
+		"linux": {
+			"evdev": {
+				"code": "0x8",
+				"name": "KEY_7"
+			},
+			"xkb-keycode": {
+				"code": "0x10",
+				"name": "AE07"
+			},
+			"xkb-keysym": {
+				"code": "0x0037",
+				"name": "7"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"code": "0x8"
+			},
+			"virtual": {
+				"code": "0x37",
+				"name": "7",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x37 is the ASCII code for '7'."
+			}
+		},
+		"mac": {
+			"virtual-keycode": {
+				"code": "0x1a",
+				"name": "kVK_ANSI_7"
+			}
+		},
+		"web": {
+			"name": "Digit7"
+		},
+		"kmonad": {
+			"name": "7",
+			"aliases": [
+				"Key7",
+				"key7"
+			]
+		},
+		"kanata": {
+			"name": "7",
+			"aliases": [
+				"Digit7"
+			]
+		},
+		"keyd": {
+			"name": "7",
+			"aliases": [
+				{
+					"name": "&",
+					"modifiers": [
+						"shift"
+					]
+				}
+			]
+		},
+		"karabiner-elements": {
+			"name": "7"
+		},
+		"autohotkey": {
+			"name": "7"
+		}
+	},
+	"digit-8": {
+		"comment": "Keyboard-page key for Keyboard 8 and *.",
+		"hid": {
+			"code": "0x25",
+			"name": "Keyboard 8 and *",
+			"page-num": "0x7",
+			"page-name": "Keyboard/Keypad"
+		},
+		"linux": {
+			"evdev": {
+				"code": "0x9",
+				"name": "KEY_8"
+			},
+			"xkb-keycode": {
+				"code": "0x11",
+				"name": "AE08"
+			},
+			"xkb-keysym": {
+				"code": "0x0038",
+				"name": "8"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"code": "0x9"
+			},
+			"virtual": {
+				"code": "0x38",
+				"name": "8",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x38 is the ASCII code for '8'."
+			}
+		},
+		"mac": {
+			"virtual-keycode": {
+				"code": "0x1c",
+				"name": "kVK_ANSI_8"
+			}
+		},
+		"web": {
+			"name": "Digit8"
+		},
+		"kmonad": {
+			"name": "8",
+			"aliases": [
+				"Key8",
+				"key8"
+			]
+		},
+		"kanata": {
+			"name": "8",
+			"aliases": [
+				"Digit8"
+			]
+		},
+		"keyd": {
+			"name": "8",
+			"aliases": [
+				{
+					"name": "*",
+					"modifiers": [
+						"shift"
+					]
+				}
+			]
+		},
+		"karabiner-elements": {
+			"name": "8"
+		},
+		"autohotkey": {
+			"name": "8"
+		}
+	},
+	"digit-9": {
+		"comment": "Keyboard-page key for Keyboard 9 and (.",
+		"hid": {
+			"code": "0x26",
+			"name": "Keyboard 9 and (",
+			"page-num": "0x7",
+			"page-name": "Keyboard/Keypad"
+		},
+		"linux": {
+			"evdev": {
+				"code": "0xa",
+				"name": "KEY_9"
+			},
+			"xkb-keycode": {
+				"code": "0x12",
+				"name": "AE09"
+			},
+			"xkb-keysym": {
+				"code": "0x0039",
+				"name": "9"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"code": "0xa"
+			},
+			"virtual": {
+				"code": "0x39",
+				"name": "9",
+				"comment": "Windows uses ASCII codes for alphanumeric virtual keys here: 0x39 is the ASCII code for '9'."
+			}
+		},
+		"mac": {
+			"virtual-keycode": {
+				"code": "0x19",
+				"name": "kVK_ANSI_9"
+			}
+		},
+		"web": {
+			"name": "Digit9"
+		},
+		"kmonad": {
+			"name": "9",
+			"aliases": [
+				"Key9",
+				"key9"
+			]
+		},
+		"kanata": {
+			"name": "9",
+			"aliases": [
+				"Digit9"
+			]
+		},
+		"keyd": {
+			"name": "9",
+			"aliases": [
+				{
+					"name": "(",
+					"modifiers": [
+						"shift"
+					]
+				}
+			]
+		},
+		"karabiner-elements": {
+			"name": "9"
+		},
+		"autohotkey": {
+			"name": "9"
 		}
 	}
 }
