@@ -5347,7 +5347,10 @@
 				"international1"
 			]
 		},
-		"geometry": "JIS",
+		"geometry": [
+			"JIS",
+			"ABNT2"
+		],
 		"kanata": {
 			"name": "ro",
 			"aliases": [
@@ -26249,7 +26252,10 @@
 				"kpcomma"
 			]
 		},
-		"geometry": "ABNT2",
+		"geometry": [
+			"JIS",
+			"ABNT2"
+		],
 		"kanata": {
 			"name": "kp,",
 			"aliases": [
