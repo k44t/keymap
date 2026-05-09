@@ -67,7 +67,8 @@
 			"aliases": [
 				"Esc"
 			]
-		}
+		},
+		"label": "⎋"
 	},
 	"minus": {
 		"comment": "Keyboard-page key for Keyboard - and _.",
@@ -144,7 +145,8 @@
 		},
 		"autohotkey": {
 			"name": "-"
-		}
+		},
+		"label": "-"
 	},
 	"equal": {
 		"comment": "Keyboard-page key for Keyboard = and +.",
@@ -221,7 +223,8 @@
 		},
 		"autohotkey": {
 			"name": "="
-		}
+		},
+		"label": "="
 	},
 	"backspace": {
 		"hid": {
@@ -290,7 +293,8 @@
 			"aliases": [
 				"BS"
 			]
-		}
+		},
+		"label": "⌫"
 	},
 	"tab": {
 		"hid": {
@@ -353,7 +357,8 @@
 		},
 		"autohotkey": {
 			"name": "Tab"
-		}
+		},
+		"label": "↹"
 	},
 	"q": {
 		"hid": {
@@ -1153,7 +1158,8 @@
 		},
 		"autohotkey": {
 			"name": "["
-		}
+		},
+		"label": "["
 	},
 	"bracket-right": {
 		"hid": {
@@ -1233,7 +1239,8 @@
 		},
 		"autohotkey": {
 			"name": "]"
-		}
+		},
+		"label": "]"
 	},
 	"enter": {
 		"hid": {
@@ -1305,7 +1312,8 @@
 		},
 		"autohotkey": {
 			"name": "Enter"
-		}
+		},
+		"label": "⏎"
 	},
 	"ctrl-left": {
 		"hid": {
@@ -1375,7 +1383,8 @@
 			"aliases": [
 				"LCtrl"
 			]
-		}
+		},
+		"label": "⌃"
 	},
 	"a": {
 		"hid": {
@@ -2100,7 +2109,8 @@
 		},
 		"autohotkey": {
 			"name": "'"
-		}
+		},
+		"label": "'"
 	},
 	"backquote": {
 		"hid": {
@@ -2181,7 +2191,8 @@
 		},
 		"autohotkey": {
 			"name": "`"
-		}
+		},
+		"label": "`"
 	},
 	"shift-left": {
 		"hid": {
@@ -2250,7 +2261,8 @@
 		},
 		"autohotkey": {
 			"name": "LShift"
-		}
+		},
+		"label": "⇧"
 	},
 	"backslash": {
 		"comment": "Keyboard-page key for Keyboard \\ and |.",
@@ -2330,61 +2342,8 @@
 		},
 		"autohotkey": {
 			"name": "\\"
-		}
-	},
-	"iso-#": {
-		"comment": "Distinct HID key for the ISO/UK-style #~ key partially tucked under Enter. It is different from the ISO key next to left Shift (HID 0x64), but many software stacks collapse it onto backslash-like semantics.",
-		"hid": {
-			"code": "0x32",
-			"name": "Keyboard Non-US # and ~",
-			"page-num": "0x7",
-			"page-name": "Keyboard/Keypad"
 		},
-		"linux": {
-			"evdev": {
-				"missing": true,
-				"alias-of": "backslash",
-				"comment": "Linux hid-input folds HID keyboard usages 0x31 and 0x32 onto the same KEY_BACKSLASH evdev keycode."
-			},
-			"xkb-keycode": {
-				"missing": true,
-				"alias-of": "backslash",
-				"comment": "Because the Linux kernel maps this HID usage to KEY_BACKSLASH, XKB also sees it through the same BKSL key path."
-			},
-			"xkb-keysym": {
-				"missing": true,
-				"alias-of": "backslash",
-				"comment": "Linux reaches this key through the same KEY_BACKSLASH path, so the XKB symbolic result collapses onto the same backslash meaning."
-			}
-		},
-		"windows": {
-			"scancode": {
-				"missing": true,
-				"unknown": true
-			},
-			"virtual": {
-				"missing": true,
-				"unknown": true
-			}
-		},
-		"mac": {
-			"missing": true,
-			"unknown": true
-		},
-		"web": {
-			"missing": true,
-			"alias-of": "backslash",
-			"comment": "UI Events uses the same Backslash code for both HID 0x31 and HID 0x32 on standard 102-key layouts because many platforms do not distinguish them at the scancode layer."
-		},
-		"kmonad": {
-			"missing": true,
-			"alias-of": "backslash",
-			"comment": "KMonad currently uses the same backslash key name for this physical key rather than a distinct non-US-pound token."
-		},
-		"karabiner-elements": {
-			"name": "non_us_pound"
-		},
-		"geometry": "ISO"
+		"label": "\\"
 	},
 	"z": {
 		"hid": {
@@ -2964,7 +2923,8 @@
 		},
 		"autohotkey": {
 			"name": ","
-		}
+		},
+		"label": ","
 	},
 	"period": {
 		"hid": {
@@ -3038,7 +2998,8 @@
 		},
 		"autohotkey": {
 			"name": "."
-		}
+		},
+		"label": "."
 	},
 	"slash": {
 		"hid": {
@@ -3112,7 +3073,8 @@
 		},
 		"autohotkey": {
 			"name": "/"
-		}
+		},
+		"label": "/"
 	},
 	"shift-right": {
 		"hid": {
@@ -3180,7 +3142,8 @@
 		},
 		"autohotkey": {
 			"name": "RShift"
-		}
+		},
+		"label": "⇧"
 	},
 	"win-shift": {
 		"comment": "Generic Windows Shift virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_SHIFT in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LSHIFT or VK_RSHIFT. Keep this unsided Windows emission when that is what was reported, but prefer shift-left or shift-right when sided identity is available.",
@@ -3280,7 +3243,8 @@
 		},
 		"autohotkey": {
 			"name": "LAlt"
-		}
+		},
+		"label": "⌥"
 	},
 	"space": {
 		"hid": {
@@ -3344,7 +3308,8 @@
 		},
 		"autohotkey": {
 			"name": "Space"
-		}
+		},
+		"label": "␠"
 	},
 	"caps-lock": {
 		"hid": {
@@ -3411,7 +3376,8 @@
 		},
 		"autohotkey": {
 			"name": "CapsLock"
-		}
+		},
+		"label": "⇪"
 	},
 	"f1": {
 		"hid": {
@@ -3476,7 +3442,8 @@
 		},
 		"autohotkey": {
 			"name": "F1"
-		}
+		},
+		"label": "F1"
 	},
 	"f2": {
 		"hid": {
@@ -3541,7 +3508,8 @@
 		},
 		"autohotkey": {
 			"name": "F2"
-		}
+		},
+		"label": "F2"
 	},
 	"f3": {
 		"hid": {
@@ -3606,7 +3574,8 @@
 		},
 		"autohotkey": {
 			"name": "F3"
-		}
+		},
+		"label": "F3"
 	},
 	"f4": {
 		"hid": {
@@ -3671,7 +3640,8 @@
 		},
 		"autohotkey": {
 			"name": "F4"
-		}
+		},
+		"label": "F4"
 	},
 	"f5": {
 		"hid": {
@@ -3736,7 +3706,8 @@
 		},
 		"autohotkey": {
 			"name": "F5"
-		}
+		},
+		"label": "F5"
 	},
 	"f6": {
 		"hid": {
@@ -3801,7 +3772,8 @@
 		},
 		"autohotkey": {
 			"name": "F6"
-		}
+		},
+		"label": "F6"
 	},
 	"f7": {
 		"hid": {
@@ -3866,7 +3838,8 @@
 		},
 		"autohotkey": {
 			"name": "F7"
-		}
+		},
+		"label": "F7"
 	},
 	"f8": {
 		"hid": {
@@ -3931,7 +3904,8 @@
 		},
 		"autohotkey": {
 			"name": "F8"
-		}
+		},
+		"label": "F8"
 	},
 	"f9": {
 		"hid": {
@@ -3996,7 +3970,8 @@
 		},
 		"autohotkey": {
 			"name": "F9"
-		}
+		},
+		"label": "F9"
 	},
 	"f10": {
 		"hid": {
@@ -4061,7 +4036,8 @@
 		},
 		"autohotkey": {
 			"name": "F10"
-		}
+		},
+		"label": "F10"
 	},
 	"num-lock": {
 		"hid": {
@@ -4129,7 +4105,8 @@
 		},
 		"autohotkey": {
 			"name": "NumLock"
-		}
+		},
+		"label": "⇭"
 	},
 	"scroll-lock": {
 		"hid": {
@@ -4194,7 +4171,8 @@
 		},
 		"autohotkey": {
 			"name": "ScrollLock"
-		}
+		},
+		"label": "⇳"
 	},
 	"kp7": {
 		"hid": {
@@ -4264,7 +4242,8 @@
 					]
 				}
 			]
-		}
+		},
+		"label": "7"
 	},
 	"kp8": {
 		"hid": {
@@ -4334,7 +4313,8 @@
 					]
 				}
 			]
-		}
+		},
+		"label": "8"
 	},
 	"kp9": {
 		"hid": {
@@ -4404,7 +4384,8 @@
 					]
 				}
 			]
-		}
+		},
+		"label": "9"
 	},
 	"kp-minus": {
 		"hid": {
@@ -4467,7 +4448,8 @@
 		},
 		"autohotkey": {
 			"name": "NumpadSub"
-		}
+		},
+		"label": "−"
 	},
 	"kp4": {
 		"hid": {
@@ -4537,7 +4519,8 @@
 					]
 				}
 			]
-		}
+		},
+		"label": "4"
 	},
 	"kp5": {
 		"hid": {
@@ -4607,7 +4590,8 @@
 					]
 				}
 			]
-		}
+		},
+		"label": "5"
 	},
 	"kp6": {
 		"hid": {
@@ -4677,7 +4661,8 @@
 					]
 				}
 			]
-		}
+		},
+		"label": "6"
 	},
 	"kp-plus": {
 		"hid": {
@@ -4741,7 +4726,8 @@
 		},
 		"autohotkey": {
 			"name": "NumpadAdd"
-		}
+		},
+		"label": "+"
 	},
 	"kp1": {
 		"hid": {
@@ -4811,7 +4797,8 @@
 					]
 				}
 			]
-		}
+		},
+		"label": "1"
 	},
 	"kp2": {
 		"hid": {
@@ -4881,7 +4868,8 @@
 					]
 				}
 			]
-		}
+		},
+		"label": "2"
 	},
 	"kp3": {
 		"hid": {
@@ -4951,7 +4939,8 @@
 					]
 				}
 			]
-		}
+		},
+		"label": "3"
 	},
 	"kp0": {
 		"hid": {
@@ -5021,7 +5010,8 @@
 					]
 				}
 			]
-		}
+		},
+		"label": "0"
 	},
 	"kp-period": {
 		"hid": {
@@ -5092,7 +5082,8 @@
 					]
 				}
 			]
-		}
+		},
+		"label": "."
 	},
 	"iso-intl-backslash": {
 		"comment": "Distinct ISO extra key beside left Shift, often labeled with less/greater or backslash-like legends depending on layout.",
@@ -5165,7 +5156,8 @@
 			"aliases": [
 				"VKE2"
 			]
-		}
+		},
+		"label": "\\"
 	},
 	"f11": {
 		"hid": {
@@ -5230,7 +5222,8 @@
 		},
 		"autohotkey": {
 			"name": "F11"
-		}
+		},
+		"label": "F11"
 	},
 	"f12": {
 		"hid": {
@@ -5295,7 +5288,8 @@
 		},
 		"autohotkey": {
 			"name": "F12"
-		}
+		},
+		"label": "F12"
 	},
 	"intl-ro": {
 		"comment": "JIS KEY_RO is primarily a printable key. It has no distinct standard XKB keysym and often produces the printable backslash symbol, so the physical-key-specific mapping is left missing here.",
@@ -5366,7 +5360,8 @@
 			"aliases": [
 				"VKC1"
 			]
-		}
+		},
+		"label": "ろ"
 	},
 	"henkan": {
 		"comment": "Japanese conversion key for IME candidate conversion.",
@@ -5438,7 +5433,8 @@
 			"aliases": [
 				"VK1C"
 			]
-		}
+		},
+		"label": "変"
 	},
 	"kana": {
 		"comment": "Japanese kana-mode key. Its naming and native identity diverge across Linux, Windows, macOS, and remapping tools.",
@@ -5504,7 +5500,8 @@
 			"aliases": [
 				"VK15"
 			]
-		}
+		},
+		"label": "かな"
 	},
 	"muhenkan": {
 		"comment": "Japanese non-conversion key for cancelling or bypassing IME conversion.",
@@ -5574,7 +5571,8 @@
 			"aliases": [
 				"VK1D"
 			]
-		}
+		},
+		"label": "無"
 	},
 	"kp-enter": {
 		"comment": "Canonical key retained even though some native stacks collapse it onto another underlying identity.",
@@ -5647,7 +5645,8 @@
 		},
 		"autohotkey": {
 			"name": "NumpadEnter"
-		}
+		},
+		"label": "⏎"
 	},
 	"ctrl-right": {
 		"hid": {
@@ -5716,7 +5715,8 @@
 			"aliases": [
 				"RCtrl"
 			]
-		}
+		},
+		"label": "⌃"
 	},
 	"win-control": {
 		"comment": "Generic Windows Control virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_CONTROL in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LCONTROL or VK_RCONTROL. Keep this unsided Windows emission when that is what was reported, but prefer ctrl-left or ctrl-right when sided identity is available.",
@@ -5811,7 +5811,8 @@
 		},
 		"autohotkey": {
 			"name": "NumpadDiv"
-		}
+		},
+		"label": "⁄"
 	},
 	"print": {
 		"hid": {
@@ -5885,7 +5886,8 @@
 		},
 		"autohotkey": {
 			"name": "PrintScreen"
-		}
+		},
+		"label": "⎙"
 	},
 	"alt-right": {
 		"hid": {
@@ -5957,7 +5959,8 @@
 		},
 		"autohotkey": {
 			"name": "RAlt"
-		}
+		},
+		"label": "⌥"
 	},
 	"win-alt": {
 		"comment": "Generic Windows Alt virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_MENU in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LMENU or VK_RMENU. Keep this unsided Windows emission when that is what was reported, but prefer alt-left or alt-right when sided identity is available.",
@@ -6102,7 +6105,8 @@
 		},
 		"autohotkey": {
 			"name": "Home"
-		}
+		},
+		"label": "↖"
 	},
 	"uncertain-begin": {
 		"comment": "AppKit semantic begin function-character identity, likely representing begin-of-line behavior rather than a distinct physical key.",
@@ -6202,7 +6206,8 @@
 		},
 		"autohotkey": {
 			"name": "Up"
-		}
+		},
+		"label": "↑"
 	},
 	"page-up": {
 		"hid": {
@@ -6270,7 +6275,8 @@
 		},
 		"autohotkey": {
 			"name": "PgUp"
-		}
+		},
+		"label": "⇞"
 	},
 	"arrow-left": {
 		"hid": {
@@ -6339,7 +6345,8 @@
 		},
 		"autohotkey": {
 			"name": "Left"
-		}
+		},
+		"label": "←"
 	},
 	"arrow-right": {
 		"hid": {
@@ -6408,7 +6415,8 @@
 		},
 		"autohotkey": {
 			"name": "Right"
-		}
+		},
+		"label": "→"
 	},
 	"end": {
 		"hid": {
@@ -6477,7 +6485,8 @@
 		},
 		"autohotkey": {
 			"name": "End"
-		}
+		},
+		"label": "↘"
 	},
 	"arrow-down": {
 		"hid": {
@@ -6544,7 +6553,8 @@
 		},
 		"autohotkey": {
 			"name": "Down"
-		}
+		},
+		"label": "↓"
 	},
 	"page-down": {
 		"hid": {
@@ -6612,7 +6622,8 @@
 		},
 		"autohotkey": {
 			"name": "PgDn"
-		}
+		},
+		"label": "⇟"
 	},
 	"insert": {
 		"hid": {
@@ -6679,7 +6690,8 @@
 			"aliases": [
 				"Ins"
 			]
-		}
+		},
+		"label": "⎀"
 	},
 	"delete": {
 		"hid": {
@@ -6750,7 +6762,8 @@
 			"aliases": [
 				"Del"
 			]
-		}
+		},
+		"label": "⌦"
 	},
 	"uncertain-delete-char": {
 		"comment": "AppKit semantic delete-character function-character identity.",
@@ -6897,7 +6910,8 @@
 		},
 		"autohotkey": {
 			"name": "Volume_Mute"
-		}
+		},
+		"label": "🔇"
 	},
 	"media-volume-down": {
 		"hid": {
@@ -6973,7 +6987,8 @@
 		},
 		"autohotkey": {
 			"name": "Volume_Down"
-		}
+		},
+		"label": "🔉"
 	},
 	"media-volume-up": {
 		"hid": {
@@ -7048,7 +7063,8 @@
 		},
 		"autohotkey": {
 			"name": "Volume_Up"
-		}
+		},
+		"label": "🔊"
 	},
 	"kp-sign-change": {
 		"comment": "Calculator-style keypad sign toggle: changes the current numeric entry between positive and negative rather than acting as an arithmetic operator.",
@@ -7159,7 +7175,8 @@
 		"autohotkey": {
 			"name": "Pause",
 			"comment": "AutoHotkey also recognizes CtrlBreak for the classic Windows Ctrl+Pause behavior on this key."
-		}
+		},
+		"label": "⏸"
 	},
 	"scale": {
 		"comment": "Desktop window-overview / expose-style key rather than a text or numeric key.",
@@ -7282,7 +7299,8 @@
 			"aliases": [
 				"VK15"
 			]
-		}
+		},
+		"label": "한"
 	},
 	"hanja": {
 		"comment": "HID LANG2 is dual-use across keyboard ecosystems: Windows and Linux usually expose it as the Korean Hanja conversion key, while Apple Japanese keyboards use the same HID usage for the Eisu key.",
@@ -7353,7 +7371,8 @@
 			"aliases": [
 				"VK19"
 			]
-		}
+		},
+		"label": "漢"
 	},
 	"intl-yen": {
 		"comment": "Japanese yen key. Some software vocabularies also use yen-like spellings for backslash compatibility, so this key is tracked separately.",
@@ -7415,7 +7434,8 @@
 		},
 		"autohotkey": {
 			"name": "SC07D"
-		}
+		},
+		"label": "¥"
 	},
 	"system-left": {
 		"hid": {
@@ -7490,7 +7510,8 @@
 		},
 		"autohotkey": {
 			"name": "LWin"
-		}
+		},
+		"label": "⌘"
 	},
 	"system-right": {
 		"hid": {
@@ -7564,7 +7585,8 @@
 		},
 		"autohotkey": {
 			"name": "RWin"
-		}
+		},
+		"label": "⌘"
 	},
 	"iso-level3-shift": {
 		"comment": "Level-3 shift / AltGr-style modifier key represented by the XKB ISO_Level3_Shift keysym.",
@@ -7604,6 +7626,38 @@
 			"missing": true
 		},
 		"keyd": "iso-level3-shift"
+	},
+	"alt-graph": {
+		"comment": "Semantic Alt Graph key meaning, commonly called AltGr, used by the web platform and commonly realized through a physical right Alt key. On Linux this corresponds to the XKB ISO_Level3_Shift keysym rather than to a distinct hardware key.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"code": "0xfe03",
+				"name": "ISO_Level3_Shift"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"name": "AltGraph"
+		}
 	},
 	"compose": {
 		"comment": "Linux compose key with the standard XKB Multi_key keysym. This is distinct from the application/menu key. Kanata currently resolves its `ContextMenu`/`menu`/`apps`/`comp` name family to KEY_COMPOSE here rather than to KEY_MENU.",
@@ -7651,7 +7705,8 @@
 				"𝌆"
 			]
 		},
-		"keyd": "compose"
+		"keyd": "compose",
+		"label": "☰"
 	},
 	"stop": {
 		"comment": "Linux KEY_STOP / XKB STOP come from Consumer AC Stop. HID Keyboard/Keypad Stop remains only an informational alternative because Linux does not map it to this keycode.",
@@ -7787,7 +7842,8 @@
 		},
 		"autohotkey": {
 			"name": "AppsKey"
-		}
+		},
+		"label": "☰"
 	},
 	"setup": {
 		"hid": {
@@ -8476,7 +8532,8 @@
 		},
 		"autohotkey": {
 			"name": "Browser_Back"
-		}
+		},
+		"label": "←"
 	},
 	"forward": {
 		"hid": {
@@ -8536,7 +8593,8 @@
 		},
 		"autohotkey": {
 			"name": "Browser_Forward"
-		}
+		},
+		"label": "→"
 	},
 	"media-cd-close": {
 		"comment": "Linux key exposed as KEY_CLOSECD.",
@@ -8651,7 +8709,8 @@
 		},
 		"autohotkey": {
 			"name": "Media_Next"
-		}
+		},
+		"label": "⏭"
 	},
 	"media-play-pause": {
 		"hid": {
@@ -8718,7 +8777,8 @@
 		},
 		"autohotkey": {
 			"name": "Media_Play_Pause"
-		}
+		},
+		"label": "⏯"
 	},
 	"media-prev": {
 		"comment": "GNOME treats this as the media previous-track key and sends the MPRIS \"Previous\" action.",
@@ -8790,7 +8850,8 @@
 		},
 		"autohotkey": {
 			"name": "Media_Prev"
-		}
+		},
+		"label": "⏮"
 	},
 	"media-rewind": {
 		"comment": "GNOME treats this as the media rewind key and sends the MPRIS \"Rewind\" action.",
@@ -8847,7 +8908,8 @@
 		"keyd": "rewind",
 		"karabiner-elements": {
 			"name": "rewind"
-		}
+		},
+		"label": "⏪"
 	},
 	"phone": {
 		"hid": {
@@ -9822,7 +9884,8 @@
 		},
 		"autohotkey": {
 			"name": "F13"
-		}
+		},
+		"label": "F13"
 	},
 	"f14": {
 		"hid": {
@@ -9887,7 +9950,8 @@
 		},
 		"autohotkey": {
 			"name": "F14"
-		}
+		},
+		"label": "F14"
 	},
 	"f15": {
 		"hid": {
@@ -9952,7 +10016,8 @@
 		},
 		"autohotkey": {
 			"name": "F15"
-		}
+		},
+		"label": "F15"
 	},
 	"f16": {
 		"hid": {
@@ -10017,7 +10082,8 @@
 		},
 		"autohotkey": {
 			"name": "F16"
-		}
+		},
+		"label": "F16"
 	},
 	"f17": {
 		"hid": {
@@ -10082,7 +10148,8 @@
 		},
 		"autohotkey": {
 			"name": "F17"
-		}
+		},
+		"label": "F17"
 	},
 	"f18": {
 		"hid": {
@@ -10147,7 +10214,8 @@
 		},
 		"autohotkey": {
 			"name": "F18"
-		}
+		},
+		"label": "F18"
 	},
 	"f19": {
 		"hid": {
@@ -10212,7 +10280,8 @@
 		},
 		"autohotkey": {
 			"name": "F19"
-		}
+		},
+		"label": "F19"
 	},
 	"f20": {
 		"hid": {
@@ -10277,7 +10346,8 @@
 		},
 		"autohotkey": {
 			"name": "F20"
-		}
+		},
+		"label": "F20"
 	},
 	"f21": {
 		"hid": {
@@ -10343,7 +10413,8 @@
 		},
 		"autohotkey": {
 			"name": "F21"
-		}
+		},
+		"label": "F21"
 	},
 	"f22": {
 		"hid": {
@@ -10409,7 +10480,8 @@
 		},
 		"autohotkey": {
 			"name": "F22"
-		}
+		},
+		"label": "F22"
 	},
 	"f23": {
 		"hid": {
@@ -10475,7 +10547,8 @@
 		},
 		"autohotkey": {
 			"name": "F23"
-		}
+		},
+		"label": "F23"
 	},
 	"f24": {
 		"hid": {
@@ -10541,7 +10614,8 @@
 		},
 		"autohotkey": {
 			"name": "F24"
-		}
+		},
+		"label": "F24"
 	},
 	"prog3": {
 		"comment": "Linux key exposed as KEY_PROG3.",
@@ -10783,7 +10857,8 @@
 			"aliases": [
 				"fastforward"
 			]
-		}
+		},
+		"label": "⏩"
 	},
 	"bass-boost": {
 		"comment": "Consumer-control key for Bass Boost.",
@@ -25052,7 +25127,8 @@
 		},
 		"autohotkey": {
 			"name": ";"
-		}
+		},
+		"label": ";"
 	},
 	"sleep": {
 		"comment": "System sleep key. systemd-logind treats KEY_SLEEP as suspend-to-RAM; KDE binds Qt::Key_Sleep as “Suspend”. Both allow configured system behavior, and systemd also supports a distinct long-press action.",
@@ -26269,7 +26345,8 @@
 		},
 		"autohotkey": {
 			"name": "SC07E"
-		}
+		},
+		"label": "⸴"
 	},
 	"media-guide": {
 		"comment": "Program-guide key. The Linux kernel comment identifies this as “Media Select Program Guide”, so it is the guide/listings key.",
@@ -26762,7 +26839,8 @@
 		"keyd": "fn",
 		"karabiner-elements": {
 			"missing": true
-		}
+		},
+		"label": "ƒ"
 	},
 	"apple-fn": {
 		"comment": "Apple top-case Fn key exposed on Apple's vendor-defined top-case HID page.",
@@ -30612,7 +30690,8 @@
 		},
 		"autohotkey": {
 			"name": "NumpadMult"
-		}
+		},
+		"label": "∗"
 	},
 	"digit-0": {
 		"comment": "Keyboard-page key for Keyboard 0 and ).",
@@ -30684,7 +30763,8 @@
 		},
 		"autohotkey": {
 			"name": "0"
-		}
+		},
+		"label": "0"
 	},
 	"digit-1": {
 		"comment": "Keyboard-page key for Keyboard 1 and !.",
@@ -30756,7 +30836,8 @@
 		},
 		"autohotkey": {
 			"name": "1"
-		}
+		},
+		"label": "1"
 	},
 	"digit-2": {
 		"comment": "Keyboard-page key for Keyboard 2 and @.",
@@ -30828,7 +30909,8 @@
 		},
 		"autohotkey": {
 			"name": "2"
-		}
+		},
+		"label": "2"
 	},
 	"digit-3": {
 		"comment": "Keyboard-page key for Keyboard 3 and #.",
@@ -30900,7 +30982,8 @@
 		},
 		"autohotkey": {
 			"name": "3"
-		}
+		},
+		"label": "3"
 	},
 	"digit-4": {
 		"comment": "Keyboard-page key for Keyboard 4 and $.",
@@ -30972,7 +31055,8 @@
 		},
 		"autohotkey": {
 			"name": "4"
-		}
+		},
+		"label": "4"
 	},
 	"digit-5": {
 		"comment": "Keyboard-page key for Keyboard 5 and %.",
@@ -31044,7 +31128,8 @@
 		},
 		"autohotkey": {
 			"name": "5"
-		}
+		},
+		"label": "5"
 	},
 	"digit-6": {
 		"comment": "Keyboard-page key for Keyboard 6 and ^.",
@@ -31116,7 +31201,8 @@
 		},
 		"autohotkey": {
 			"name": "6"
-		}
+		},
+		"label": "6"
 	},
 	"digit-7": {
 		"comment": "Keyboard-page key for Keyboard 7 and &.",
@@ -31188,7 +31274,8 @@
 		},
 		"autohotkey": {
 			"name": "7"
-		}
+		},
+		"label": "7"
 	},
 	"digit-8": {
 		"comment": "Keyboard-page key for Keyboard 8 and *.",
@@ -31260,7 +31347,8 @@
 		},
 		"autohotkey": {
 			"name": "8"
-		}
+		},
+		"label": "8"
 	},
 	"digit-9": {
 		"comment": "Keyboard-page key for Keyboard 9 and (.",
@@ -31332,6 +31420,62 @@
 		},
 		"autohotkey": {
 			"name": "9"
-		}
+		},
+		"label": "9"
+	},
+	"iso-pound": {
+		"comment": "Distinct HID key for the ISO/UK-style #~ key partially tucked under Enter. It is different from the ISO key next to left Shift (HID 0x64), but many software stacks collapse it onto backslash-like semantics.",
+		"hid": {
+			"code": "0x32",
+			"name": "Keyboard Non-US # and ~",
+			"page-num": "0x7",
+			"page-name": "Keyboard/Keypad"
+		},
+		"linux": {
+			"evdev": {
+				"missing": true,
+				"alias-of": "backslash",
+				"comment": "Linux hid-input folds HID keyboard usages 0x31 and 0x32 onto the same KEY_BACKSLASH evdev keycode."
+			},
+			"xkb-keycode": {
+				"missing": true,
+				"alias-of": "backslash",
+				"comment": "Because the Linux kernel maps this HID usage to KEY_BACKSLASH, XKB also sees it through the same BKSL key path."
+			},
+			"xkb-keysym": {
+				"missing": true,
+				"alias-of": "backslash",
+				"comment": "Linux reaches this key through the same KEY_BACKSLASH path, so the XKB symbolic result collapses onto the same backslash meaning."
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true,
+				"unknown": true
+			},
+			"virtual": {
+				"missing": true,
+				"unknown": true
+			}
+		},
+		"mac": {
+			"missing": true,
+			"unknown": true
+		},
+		"web": {
+			"missing": true,
+			"alias-of": "backslash",
+			"comment": "UI Events uses the same Backslash code for both HID 0x31 and HID 0x32 on standard 102-key layouts because many platforms do not distinguish them at the scancode layer."
+		},
+		"kmonad": {
+			"missing": true,
+			"alias-of": "backslash",
+			"comment": "KMonad currently uses the same backslash key name for this physical key rather than a distinct non-US-pound token."
+		},
+		"karabiner-elements": {
+			"name": "non_us_pound"
+		},
+		"geometry": "ISO",
+		"label": "#"
 	}
 }

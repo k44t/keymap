@@ -21,7 +21,7 @@ Remaining semantic divergence notes across platforms and software vocabularies.
 ### ISO/locale key collapse
 
 - `iso-intl-backslash` is broadly distinguishable across stacks, but under different names: `nubs`, `102nd`, `IntlBackslash`, `non_us_backslash`, `SC056`.
-- `iso-#` is not broadly distinguishable: Linux and several higher-level stacks collapse it onto backslash-like behavior, while Karabiner-Elements still exposes `non_us_pound`.
+- `iso-pound` is not broadly distinguishable: Linux and several higher-level stacks collapse it onto backslash-like behavior, while Karabiner-Elements still exposes `non_us_pound`.
 - This means the two ISO-only keys are not treated symmetrically across ecosystems.
 
 ### yen/backslash locale behavior
