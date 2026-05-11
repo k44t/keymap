@@ -7627,38 +7627,6 @@
 		},
 		"keyd": "iso-level3-shift"
 	},
-	"alt-graph": {
-		"comment": "Semantic Alt Graph key meaning, commonly called AltGr, used by the web platform and commonly realized through a physical right Alt key. On Linux this corresponds to the XKB ISO_Level3_Shift keysym rather than to a distinct hardware key.",
-		"hid": {
-			"missing": true
-		},
-		"linux": {
-			"evdev": {
-				"missing": true
-			},
-			"xkb-keycode": {
-				"missing": true
-			},
-			"xkb-keysym": {
-				"code": "0xfe03",
-				"name": "ISO_Level3_Shift"
-			}
-		},
-		"windows": {
-			"scancode": {
-				"missing": true
-			},
-			"virtual": {
-				"missing": true
-			}
-		},
-		"mac": {
-			"missing": true
-		},
-		"web": {
-			"name": "AltGraph"
-		}
-	},
 	"compose": {
 		"comment": "Linux compose key with the standard XKB Multi_key keysym. This is distinct from the application/menu key. Kanata currently resolves its `ContextMenu`/`menu`/`apps`/`comp` name family to KEY_COMPOSE here rather than to KEY_MENU.",
 		"hid": {
@@ -31477,5 +31445,37 @@
 		},
 		"geometry": "ISO",
 		"label": "#"
+	},
+	"symbols": {
+		"comment": "Semantic Symbols key meaning, currently used here for the symbols chooser key and commonly realized through a physical right Alt key or dedicated symbols key. On Linux this corresponds to the XKB ISO_Level3_Shift keysym rather than to a distinct hardware key.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"code": "0xfe03",
+				"name": "ISO_Level3_Shift"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"name": "Symbols"
+		}
 	}
 }
