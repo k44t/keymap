@@ -1384,7 +1384,12 @@
 				"LCtrl"
 			]
 		},
-		"label": "⌃"
+		"label": "⌃",
+		"class": [
+			"modifier",
+			"ctrl",
+			"ctrl-left"
+		]
 	},
 	"a": {
 		"hid": {
@@ -2262,7 +2267,12 @@
 		"autohotkey": {
 			"name": "LShift"
 		},
-		"label": "⇧"
+		"label": "⇧",
+		"class": [
+			"modifier",
+			"shift",
+			"shift-left"
+		]
 	},
 	"backslash": {
 		"comment": "Keyboard-page key for Keyboard \\ and |.",
@@ -3143,7 +3153,12 @@
 		"autohotkey": {
 			"name": "RShift"
 		},
-		"label": "⇧"
+		"label": "⇧",
+		"class": [
+			"modifier",
+			"shift",
+			"shift-right"
+		]
 	},
 	"win-shift": {
 		"comment": "Generic Windows Shift virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_SHIFT in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LSHIFT or VK_RSHIFT. Keep this unsided Windows emission when that is what was reported, but prefer shift-left or shift-right when sided identity is available.",
@@ -3244,7 +3259,12 @@
 		"autohotkey": {
 			"name": "LAlt"
 		},
-		"label": "⌥"
+		"label": "⌥",
+		"class": [
+			"modifier",
+			"alt",
+			"alt-left"
+		]
 	},
 	"space": {
 		"hid": {
@@ -3377,7 +3397,12 @@
 		"autohotkey": {
 			"name": "CapsLock"
 		},
-		"label": "⇪"
+		"label": "⇪",
+		"class": [
+			"modifier",
+			"lockable",
+			"caps-lock"
+		]
 	},
 	"f1": {
 		"hid": {
@@ -4106,7 +4131,12 @@
 		"autohotkey": {
 			"name": "NumLock"
 		},
-		"label": "⇭"
+		"label": "⇭",
+		"class": [
+			"modifier",
+			"lockable",
+			"num-lock"
+		]
 	},
 	"scroll-lock": {
 		"hid": {
@@ -4172,7 +4202,12 @@
 		"autohotkey": {
 			"name": "ScrollLock"
 		},
-		"label": "⇳"
+		"label": "⇳",
+		"class": [
+			"legacy-modifier",
+			"legacy-lockable",
+			"scroll-lock"
+		]
 	},
 	"kp7": {
 		"hid": {
@@ -5716,7 +5751,12 @@
 				"RCtrl"
 			]
 		},
-		"label": "⌃"
+		"label": "⌃",
+		"class": [
+			"modifier",
+			"ctrl",
+			"ctrl-right"
+		]
 	},
 	"win-control": {
 		"comment": "Generic Windows Control virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_CONTROL in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LCONTROL or VK_RCONTROL. Keep this unsided Windows emission when that is what was reported, but prefer ctrl-left or ctrl-right when sided identity is available.",
@@ -5960,7 +6000,12 @@
 		"autohotkey": {
 			"name": "RAlt"
 		},
-		"label": "⌥"
+		"label": "⌥",
+		"class": [
+			"modifier",
+			"alt",
+			"alt-right"
+		]
 	},
 	"win-alt": {
 		"comment": "Generic Windows Alt virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_MENU in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LMENU or VK_RMENU. Keep this unsided Windows emission when that is what was reported, but prefer alt-left or alt-right when sided identity is available.",
@@ -7511,7 +7556,12 @@
 		"autohotkey": {
 			"name": "LWin"
 		},
-		"label": "⌘"
+		"label": "⌘",
+		"class": [
+			"modifier",
+			"system",
+			"system-left"
+		]
 	},
 	"system-right": {
 		"hid": {
@@ -7586,7 +7636,12 @@
 		"autohotkey": {
 			"name": "RWin"
 		},
-		"label": "⌘"
+		"label": "⌘",
+		"class": [
+			"modifier",
+			"system",
+			"system-right"
+		]
 	},
 	"iso-level3-shift": {
 		"comment": "Level-3 shift / AltGr-style modifier key represented by the XKB ISO_Level3_Shift keysym.",
@@ -26808,7 +26863,11 @@
 		"karabiner-elements": {
 			"missing": true
 		},
-		"label": "ƒ"
+		"label": "ƒ",
+		"class": [
+			"modifier",
+			"fn"
+		]
 	},
 	"apple-fn": {
 		"comment": "Apple top-case Fn key exposed on Apple's vendor-defined top-case HID page.",
@@ -31476,6 +31535,943 @@
 		},
 		"web": {
 			"name": "Symbols"
-		}
+		},
+		"label": "⎇",
+		"class": [
+			"modifier",
+			"symbols"
+		]
+	},
+	"symbols2": {
+		"comment": "Semantic secondary Symbols key meaning, corresponding on Linux/XKB to ISO_Level5_Shift and used for a higher alternate symbol layer than the regular Symbols key.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"code": "0xfe11",
+				"name": "ISO_Level5_Shift"
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"name": "Symbols2"
+		},
+		"label": "⎇2",
+		"class": [
+			"modifier",
+			"symbols2"
+		]
+	},
+	"fn-left": {
+		"comment": "Pure internal semantic left-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "ƒ",
+		"class": [
+			"modifier",
+			"fn-left",
+			"fn"
+		]
+	},
+	"fn-right": {
+		"comment": "Pure internal semantic right-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "ƒ",
+		"class": [
+			"modifier",
+			"fn-right",
+			"fn"
+		]
+	},
+	"symbols-left": {
+		"comment": "Pure internal semantic left-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⎇",
+		"class": [
+			"modifier",
+			"symbols-left",
+			"symbols"
+		]
+	},
+	"symbols-right": {
+		"comment": "Pure internal semantic right-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⎇",
+		"class": [
+			"modifier",
+			"symbols-right",
+			"symbols"
+		]
+	},
+	"symbols2-left": {
+		"comment": "Pure internal semantic left-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⎇2",
+		"class": [
+			"modifier",
+			"symbols2-left",
+			"symbols2"
+		]
+	},
+	"symbols2-right": {
+		"comment": "Pure internal semantic right-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⎇2",
+		"class": [
+			"modifier",
+			"symbols2-right",
+			"symbols2"
+		]
+	},
+	"key-lock": {
+		"comment": "Pure internal semantic key whose purpose is to lock modifiers when combined with them.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⇩",
+		"class": "special"
+	},
+	"extra-left-0": {
+		"comment": "Pure internal semantic extra key for the left-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⓪"
+	},
+	"extra-right-0": {
+		"comment": "Pure internal semantic extra key for the right-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⓪"
+	},
+	"extra-left-1": {
+		"comment": "Pure internal semantic extra key for the left-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "①"
+	},
+	"extra-right-1": {
+		"comment": "Pure internal semantic extra key for the right-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "①"
+	},
+	"extra-left-2": {
+		"comment": "Pure internal semantic extra key for the left-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "②"
+	},
+	"extra-right-2": {
+		"comment": "Pure internal semantic extra key for the right-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "②"
+	},
+	"extra-left-3": {
+		"comment": "Pure internal semantic extra key for the left-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "③"
+	},
+	"extra-right-3": {
+		"comment": "Pure internal semantic extra key for the right-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "③"
+	},
+	"extra-left-4": {
+		"comment": "Pure internal semantic extra key for the left-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "④"
+	},
+	"extra-right-4": {
+		"comment": "Pure internal semantic extra key for the right-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "④"
+	},
+	"extra-left-5": {
+		"comment": "Pure internal semantic extra key for the left-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⑤"
+	},
+	"extra-right-5": {
+		"comment": "Pure internal semantic extra key for the right-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⑤"
+	},
+	"extra-left-6": {
+		"comment": "Pure internal semantic extra key for the left-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⑥"
+	},
+	"extra-right-6": {
+		"comment": "Pure internal semantic extra key for the right-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⑥"
+	},
+	"extra-left-7": {
+		"comment": "Pure internal semantic extra key for the left-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⑦"
+	},
+	"extra-right-7": {
+		"comment": "Pure internal semantic extra key for the right-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⑦"
+	},
+	"extra-left-8": {
+		"comment": "Pure internal semantic extra key for the left-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⑧"
+	},
+	"extra-right-8": {
+		"comment": "Pure internal semantic extra key for the right-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⑧"
+	},
+	"extra-left-9": {
+		"comment": "Pure internal semantic extra key for the left-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⑨"
+	},
+	"extra-right-9": {
+		"comment": "Pure internal semantic extra key for the right-side extra key family.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			},
+			"xkb-keysym": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		},
+		"label": "⑨"
 	}
 }
