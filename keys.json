@@ -146,7 +146,10 @@
 		"autohotkey": {
 			"name": "-"
 		},
-		"label": "-"
+		"label": "-",
+		"class": [
+			"character"
+		]
 	},
 	"equal": {
 		"comment": "Keyboard-page key for Keyboard = and +.",
@@ -224,7 +227,10 @@
 		"autohotkey": {
 			"name": "="
 		},
-		"label": "="
+		"label": "=",
+		"class": [
+			"character"
+		]
 	},
 	"backspace": {
 		"hid": {
@@ -430,7 +436,10 @@
 		},
 		"autohotkey": {
 			"name": "q"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"w": {
 		"hid": {
@@ -502,7 +511,10 @@
 		},
 		"autohotkey": {
 			"name": "w"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"e": {
 		"hid": {
@@ -574,7 +586,10 @@
 		},
 		"autohotkey": {
 			"name": "e"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"r": {
 		"hid": {
@@ -646,7 +661,10 @@
 		},
 		"autohotkey": {
 			"name": "r"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"t": {
 		"hid": {
@@ -718,7 +736,10 @@
 		},
 		"autohotkey": {
 			"name": "t"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"y": {
 		"hid": {
@@ -790,7 +811,10 @@
 		},
 		"autohotkey": {
 			"name": "y"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"u": {
 		"hid": {
@@ -862,7 +886,10 @@
 		},
 		"autohotkey": {
 			"name": "u"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"i": {
 		"hid": {
@@ -934,7 +961,10 @@
 		},
 		"autohotkey": {
 			"name": "i"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"o": {
 		"hid": {
@@ -1006,7 +1036,10 @@
 		},
 		"autohotkey": {
 			"name": "o"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"p": {
 		"hid": {
@@ -1078,7 +1111,10 @@
 		},
 		"autohotkey": {
 			"name": "p"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"bracket-left": {
 		"hid": {
@@ -1159,7 +1195,10 @@
 		"autohotkey": {
 			"name": "["
 		},
-		"label": "["
+		"label": "[",
+		"class": [
+			"character"
+		]
 	},
 	"bracket-right": {
 		"hid": {
@@ -1240,7 +1279,10 @@
 		"autohotkey": {
 			"name": "]"
 		},
-		"label": "]"
+		"label": "]",
+		"class": [
+			"character"
+		]
 	},
 	"enter": {
 		"hid": {
@@ -1389,7 +1431,8 @@
 			"modifier",
 			"ctrl",
 			"ctrl-left"
-		]
+		],
+		"modifier": "ctrl-left"
 	},
 	"a": {
 		"hid": {
@@ -1461,7 +1504,10 @@
 		},
 		"autohotkey": {
 			"name": "a"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"s": {
 		"hid": {
@@ -1533,7 +1579,10 @@
 		},
 		"autohotkey": {
 			"name": "s"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"d": {
 		"hid": {
@@ -1605,7 +1654,10 @@
 		},
 		"autohotkey": {
 			"name": "d"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"f": {
 		"hid": {
@@ -1677,7 +1729,10 @@
 		},
 		"autohotkey": {
 			"name": "f"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"g": {
 		"hid": {
@@ -1749,7 +1804,10 @@
 		},
 		"autohotkey": {
 			"name": "g"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"h": {
 		"hid": {
@@ -1821,7 +1879,10 @@
 		},
 		"autohotkey": {
 			"name": "h"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"j": {
 		"hid": {
@@ -1893,7 +1954,10 @@
 		},
 		"autohotkey": {
 			"name": "j"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"k": {
 		"hid": {
@@ -1965,7 +2029,10 @@
 		},
 		"autohotkey": {
 			"name": "k"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"l": {
 		"hid": {
@@ -2037,7 +2104,10 @@
 		},
 		"autohotkey": {
 			"name": "l"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"quote": {
 		"hid": {
@@ -2115,7 +2185,10 @@
 		"autohotkey": {
 			"name": "'"
 		},
-		"label": "'"
+		"label": "'",
+		"class": [
+			"character"
+		]
 	},
 	"backquote": {
 		"hid": {
@@ -2197,7 +2270,10 @@
 		"autohotkey": {
 			"name": "`"
 		},
-		"label": "`"
+		"label": "`",
+		"class": [
+			"character"
+		]
 	},
 	"shift-left": {
 		"hid": {
@@ -2272,7 +2348,8 @@
 			"modifier",
 			"shift",
 			"shift-left"
-		]
+		],
+		"modifier": "shift-left"
 	},
 	"backslash": {
 		"comment": "Keyboard-page key for Keyboard \\ and |.",
@@ -2353,7 +2430,10 @@
 		"autohotkey": {
 			"name": "\\"
 		},
-		"label": "\\"
+		"label": "\\",
+		"class": [
+			"character"
+		]
 	},
 	"z": {
 		"hid": {
@@ -2425,7 +2505,10 @@
 		},
 		"autohotkey": {
 			"name": "z"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"x": {
 		"hid": {
@@ -2497,7 +2580,10 @@
 		},
 		"autohotkey": {
 			"name": "x"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"c": {
 		"hid": {
@@ -2569,7 +2655,10 @@
 		},
 		"autohotkey": {
 			"name": "c"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"v": {
 		"hid": {
@@ -2641,7 +2730,10 @@
 		},
 		"autohotkey": {
 			"name": "v"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"b": {
 		"hid": {
@@ -2713,7 +2805,10 @@
 		},
 		"autohotkey": {
 			"name": "b"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"n": {
 		"hid": {
@@ -2785,7 +2880,10 @@
 		},
 		"autohotkey": {
 			"name": "n"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"m": {
 		"hid": {
@@ -2857,7 +2955,10 @@
 		},
 		"autohotkey": {
 			"name": "m"
-		}
+		},
+		"class": [
+			"character"
+		]
 	},
 	"comma": {
 		"hid": {
@@ -2934,7 +3035,10 @@
 		"autohotkey": {
 			"name": ","
 		},
-		"label": ","
+		"label": ",",
+		"class": [
+			"character"
+		]
 	},
 	"period": {
 		"hid": {
@@ -3009,7 +3113,10 @@
 		"autohotkey": {
 			"name": "."
 		},
-		"label": "."
+		"label": ".",
+		"class": [
+			"character"
+		]
 	},
 	"slash": {
 		"hid": {
@@ -3084,7 +3191,10 @@
 		"autohotkey": {
 			"name": "/"
 		},
-		"label": "/"
+		"label": "/",
+		"class": [
+			"character"
+		]
 	},
 	"shift-right": {
 		"hid": {
@@ -3158,7 +3268,8 @@
 			"modifier",
 			"shift",
 			"shift-right"
-		]
+		],
+		"modifier": "shift-right"
 	},
 	"win-shift": {
 		"comment": "Generic Windows Shift virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_SHIFT in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LSHIFT or VK_RSHIFT. Keep this unsided Windows emission when that is what was reported, but prefer shift-left or shift-right when sided identity is available.",
@@ -3264,7 +3375,8 @@
 			"modifier",
 			"alt",
 			"alt-left"
-		]
+		],
+		"modifier": "alt-left"
 	},
 	"space": {
 		"hid": {
@@ -3329,7 +3441,10 @@
 		"autohotkey": {
 			"name": "Space"
 		},
-		"label": "␠"
+		"label": "␠",
+		"class": [
+			"character"
+		]
 	},
 	"caps-lock": {
 		"hid": {
@@ -3402,7 +3517,8 @@
 			"modifier",
 			"lockable",
 			"caps-lock"
-		]
+		],
+		"modifier": "caps-lock"
 	},
 	"f1": {
 		"hid": {
@@ -4136,7 +4252,8 @@
 			"modifier",
 			"lockable",
 			"num-lock"
-		]
+		],
+		"modifier": "num-lock"
 	},
 	"scroll-lock": {
 		"hid": {
@@ -4207,7 +4324,8 @@
 			"legacy-modifier",
 			"legacy-lockable",
 			"scroll-lock"
-		]
+		],
+		"modifier": "scroll-lock"
 	},
 	"kp7": {
 		"hid": {
@@ -5192,7 +5310,10 @@
 				"VKE2"
 			]
 		},
-		"label": "\\"
+		"label": "\\",
+		"class": [
+			"character"
+		]
 	},
 	"f11": {
 		"hid": {
@@ -5396,7 +5517,10 @@
 				"VKC1"
 			]
 		},
-		"label": "ろ"
+		"label": "ろ",
+		"class": [
+			"character"
+		]
 	},
 	"henkan": {
 		"comment": "Japanese conversion key for IME candidate conversion.",
@@ -5756,7 +5880,8 @@
 			"modifier",
 			"ctrl",
 			"ctrl-right"
-		]
+		],
+		"modifier": "ctrl-right"
 	},
 	"win-control": {
 		"comment": "Generic Windows Control virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_CONTROL in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LCONTROL or VK_RCONTROL. Keep this unsided Windows emission when that is what was reported, but prefer ctrl-left or ctrl-right when sided identity is available.",
@@ -6005,7 +6130,8 @@
 			"modifier",
 			"alt",
 			"alt-right"
-		]
+		],
+		"modifier": "alt-right"
 	},
 	"win-alt": {
 		"comment": "Generic Windows Alt virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_MENU in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LMENU or VK_RMENU. Keep this unsided Windows emission when that is what was reported, but prefer alt-left or alt-right when sided identity is available.",
@@ -7480,7 +7606,10 @@
 		"autohotkey": {
 			"name": "SC07D"
 		},
-		"label": "¥"
+		"label": "¥",
+		"class": [
+			"character"
+		]
 	},
 	"system-left": {
 		"hid": {
@@ -7561,7 +7690,8 @@
 			"modifier",
 			"system",
 			"system-left"
-		]
+		],
+		"modifier": "system-left"
 	},
 	"system-right": {
 		"hid": {
@@ -7641,7 +7771,8 @@
 			"modifier",
 			"system",
 			"system-right"
-		]
+		],
+		"modifier": "system-right"
 	},
 	"iso-level3-shift": {
 		"comment": "Level-3 shift / AltGr-style modifier key represented by the XKB ISO_Level3_Shift keysym.",
@@ -25151,7 +25282,10 @@
 		"autohotkey": {
 			"name": ";"
 		},
-		"label": ";"
+		"label": ";",
+		"class": [
+			"character"
+		]
 	},
 	"sleep": {
 		"comment": "System sleep key. systemd-logind treats KEY_SLEEP as suspend-to-RAM; KDE binds Qt::Key_Sleep as “Suspend”. Both allow configured system behavior, and systemd also supports a distinct long-press action.",
@@ -26867,7 +27001,8 @@
 		"class": [
 			"modifier",
 			"fn"
-		]
+		],
+		"modifier": "fn"
 	},
 	"apple-fn": {
 		"comment": "Apple top-case Fn key exposed on Apple's vendor-defined top-case HID page.",
@@ -30791,7 +30926,10 @@
 		"autohotkey": {
 			"name": "0"
 		},
-		"label": "0"
+		"label": "0",
+		"class": [
+			"character"
+		]
 	},
 	"digit-1": {
 		"comment": "Keyboard-page key for Keyboard 1 and !.",
@@ -30864,7 +31002,10 @@
 		"autohotkey": {
 			"name": "1"
 		},
-		"label": "1"
+		"label": "1",
+		"class": [
+			"character"
+		]
 	},
 	"digit-2": {
 		"comment": "Keyboard-page key for Keyboard 2 and @.",
@@ -30937,7 +31078,10 @@
 		"autohotkey": {
 			"name": "2"
 		},
-		"label": "2"
+		"label": "2",
+		"class": [
+			"character"
+		]
 	},
 	"digit-3": {
 		"comment": "Keyboard-page key for Keyboard 3 and #.",
@@ -31010,7 +31154,10 @@
 		"autohotkey": {
 			"name": "3"
 		},
-		"label": "3"
+		"label": "3",
+		"class": [
+			"character"
+		]
 	},
 	"digit-4": {
 		"comment": "Keyboard-page key for Keyboard 4 and $.",
@@ -31083,7 +31230,10 @@
 		"autohotkey": {
 			"name": "4"
 		},
-		"label": "4"
+		"label": "4",
+		"class": [
+			"character"
+		]
 	},
 	"digit-5": {
 		"comment": "Keyboard-page key for Keyboard 5 and %.",
@@ -31156,7 +31306,10 @@
 		"autohotkey": {
 			"name": "5"
 		},
-		"label": "5"
+		"label": "5",
+		"class": [
+			"character"
+		]
 	},
 	"digit-6": {
 		"comment": "Keyboard-page key for Keyboard 6 and ^.",
@@ -31229,7 +31382,10 @@
 		"autohotkey": {
 			"name": "6"
 		},
-		"label": "6"
+		"label": "6",
+		"class": [
+			"character"
+		]
 	},
 	"digit-7": {
 		"comment": "Keyboard-page key for Keyboard 7 and &.",
@@ -31302,7 +31458,10 @@
 		"autohotkey": {
 			"name": "7"
 		},
-		"label": "7"
+		"label": "7",
+		"class": [
+			"character"
+		]
 	},
 	"digit-8": {
 		"comment": "Keyboard-page key for Keyboard 8 and *.",
@@ -31375,7 +31534,10 @@
 		"autohotkey": {
 			"name": "8"
 		},
-		"label": "8"
+		"label": "8",
+		"class": [
+			"character"
+		]
 	},
 	"digit-9": {
 		"comment": "Keyboard-page key for Keyboard 9 and (.",
@@ -31448,7 +31610,10 @@
 		"autohotkey": {
 			"name": "9"
 		},
-		"label": "9"
+		"label": "9",
+		"class": [
+			"character"
+		]
 	},
 	"iso-pound": {
 		"comment": "Distinct HID key for the ISO/UK-style #~ key partially tucked under Enter. It is different from the ISO key next to left Shift (HID 0x64), but many software stacks collapse it onto backslash-like semantics.",
@@ -31503,7 +31668,10 @@
 			"name": "non_us_pound"
 		},
 		"geometry": "ISO",
-		"label": "#"
+		"label": "#",
+		"class": [
+			"character"
+		]
 	},
 	"symbols": {
 		"comment": "Semantic Symbols key meaning, currently used here for the symbols chooser key and commonly realized through a physical right Alt key or dedicated symbols key. On Linux this corresponds to the XKB ISO_Level3_Shift keysym rather than to a distinct hardware key.",
@@ -31540,7 +31708,8 @@
 		"class": [
 			"modifier",
 			"symbols"
-		]
+		],
+		"modifier": "symbols"
 	},
 	"symbols2": {
 		"comment": "Semantic secondary Symbols key meaning, corresponding on Linux/XKB to ISO_Level5_Shift and used for a higher alternate symbol layer than the regular Symbols key.",
@@ -31577,7 +31746,8 @@
 		"class": [
 			"modifier",
 			"symbols2"
-		]
+		],
+		"modifier": "symbols2"
 	},
 	"fn-left": {
 		"comment": "Pure internal semantic left-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
@@ -31614,7 +31784,8 @@
 			"modifier",
 			"fn-left",
 			"fn"
-		]
+		],
+		"modifier": "fn-left"
 	},
 	"fn-right": {
 		"comment": "Pure internal semantic right-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
@@ -31651,7 +31822,8 @@
 			"modifier",
 			"fn-right",
 			"fn"
-		]
+		],
+		"modifier": "fn-right"
 	},
 	"symbols-left": {
 		"comment": "Pure internal semantic left-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
@@ -31688,7 +31860,8 @@
 			"modifier",
 			"symbols-left",
 			"symbols"
-		]
+		],
+		"modifier": "symbols-left"
 	},
 	"symbols-right": {
 		"comment": "Pure internal semantic right-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
@@ -31725,7 +31898,8 @@
 			"modifier",
 			"symbols-right",
 			"symbols"
-		]
+		],
+		"modifier": "symbols-right"
 	},
 	"symbols2-left": {
 		"comment": "Pure internal semantic left-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
@@ -31762,7 +31936,8 @@
 			"modifier",
 			"symbols2-left",
 			"symbols2"
-		]
+		],
+		"modifier": "symbols2-left"
 	},
 	"symbols2-right": {
 		"comment": "Pure internal semantic right-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
@@ -31799,7 +31974,8 @@
 			"modifier",
 			"symbols2-right",
 			"symbols2"
-		]
+		],
+		"modifier": "symbols2-right"
 	},
 	"key-lock": {
 		"comment": "Pure internal semantic key whose purpose is to lock modifiers when combined with them.",
