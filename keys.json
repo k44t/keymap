@@ -364,7 +364,7 @@
 		"autohotkey": {
 			"name": "Tab"
 		},
-		"label": "↹"
+		"label": "↦"
 	},
 	"q": {
 		"hid": {
@@ -6277,7 +6277,7 @@
 		"autohotkey": {
 			"name": "Home"
 		},
-		"label": "↖"
+		"label": "⇤"
 	},
 	"uncertain-begin": {
 		"comment": "AppKit semantic begin function-character identity, likely representing begin-of-line behavior rather than a distinct physical key.",
@@ -6657,7 +6657,7 @@
 		"autohotkey": {
 			"name": "End"
 		},
-		"label": "↘"
+		"label": "⇥"
 	},
 	"arrow-down": {
 		"hid": {
@@ -32649,5 +32649,19 @@
 			"missing": true
 		},
 		"label": "⑨"
+	},
+	"left-tab": {
+		"linux": {
+			"xkb-keysym": {
+				"code": "0xfe20",
+				"name": "ISO_Left_Tab"
+			}
+		},
+		"kanata": {
+			"aliases": [
+				"↤"
+			]
+		},
+		"label": "↤"
 	}
 }
