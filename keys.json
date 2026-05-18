@@ -31978,7 +31978,7 @@
 		"modifier": "symbols2-right"
 	},
 	"key-lock": {
-		"comment": "Pure internal semantic key whose purpose is to lock modifiers when combined with them.",
+		"comment": "Pure internal semantic key whose purpose is to lock any other key while held, until that key is pressed again.",
 		"hid": {
 			"missing": true
 		},
@@ -32008,7 +32008,12 @@
 			"missing": true
 		},
 		"label": "⇩",
-		"class": "special"
+		"class": [
+			"modifier",
+			"special",
+			"key-lock"
+		],
+		"modifier": "key-lock"
 	},
 	"extra-left-0": {
 		"comment": "Pure internal semantic extra key for the left-side extra key family.",
