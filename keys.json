@@ -146,7 +146,6 @@
 		"autohotkey": {
 			"name": "-"
 		},
-		"label": "-",
 		"class": [
 			"character"
 		]
@@ -227,7 +226,6 @@
 		"autohotkey": {
 			"name": "="
 		},
-		"label": "=",
 		"class": [
 			"character"
 		]
@@ -1195,7 +1193,6 @@
 		"autohotkey": {
 			"name": "["
 		},
-		"label": "[",
 		"class": [
 			"character"
 		]
@@ -1279,7 +1276,6 @@
 		"autohotkey": {
 			"name": "]"
 		},
-		"label": "]",
 		"class": [
 			"character"
 		]
@@ -2185,7 +2181,6 @@
 		"autohotkey": {
 			"name": "'"
 		},
-		"label": "'",
 		"class": [
 			"character"
 		]
@@ -2270,7 +2265,6 @@
 		"autohotkey": {
 			"name": "`"
 		},
-		"label": "`",
 		"class": [
 			"character"
 		]
@@ -2430,7 +2424,6 @@
 		"autohotkey": {
 			"name": "\\"
 		},
-		"label": "\\",
 		"class": [
 			"character"
 		]
@@ -3035,7 +3028,6 @@
 		"autohotkey": {
 			"name": ","
 		},
-		"label": ",",
 		"class": [
 			"character"
 		]
@@ -3113,7 +3105,6 @@
 		"autohotkey": {
 			"name": "."
 		},
-		"label": ".",
 		"class": [
 			"character"
 		]
@@ -3191,7 +3182,6 @@
 		"autohotkey": {
 			"name": "/"
 		},
-		"label": "/",
 		"class": [
 			"character"
 		]
@@ -3441,7 +3431,6 @@
 		"autohotkey": {
 			"name": "Space"
 		},
-		"label": "␠",
 		"class": [
 			"character"
 		]
@@ -4251,7 +4240,8 @@
 		"class": [
 			"modifier",
 			"lockable",
-			"num-lock"
+			"num-lock",
+			"keypad"
 		],
 		"modifier": "num-lock"
 	},
@@ -4396,7 +4386,10 @@
 				}
 			]
 		},
-		"label": "7"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"kp8": {
 		"hid": {
@@ -4467,7 +4460,10 @@
 				}
 			]
 		},
-		"label": "8"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"kp9": {
 		"hid": {
@@ -4538,7 +4534,10 @@
 				}
 			]
 		},
-		"label": "9"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"kp-minus": {
 		"hid": {
@@ -4602,7 +4601,10 @@
 		"autohotkey": {
 			"name": "NumpadSub"
 		},
-		"label": "−"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"kp4": {
 		"hid": {
@@ -4673,7 +4675,10 @@
 				}
 			]
 		},
-		"label": "4"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"kp5": {
 		"hid": {
@@ -4744,7 +4749,10 @@
 				}
 			]
 		},
-		"label": "5"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"kp6": {
 		"hid": {
@@ -4815,7 +4823,10 @@
 				}
 			]
 		},
-		"label": "6"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"kp-plus": {
 		"hid": {
@@ -4880,7 +4891,10 @@
 		"autohotkey": {
 			"name": "NumpadAdd"
 		},
-		"label": "+"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"kp1": {
 		"hid": {
@@ -4951,7 +4965,10 @@
 				}
 			]
 		},
-		"label": "1"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"kp2": {
 		"hid": {
@@ -5022,7 +5039,10 @@
 				}
 			]
 		},
-		"label": "2"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"kp3": {
 		"hid": {
@@ -5093,7 +5113,10 @@
 				}
 			]
 		},
-		"label": "3"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"kp0": {
 		"hid": {
@@ -5164,7 +5187,10 @@
 				}
 			]
 		},
-		"label": "0"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"kp-period": {
 		"hid": {
@@ -5236,7 +5262,10 @@
 				}
 			]
 		},
-		"label": "."
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"iso-intl-backslash": {
 		"comment": "Distinct ISO extra key beside left Shift, often labeled with less/greater or backslash-like legends depending on layout.",
@@ -5310,7 +5339,6 @@
 				"VKE2"
 			]
 		},
-		"label": "\\",
 		"class": [
 			"character"
 		]
@@ -5517,7 +5545,6 @@
 				"VKC1"
 			]
 		},
-		"label": "ろ",
 		"class": [
 			"character"
 		]
@@ -5805,7 +5832,10 @@
 		"autohotkey": {
 			"name": "NumpadEnter"
 		},
-		"label": "⏎"
+		"label": "⏎",
+		"class": [
+			"keypad"
+		]
 	},
 	"ctrl-right": {
 		"hid": {
@@ -5977,7 +6007,10 @@
 		"autohotkey": {
 			"name": "NumpadDiv"
 		},
-		"label": "⁄"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"print": {
 		"hid": {
@@ -7281,7 +7314,10 @@
 				"kpplusminus"
 			]
 		},
-		"keyd": "kpplusminus"
+		"keyd": "kpplusminus",
+		"class": [
+			"keypad"
+		]
 	},
 	"pause": {
 		"comment": "Classic keyboard Pause key. On Windows, the special Pause scan code is emitted for this key, while Break is emitted for Ctrl+Pause. GNOME treats the Pause key itself as a media-pause trigger and sends the MPRIS \"Pause\" action.",
@@ -7606,7 +7642,6 @@
 		"autohotkey": {
 			"name": "SC07D"
 		},
-		"label": "¥",
 		"class": [
 			"character"
 		]
@@ -9823,7 +9858,10 @@
 				"🔢₍"
 			]
 		},
-		"keyd": "kpleftparen"
+		"keyd": "kpleftparen",
+		"class": [
+			"keypad"
+		]
 	},
 	"kprightparen": {
 		"comment": "Keyboard-page key for Keypad ).",
@@ -9878,7 +9916,10 @@
 				"🔢₎"
 			]
 		},
-		"keyd": "kprightparen"
+		"keyd": "kprightparen",
+		"class": [
+			"keypad"
+		]
 	},
 	"new": {
 		"hid": {
@@ -24277,7 +24318,10 @@
 		},
 		"autohotkey": {
 			"name": "SC059"
-		}
+		},
+		"class": [
+			"keypad"
+		]
 	},
 	"front": {
 		"comment": "Legacy front-page/front-panel style key from the Linux input namespace. KMonad avoids the alias `select` here because it conflicts with KEY_SELECT, so keep it distinct from the generic select/menu-pick key.",
@@ -25282,7 +25326,6 @@
 		"autohotkey": {
 			"name": ";"
 		},
-		"label": ";",
 		"class": [
 			"character"
 		]
@@ -25852,7 +25895,10 @@
 		},
 		"autohotkey": {
 			"name": "SC05C"
-		}
+		},
+		"class": [
+			"keypad"
+		]
 	},
 	"video-phone": {
 		"comment": "Video-phone / video-call launcher key.",
@@ -26503,7 +26549,10 @@
 		"autohotkey": {
 			"name": "SC07E"
 		},
-		"label": "⸴"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"media-guide": {
 		"comment": "Program-guide key. The Linux kernel comment identifies this as “Media Select Program Guide”, so it is the guide/listings key.",
@@ -28246,7 +28295,10 @@
 		},
 		"karabiner-elements": {
 			"name": "keypad_equal_sign_as400"
-		}
+		},
+		"class": [
+			"keypad"
+		]
 	},
 	"bass-down": {
 		"comment": "Consumer audio-control key for lowering bass.",
@@ -30853,7 +30905,10 @@
 		"autohotkey": {
 			"name": "NumpadMult"
 		},
-		"label": "∗"
+		"class": [
+			"character",
+			"keypad"
+		]
 	},
 	"digit-0": {
 		"comment": "Keyboard-page key for Keyboard 0 and ).",
@@ -30926,7 +30981,6 @@
 		"autohotkey": {
 			"name": "0"
 		},
-		"label": "0",
 		"class": [
 			"character"
 		]
@@ -31002,7 +31056,6 @@
 		"autohotkey": {
 			"name": "1"
 		},
-		"label": "1",
 		"class": [
 			"character"
 		]
@@ -31078,7 +31131,6 @@
 		"autohotkey": {
 			"name": "2"
 		},
-		"label": "2",
 		"class": [
 			"character"
 		]
@@ -31154,7 +31206,6 @@
 		"autohotkey": {
 			"name": "3"
 		},
-		"label": "3",
 		"class": [
 			"character"
 		]
@@ -31230,7 +31281,6 @@
 		"autohotkey": {
 			"name": "4"
 		},
-		"label": "4",
 		"class": [
 			"character"
 		]
@@ -31306,7 +31356,6 @@
 		"autohotkey": {
 			"name": "5"
 		},
-		"label": "5",
 		"class": [
 			"character"
 		]
@@ -31382,7 +31431,6 @@
 		"autohotkey": {
 			"name": "6"
 		},
-		"label": "6",
 		"class": [
 			"character"
 		]
@@ -31458,7 +31506,6 @@
 		"autohotkey": {
 			"name": "7"
 		},
-		"label": "7",
 		"class": [
 			"character"
 		]
@@ -31534,7 +31581,6 @@
 		"autohotkey": {
 			"name": "8"
 		},
-		"label": "8",
 		"class": [
 			"character"
 		]
@@ -31610,7 +31656,6 @@
 		"autohotkey": {
 			"name": "9"
 		},
-		"label": "9",
 		"class": [
 			"character"
 		]
@@ -31668,7 +31713,6 @@
 			"name": "non_us_pound"
 		},
 		"geometry": "ISO",
-		"label": "#",
 		"class": [
 			"character"
 		]
