@@ -288,7 +288,9 @@
 				"⌫"
 			]
 		},
-		"keyd": "backspace",
+		"keyd": {
+			"name": "backspace"
+		},
 		"karabiner-elements": {
 			"name": "delete_or_backspace"
 		},
@@ -355,7 +357,9 @@
 				"↹"
 			]
 		},
-		"keyd": "tab",
+		"keyd": {
+			"name": "tab"
+		},
 		"karabiner-elements": {
 			"name": "tab"
 		},
@@ -1344,7 +1348,9 @@
 				"␤"
 			]
 		},
-		"keyd": "enter",
+		"keyd": {
+			"name": "enter"
+		},
 		"karabiner-elements": {
 			"name": "return_or_enter"
 		},
@@ -1412,7 +1418,9 @@
 				"‹⌃"
 			]
 		},
-		"keyd": "leftcontrol",
+		"keyd": {
+			"name": "leftcontrol"
+		},
 		"karabiner-elements": {
 			"name": "left_control"
 		},
@@ -1428,7 +1436,7 @@
 			"ctrl",
 			"ctrl-left"
 		],
-		"modifier": "ctrl-left"
+		"modifier": "#ctrl-left"
 	},
 	"a": {
 		"hid": {
@@ -2330,7 +2338,9 @@
 				"‹⇧"
 			]
 		},
-		"keyd": "leftshift",
+		"keyd": {
+			"name": "leftshift"
+		},
 		"karabiner-elements": {
 			"name": "left_shift"
 		},
@@ -2343,7 +2353,7 @@
 			"shift",
 			"shift-left"
 		],
-		"modifier": "shift-left"
+		"modifier": "#shift-left"
 	},
 	"backslash": {
 		"comment": "Keyboard-page key for Keyboard \\ and |.",
@@ -3246,7 +3256,9 @@
 				"⇧›"
 			]
 		},
-		"keyd": "rightshift",
+		"keyd": {
+			"name": "rightshift"
+		},
 		"karabiner-elements": {
 			"name": "right_shift"
 		},
@@ -3259,7 +3271,7 @@
 			"shift",
 			"shift-right"
 		],
-		"modifier": "shift-right"
+		"modifier": "#shift-right"
 	},
 	"win-shift": {
 		"comment": "Generic Windows Shift virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_SHIFT in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LSHIFT or VK_RSHIFT. Keep this unsided Windows emission when that is what was reported, but prefer shift-left or shift-right when sided identity is available.",
@@ -3350,7 +3362,9 @@
 				"‹⌥"
 			]
 		},
-		"keyd": "leftalt",
+		"keyd": {
+			"name": "leftalt"
+		},
 		"karabiner-elements": {
 			"name": "left_option",
 			"aliases": [
@@ -3366,7 +3380,7 @@
 			"alt",
 			"alt-left"
 		],
-		"modifier": "alt-left"
+		"modifier": "#alt-left"
 	},
 	"space": {
 		"hid": {
@@ -3424,7 +3438,9 @@
 				"␣"
 			]
 		},
-		"keyd": "space",
+		"keyd": {
+			"name": "space"
+		},
 		"karabiner-elements": {
 			"name": "spacebar"
 		},
@@ -3494,7 +3510,9 @@
 				"⇪"
 			]
 		},
-		"keyd": "capslock",
+		"keyd": {
+			"name": "capslock"
+		},
 		"karabiner-elements": {
 			"name": "caps_lock"
 		},
@@ -3507,7 +3525,7 @@
 			"lockable",
 			"caps-lock"
 		],
-		"modifier": "caps-lock"
+		"modifier": "#caps-lock"
 	},
 	"f1": {
 		"hid": {
@@ -3566,7 +3584,9 @@
 				"F1"
 			]
 		},
-		"keyd": "f1",
+		"keyd": {
+			"name": "f1"
+		},
 		"karabiner-elements": {
 			"name": "f1"
 		},
@@ -3632,7 +3652,9 @@
 				"F2"
 			]
 		},
-		"keyd": "f2",
+		"keyd": {
+			"name": "f2"
+		},
 		"karabiner-elements": {
 			"name": "f2"
 		},
@@ -3698,7 +3720,9 @@
 				"F3"
 			]
 		},
-		"keyd": "f3",
+		"keyd": {
+			"name": "f3"
+		},
 		"karabiner-elements": {
 			"name": "f3"
 		},
@@ -3764,7 +3788,9 @@
 				"F4"
 			]
 		},
-		"keyd": "f4",
+		"keyd": {
+			"name": "f4"
+		},
 		"karabiner-elements": {
 			"name": "f4"
 		},
@@ -3830,7 +3856,9 @@
 				"F5"
 			]
 		},
-		"keyd": "f5",
+		"keyd": {
+			"name": "f5"
+		},
 		"karabiner-elements": {
 			"name": "f5"
 		},
@@ -3896,7 +3924,9 @@
 				"F6"
 			]
 		},
-		"keyd": "f6",
+		"keyd": {
+			"name": "f6"
+		},
 		"karabiner-elements": {
 			"name": "f6"
 		},
@@ -3962,7 +3992,9 @@
 				"F7"
 			]
 		},
-		"keyd": "f7",
+		"keyd": {
+			"name": "f7"
+		},
 		"karabiner-elements": {
 			"name": "f7"
 		},
@@ -4028,7 +4060,9 @@
 				"F8"
 			]
 		},
-		"keyd": "f8",
+		"keyd": {
+			"name": "f8"
+		},
 		"karabiner-elements": {
 			"name": "f8"
 		},
@@ -4094,7 +4128,9 @@
 				"F9"
 			]
 		},
-		"keyd": "f9",
+		"keyd": {
+			"name": "f9"
+		},
 		"karabiner-elements": {
 			"name": "f9"
 		},
@@ -4160,7 +4196,9 @@
 				"F10"
 			]
 		},
-		"keyd": "f10",
+		"keyd": {
+			"name": "f10"
+		},
 		"karabiner-elements": {
 			"name": "f10"
 		},
@@ -4229,7 +4267,9 @@
 				"⇭"
 			]
 		},
-		"keyd": "numlock",
+		"keyd": {
+			"name": "numlock"
+		},
 		"karabiner-elements": {
 			"name": "keypad_num_lock"
 		},
@@ -4243,7 +4283,7 @@
 			"num-lock",
 			"keypad"
 		],
-		"modifier": "num-lock"
+		"modifier": "#num-lock"
 	},
 	"scroll-lock": {
 		"hid": {
@@ -4302,7 +4342,9 @@
 				"⇳🔒"
 			]
 		},
-		"keyd": "scrolllock",
+		"keyd": {
+			"name": "scrolllock"
+		},
 		"karabiner-elements": {
 			"name": "scroll_lock"
 		},
@@ -4315,7 +4357,7 @@
 			"legacy-lockable",
 			"scroll-lock"
 		],
-		"modifier": "scroll-lock"
+		"modifier": "#scroll-lock"
 	},
 	"kp7": {
 		"hid": {
@@ -4371,7 +4413,9 @@
 				"🔢₇"
 			]
 		},
-		"keyd": "kp7",
+		"keyd": {
+			"name": "kp7"
+		},
 		"karabiner-elements": {
 			"name": "keypad_7"
 		},
@@ -4445,7 +4489,9 @@
 				"🔢₈"
 			]
 		},
-		"keyd": "kp8",
+		"keyd": {
+			"name": "kp8"
+		},
 		"karabiner-elements": {
 			"name": "keypad_8"
 		},
@@ -4519,7 +4565,9 @@
 				"🔢₉"
 			]
 		},
-		"keyd": "kp9",
+		"keyd": {
+			"name": "kp9"
+		},
 		"karabiner-elements": {
 			"name": "keypad_9"
 		},
@@ -4594,7 +4642,9 @@
 				"🔢₋"
 			]
 		},
-		"keyd": "kpminus",
+		"keyd": {
+			"name": "kpminus"
+		},
 		"karabiner-elements": {
 			"name": "keypad_hyphen"
 		},
@@ -4660,7 +4710,9 @@
 				"🔢₄"
 			]
 		},
-		"keyd": "kp4",
+		"keyd": {
+			"name": "kp4"
+		},
 		"karabiner-elements": {
 			"name": "keypad_4"
 		},
@@ -4734,7 +4786,9 @@
 				"🔢₅"
 			]
 		},
-		"keyd": "kp5",
+		"keyd": {
+			"name": "kp5"
+		},
 		"karabiner-elements": {
 			"name": "keypad_5"
 		},
@@ -4808,7 +4862,9 @@
 				"🔢₆"
 			]
 		},
-		"keyd": "kp6",
+		"keyd": {
+			"name": "kp6"
+		},
 		"karabiner-elements": {
 			"name": "keypad_6"
 		},
@@ -4884,7 +4940,9 @@
 				"🔢₊"
 			]
 		},
-		"keyd": "kpplus",
+		"keyd": {
+			"name": "kpplus"
+		},
 		"karabiner-elements": {
 			"name": "keypad_plus"
 		},
@@ -4950,7 +5008,9 @@
 				"🔢₁"
 			]
 		},
-		"keyd": "kp1",
+		"keyd": {
+			"name": "kp1"
+		},
 		"karabiner-elements": {
 			"name": "keypad_1"
 		},
@@ -5024,7 +5084,9 @@
 				"🔢₂"
 			]
 		},
-		"keyd": "kp2",
+		"keyd": {
+			"name": "kp2"
+		},
 		"karabiner-elements": {
 			"name": "keypad_2"
 		},
@@ -5098,7 +5160,9 @@
 				"🔢₃"
 			]
 		},
-		"keyd": "kp3",
+		"keyd": {
+			"name": "kp3"
+		},
 		"karabiner-elements": {
 			"name": "keypad_3"
 		},
@@ -5172,7 +5236,9 @@
 				"🔢₀"
 			]
 		},
-		"keyd": "kp0",
+		"keyd": {
+			"name": "kp0"
+		},
 		"karabiner-elements": {
 			"name": "keypad_0"
 		},
@@ -5247,7 +5313,9 @@
 				"🔢．"
 			]
 		},
-		"keyd": "kpdot",
+		"keyd": {
+			"name": "kpdot"
+		},
 		"karabiner-elements": {
 			"name": "keypad_period"
 		},
@@ -5329,7 +5397,9 @@
 				"﹨"
 			]
 		},
-		"keyd": "102nd",
+		"keyd": {
+			"name": "102nd"
+		},
 		"karabiner-elements": {
 			"name": "non_us_backslash"
 		},
@@ -5400,7 +5470,9 @@
 				"F11"
 			]
 		},
-		"keyd": "f11",
+		"keyd": {
+			"name": "f11"
+		},
 		"karabiner-elements": {
 			"name": "f11"
 		},
@@ -5466,7 +5538,9 @@
 				"F12"
 			]
 		},
-		"keyd": "f12",
+		"keyd": {
+			"name": "f12"
+		},
 		"karabiner-elements": {
 			"name": "f12"
 		},
@@ -5535,7 +5609,9 @@
 				"IntlRo"
 			]
 		},
-		"keyd": "ro",
+		"keyd": {
+			"name": "ro"
+		},
 		"karabiner-elements": {
 			"name": "international1"
 		},
@@ -5607,7 +5683,9 @@
 				"hnk"
 			]
 		},
-		"keyd": "henkan",
+		"keyd": {
+			"name": "henkan"
+		},
 		"karabiner-elements": {
 			"name": "japanese_pc_xfer",
 			"aliases": [
@@ -5674,7 +5752,9 @@
 			]
 		},
 		"geometry": "JIS",
-		"keyd": "katakanahiragana",
+		"keyd": {
+			"name": "katakanahiragana"
+		},
 		"karabiner-elements": {
 			"name": "japanese_pc_katakana",
 			"aliases": [
@@ -5745,7 +5825,9 @@
 				"mhnk"
 			]
 		},
-		"keyd": "muhenkan",
+		"keyd": {
+			"name": "muhenkan"
+		},
 		"karabiner-elements": {
 			"name": "japanese_pc_nfer",
 			"aliases": [
@@ -5825,7 +5907,9 @@
 				"🔢␤"
 			]
 		},
-		"keyd": "kpenter",
+		"keyd": {
+			"name": "kpenter"
+		},
 		"karabiner-elements": {
 			"name": "keypad_enter"
 		},
@@ -5895,7 +5979,9 @@
 				"⌃›"
 			]
 		},
-		"keyd": "rightcontrol",
+		"keyd": {
+			"name": "rightcontrol"
+		},
 		"karabiner-elements": {
 			"name": "right_control"
 		},
@@ -5911,7 +5997,7 @@
 			"ctrl",
 			"ctrl-right"
 		],
-		"modifier": "ctrl-right"
+		"modifier": "#ctrl-right"
 	},
 	"win-control": {
 		"comment": "Generic Windows Control virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_CONTROL in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LCONTROL or VK_RCONTROL. Keep this unsided Windows emission when that is what was reported, but prefer ctrl-left or ctrl-right when sided identity is available.",
@@ -6000,7 +6086,9 @@
 				"🔢⁄"
 			]
 		},
-		"keyd": "kpslash",
+		"keyd": {
+			"name": "kpslash"
+		},
 		"karabiner-elements": {
 			"name": "keypad_slash"
 		},
@@ -6078,7 +6166,9 @@
 				"⎙"
 			]
 		},
-		"keyd": "sysrq",
+		"keyd": {
+			"name": "sysrq"
+		},
 		"karabiner-elements": {
 			"name": "print_screen"
 		},
@@ -6148,7 +6238,9 @@
 				"⇮"
 			]
 		},
-		"keyd": "rightalt",
+		"keyd": {
+			"name": "rightalt"
+		},
 		"karabiner-elements": {
 			"name": "right_option",
 			"aliases": [
@@ -6164,7 +6256,7 @@
 			"alt",
 			"alt-right"
 		],
-		"modifier": "alt-right"
+		"modifier": "#alt-right"
 	},
 	"win-alt": {
 		"comment": "Generic Windows Alt virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_MENU in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LMENU or VK_RMENU. Keep this unsided Windows emission when that is what was reported, but prefer alt-left or alt-right when sided identity is available.",
@@ -6240,7 +6332,9 @@
 				"linefeed"
 			]
 		},
-		"keyd": "linefeed"
+		"keyd": {
+			"name": "linefeed"
+		}
 	},
 	"home": {
 		"hid": {
@@ -6303,7 +6397,9 @@
 				"⇱"
 			]
 		},
-		"keyd": "home",
+		"keyd": {
+			"name": "home"
+		},
 		"karabiner-elements": {
 			"name": "home"
 		},
@@ -6404,7 +6500,9 @@
 				"↑"
 			]
 		},
-		"keyd": "up",
+		"keyd": {
+			"name": "up"
+		},
 		"karabiner-elements": {
 			"name": "up_arrow"
 		},
@@ -6473,7 +6571,9 @@
 				"⎗"
 			]
 		},
-		"keyd": "pageup",
+		"keyd": {
+			"name": "pageup"
+		},
 		"karabiner-elements": {
 			"name": "page_up"
 		},
@@ -6543,7 +6643,9 @@
 				"←"
 			]
 		},
-		"keyd": "left",
+		"keyd": {
+			"name": "left"
+		},
 		"karabiner-elements": {
 			"name": "left_arrow"
 		},
@@ -6613,7 +6715,9 @@
 				"right"
 			]
 		},
-		"keyd": "right",
+		"keyd": {
+			"name": "right"
+		},
 		"karabiner-elements": {
 			"name": "right_arrow"
 		},
@@ -6683,7 +6787,9 @@
 				"⇲"
 			]
 		},
-		"keyd": "end",
+		"keyd": {
+			"name": "end"
+		},
 		"karabiner-elements": {
 			"name": "end"
 		},
@@ -6751,7 +6857,9 @@
 				"↓"
 			]
 		},
-		"keyd": "down",
+		"keyd": {
+			"name": "down"
+		},
 		"karabiner-elements": {
 			"name": "down_arrow"
 		},
@@ -6820,7 +6928,9 @@
 				"⎘"
 			]
 		},
-		"keyd": "pagedown",
+		"keyd": {
+			"name": "pagedown"
+		},
 		"karabiner-elements": {
 			"name": "page_down"
 		},
@@ -6885,7 +6995,9 @@
 				"⎀"
 			]
 		},
-		"keyd": "insert",
+		"keyd": {
+			"name": "insert"
+		},
 		"karabiner-elements": {
 			"name": "insert"
 		},
@@ -6957,7 +7069,9 @@
 				"⌦"
 			]
 		},
-		"keyd": "delete",
+		"keyd": {
+			"name": "delete"
+		},
 		"karabiner-elements": {
 			"name": "delete_forward"
 		},
@@ -7043,7 +7157,9 @@
 				"macro"
 			]
 		},
-		"keyd": "macro"
+		"keyd": {
+			"name": "macro"
+		}
 	},
 	"media-mute": {
 		"hid": {
@@ -7108,7 +7224,9 @@
 				"🔈₀"
 			]
 		},
-		"keyd": "mute",
+		"keyd": {
+			"name": "mute"
+		},
 		"karabiner-elements": {
 			"name": "mute"
 		},
@@ -7182,7 +7300,9 @@
 				"🔈⊖"
 			]
 		},
-		"keyd": "volumedown",
+		"keyd": {
+			"name": "volumedown"
+		},
 		"karabiner-elements": {
 			"name": "volume_decrement",
 			"aliases": [
@@ -7258,7 +7378,9 @@
 				"🔈⊕"
 			]
 		},
-		"keyd": "volumeup",
+		"keyd": {
+			"name": "volumeup"
+		},
 		"karabiner-elements": {
 			"name": "volume_increment",
 			"aliases": [
@@ -7314,7 +7436,9 @@
 				"kpplusminus"
 			]
 		},
-		"keyd": "kpplusminus",
+		"keyd": {
+			"name": "kpplusminus"
+		},
 		"class": [
 			"keypad"
 		]
@@ -7375,7 +7499,9 @@
 				"brk"
 			]
 		},
-		"keyd": "pause",
+		"keyd": {
+			"name": "pause"
+		},
 		"karabiner-elements": {
 			"name": "pause"
 		},
@@ -7433,7 +7559,9 @@
 				"scale"
 			]
 		},
-		"keyd": "scale"
+		"keyd": {
+			"name": "scale"
+		}
 	},
 	"hangul": {
 		"comment": "Keyboard-page key for Keyboard LANG1.",
@@ -7494,7 +7622,9 @@
 			]
 		},
 		"geometry": "Korean",
-		"keyd": "hangeul",
+		"keyd": {
+			"name": "hangeul"
+		},
 		"karabiner-elements": {
 			"name": "japanese_kana",
 			"aliases": [
@@ -7566,7 +7696,9 @@
 			]
 		},
 		"geometry": "Korean",
-		"keyd": "hanja",
+		"keyd": {
+			"name": "hanja"
+		},
 		"karabiner-elements": {
 			"name": "japanese_eisuu",
 			"aliases": [
@@ -7634,8 +7766,12 @@
 			]
 		},
 		"geometry": "JIS",
-		"kanata": "¥",
-		"keyd": "yen",
+		"kanata": {
+			"name": "¥"
+		},
+		"keyd": {
+			"name": "yen"
+		},
 		"karabiner-elements": {
 			"name": "international3"
 		},
@@ -7710,7 +7846,9 @@
 				"‹⊞"
 			]
 		},
-		"keyd": "leftmeta",
+		"keyd": {
+			"name": "leftmeta"
+		},
 		"karabiner-elements": {
 			"name": "left_command",
 			"aliases": [
@@ -7726,7 +7864,7 @@
 			"system",
 			"system-left"
 		],
-		"modifier": "system-left"
+		"modifier": "#system-left"
 	},
 	"system-right": {
 		"hid": {
@@ -7791,7 +7929,9 @@
 				"⊞›"
 			]
 		},
-		"keyd": "rightmeta",
+		"keyd": {
+			"name": "rightmeta"
+		},
 		"karabiner-elements": {
 			"name": "right_command",
 			"aliases": [
@@ -7807,7 +7947,7 @@
 			"system",
 			"system-right"
 		],
-		"modifier": "system-right"
+		"modifier": "#system-right"
 	},
 	"iso-level3-shift": {
 		"comment": "Level-3 shift / AltGr-style modifier key represented by the XKB ISO_Level3_Shift keysym.",
@@ -7846,7 +7986,9 @@
 		"web": {
 			"missing": true
 		},
-		"keyd": "iso-level3-shift"
+		"keyd": {
+			"name": "iso-level3-shift"
+		}
 	},
 	"compose": {
 		"comment": "Linux compose key with the standard XKB Multi_key keysym. This is distinct from the application/menu key. Kanata currently resolves its `ContextMenu`/`menu`/`apps`/`comp` name family to KEY_COMPOSE here rather than to KEY_MENU.",
@@ -7894,7 +8036,9 @@
 				"𝌆"
 			]
 		},
-		"keyd": "compose",
+		"keyd": {
+			"name": "compose"
+		},
 		"label": "☰"
 	},
 	"stop": {
@@ -7960,7 +8104,9 @@
 				"stop"
 			]
 		},
-		"keyd": "stop"
+		"keyd": {
+			"name": "stop"
+		}
 	},
 	"menu": {
 		"comment": "Application/context-menu key. Kanata does not currently expose a distinct KEY_MENU mapping in its default key-name table; its `menu`/`apps`/`ContextMenu` family resolves to KEY_COMPOSE instead.",
@@ -8025,7 +8171,9 @@
 				"application"
 			]
 		},
-		"keyd": "menu",
+		"keyd": {
+			"name": "menu"
+		},
 		"karabiner-elements": {
 			"name": "application"
 		},
@@ -8075,7 +8223,9 @@
 				"setup"
 			]
 		},
-		"keyd": "setup"
+		"keyd": {
+			"name": "setup"
+		}
 	},
 	"send-file": {
 		"hid": {
@@ -8119,7 +8269,9 @@
 				"send-file"
 			]
 		},
-		"keyd": "sendfile"
+		"keyd": {
+			"name": "sendfile"
+		}
 	},
 	"delete-file": {
 		"hid": {
@@ -8165,7 +8317,9 @@
 				"deletefile"
 			]
 		},
-		"keyd": "deletefile"
+		"keyd": {
+			"name": "deletefile"
+		}
 	},
 	"xfer": {
 		"hid": {
@@ -8207,7 +8361,9 @@
 				"xfer"
 			]
 		},
-		"keyd": "xfer"
+		"keyd": {
+			"name": "xfer"
+		}
 	},
 	"prog1": {
 		"comment": "System-control key for System App Menu.",
@@ -8261,7 +8417,9 @@
 				"prog1"
 			]
 		},
-		"keyd": "scrolldown"
+		"keyd": {
+			"name": "scrolldown"
+		}
 	},
 	"prog2": {
 		"comment": "Linux key exposed as KEY_PROG2.",
@@ -8312,7 +8470,9 @@
 				"prog2"
 			]
 		},
-		"keyd": "scrollup"
+		"keyd": {
+			"name": "scrollup"
+		}
 	},
 	"web": {
 		"comment": "GNOME treats this as the web-browser launcher key and opens an http: action.",
@@ -8363,7 +8523,9 @@
 				"internetbrowser"
 			]
 		},
-		"keyd": "www",
+		"keyd": {
+			"name": "www"
+		},
 		"karabiner-elements": {
 			"name": "al_internet_browser"
 		}
@@ -8412,7 +8574,9 @@
 				"msdos"
 			]
 		},
-		"keyd": "msdos"
+		"keyd": {
+			"name": "msdos"
+		}
 	},
 	"screen-lock": {
 		"comment": "Screen-lock / terminal-lock / screensaver key identity. Linux keeps the legacy KEY_COFFEE name for this same keycode.",
@@ -8466,7 +8630,9 @@
 				"termlock"
 			]
 		},
-		"keyd": "coffee",
+		"keyd": {
+			"name": "coffee"
+		},
 		"karabiner-elements": {
 			"name": "al_terminal_lock_or_screensaver"
 		}
@@ -8519,7 +8685,9 @@
 				"rotatedisplay"
 			]
 		},
-		"keyd": "display"
+		"keyd": {
+			"name": "display"
+		}
 	},
 	"cycle-windows": {
 		"comment": "Linux key exposed as KEY_CYCLEWINDOWS.",
@@ -8562,7 +8730,9 @@
 				"cyclewindows"
 			]
 		},
-		"keyd": "cyclewindows"
+		"keyd": {
+			"name": "cyclewindows"
+		}
 	},
 	"bookmarks": {
 		"comment": "Bookmarks/favorites key. Use it for bookmark or saved-item lists rather than browser history.",
@@ -8662,7 +8832,9 @@
 				"computer"
 			]
 		},
-		"keyd": "computer"
+		"keyd": {
+			"name": "computer"
+		}
 	},
 	"back": {
 		"hid": {
@@ -8715,7 +8887,9 @@
 				"BrowserBack"
 			]
 		},
-		"keyd": "back",
+		"keyd": {
+			"name": "back"
+		},
 		"karabiner-elements": {
 			"name": "ac_back"
 		},
@@ -8776,7 +8950,9 @@
 				"BrowserForward"
 			]
 		},
-		"keyd": "forward",
+		"keyd": {
+			"name": "forward"
+		},
 		"karabiner-elements": {
 			"name": "ac_forward"
 		},
@@ -8826,7 +9002,9 @@
 				"closecd"
 			]
 		},
-		"keyd": "closecd"
+		"keyd": {
+			"name": "closecd"
+		}
 	},
 	"media-next": {
 		"comment": "GNOME treats this as the media next-track key and sends the MPRIS \"Next\" action.",
@@ -8889,7 +9067,9 @@
 				"▶▶"
 			]
 		},
-		"keyd": "nextsong",
+		"keyd": {
+			"name": "nextsong"
+		},
 		"karabiner-elements": {
 			"name": "scan_next_track",
 			"aliases": [
@@ -8957,7 +9137,9 @@
 				"▶⏸"
 			]
 		},
-		"keyd": "playpause",
+		"keyd": {
+			"name": "playpause"
+		},
 		"karabiner-elements": {
 			"name": "play_or_pause",
 			"aliases": [
@@ -9030,7 +9212,9 @@
 				"◀◀"
 			]
 		},
-		"keyd": "previoussong",
+		"keyd": {
+			"name": "previoussong"
+		},
 		"karabiner-elements": {
 			"name": "scan_previous_track",
 			"aliases": [
@@ -9094,7 +9278,9 @@
 				"numeric4"
 			]
 		},
-		"keyd": "rewind",
+		"keyd": {
+			"name": "rewind"
+		},
 		"karabiner-elements": {
 			"name": "rewind"
 		},
@@ -9143,7 +9329,9 @@
 				"phone"
 			]
 		},
-		"keyd": "phone"
+		"keyd": {
+			"name": "phone"
+		}
 	},
 	"legacy-iso": {
 		"comment": "Linux key exposed as KEY_ISO.",
@@ -9186,7 +9374,9 @@
 				"iso"
 			]
 		},
-		"keyd": "iso"
+		"keyd": {
+			"name": "iso"
+		}
 	},
 	"refresh": {
 		"hid": {
@@ -9237,7 +9427,9 @@
 				"refresh"
 			]
 		},
-		"keyd": "refresh",
+		"keyd": {
+			"name": "refresh"
+		},
 		"karabiner-elements": {
 			"name": "ac_refresh"
 		},
@@ -9311,7 +9503,9 @@
 				"exit"
 			]
 		},
-		"keyd": "exit"
+		"keyd": {
+			"name": "exit"
+		}
 	},
 	"move": {
 		"hid": {
@@ -9353,7 +9547,9 @@
 				"move"
 			]
 		},
-		"keyd": "move"
+		"keyd": {
+			"name": "move"
+		}
 	},
 	"edit": {
 		"hid": {
@@ -9398,7 +9594,9 @@
 				"edit"
 			]
 		},
-		"keyd": "edit"
+		"keyd": {
+			"name": "edit"
+		}
 	},
 	"scrollup": {
 		"comment": "Consumer-control key for AC Scroll Up.",
@@ -9446,7 +9644,9 @@
 				"scrup"
 			]
 		},
-		"keyd": "scrollup"
+		"keyd": {
+			"name": "scrollup"
+		}
 	},
 	"scrolldown": {
 		"comment": "Consumer-control key for AC Scroll Down.",
@@ -9495,7 +9695,9 @@
 				"sdwn"
 			]
 		},
-		"keyd": "scrolldown"
+		"keyd": {
+			"name": "scrolldown"
+		}
 	},
 	"mouse-left": {
 		"comment": "Primary pointer button. Distinct from keyboard keys even when remappers expose it in the same vocabulary.",
@@ -9539,7 +9741,9 @@
 				"‹🖰"
 			]
 		},
-		"keyd": "leftmouse",
+		"keyd": {
+			"name": "leftmouse"
+		},
 		"autohotkey": {
 			"name": "LButton"
 		}
@@ -9587,7 +9791,9 @@
 				"🖰›"
 			]
 		},
-		"keyd": "rightmouse",
+		"keyd": {
+			"name": "rightmouse"
+		},
 		"autohotkey": {
 			"name": "RButton"
 		}
@@ -9634,7 +9840,9 @@
 				"🖰3"
 			]
 		},
-		"keyd": "middlemouse",
+		"keyd": {
+			"name": "middlemouse"
+		},
 		"autohotkey": {
 			"name": "MButton"
 		}
@@ -9681,7 +9889,9 @@
 				"🖰4"
 			]
 		},
-		"keyd": "mouse1",
+		"keyd": {
+			"name": "mouse1"
+		},
 		"autohotkey": {
 			"name": "XButton1"
 		}
@@ -9728,7 +9938,9 @@
 				"🖰5"
 			]
 		},
-		"keyd": "mouse2",
+		"keyd": {
+			"name": "mouse2"
+		},
 		"autohotkey": {
 			"name": "XButton2"
 		}
@@ -9767,7 +9979,9 @@
 		"web": {
 			"missing": true
 		},
-		"keyd": "mouseforward"
+		"keyd": {
+			"name": "mouseforward"
+		}
 	},
 	"mouse-back": {
 		"comment": "Back thumb/button mouse control. Distinct from the keyboard/browser back key.",
@@ -9803,7 +10017,9 @@
 		"web": {
 			"missing": true
 		},
-		"keyd": "mouseback"
+		"keyd": {
+			"name": "mouseback"
+		}
 	},
 	"kpleftparen": {
 		"comment": "Keyboard-page key for Keypad (.",
@@ -9858,7 +10074,9 @@
 				"🔢₍"
 			]
 		},
-		"keyd": "kpleftparen",
+		"keyd": {
+			"name": "kpleftparen"
+		},
 		"class": [
 			"keypad"
 		]
@@ -9916,7 +10134,9 @@
 				"🔢₎"
 			]
 		},
-		"keyd": "kprightparen",
+		"keyd": {
+			"name": "kprightparen"
+		},
 		"class": [
 			"keypad"
 		]
@@ -9965,7 +10185,9 @@
 				"new"
 			]
 		},
-		"keyd": "new"
+		"keyd": {
+			"name": "new"
+		}
 	},
 	"redo": {
 		"hid": {
@@ -10014,7 +10236,9 @@
 				"redo"
 			]
 		},
-		"keyd": "redo"
+		"keyd": {
+			"name": "redo"
+		}
 	},
 	"f13": {
 		"hid": {
@@ -10073,7 +10297,9 @@
 				"F13"
 			]
 		},
-		"keyd": "f13",
+		"keyd": {
+			"name": "f13"
+		},
 		"karabiner-elements": {
 			"name": "f13"
 		},
@@ -10139,7 +10365,9 @@
 				"F14"
 			]
 		},
-		"keyd": "f14",
+		"keyd": {
+			"name": "f14"
+		},
 		"karabiner-elements": {
 			"name": "f14"
 		},
@@ -10205,7 +10433,9 @@
 				"F15"
 			]
 		},
-		"keyd": "f15",
+		"keyd": {
+			"name": "f15"
+		},
 		"karabiner-elements": {
 			"name": "f15"
 		},
@@ -10271,7 +10501,9 @@
 				"F16"
 			]
 		},
-		"keyd": "f16",
+		"keyd": {
+			"name": "f16"
+		},
 		"karabiner-elements": {
 			"name": "f16"
 		},
@@ -10337,7 +10569,9 @@
 				"F17"
 			]
 		},
-		"keyd": "f17",
+		"keyd": {
+			"name": "f17"
+		},
 		"karabiner-elements": {
 			"name": "f17"
 		},
@@ -10403,7 +10637,9 @@
 				"F18"
 			]
 		},
-		"keyd": "f18",
+		"keyd": {
+			"name": "f18"
+		},
 		"karabiner-elements": {
 			"name": "f18"
 		},
@@ -10469,7 +10705,9 @@
 				"F19"
 			]
 		},
-		"keyd": "f19",
+		"keyd": {
+			"name": "f19"
+		},
 		"karabiner-elements": {
 			"name": "f19"
 		},
@@ -10535,7 +10773,9 @@
 				"F20"
 			]
 		},
-		"keyd": "f20",
+		"keyd": {
+			"name": "f20"
+		},
 		"karabiner-elements": {
 			"name": "f20"
 		},
@@ -10853,7 +11093,9 @@
 				"prog3"
 			]
 		},
-		"keyd": "scrollleft"
+		"keyd": {
+			"name": "scrollleft"
+		}
 	},
 	"prog4": {
 		"comment": "Linux key exposed as KEY_PROG4.",
@@ -10896,7 +11138,9 @@
 				"prog4"
 			]
 		},
-		"keyd": "scrollright"
+		"keyd": {
+			"name": "scrollright"
+		}
 	},
 	"all-applications": {
 		"hid": {
@@ -10945,8 +11189,12 @@
 				"allapplications"
 			]
 		},
-		"kanata": "🎛",
-		"keyd": "dashboard"
+		"kanata": {
+			"name": "🎛"
+		},
+		"keyd": {
+			"name": "dashboard"
+		}
 	},
 	"close": {
 		"hid": {
@@ -10992,7 +11240,9 @@
 				"close"
 			]
 		},
-		"keyd": "close"
+		"keyd": {
+			"name": "close"
+		}
 	},
 	"media-fast-forward": {
 		"comment": "GNOME treats this as the media fast-forward key and sends the MPRIS \"FastForward\" action.",
@@ -11046,7 +11296,9 @@
 				"numeric3"
 			]
 		},
-		"keyd": "fastforward",
+		"keyd": {
+			"name": "fastforward"
+		},
 		"karabiner-elements": {
 			"name": "fast_forward",
 			"aliases": [
@@ -11101,7 +11353,9 @@
 				"bassboost"
 			]
 		},
-		"keyd": "bassboost",
+		"keyd": {
+			"name": "bassboost"
+		},
 		"karabiner-elements": {
 			"name": "bass_boost"
 		}
@@ -11160,7 +11414,9 @@
 				"camera"
 			]
 		},
-		"keyd": "camera"
+		"keyd": {
+			"name": "camera"
+		}
 	},
 	"hp": {
 		"comment": "HP-vendor key that Linux maps to KEY_HP.",
@@ -11243,7 +11499,9 @@
 		"web": {
 			"missing": true
 		},
-		"keyd": "sound"
+		"keyd": {
+			"name": "sound"
+		}
 	},
 	"hp-question": {
 		"comment": "HP-vendor key that Linux maps to KEY_QUESTION. This is distinct from display-brightness keys and from the ordinary keyboard question-mark character.",
@@ -11281,7 +11539,9 @@
 		"web": {
 			"missing": true
 		},
-		"keyd": "question"
+		"keyd": {
+			"name": "question"
+		}
 	},
 	"email": {
 		"comment": "Linux exposes KEY_EMAIL separately from KEY_MAIL, and the kernel maps HID Consumer 0x80 to it even though the HID tables name that usage Selection. XKB and Windows flatten the launcher behavior to the generic mail-launch action, so those canonical mappings live under mail instead.",
@@ -11326,8 +11586,12 @@
 				"email"
 			]
 		},
-		"kanata": "email",
-		"keyd": "email",
+		"kanata": {
+			"name": "email"
+		},
+		"keyd": {
+			"name": "email"
+		},
 		"karabiner-elements": {
 			"name": "selection"
 		}
@@ -11386,7 +11650,9 @@
 				"chat"
 			]
 		},
-		"keyd": "chat"
+		"keyd": {
+			"name": "chat"
+		}
 	},
 	"connect": {
 		"hid": {
@@ -11431,7 +11697,9 @@
 				"connect"
 			]
 		},
-		"keyd": "connect"
+		"keyd": {
+			"name": "connect"
+		}
 	},
 	"last": {
 		"comment": "Consumer-control key for Recall Last.",
@@ -11530,7 +11798,9 @@
 				"checkbook"
 			]
 		},
-		"keyd": "finance"
+		"keyd": {
+			"name": "finance"
+		}
 	},
 	"sport": {
 		"hid": {
@@ -11575,7 +11845,9 @@
 				"sport"
 			]
 		},
-		"keyd": "sport"
+		"keyd": {
+			"name": "sport"
+		}
 	},
 	"shop": {
 		"hid": {
@@ -11620,7 +11892,9 @@
 				"shop"
 			]
 		},
-		"keyd": "shop"
+		"keyd": {
+			"name": "shop"
+		}
 	},
 	"alternative-erase": {
 		"comment": "Alternate erase key from the HID keyboard page, distinct from normal Backspace/Delete semantics.",
@@ -11664,7 +11938,9 @@
 				"alterase"
 			]
 		},
-		"keyd": "voicecommand",
+		"keyd": {
+			"name": "voicecommand"
+		},
 		"karabiner-elements": {
 			"name": "alternate_erase"
 		}
@@ -11716,7 +11992,9 @@
 				"cancel"
 			]
 		},
-		"keyd": "cancel"
+		"keyd": {
+			"name": "cancel"
+		}
 	},
 	"media": {
 		"comment": "GNOME treats this as the generic media launcher key rather than a transport-control key.",
@@ -11775,7 +12053,9 @@
 				"imagebrowser"
 			]
 		},
-		"keyd": "media"
+		"keyd": {
+			"name": "media"
+		}
 	},
 	"save": {
 		"hid": {
@@ -11821,7 +12101,9 @@
 				"save"
 			]
 		},
-		"keyd": "save"
+		"keyd": {
+			"name": "save"
+		}
 	},
 	"documents": {
 		"hid": {
@@ -11866,7 +12148,9 @@
 				"documents"
 			]
 		},
-		"keyd": "documents",
+		"keyd": {
+			"name": "documents"
+		},
 		"karabiner-elements": {
 			"name": "al_documents"
 		}
@@ -11912,7 +12196,9 @@
 				"battery"
 			]
 		},
-		"keyd": "battery"
+		"keyd": {
+			"name": "battery"
+		}
 	},
 	"bluetooth": {
 		"comment": "Bluetooth radio key. GNOME has a dedicated Bluetooth airplane-mode path for Bluetooth-specific rfkill keys; use this for toggling the Bluetooth radio rather than general media control.",
@@ -11955,7 +12241,9 @@
 				"bluetooth"
 			]
 		},
-		"keyd": "bluetooth"
+		"keyd": {
+			"name": "bluetooth"
+		}
 	},
 	"wlan": {
 		"comment": "Wireless LAN radio key. Use this for toggling Wi‑Fi/radio state on devices that expose a dedicated WLAN hardware key.",
@@ -11998,7 +12286,9 @@
 				"wlan"
 			]
 		},
-		"keyd": "wlan"
+		"keyd": {
+			"name": "wlan"
+		}
 	},
 	"ultra-wideband": {
 		"comment": "Ultra‑Wideband radio key. This is a dedicated wireless-radio hardware key for UWB-capable devices rather than a normal application/media shortcut.",
@@ -12041,7 +12331,9 @@
 				"uwb"
 			]
 		},
-		"keyd": "uwb"
+		"keyd": {
+			"name": "uwb"
+		}
 	},
 	"unknown": {
 		"comment": "Canonical placeholder for keys that Linux or other stacks surface only as an unknown or unrecognized key code.",
@@ -12079,7 +12371,9 @@
 			"missing": true,
 			"unknown": true
 		},
-		"keyd": "unknown"
+		"keyd": {
+			"name": "unknown"
+		}
 	},
 	"media-video-next": {
 		"comment": "Next video-source key. The kernel meaning is “drive next video source”, so this is for cycling display/video inputs and is distinct from next-track media playback.",
@@ -12127,7 +12421,9 @@
 				"videonext"
 			]
 		},
-		"keyd": "next"
+		"keyd": {
+			"name": "next"
+		}
 	},
 	"media-video-previous": {
 		"comment": "Canonical key retained even though some native stacks collapse it onto another underlying identity.",
@@ -12172,7 +12468,9 @@
 				"videoprev"
 			]
 		},
-		"keyd": "prev"
+		"keyd": {
+			"name": "prev"
+		}
 	},
 	"brightness-cycle": {
 		"comment": "Linux key exposed as KEY_BRIGHTNESS_CYCLE.",
@@ -12215,7 +12513,9 @@
 				"brightnesscycle"
 			]
 		},
-		"keyd": "cycle"
+		"keyd": {
+			"name": "cycle"
+		}
 	},
 	"brightness-toggle": {
 		"comment": "Consumer-control key for Display Brightness Toggle. Linux aliases this to KEY_DISPLAYTOGGLE.",
@@ -12317,7 +12617,9 @@
 				"brightnessauto"
 			]
 		},
-		"keyd": "auto"
+		"keyd": {
+			"name": "auto"
+		}
 	},
 	"contrast-up": {
 		"comment": "Apple display-contrast increase key exposed through the macOS special-key event API.",
@@ -12430,7 +12732,9 @@
 				"displayoff"
 			]
 		},
-		"keyd": "off"
+		"keyd": {
+			"name": "off"
+		}
 	},
 	"wireless-wide-area-network": {
 		"comment": "Wireless Wide Area Network radio key. The kernel explicitly defines this for LTE/UMTS/GSM-style mobile broadband radios; `wimax` is just an alias of the same Linux keycode.",
@@ -12477,7 +12781,9 @@
 				"wimax"
 			]
 		},
-		"keyd": "wwan"
+		"keyd": {
+			"name": "wwan"
+		}
 	},
 	"ok": {
 		"comment": "Confirm/accept key, typically the OK/Enter button in a remote-control or D-pad style navigation cluster.",
@@ -15714,7 +16020,9 @@
 				"switchvideomode"
 			]
 		},
-		"keyd": "switchvideomode"
+		"keyd": {
+			"name": "switchvideomode"
+		}
 	},
 	"spell-check": {
 		"comment": "Consumer-control key for AL Spell Check.",
@@ -23528,7 +23836,9 @@
 				"properties"
 			]
 		},
-		"keyd": "props",
+		"keyd": {
+			"name": "props"
+		},
 		"karabiner-elements": {
 			"name": "cr_sel_or_props"
 		}
@@ -23636,7 +23946,9 @@
 				"suspend"
 			]
 		},
-		"keyd": "suspend"
+		"keyd": {
+			"name": "suspend"
+		}
 	},
 	"turbo": {
 		"comment": "Special key identity for turbo.",
@@ -23706,7 +24018,9 @@
 				"homepage"
 			]
 		},
-		"keyd": "homepage",
+		"keyd": {
+			"name": "homepage"
+		},
 		"karabiner-elements": {
 			"name": "ac_home"
 		},
@@ -23763,7 +24077,9 @@
 				"search"
 			]
 		},
-		"keyd": "search",
+		"keyd": {
+			"name": "search"
+		},
 		"karabiner-elements": {
 			"name": "ac_search"
 		},
@@ -23820,7 +24136,9 @@
 			]
 		},
 		"geometry": "JIS",
-		"keyd": "katakana",
+		"keyd": {
+			"name": "katakana"
+		},
 		"karabiner-elements": {
 			"name": "lang3"
 		},
@@ -23875,8 +24193,12 @@
 			]
 		},
 		"geometry": "JIS",
-		"kanata": "hiragana",
-		"keyd": "hiragana",
+		"kanata": {
+			"name": "hiragana"
+		},
+		"keyd": {
+			"name": "hiragana"
+		},
 		"karabiner-elements": {
 			"name": "lang4"
 		},
@@ -23931,7 +24253,9 @@
 			]
 		},
 		"geometry": "JIS",
-		"keyd": "zenkakuhankaku",
+		"keyd": {
+			"name": "zenkakuhankaku"
+		},
 		"karabiner-elements": {
 			"name": "lang5"
 		}
@@ -23989,7 +24313,9 @@
 				"localmachinebrowser"
 			]
 		},
-		"keyd": "file",
+		"keyd": {
+			"name": "file"
+		},
 		"karabiner-elements": {
 			"name": "al_local_machine_browser"
 		},
@@ -24042,8 +24368,12 @@
 				"calculator"
 			]
 		},
-		"kanata": "calc",
-		"keyd": "calc",
+		"kanata": {
+			"name": "calc"
+		},
+		"keyd": {
+			"name": "calc"
+		},
 		"karabiner-elements": {
 			"name": "al_calculator"
 		},
@@ -24106,7 +24436,9 @@
 				"LaunchMail"
 			]
 		},
-		"keyd": "mail",
+		"keyd": {
+			"name": "mail"
+		},
 		"karabiner-elements": {
 			"name": "al_email_reader"
 		},
@@ -24158,7 +24490,9 @@
 				"reply"
 			]
 		},
-		"keyd": "reply"
+		"keyd": {
+			"name": "reply"
+		}
 	},
 	"send": {
 		"comment": "Consumer-control key for AC Send.",
@@ -24205,7 +24539,9 @@
 				"send"
 			]
 		},
-		"keyd": "send"
+		"keyd": {
+			"name": "send"
+		}
 	},
 	"config": {
 		"comment": "Consumer-control key for AL Consumer Control Configuration.",
@@ -24251,7 +24587,9 @@
 				"config"
 			]
 		},
-		"keyd": "config",
+		"keyd": {
+			"name": "config"
+		},
 		"karabiner-elements": {
 			"name": "al_consumer_control_configuration"
 		},
@@ -24312,7 +24650,9 @@
 				"🔢₌"
 			]
 		},
-		"keyd": "kpequal",
+		"keyd": {
+			"name": "kpequal"
+		},
 		"karabiner-elements": {
 			"name": "keypad_equal_sign"
 		},
@@ -24367,7 +24707,9 @@
 				"front"
 			]
 		},
-		"keyd": "front",
+		"keyd": {
+			"name": "front"
+		},
 		"karabiner-elements": {
 			"name": "select"
 		}
@@ -24419,7 +24761,9 @@
 				"kbdillumtoggle"
 			]
 		},
-		"keyd": "kbdillumtoggle",
+		"keyd": {
+			"name": "kbdillumtoggle"
+		},
 		"karabiner-elements": {
 			"name": "illumination_toggle"
 		}
@@ -24481,7 +24825,9 @@
 				"⌨💡⊕"
 			]
 		},
-		"keyd": "kbdillumup",
+		"keyd": {
+			"name": "kbdillumup"
+		},
 		"karabiner-elements": {
 			"name": "illumination_up",
 			"aliases": [
@@ -24547,7 +24893,9 @@
 				"⌨💡⊖"
 			]
 		},
-		"keyd": "kbdillumdown",
+		"keyd": {
+			"name": "kbdillumdown"
+		},
 		"karabiner-elements": {
 			"name": "illumination_down",
 			"aliases": [
@@ -24601,7 +24949,9 @@
 				"micmute"
 			]
 		},
-		"keyd": "micmute"
+		"keyd": {
+			"name": "micmute"
+		}
 	},
 	"microphone-volume-down": {
 		"comment": "Windows microphone-volume decrease command.",
@@ -24843,7 +25193,9 @@
 				"again"
 			]
 		},
-		"keyd": "again",
+		"keyd": {
+			"name": "again"
+		},
 		"karabiner-elements": {
 			"name": "again"
 		}
@@ -24895,7 +25247,9 @@
 				"copy"
 			]
 		},
-		"keyd": "copy",
+		"keyd": {
+			"name": "copy"
+		},
 		"karabiner-elements": {
 			"name": "copy"
 		},
@@ -24950,7 +25304,9 @@
 				"cut"
 			]
 		},
-		"keyd": "cut",
+		"keyd": {
+			"name": "cut"
+		},
 		"karabiner-elements": {
 			"name": "cut"
 		},
@@ -25005,7 +25361,9 @@
 				"find"
 			]
 		},
-		"keyd": "find",
+		"keyd": {
+			"name": "find"
+		},
 		"karabiner-elements": {
 			"name": "find"
 		}
@@ -25067,7 +25425,9 @@
 				"helpcenter"
 			]
 		},
-		"keyd": "help",
+		"keyd": {
+			"name": "help"
+		},
 		"karabiner-elements": {
 			"name": "help"
 		},
@@ -25130,7 +25490,9 @@
 				"keyexecute"
 			]
 		},
-		"keyd": "open",
+		"keyd": {
+			"name": "open"
+		},
 		"karabiner-elements": {
 			"name": "execute"
 		}
@@ -25182,7 +25544,9 @@
 				"paste"
 			]
 		},
-		"keyd": "paste",
+		"keyd": {
+			"name": "paste"
+		},
 		"karabiner-elements": {
 			"name": "paste"
 		},
@@ -25242,7 +25606,9 @@
 				"powr"
 			]
 		},
-		"keyd": "power",
+		"keyd": {
+			"name": "power"
+		},
 		"karabiner-elements": {
 			"name": "power"
 		},
@@ -25387,7 +25753,9 @@
 				"sleep"
 			]
 		},
-		"keyd": "sleep"
+		"keyd": {
+			"name": "sleep"
+		}
 	},
 	"undo": {
 		"hid": {
@@ -25439,7 +25807,9 @@
 				"undo"
 			]
 		},
-		"keyd": "undo",
+		"keyd": {
+			"name": "undo"
+		},
 		"karabiner-elements": {
 			"name": "undo"
 		},
@@ -25500,7 +25870,9 @@
 				"print"
 			]
 		},
-		"keyd": "print"
+		"keyd": {
+			"name": "print"
+		}
 	},
 	"brightness-up": {
 		"comment": "Display brightness increase key.",
@@ -25558,7 +25930,9 @@
 				"🔆"
 			]
 		},
-		"keyd": "brightnessup",
+		"keyd": {
+			"name": "brightnessup"
+		},
 		"karabiner-elements": {
 			"name": "display_brightness_increment",
 			"aliases": [
@@ -25627,7 +26001,9 @@
 				"🔅"
 			]
 		},
-		"keyd": "brightnessdown",
+		"keyd": {
+			"name": "brightnessdown"
+		},
 		"karabiner-elements": {
 			"name": "display_brightness_decrement",
 			"aliases": [
@@ -25744,7 +26120,9 @@
 				"EjectCD"
 			]
 		},
-		"keyd": "ejectcd",
+		"keyd": {
+			"name": "ejectcd"
+		},
 		"karabiner-elements": {
 			"name": "eject"
 		},
@@ -25790,7 +26168,9 @@
 		"web": {
 			"missing": true
 		},
-		"keyd": "ejectclosecd"
+		"keyd": {
+			"name": "ejectclosecd"
+		}
 	},
 	"forward-mail": {
 		"comment": "Mail forward action.",
@@ -25839,7 +26219,9 @@
 				"forwardmessage"
 			]
 		},
-		"keyd": "forwardmail"
+		"keyd": {
+			"name": "forwardmail"
+		}
 	},
 	"kp-jp-comma": {
 		"comment": "Keyboard-page key for International6.",
@@ -25889,7 +26271,9 @@
 			]
 		},
 		"geometry": "JIS",
-		"keyd": "kpjpcomma",
+		"keyd": {
+			"name": "kpjpcomma"
+		},
 		"karabiner-elements": {
 			"name": "international6"
 		},
@@ -26178,7 +26562,9 @@
 				"wakeup"
 			]
 		},
-		"keyd": "wakeup"
+		"keyd": {
+			"name": "wakeup"
+		}
 	},
 	"task-select": {
 		"comment": "Task/application switcher key. The web name `SelectTask` suggests the operating-system task switcher or application-selection surface.",
@@ -26277,7 +26663,9 @@
 				"play"
 			]
 		},
-		"keyd": "play"
+		"keyd": {
+			"name": "play"
+		}
 	},
 	"media-pause": {
 		"comment": "Media pause key.",
@@ -26324,7 +26712,9 @@
 				"pausecd"
 			]
 		},
-		"keyd": "pausecd"
+		"keyd": {
+			"name": "pausecd"
+		}
 	},
 	"media-record": {
 		"comment": "Media record key.",
@@ -26371,7 +26761,9 @@
 				"record"
 			]
 		},
-		"keyd": "record"
+		"keyd": {
+			"name": "record"
+		}
 	},
 	"media-stop": {
 		"comment": "Generic media-stop key. Linux historically exposes this HID stop usage as KEY_STOPCD, while XKB presents it via XF86AudioStop.",
@@ -26426,7 +26818,9 @@
 				"stopcd"
 			]
 		},
-		"keyd": "stopcd",
+		"keyd": {
+			"name": "stopcd"
+		},
 		"karabiner-elements": {
 			"name": "stop"
 		},
@@ -26479,7 +26873,9 @@
 				"playcd"
 			]
 		},
-		"keyd": "playcd"
+		"keyd": {
+			"name": "playcd"
+		}
 	},
 	"kp-comma": {
 		"comment": "Keyboard-page key for Keyboard Comma and Less Than.",
@@ -26542,7 +26938,9 @@
 				"🔢⸴"
 			]
 		},
-		"keyd": "kpcomma",
+		"keyd": {
+			"name": "kpcomma"
+		},
 		"karabiner-elements": {
 			"name": "keypad_comma"
 		},
@@ -26650,7 +27048,9 @@
 				"fullscreen"
 			]
 		},
-		"keyd": "zoom"
+		"keyd": {
+			"name": "zoom"
+		}
 	},
 	"contacts": {
 		"comment": "Address-book / contacts launcher key.",
@@ -26745,7 +27145,9 @@
 				"rfkill"
 			]
 		},
-		"keyd": "rfkill"
+		"keyd": {
+			"name": "rfkill"
+		}
 	},
 	"apple-dashboard": {
 		"comment": "Apple Dashboard key on the Apple vendor keyboard page.",
@@ -27042,7 +27444,9 @@
 				"🅵"
 			]
 		},
-		"keyd": "fn",
+		"keyd": {
+			"name": "fn"
+		},
 		"karabiner-elements": {
 			"missing": true
 		},
@@ -27051,7 +27455,7 @@
 			"modifier",
 			"fn"
 		],
-		"modifier": "fn"
+		"modifier": "#fn"
 	},
 	"apple-fn": {
 		"comment": "Apple top-case Fn key exposed on Apple's vendor-defined top-case HID page.",
@@ -27850,7 +28254,9 @@
 		"web": {
 			"missing": true
 		},
-		"keyd": "hp",
+		"keyd": {
+			"name": "hp"
+		},
 		"karabiner-elements": {
 			"name": "al_oem_help"
 		}
@@ -30898,7 +31304,9 @@
 				"🔢∗"
 			]
 		},
-		"keyd": "kpasterisk",
+		"keyd": {
+			"name": "kpasterisk"
+		},
 		"karabiner-elements": {
 			"name": "keypad_asterisk"
 		},
@@ -31753,7 +32161,7 @@
 			"modifier",
 			"symbols"
 		],
-		"modifier": "symbols"
+		"modifier": "#symbols"
 	},
 	"symbols2": {
 		"comment": "Semantic secondary Symbols key meaning, corresponding on Linux/XKB to ISO_Level5_Shift and used for a higher alternate symbol layer than the regular Symbols key.",
@@ -31791,7 +32199,7 @@
 			"modifier",
 			"symbols2"
 		],
-		"modifier": "symbols2"
+		"modifier": "#symbols2"
 	},
 	"fn-left": {
 		"comment": "Pure internal semantic left-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
@@ -31829,7 +32237,7 @@
 			"fn-left",
 			"fn"
 		],
-		"modifier": "fn-left"
+		"modifier": "#fn-left"
 	},
 	"fn-right": {
 		"comment": "Pure internal semantic right-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
@@ -31867,7 +32275,7 @@
 			"fn-right",
 			"fn"
 		],
-		"modifier": "fn-right"
+		"modifier": "#fn-right"
 	},
 	"symbols-left": {
 		"comment": "Pure internal semantic left-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
@@ -31905,7 +32313,7 @@
 			"symbols-left",
 			"symbols"
 		],
-		"modifier": "symbols-left"
+		"modifier": "#symbols-left"
 	},
 	"symbols-right": {
 		"comment": "Pure internal semantic right-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
@@ -31943,7 +32351,7 @@
 			"symbols-right",
 			"symbols"
 		],
-		"modifier": "symbols-right"
+		"modifier": "#symbols-right"
 	},
 	"symbols2-left": {
 		"comment": "Pure internal semantic left-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
@@ -31981,7 +32389,7 @@
 			"symbols2-left",
 			"symbols2"
 		],
-		"modifier": "symbols2-left"
+		"modifier": "#symbols2-left"
 	},
 	"symbols2-right": {
 		"comment": "Pure internal semantic right-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
@@ -32019,7 +32427,7 @@
 			"symbols2-right",
 			"symbols2"
 		],
-		"modifier": "symbols2-right"
+		"modifier": "#symbols2-right"
 	},
 	"key-lock": {
 		"comment": "Pure internal semantic key whose purpose is to lock any other key while held, until that key is pressed again.",
@@ -32057,7 +32465,7 @@
 			"special",
 			"key-lock"
 		],
-		"modifier": "key-lock"
+		"modifier": "#key-lock"
 	},
 	"extra-left-0": {
 		"comment": "Pure internal semantic extra key for the left-side extra key family.",
