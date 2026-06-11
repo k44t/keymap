@@ -68,7 +68,8 @@
 				"Esc"
 			]
 		},
-		"label": "⎋"
+		"label": "⎋",
+		"icon": "/kui/res/icons/ai/keyboard/escape.svg"
 	},
 	"minus": {
 		"comment": "Keyboard-page key for Keyboard - and _.",
@@ -300,7 +301,8 @@
 				"BS"
 			]
 		},
-		"label": "⌫"
+		"label": "⌫",
+		"icon": "/kui/res/icons/ai/keyboard/backspace.svg"
 	},
 	"tab": {
 		"hid": {
@@ -366,7 +368,8 @@
 		"autohotkey": {
 			"name": "Tab"
 		},
-		"label": "↦"
+		"label": "↦",
+		"icon": "/kui/res/icons/ai/keyboard/tab.svg"
 	},
 	"q": {
 		"hid": {
@@ -1357,7 +1360,8 @@
 		"autohotkey": {
 			"name": "Enter"
 		},
-		"label": "⏎"
+		"label": "⏎",
+		"icon": "/kui/res/icons/ai/keyboard/enter.svg"
 	},
 	"ctrl-left": {
 		"hid": {
@@ -1436,7 +1440,8 @@
 			"ctrl",
 			"ctrl-left"
 		],
-		"modifier": "#ctrl-left"
+		"modifier": "#ctrl-left",
+		"icon": "/kui/res/icons/ai/keyboard/ctrl.svg"
 	},
 	"a": {
 		"hid": {
@@ -2353,7 +2358,8 @@
 			"shift",
 			"shift-left"
 		],
-		"modifier": "#shift-left"
+		"modifier": "#shift-left",
+		"icon": "/kui/res/icons/ai/keyboard/shift.svg"
 	},
 	"backslash": {
 		"comment": "Keyboard-page key for Keyboard \\ and |.",
@@ -3271,7 +3277,8 @@
 			"shift",
 			"shift-right"
 		],
-		"modifier": "#shift-right"
+		"modifier": "#shift-right",
+		"icon": "/kui/res/icons/ai/keyboard/shift.svg"
 	},
 	"win-shift": {
 		"comment": "Generic Windows Shift virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_SHIFT in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LSHIFT or VK_RSHIFT. Keep this unsided Windows emission when that is what was reported, but prefer shift-left or shift-right when sided identity is available.",
@@ -3380,7 +3387,8 @@
 			"alt",
 			"alt-left"
 		],
-		"modifier": "#alt-left"
+		"modifier": "#alt-left",
+		"icon": "/kui/res/icons/ai/keyboard/alt.svg"
 	},
 	"space": {
 		"hid": {
@@ -3525,7 +3533,8 @@
 			"lockable",
 			"caps-lock"
 		],
-		"modifier": "#caps-lock"
+		"modifier": "#caps-lock",
+		"icon": "/kui/res/icons/ai/keyboard/caps-lock.svg"
 	},
 	"f1": {
 		"hid": {
@@ -4283,7 +4292,8 @@
 			"num-lock",
 			"keypad"
 		],
-		"modifier": "#num-lock"
+		"modifier": "#num-lock",
+		"icon": "/kui/res/icons/ai/keyboard/num-lock.svg"
 	},
 	"scroll-lock": {
 		"hid": {
@@ -5997,7 +6007,8 @@
 			"ctrl",
 			"ctrl-right"
 		],
-		"modifier": "#ctrl-right"
+		"modifier": "#ctrl-right",
+		"icon": "/kui/res/icons/ai/keyboard/ctrl.svg"
 	},
 	"win-control": {
 		"comment": "Generic Windows Control virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_CONTROL in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LCONTROL or VK_RCONTROL. Keep this unsided Windows emission when that is what was reported, but prefer ctrl-left or ctrl-right when sided identity is available.",
@@ -6256,7 +6267,8 @@
 			"alt",
 			"alt-right"
 		],
-		"modifier": "#alt-right"
+		"modifier": "#alt-right",
+		"icon": "/kui/res/icons/ai/keyboard/alt.svg"
 	},
 	"win-alt": {
 		"comment": "Generic Windows Alt virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_MENU in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LMENU or VK_RMENU. Keep this unsided Windows emission when that is what was reported, but prefer alt-left or alt-right when sided identity is available.",
@@ -6406,7 +6418,8 @@
 		"autohotkey": {
 			"name": "Home"
 		},
-		"label": "⇤"
+		"label": "⇤",
+		"icon": "/kui/res/icons/ai/keyboard/home.svg"
 	},
 	"uncertain-begin": {
 		"comment": "AppKit semantic begin function-character identity, likely representing begin-of-line behavior rather than a distinct physical key.",
@@ -6509,7 +6522,8 @@
 		"autohotkey": {
 			"name": "Up"
 		},
-		"label": "↑"
+		"label": "↑",
+		"icon": "/kui/res/icons/ai/keyboard/arrow-up.svg"
 	},
 	"page-up": {
 		"hid": {
@@ -6580,7 +6594,8 @@
 		"autohotkey": {
 			"name": "PgUp"
 		},
-		"label": "⇞"
+		"label": "⇞",
+		"icon": "/kui/res/icons/ai/keyboard/page-up.svg"
 	},
 	"arrow-left": {
 		"hid": {
@@ -6652,7 +6667,8 @@
 		"autohotkey": {
 			"name": "Left"
 		},
-		"label": "←"
+		"label": "←",
+		"icon": "/kui/res/icons/ai/keyboard/arrow-left.svg"
 	},
 	"arrow-right": {
 		"hid": {
@@ -6724,7 +6740,8 @@
 		"autohotkey": {
 			"name": "Right"
 		},
-		"label": "→"
+		"label": "→",
+		"icon": "/kui/res/icons/ai/keyboard/arrow-right.svg"
 	},
 	"end": {
 		"hid": {
@@ -6796,7 +6813,8 @@
 		"autohotkey": {
 			"name": "End"
 		},
-		"label": "⇥"
+		"label": "⇥",
+		"icon": "/kui/res/icons/ai/keyboard/end.svg"
 	},
 	"arrow-down": {
 		"hid": {
@@ -6866,7 +6884,8 @@
 		"autohotkey": {
 			"name": "Down"
 		},
-		"label": "↓"
+		"label": "↓",
+		"icon": "/kui/res/icons/ai/keyboard/arrow-down.svg"
 	},
 	"page-down": {
 		"hid": {
@@ -6937,7 +6956,8 @@
 		"autohotkey": {
 			"name": "PgDn"
 		},
-		"label": "⇟"
+		"label": "⇟",
+		"icon": "/kui/res/icons/ai/keyboard/page-down.svg"
 	},
 	"insert": {
 		"hid": {
@@ -7081,7 +7101,8 @@
 				"Del"
 			]
 		},
-		"label": "⌦"
+		"label": "⌦",
+		"icon": "/kui/res/icons/ai/keyboard/delete.svg"
 	},
 	"uncertain-delete-char": {
 		"comment": "AppKit semantic delete-character function-character identity.",
@@ -7864,7 +7885,8 @@
 			"system",
 			"system-left"
 		],
-		"modifier": "#system-left"
+		"modifier": "#system-left",
+		"icon": "/kui/res/icons/ai/keyboard/system.svg"
 	},
 	"system-right": {
 		"hid": {
@@ -7947,7 +7969,8 @@
 			"system",
 			"system-right"
 		],
-		"modifier": "#system-right"
+		"modifier": "#system-right",
+		"icon": "/kui/res/icons/ai/keyboard/system.svg"
 	},
 	"iso-level3-shift": {
 		"comment": "Level-3 shift / AltGr-style modifier key represented by the XKB ISO_Level3_Shift keysym.",
@@ -8039,7 +8062,8 @@
 		"keyd": {
 			"name": "compose"
 		},
-		"label": "☰"
+		"label": "☰",
+		"icon": "/kui/res/icons/ai/keyboard/menu.svg"
 	},
 	"stop": {
 		"comment": "Linux KEY_STOP / XKB STOP come from Consumer AC Stop. HID Keyboard/Keypad Stop remains only an informational alternative because Linux does not map it to this keycode.",
@@ -8180,7 +8204,8 @@
 		"autohotkey": {
 			"name": "AppsKey"
 		},
-		"label": "☰"
+		"label": "☰",
+		"icon": "/kui/res/icons/ai/keyboard/menu.svg"
 	},
 	"setup": {
 		"hid": {
@@ -27455,7 +27480,8 @@
 			"modifier",
 			"fn"
 		],
-		"modifier": "#fn"
+		"modifier": "#fn",
+		"icon": "/kui/res/icons/ai/keyboard/fn.svg"
 	},
 	"apple-fn": {
 		"comment": "Apple top-case Fn key exposed on Apple's vendor-defined top-case HID page.",
@@ -32161,7 +32187,8 @@
 			"modifier",
 			"symbols"
 		],
-		"modifier": "#symbols"
+		"modifier": "#symbols",
+		"icon": "/kui/res/icons/ai/keyboard/symbols.svg"
 	},
 	"symbols2": {
 		"comment": "Semantic secondary Symbols key meaning, corresponding on Linux/XKB to ISO_Level5_Shift and used for a higher alternate symbol layer than the regular Symbols key.",
@@ -32199,7 +32226,8 @@
 			"modifier",
 			"symbols2"
 		],
-		"modifier": "#symbols2"
+		"modifier": "#symbols2",
+		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg"
 	},
 	"fn-left": {
 		"comment": "Pure internal semantic left-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
@@ -32237,7 +32265,8 @@
 			"fn-left",
 			"fn"
 		],
-		"modifier": "#fn-left"
+		"modifier": "#fn-left",
+		"icon": "/kui/res/icons/ai/keyboard/fn.svg"
 	},
 	"fn-right": {
 		"comment": "Pure internal semantic right-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
@@ -32275,7 +32304,8 @@
 			"fn-right",
 			"fn"
 		],
-		"modifier": "#fn-right"
+		"modifier": "#fn-right",
+		"icon": "/kui/res/icons/ai/keyboard/fn.svg"
 	},
 	"symbols-left": {
 		"comment": "Pure internal semantic left-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
@@ -32313,7 +32343,8 @@
 			"symbols-left",
 			"symbols"
 		],
-		"modifier": "#symbols-left"
+		"modifier": "#symbols-left",
+		"icon": "/kui/res/icons/ai/keyboard/symbols.svg"
 	},
 	"symbols-right": {
 		"comment": "Pure internal semantic right-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
@@ -32351,7 +32382,8 @@
 			"symbols-right",
 			"symbols"
 		],
-		"modifier": "#symbols-right"
+		"modifier": "#symbols-right",
+		"icon": "/kui/res/icons/ai/keyboard/symbols.svg"
 	},
 	"symbols2-left": {
 		"comment": "Pure internal semantic left-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
@@ -32389,7 +32421,8 @@
 			"symbols2-left",
 			"symbols2"
 		],
-		"modifier": "#symbols2-left"
+		"modifier": "#symbols2-left",
+		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg"
 	},
 	"symbols2-right": {
 		"comment": "Pure internal semantic right-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
@@ -32427,7 +32460,8 @@
 			"symbols2-right",
 			"symbols2"
 		],
-		"modifier": "#symbols2-right"
+		"modifier": "#symbols2-right",
+		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg"
 	},
 	"key-lock": {
 		"comment": "Pure internal semantic key whose purpose is to lock any other key while held, until that key is pressed again.",
@@ -32465,7 +32499,8 @@
 			"special",
 			"key-lock"
 		],
-		"modifier": "#key-lock"
+		"modifier": "#key-lock",
+		"icon": "/kui/res/icons/ai/keyboard/key-lock.svg"
 	},
 	"extra-left-0": {
 		"comment": "Pure internal semantic extra key for the left-side extra key family.",
@@ -33119,6 +33154,7 @@
 				"↤"
 			]
 		},
-		"label": "↤"
+		"label": "↤",
+		"icon": "/kui/res/icons/ai/keyboard/left-tab.svg"
 	}
 }
