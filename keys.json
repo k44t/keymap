@@ -149,7 +149,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-up2-right"
 	},
 	"equal": {
 		"comment": "Keyboard-page key for Keyboard = and +.",
@@ -229,7 +230,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-up2-right"
 	},
 	"backspace": {
 		"hid": {
@@ -302,7 +304,8 @@
 			]
 		},
 		"label": "⌫",
-		"icon": "/kui/res/icons/ai/keyboard/backspace.svg"
+		"icon": "/kui/res/icons/ai/keyboard/backspace.svg",
+		"direction": "rside-up2-right"
 	},
 	"tab": {
 		"hid": {
@@ -444,7 +447,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-up-left2"
 	},
 	"w": {
 		"hid": {
@@ -519,7 +523,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-up-left"
 	},
 	"e": {
 		"hid": {
@@ -594,7 +599,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-up"
 	},
 	"r": {
 		"hid": {
@@ -669,7 +675,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-up-right"
 	},
 	"t": {
 		"hid": {
@@ -744,7 +751,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-up-right2"
 	},
 	"y": {
 		"hid": {
@@ -819,7 +827,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-up-left2"
 	},
 	"u": {
 		"hid": {
@@ -894,7 +903,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-up-left"
 	},
 	"i": {
 		"hid": {
@@ -969,7 +979,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-up"
 	},
 	"o": {
 		"hid": {
@@ -1044,7 +1055,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-up-right"
 	},
 	"p": {
 		"hid": {
@@ -1119,7 +1131,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-up-right2"
 	},
 	"bracket-left": {
 		"hid": {
@@ -1441,7 +1454,8 @@
 			"ctrl-left"
 		],
 		"modifier": "#ctrl-left",
-		"icon": "/kui/res/icons/ai/keyboard/ctrl.svg"
+		"icon": "/kui/res/icons/ai/keyboard/ctrl.svg",
+		"repeat": false
 	},
 	"a": {
 		"hid": {
@@ -1516,7 +1530,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-left2"
 	},
 	"s": {
 		"hid": {
@@ -1591,7 +1606,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-left"
 	},
 	"d": {
 		"hid": {
@@ -1666,7 +1682,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-center"
 	},
 	"f": {
 		"hid": {
@@ -1741,7 +1758,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-right"
 	},
 	"g": {
 		"hid": {
@@ -1816,7 +1834,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-right2"
 	},
 	"h": {
 		"hid": {
@@ -1891,7 +1910,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-left2"
 	},
 	"j": {
 		"hid": {
@@ -1966,7 +1986,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-left"
 	},
 	"k": {
 		"hid": {
@@ -2041,7 +2062,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-center"
 	},
 	"l": {
 		"hid": {
@@ -2116,7 +2138,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-right"
 	},
 	"quote": {
 		"hid": {
@@ -2280,7 +2303,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-up2-left"
 	},
 	"shift-left": {
 		"hid": {
@@ -2359,7 +2383,8 @@
 			"shift-left"
 		],
 		"modifier": "#shift-left",
-		"icon": "/kui/res/icons/ai/keyboard/shift.svg"
+		"icon": "/kui/res/icons/ai/keyboard/shift.svg",
+		"repeat": false
 	},
 	"backslash": {
 		"comment": "Keyboard-page key for Keyboard \\ and |.",
@@ -2517,7 +2542,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-down-left2"
 	},
 	"x": {
 		"hid": {
@@ -2592,7 +2618,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-down-left"
 	},
 	"c": {
 		"hid": {
@@ -2667,7 +2694,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-down"
 	},
 	"v": {
 		"hid": {
@@ -2742,7 +2770,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-down-right"
 	},
 	"b": {
 		"hid": {
@@ -2817,7 +2846,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-down-right2"
 	},
 	"n": {
 		"hid": {
@@ -2892,7 +2922,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-down-left2"
 	},
 	"m": {
 		"hid": {
@@ -2967,7 +2998,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-down-left"
 	},
 	"comma": {
 		"hid": {
@@ -3046,7 +3078,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-down"
 	},
 	"period": {
 		"hid": {
@@ -3123,7 +3156,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-down-right"
 	},
 	"slash": {
 		"hid": {
@@ -3200,7 +3234,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-down-right2"
 	},
 	"shift-right": {
 		"hid": {
@@ -3278,7 +3313,8 @@
 			"shift-right"
 		],
 		"modifier": "#shift-right",
-		"icon": "/kui/res/icons/ai/keyboard/shift.svg"
+		"icon": "/kui/res/icons/ai/keyboard/shift.svg",
+		"repeat": false
 	},
 	"win-shift": {
 		"comment": "Generic Windows Shift virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_SHIFT in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LSHIFT or VK_RSHIFT. Keep this unsided Windows emission when that is what was reported, but prefer shift-left or shift-right when sided identity is available.",
@@ -3388,7 +3424,8 @@
 			"alt-left"
 		],
 		"modifier": "#alt-left",
-		"icon": "/kui/res/icons/ai/keyboard/alt.svg"
+		"icon": "/kui/res/icons/ai/keyboard/alt.svg",
+		"repeat": false
 	},
 	"space": {
 		"hid": {
@@ -3534,7 +3571,8 @@
 			"caps-lock"
 		],
 		"modifier": "#caps-lock",
-		"icon": "/kui/res/icons/ai/keyboard/caps-lock.svg"
+		"icon": "/kui/res/icons/ai/keyboard/caps-lock.svg",
+		"repeat": false
 	},
 	"f1": {
 		"hid": {
@@ -4293,7 +4331,8 @@
 			"keypad"
 		],
 		"modifier": "#num-lock",
-		"icon": "/kui/res/icons/ai/keyboard/num-lock.svg"
+		"icon": "/kui/res/icons/ai/keyboard/num-lock.svg",
+		"repeat": false
 	},
 	"scroll-lock": {
 		"hid": {
@@ -4367,7 +4406,8 @@
 			"legacy-lockable",
 			"scroll-lock"
 		],
-		"modifier": "#scroll-lock"
+		"modifier": "#scroll-lock",
+		"repeat": false
 	},
 	"kp7": {
 		"hid": {
@@ -6008,7 +6048,8 @@
 			"ctrl-right"
 		],
 		"modifier": "#ctrl-right",
-		"icon": "/kui/res/icons/ai/keyboard/ctrl.svg"
+		"icon": "/kui/res/icons/ai/keyboard/ctrl.svg",
+		"repeat": false
 	},
 	"win-control": {
 		"comment": "Generic Windows Control virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_CONTROL in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LCONTROL or VK_RCONTROL. Keep this unsided Windows emission when that is what was reported, but prefer ctrl-left or ctrl-right when sided identity is available.",
@@ -6268,7 +6309,8 @@
 			"alt-right"
 		],
 		"modifier": "#alt-right",
-		"icon": "/kui/res/icons/ai/keyboard/alt.svg"
+		"icon": "/kui/res/icons/ai/keyboard/alt.svg",
+		"repeat": false
 	},
 	"win-alt": {
 		"comment": "Generic Windows Alt virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_MENU in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LMENU or VK_RMENU. Keep this unsided Windows emission when that is what was reported, but prefer alt-left or alt-right when sided identity is available.",
@@ -7254,7 +7296,8 @@
 		"autohotkey": {
 			"name": "Volume_Mute"
 		},
-		"label": "🔇"
+		"label": "🔇",
+		"repeat": false
 	},
 	"media-volume-down": {
 		"hid": {
@@ -7333,7 +7376,8 @@
 		"autohotkey": {
 			"name": "Volume_Down"
 		},
-		"label": "🔉"
+		"label": "🔉",
+		"repeat": false
 	},
 	"media-volume-up": {
 		"hid": {
@@ -7411,7 +7455,8 @@
 		"autohotkey": {
 			"name": "Volume_Up"
 		},
-		"label": "🔊"
+		"label": "🔊",
+		"repeat": false
 	},
 	"kp-sign-change": {
 		"comment": "Calculator-style keypad sign toggle: changes the current numeric entry between positive and negative rather than acting as an arithmetic operator.",
@@ -7886,7 +7931,8 @@
 			"system-left"
 		],
 		"modifier": "#system-left",
-		"icon": "/kui/res/icons/ai/keyboard/system.svg"
+		"icon": "/kui/res/icons/ai/keyboard/system.svg",
+		"repeat": false
 	},
 	"system-right": {
 		"hid": {
@@ -7970,7 +8016,8 @@
 			"system-right"
 		],
 		"modifier": "#system-right",
-		"icon": "/kui/res/icons/ai/keyboard/system.svg"
+		"icon": "/kui/res/icons/ai/keyboard/system.svg",
+		"repeat": false
 	},
 	"iso-level3-shift": {
 		"comment": "Level-3 shift / AltGr-style modifier key represented by the XKB ISO_Level3_Shift keysym.",
@@ -8063,7 +8110,8 @@
 			"name": "compose"
 		},
 		"label": "☰",
-		"icon": "/kui/res/icons/ai/keyboard/menu.svg"
+		"icon": "/kui/res/icons/ai/keyboard/menu.svg",
+		"repeat": false
 	},
 	"stop": {
 		"comment": "Linux KEY_STOP / XKB STOP come from Consumer AC Stop. HID Keyboard/Keypad Stop remains only an informational alternative because Linux does not map it to this keycode.",
@@ -8601,7 +8649,8 @@
 		},
 		"keyd": {
 			"name": "msdos"
-		}
+		},
+		"repeat": false
 	},
 	"screen-lock": {
 		"comment": "Screen-lock / terminal-lock / screensaver key identity. Linux keeps the legacy KEY_COFFEE name for this same keycode.",
@@ -9029,7 +9078,8 @@
 		},
 		"keyd": {
 			"name": "closecd"
-		}
+		},
+		"repeat": false
 	},
 	"media-next": {
 		"comment": "GNOME treats this as the media next-track key and sends the MPRIS \"Next\" action.",
@@ -9104,7 +9154,8 @@
 		"autohotkey": {
 			"name": "Media_Next"
 		},
-		"label": "⏭"
+		"label": "⏭",
+		"repeat": false
 	},
 	"media-play-pause": {
 		"hid": {
@@ -9174,7 +9225,8 @@
 		"autohotkey": {
 			"name": "Media_Play_Pause"
 		},
-		"label": "⏯"
+		"label": "⏯",
+		"repeat": false
 	},
 	"media-prev": {
 		"comment": "GNOME treats this as the media previous-track key and sends the MPRIS \"Previous\" action.",
@@ -9249,7 +9301,8 @@
 		"autohotkey": {
 			"name": "Media_Prev"
 		},
-		"label": "⏮"
+		"label": "⏮",
+		"repeat": false
 	},
 	"media-rewind": {
 		"comment": "GNOME treats this as the media rewind key and sends the MPRIS \"Rewind\" action.",
@@ -9309,7 +9362,8 @@
 		"karabiner-elements": {
 			"name": "rewind"
 		},
-		"label": "⏪"
+		"label": "⏪",
+		"repeat": false
 	},
 	"phone": {
 		"hid": {
@@ -11330,7 +11384,8 @@
 				"fastforward"
 			]
 		},
-		"label": "⏩"
+		"label": "⏩",
+		"repeat": false
 	},
 	"bass-boost": {
 		"comment": "Consumer-control key for Bass Boost.",
@@ -12080,7 +12135,8 @@
 		},
 		"keyd": {
 			"name": "media"
-		}
+		},
+		"repeat": false
 	},
 	"save": {
 		"hid": {
@@ -12448,7 +12504,8 @@
 		},
 		"keyd": {
 			"name": "next"
-		}
+		},
+		"repeat": false
 	},
 	"media-video-previous": {
 		"comment": "Canonical key retained even though some native stacks collapse it onto another underlying identity.",
@@ -12495,7 +12552,8 @@
 		},
 		"keyd": {
 			"name": "prev"
-		}
+		},
+		"repeat": false
 	},
 	"brightness-cycle": {
 		"comment": "Linux key exposed as KEY_BRIGHTNESS_CYCLE.",
@@ -12540,7 +12598,8 @@
 		},
 		"keyd": {
 			"name": "cycle"
-		}
+		},
+		"repeat": false
 	},
 	"brightness-toggle": {
 		"comment": "Consumer-control key for Display Brightness Toggle. Linux aliases this to KEY_DISPLAYTOGGLE.",
@@ -12589,7 +12648,8 @@
 				"brightnesstoggle",
 				"displaytoggle"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"brightness-auto": {
 		"comment": "Kernel meaning: enable automatic brightness control. Linux aliases KEY_BRIGHTNESS_ZERO to the same keycode, but the kernel comment defines the primary meaning as automatic brightness.",
@@ -12644,7 +12704,8 @@
 		},
 		"keyd": {
 			"name": "auto"
-		}
+		},
+		"repeat": false
 	},
 	"contrast-up": {
 		"comment": "Apple display-contrast increase key exposed through the macOS special-key event API.",
@@ -12759,7 +12820,8 @@
 		},
 		"keyd": {
 			"name": "off"
-		}
+		},
+		"repeat": false
 	},
 	"wireless-wide-area-network": {
 		"comment": "Wireless Wide Area Network radio key. The kernel explicitly defines this for LTE/UMTS/GSM-style mobile broadband radios; `wimax` is just an alias of the same Linux keycode.",
@@ -13461,7 +13523,8 @@
 				"keychannel",
 				"channel"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"favorites": {
 		"comment": "Favorites/bookmarks key. Use it for opening or cycling a favorites list rather than generic “like” behavior.",
@@ -13546,7 +13609,8 @@
 				"keyepg",
 				"epg"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-personal-video-recorder": {
 		"comment": "Personal Video Recorder key. The Linux kernel comment maps this to “Media Select Home”, so it is typically the DVR/PVR home/library key.",
@@ -13591,7 +13655,8 @@
 				"keypvr",
 				"pvr"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"multimedia-home-platform": {
 		"comment": "TV-platform key for Multimedia Home Platform (MHP), an interactive digital-television middleware standard. This is a specialized media-device key rather than a general desktop keyboard key.",
@@ -13668,7 +13733,8 @@
 		},
 		"karabiner-elements": {
 			"name": "language"
-		}
+		},
+		"repeat": false
 	},
 	"title": {
 		"comment": "Linux key exposed as KEY_TITLE.",
@@ -13754,7 +13820,8 @@
 		},
 		"karabiner-elements": {
 			"name": "closed_caption"
-		}
+		},
+		"repeat": false
 	},
 	"angle": {
 		"comment": "Linux key exposed as KEY_ANGLE.",
@@ -14003,7 +14070,8 @@
 				"keytv",
 				"tv"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-tv2": {
 		"comment": "Alternate TV/cable source-selection key. KMonad aliases it as `cable`, which fits that secondary TV-input meaning.",
@@ -14044,7 +14112,8 @@
 				"tv2",
 				"cable"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-vcr": {
 		"comment": "Source-selection key for switching to a VCR/video-recorder input or mode.",
@@ -14092,7 +14161,8 @@
 				"keyvcr",
 				"vcr"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-vcr2": {
 		"comment": "Alternate VCR/video-recorder source key. KMonad aliases it as `vcr+`, suggesting a secondary VCR input or related recorder mode.",
@@ -14133,7 +14203,8 @@
 				"vcr2",
 				"vcr+"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-satellite": {
 		"comment": "Consumer-control key for Media Select Satellite.",
@@ -14173,7 +14244,8 @@
 				"keysat",
 				"sat"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-satellite2": {
 		"comment": "Linux key exposed as KEY_SAT2.",
@@ -14210,7 +14282,8 @@
 				"keysat2",
 				"sat2"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-cd": {
 		"comment": "Consumer-control key for Media Select CD.",
@@ -14250,7 +14323,8 @@
 				"keycd",
 				"cd"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-tape": {
 		"comment": "Consumer-control key for Media Select Tape.",
@@ -14290,7 +14364,8 @@
 				"keytape",
 				"tape"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"radio": {
 		"comment": "Linux key exposed as KEY_RADIO.",
@@ -14367,7 +14442,8 @@
 				"keytuner",
 				"tuner"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"player": {
 		"comment": "Media-player source/application key for jumping to a playback device or player mode rather than transport control.",
@@ -14501,7 +14577,8 @@
 				"keydvd",
 				"dvd"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"link-phone": {
 		"comment": "Linux key for linking a phone with the host device.",
@@ -14575,7 +14652,8 @@
 				"keyaux",
 				"aux"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-mp3": {
 		"comment": "Linux-only media key exposed as KEY_MP3. Its intended meaning appears to be an MP3 or music-player selector, but the upstream semantics are unclear and there is no confirmed matching HID MP3 usage in the current reference set.",
@@ -14612,7 +14690,8 @@
 				"keymp3",
 				"mp3"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-audio": {
 		"comment": "Consumer-control key for AL Audio Browser.",
@@ -14660,7 +14739,8 @@
 		},
 		"karabiner-elements": {
 			"name": "al_audio_browser"
-		}
+		},
+		"repeat": false
 	},
 	"media-video": {
 		"comment": "Consumer-control key for AL Movie Browser.",
@@ -14703,7 +14783,8 @@
 		},
 		"karabiner-elements": {
 			"name": "al_movie_browser"
-		}
+		},
+		"repeat": false
 	},
 	"directory": {
 		"comment": "Linux key exposed as KEY_DIRECTORY.",
@@ -15082,7 +15163,8 @@
 				"keychannelup",
 				"channelup"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"shuffle": {
 		"comment": "Consumer-control key for random play / shuffle.",
@@ -15173,7 +15255,8 @@
 				"keychanneldown",
 				"channeldown"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"first": {
 		"comment": "Linux key exposed as KEY_FIRST.",
@@ -15400,7 +15483,8 @@
 				"keyslow",
 				"slow"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"break": {
 		"comment": "Linux KEY_BREAK is a separate modern input key that maps to XF86Break. It is not the same source as the classic Pause/Break keyboard behavior, where Break is produced as Ctrl+Pause on the Pause key.",
@@ -16047,7 +16131,8 @@
 		},
 		"keyd": {
 			"name": "switchvideomode"
-		}
+		},
+		"repeat": false
 	},
 	"spell-check": {
 		"comment": "Consumer-control key for AL Spell Check.",
@@ -16377,7 +16462,8 @@
 				"keynumerica",
 				"numerica"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-10-channels-up": {
 		"comment": "Channel-jump key for moving 10 channels up.",
@@ -16414,7 +16500,8 @@
 				"key10channelsup",
 				"10channelsup"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-10-channels-down": {
 		"comment": "Channel-jump key for moving 10 channels down.",
@@ -16451,7 +16538,8 @@
 				"key10channelsdown",
 				"10channelsdown"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"images": {
 		"comment": "Consumer-control key for AL Image Browser.",
@@ -16935,7 +17023,8 @@
 				"keyfnesc",
 				"fnesc"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f1": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F1 on some devices rather than as a standard HID key.",
@@ -16977,7 +17066,8 @@
 				"keyfnf1",
 				"fnf1"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f2": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F2 on some devices rather than as a standard HID key.",
@@ -17019,7 +17109,8 @@
 				"keyfnf2",
 				"fnf2"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f3": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F3 on some devices rather than as a standard HID key.",
@@ -17061,7 +17152,8 @@
 				"keyfnf3",
 				"fnf3"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f4": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F4 on some devices rather than as a standard HID key.",
@@ -17103,7 +17195,8 @@
 				"keyfnf4",
 				"fnf4"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f5": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F5 on some devices rather than as a standard HID key.",
@@ -17145,7 +17238,8 @@
 				"keyfnf5",
 				"fnf5"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f6": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F6 on some devices rather than as a standard HID key.",
@@ -17187,7 +17281,8 @@
 				"keyfnf6",
 				"fnf6"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f7": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F7 on some devices rather than as a standard HID key.",
@@ -17229,7 +17324,8 @@
 				"keyfnf7",
 				"fnf7"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f8": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F8 on some devices rather than as a standard HID key.",
@@ -17271,7 +17367,8 @@
 				"keyfnf8",
 				"fnf8"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f9": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F9 on some devices rather than as a standard HID key.",
@@ -17313,7 +17410,8 @@
 				"keyfnf9",
 				"fnf9"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f10": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F10 on some devices rather than as a standard HID key.",
@@ -17355,7 +17453,8 @@
 				"keyfnf10",
 				"fnf10"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f11": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F11 on some devices rather than as a standard HID key.",
@@ -17397,7 +17496,8 @@
 				"keyfnf11",
 				"fnf11"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f12": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F12 on some devices rather than as a standard HID key.",
@@ -17439,7 +17539,8 @@
 				"keyfnf12",
 				"fnf12"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-1": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_1 on some devices rather than as a standard HID key.",
@@ -17481,7 +17582,8 @@
 				"keyfn1",
 				"fn1"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-2": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_2 on some devices rather than as a standard HID key.",
@@ -17523,7 +17625,8 @@
 				"keyfn2",
 				"fn2"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-d": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_D on some devices rather than as a standard HID key.",
@@ -17565,7 +17668,8 @@
 				"keyfnd",
 				"fnd"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-e": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_E on some devices rather than as a standard HID key.",
@@ -17607,7 +17711,8 @@
 				"keyfne",
 				"fne"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-f": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_F on some devices rather than as a standard HID key.",
@@ -17649,7 +17754,8 @@
 				"keyfnf",
 				"fnf"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-s": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_S on some devices rather than as a standard HID key.",
@@ -17691,7 +17797,8 @@
 				"keyfns",
 				"fns"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-b": {
 		"comment": "Linux/platform-driver-defined special Fn-layer key identity, exposed as KEY_FN_B on some devices rather than as a standard HID key.",
@@ -17733,7 +17840,8 @@
 				"keyfnb",
 				"fnb"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"fn-right-shift": {
 		"comment": "Laptop Fn-layer key identity for right shift when firmware or the OS exposes it as a distinct key.",
@@ -17775,7 +17883,8 @@
 				"keyfnrightshift",
 				"fnrightshift"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"braille-dot-1": {
 		"comment": "Braille input or routing key for dot 1.",
@@ -19972,7 +20081,8 @@
 				"keykbdlayoutnext",
 				"kbdlayoutnext"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"emoji-picker": {
 		"comment": "Emoji-picker launcher key for opening the system emoji or symbol chooser.",
@@ -20398,7 +20508,8 @@
 				"keyquestion",
 				"question"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"brightness-max": {
 		"comment": "Consumer-control key for Display Brightness Maximum.",
@@ -20443,7 +20554,8 @@
 				"keybrightnessmax",
 				"brightnessmax"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"keyboard-input-assist-previous": {
 		"comment": "Consumer-control key for Keyboard Input Assist Previous.",
@@ -20483,7 +20595,8 @@
 				"keykbdinputassistprev",
 				"kbdinputassistprev"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"keyboard-input-assist-next": {
 		"comment": "Consumer-control key for Keyboard Input Assist Next.",
@@ -20523,7 +20636,8 @@
 				"keykbdinputassistnext",
 				"kbdinputassistnext"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"keyboard-input-assist-previous-group": {
 		"comment": "Consumer-control key for Keyboard Input Assist Previous Group.",
@@ -20563,7 +20677,8 @@
 				"keykbdinputassistprevgroup",
 				"kbdinputassistprevgroup"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"keyboard-input-assist-next-group": {
 		"comment": "Consumer-control key for Keyboard Input Assist Next Group.",
@@ -20603,7 +20718,8 @@
 				"keykbdinputassistnextgroup",
 				"kbdinputassistnextgroup"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"keyboard-input-assist-accept": {
 		"comment": "Consumer-control key for Keyboard Input Assist Accept.",
@@ -20643,7 +20759,8 @@
 				"keykbdinputassistaccept",
 				"kbdinputassistaccept"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"keyboard-input-assist-cancel": {
 		"comment": "Consumer-control key for Keyboard Input Assist Cancel.",
@@ -20683,7 +20800,8 @@
 				"keykbdinputassistcancel",
 				"kbdinputassistcancel"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"right-up": {
 		"comment": "Linux key exposed as KEY_RIGHT_UP.",
@@ -20905,7 +21023,8 @@
 				"keymediatopmenu",
 				"mediatopmenu"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"telephony-11": {
 		"comment": "Telephony-style numeric keypad key for 11.",
@@ -21026,7 +21145,8 @@
 				"keyaudiodesc",
 				"audiodesc"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"3d-mode": {
 		"comment": "Linux key exposed as KEY_3D_MODE.",
@@ -21211,7 +21331,8 @@
 				"keyvod",
 				"vod"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"unmute": {
 		"comment": "Linux key exposed as KEY_UNMUTE.",
@@ -21285,7 +21406,8 @@
 				"keyfastreverse",
 				"fastreverse"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"media-slow-reverse": {
 		"comment": "Linux key exposed as KEY_SLOWREVERSE.",
@@ -21322,7 +21444,8 @@
 				"keyslowreverse",
 				"slowreverse"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"data": {
 		"comment": "Linux key exposed as KEY_DATA.",
@@ -22144,7 +22267,8 @@
 				"keybrightnessmenu",
 				"brightnessmenu"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"macro1": {
 		"comment": "Linux key exposed as KEY_MACRO1.",
@@ -23513,7 +23637,8 @@
 				"keykbdlcdmenu1",
 				"kbdlcdmenu1"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"keyboard-lcd-menu2": {
 		"comment": "Linux key exposed as KEY_KBD_LCD_MENU2.",
@@ -23550,7 +23675,8 @@
 				"keykbdlcdmenu2",
 				"kbdlcdmenu2"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"keyboard-lcd-menu3": {
 		"comment": "Linux key exposed as KEY_KBD_LCD_MENU3.",
@@ -23587,7 +23713,8 @@
 				"keykbdlcdmenu3",
 				"kbdlcdmenu3"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"keyboard-lcd-menu4": {
 		"comment": "Linux key exposed as KEY_KBD_LCD_MENU4.",
@@ -23624,7 +23751,8 @@
 				"keykbdlcdmenu4",
 				"kbdlcdmenu4"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"keyboard-lcd-menu5": {
 		"comment": "Linux key exposed as KEY_KBD_LCD_MENU5.",
@@ -23661,7 +23789,8 @@
 				"keykbdlcdmenu5",
 				"kbdlcdmenu5"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"dictation": {
 		"comment": "Special key identity for dictation.",
@@ -23738,7 +23867,8 @@
 		},
 		"web": {
 			"name": "FnLock"
-		}
+		},
+		"repeat": false
 	},
 	"hyper-left": {
 		"comment": "Left hyper key identity where a layout exposes Hyper as a distinct sided modifier.",
@@ -24791,7 +24921,8 @@
 		},
 		"karabiner-elements": {
 			"name": "illumination_toggle"
-		}
+		},
+		"repeat": false
 	},
 	"keyboard-illumination-up": {
 		"comment": "Keyboard backlight increase key. GNOME steps the keyboard-brightness service up; KDE increases keyboard brightness, shows an OSD, and restores keyboard brightness after resume.",
@@ -24859,7 +24990,8 @@
 				"illumination_increment",
 				"vk_consumer_illumination_up"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"keyboard-illumination-down": {
 		"comment": "Keyboard backlight decrease key. GNOME steps the keyboard-brightness service down; KDE decreases keyboard brightness, shows an OSD, and restores keyboard brightness after resume.",
@@ -24927,7 +25059,8 @@
 				"illumination_decrement",
 				"vk_consumer_illumination_down"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"mute-mic": {
 		"comment": "GNOME binds this as the microphone mute key and routes it through the quiet sound-action path for input-device mute, rather than the normal output-volume mute action.",
@@ -25639,7 +25772,8 @@
 		},
 		"autohotkey": {
 			"name": "SC15E"
-		}
+		},
+		"repeat": false
 	},
 	"semicolon": {
 		"comment": "Keyboard-page key for Keyboard ; or :.",
@@ -25719,7 +25853,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-right2"
 	},
 	"sleep": {
 		"comment": "System sleep key. systemd-logind treats KEY_SLEEP as suspend-to-RAM; KDE binds Qt::Key_Sleep as “Suspend”. Both allow configured system behavior, and systemd also supports a distinct long-press action.",
@@ -25780,7 +25915,8 @@
 		},
 		"keyd": {
 			"name": "sleep"
-		}
+		},
+		"repeat": false
 	},
 	"undo": {
 		"hid": {
@@ -25966,7 +26102,8 @@
 				"apple_top_case_display_brightness_increment",
 				"vk_consumer_brightness_up"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"brightness-down": {
 		"comment": "Display brightness decrease key.",
@@ -26037,7 +26174,8 @@
 				"apple_top_case_display_brightness_decrement",
 				"vk_consumer_brightness_down"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"control-panel": {
 		"comment": "Settings/control-panel key. GNOME does not bind this exact symbol directly, but it does have a dedicated control-center launcher action for settings-style keys.",
@@ -26153,7 +26291,8 @@
 		},
 		"autohotkey": {
 			"name": "SC12C"
-		}
+		},
+		"repeat": false
 	},
 	"media-cd-eject-close": {
 		"comment": "Combined optical-drive eject/close key. Linux exposes it separately from plain eject, while higher-level stacks usually collapse it to generic eject semantics.",
@@ -26195,7 +26334,8 @@
 		},
 		"keyd": {
 			"name": "ejectclosecd"
-		}
+		},
+		"repeat": false
 	},
 	"forward-mail": {
 		"comment": "Mail forward action.",
@@ -26589,7 +26729,8 @@
 		},
 		"keyd": {
 			"name": "wakeup"
-		}
+		},
+		"repeat": false
 	},
 	"task-select": {
 		"comment": "Task/application switcher key. The web name `SelectTask` suggests the operating-system task switcher or application-selection surface.",
@@ -26690,7 +26831,8 @@
 		},
 		"keyd": {
 			"name": "play"
-		}
+		},
+		"repeat": false
 	},
 	"media-pause": {
 		"comment": "Media pause key.",
@@ -26739,7 +26881,8 @@
 		},
 		"keyd": {
 			"name": "pausecd"
-		}
+		},
+		"repeat": false
 	},
 	"media-record": {
 		"comment": "Media record key.",
@@ -26788,7 +26931,8 @@
 		},
 		"keyd": {
 			"name": "record"
-		}
+		},
+		"repeat": false
 	},
 	"media-stop": {
 		"comment": "Generic media-stop key. Linux historically exposes this HID stop usage as KEY_STOPCD, while XKB presents it via XF86AudioStop.",
@@ -26855,7 +26999,8 @@
 				"SC124",
 				"VKB2"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"cd-play": {
 		"comment": "Optical-media play key. Distinct from the generic media play key when devices expose a dedicated CD playback command.",
@@ -27021,7 +27166,8 @@
 				"Program",
 				"program"
 			]
-		}
+		},
+		"repeat": false
 	},
 	"zoom": {
 		"comment": "Zoom/view-toggle key. Linux aliases KEY_ZOOM to KEY_FULL_SCREEN, and the web mapping names it ZoomToggle.",
@@ -27481,7 +27627,8 @@
 			"fn"
 		],
 		"modifier": "#fn",
-		"icon": "/kui/res/icons/ai/keyboard/fn.svg"
+		"icon": "/kui/res/icons/ai/keyboard/fn.svg",
+		"repeat": false
 	},
 	"apple-fn": {
 		"comment": "Apple top-case Fn key exposed on Apple's vendor-defined top-case HID page.",
@@ -27696,7 +27843,8 @@
 		},
 		"karabiner-elements": {
 			"name": "al_audio_player"
-		}
+		},
+		"repeat": false
 	},
 	"clock": {
 		"comment": "Application-launch HID key.",
@@ -28421,7 +28569,8 @@
 		},
 		"karabiner-elements": {
 			"name": "al_power_status"
-		}
+		},
+		"repeat": false
 	},
 	"halt-task": {
 		"comment": "Application-launch HID key.",
@@ -29612,7 +29761,8 @@
 		},
 		"karabiner-elements": {
 			"name": "closed_caption_select"
-		}
+		},
+		"repeat": false
 	},
 	"microphone": {
 		"comment": "Consumer microphone-control key. Linux folds this usage into brightness-up, but that is not a semantic match.",
@@ -31417,7 +31567,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-up2"
 	},
 	"digit-1": {
 		"comment": "Keyboard-page key for Keyboard 1 and !.",
@@ -31492,7 +31643,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-up2-left"
 	},
 	"digit-2": {
 		"comment": "Keyboard-page key for Keyboard 2 and @.",
@@ -31567,7 +31719,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-up2"
 	},
 	"digit-3": {
 		"comment": "Keyboard-page key for Keyboard 3 and #.",
@@ -31642,7 +31795,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-up2"
 	},
 	"digit-4": {
 		"comment": "Keyboard-page key for Keyboard 4 and $.",
@@ -31717,7 +31871,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-up2"
 	},
 	"digit-5": {
 		"comment": "Keyboard-page key for Keyboard 5 and %.",
@@ -31792,7 +31947,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-up2-right"
 	},
 	"digit-6": {
 		"comment": "Keyboard-page key for Keyboard 6 and ^.",
@@ -31867,7 +32023,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "lside-up2-right"
 	},
 	"digit-7": {
 		"comment": "Keyboard-page key for Keyboard 7 and &.",
@@ -31942,7 +32099,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-up2-left"
 	},
 	"digit-8": {
 		"comment": "Keyboard-page key for Keyboard 8 and *.",
@@ -32017,7 +32175,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-up2-left"
 	},
 	"digit-9": {
 		"comment": "Keyboard-page key for Keyboard 9 and (.",
@@ -32092,7 +32251,8 @@
 		},
 		"class": [
 			"character"
-		]
+		],
+		"direction": "rside-up2"
 	},
 	"iso-pound": {
 		"comment": "Distinct HID key for the ISO/UK-style #~ key partially tucked under Enter. It is different from the ISO key next to left Shift (HID 0x64), but many software stacks collapse it onto backslash-like semantics.",
@@ -32188,7 +32348,8 @@
 			"symbols"
 		],
 		"modifier": "#symbols",
-		"icon": "/kui/res/icons/ai/keyboard/symbols.svg"
+		"icon": "/kui/res/icons/ai/keyboard/symbols.svg",
+		"repeat": false
 	},
 	"symbols2": {
 		"comment": "Semantic secondary Symbols key meaning, corresponding on Linux/XKB to ISO_Level5_Shift and used for a higher alternate symbol layer than the regular Symbols key.",
@@ -32266,7 +32427,8 @@
 			"fn"
 		],
 		"modifier": "#fn-left",
-		"icon": "/kui/res/icons/ai/keyboard/fn.svg"
+		"icon": "/kui/res/icons/ai/keyboard/fn.svg",
+		"repeat": false
 	},
 	"fn-right": {
 		"comment": "Pure internal semantic right-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
@@ -32305,7 +32467,8 @@
 			"fn"
 		],
 		"modifier": "#fn-right",
-		"icon": "/kui/res/icons/ai/keyboard/fn.svg"
+		"icon": "/kui/res/icons/ai/keyboard/fn.svg",
+		"repeat": false
 	},
 	"symbols-left": {
 		"comment": "Pure internal semantic left-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
@@ -32344,7 +32507,8 @@
 			"symbols"
 		],
 		"modifier": "#symbols-left",
-		"icon": "/kui/res/icons/ai/keyboard/symbols.svg"
+		"icon": "/kui/res/icons/ai/keyboard/symbols.svg",
+		"repeat": false
 	},
 	"symbols-right": {
 		"comment": "Pure internal semantic right-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
@@ -32383,7 +32547,8 @@
 			"symbols"
 		],
 		"modifier": "#symbols-right",
-		"icon": "/kui/res/icons/ai/keyboard/symbols.svg"
+		"icon": "/kui/res/icons/ai/keyboard/symbols.svg",
+		"repeat": false
 	},
 	"symbols2-left": {
 		"comment": "Pure internal semantic left-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
@@ -32500,7 +32665,8 @@
 			"key-lock"
 		],
 		"modifier": "#key-lock",
-		"icon": "/kui/res/icons/ai/keyboard/key-lock.svg"
+		"icon": "/kui/res/icons/ai/keyboard/key-lock.svg",
+		"repeat": false
 	},
 	"extra-left-0": {
 		"comment": "Pure internal semantic extra key for the left-side extra key family.",
