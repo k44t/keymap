@@ -23799,7 +23799,8 @@
 		},
 		"linux": {
 			"evdev": {
-				"code": "0x302"
+				"code": "0x24a",
+				"name": "KEY_DICTATE"
 			},
 			"xkb-keycode": {
 				"missing": true
@@ -27377,10 +27378,6 @@
 			"page-defined-by": "Apple"
 		},
 		"linux": {
-			"evdev": {
-				"code": "0x2ff",
-				"name": "KEY_MAX"
-			},
 			"xkb-keycode": {
 				"missing": true
 			}
@@ -27434,9 +27431,6 @@
 			"page-defined-by": "Apple"
 		},
 		"linux": {
-			"evdev": {
-				"code": "0x301"
-			},
 			"xkb-keycode": {
 				"missing": true
 			}
@@ -27733,9 +27727,6 @@
 			"page-defined-by": "Apple"
 		},
 		"linux": {
-			"evdev": {
-				"code": "0x300"
-			},
 			"xkb-keycode": {
 				"missing": true
 			}
