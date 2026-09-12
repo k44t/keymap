@@ -32340,7 +32340,8 @@
 		],
 		"modifier": "#symbols",
 		"icon": "/kui/res/icons/ai/keyboard/symbols.svg",
-		"repeat": false
+		"repeat": false,
+		"physicalOutputId": null
 	},
 	"symbols2": {
 		"comment": "Semantic secondary Symbols key meaning, corresponding on Linux/XKB to ISO_Level5_Shift and used for a higher alternate symbol layer than the regular Symbols key.",
@@ -32379,7 +32380,8 @@
 			"symbols2"
 		],
 		"modifier": "#symbols2",
-		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg"
+		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg",
+		"physicalOutputId": null
 	},
 	"fn-left": {
 		"comment": "Pure internal semantic left-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
@@ -32419,7 +32421,8 @@
 		],
 		"modifier": "#fn-left",
 		"icon": "/kui/res/icons/ai/keyboard/fn.svg",
-		"repeat": false
+		"repeat": false,
+		"physicalOutputId": null
 	},
 	"fn-right": {
 		"comment": "Pure internal semantic right-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
@@ -32459,7 +32462,8 @@
 		],
 		"modifier": "#fn-right",
 		"icon": "/kui/res/icons/ai/keyboard/fn.svg",
-		"repeat": false
+		"repeat": false,
+		"physicalOutputId": null
 	},
 	"symbols-left": {
 		"comment": "Pure internal semantic left-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
@@ -32499,7 +32503,8 @@
 		],
 		"modifier": "#symbols-left",
 		"icon": "/kui/res/icons/ai/keyboard/symbols.svg",
-		"repeat": false
+		"repeat": false,
+		"physicalOutputId": null
 	},
 	"symbols-right": {
 		"comment": "Pure internal semantic right-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
@@ -32539,7 +32544,8 @@
 		],
 		"modifier": "#symbols-right",
 		"icon": "/kui/res/icons/ai/keyboard/symbols.svg",
-		"repeat": false
+		"repeat": false,
+		"physicalOutputId": null
 	},
 	"symbols2-left": {
 		"comment": "Pure internal semantic left-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
@@ -32578,7 +32584,8 @@
 			"symbols2"
 		],
 		"modifier": "#symbols2-left",
-		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg"
+		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg",
+		"physicalOutputId": null
 	},
 	"symbols2-right": {
 		"comment": "Pure internal semantic right-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
@@ -32617,7 +32624,8 @@
 			"symbols2"
 		],
 		"modifier": "#symbols2-right",
-		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg"
+		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg",
+		"physicalOutputId": null
 	},
 	"key-lock": {
 		"comment": "Pure internal semantic key whose purpose is to lock any other key while held, until that key is pressed again.",
@@ -32657,7 +32665,8 @@
 		],
 		"modifier": "#key-lock",
 		"icon": "/kui/res/icons/ai/keyboard/key-lock.svg",
-		"repeat": false
+		"repeat": false,
+		"physicalOutputId": null
 	},
 	"extra-left-0": {
 		"comment": "Pure internal semantic extra key for the left-side extra key family.",
