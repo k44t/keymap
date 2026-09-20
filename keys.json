@@ -26104,7 +26104,8 @@
 				"vk_consumer_brightness_up"
 			]
 		},
-		"repeat": false
+		"repeat": false,
+		"label": "🔆"
 	},
 	"brightness-down": {
 		"comment": "Display brightness decrease key.",
@@ -26176,7 +26177,8 @@
 				"vk_consumer_brightness_down"
 			]
 		},
-		"repeat": false
+		"repeat": false,
+		"label": "🔅"
 	},
 	"control-panel": {
 		"comment": "Settings/control-panel key. GNOME does not bind this exact symbol directly, but it does have a dedicated control-center launcher action for settings-style keys.",
