@@ -149,8 +149,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-up2-right"
+		]
 	},
 	"equal": {
 		"comment": "Keyboard-page key for Keyboard = and +.",
@@ -230,8 +229,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-up2-right"
+		]
 	},
 	"backspace": {
 		"hid": {
@@ -304,8 +302,7 @@
 			]
 		},
 		"label": "⌫",
-		"icon": "/kui/res/icons/ai/keyboard/backspace.svg",
-		"direction": "rside-up2-right"
+		"icon": "/kui/res/icons/ai/keyboard/backspace.svg"
 	},
 	"tab": {
 		"hid": {
@@ -447,8 +444,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-up-left2"
+		]
 	},
 	"w": {
 		"hid": {
@@ -523,8 +519,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-up-left"
+		]
 	},
 	"e": {
 		"hid": {
@@ -599,8 +594,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-up"
+		]
 	},
 	"r": {
 		"hid": {
@@ -675,8 +669,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-up-right"
+		]
 	},
 	"t": {
 		"hid": {
@@ -751,8 +744,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-up-right2"
+		]
 	},
 	"y": {
 		"hid": {
@@ -827,8 +819,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-up-left2"
+		]
 	},
 	"u": {
 		"hid": {
@@ -903,8 +894,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-up-left"
+		]
 	},
 	"i": {
 		"hid": {
@@ -979,8 +969,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-up"
+		]
 	},
 	"o": {
 		"hid": {
@@ -1055,8 +1044,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-up-right"
+		]
 	},
 	"p": {
 		"hid": {
@@ -1131,8 +1119,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-up-right2"
+		]
 	},
 	"bracket-left": {
 		"hid": {
@@ -1530,8 +1517,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-left2"
+		]
 	},
 	"s": {
 		"hid": {
@@ -1606,8 +1592,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-left"
+		]
 	},
 	"d": {
 		"hid": {
@@ -1682,8 +1667,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-center"
+		]
 	},
 	"f": {
 		"hid": {
@@ -1758,8 +1742,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-right"
+		]
 	},
 	"g": {
 		"hid": {
@@ -1834,8 +1817,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-right2"
+		]
 	},
 	"h": {
 		"hid": {
@@ -1910,8 +1892,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-left2"
+		]
 	},
 	"j": {
 		"hid": {
@@ -1986,8 +1967,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-left"
+		]
 	},
 	"k": {
 		"hid": {
@@ -2062,8 +2042,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-center"
+		]
 	},
 	"l": {
 		"hid": {
@@ -2138,8 +2117,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-right"
+		]
 	},
 	"quote": {
 		"hid": {
@@ -2303,8 +2281,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-up2-left"
+		]
 	},
 	"shift-left": {
 		"hid": {
@@ -2542,8 +2519,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-down-left2"
+		]
 	},
 	"x": {
 		"hid": {
@@ -2618,8 +2594,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-down-left"
+		]
 	},
 	"c": {
 		"hid": {
@@ -2694,8 +2669,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-down"
+		]
 	},
 	"v": {
 		"hid": {
@@ -2770,8 +2744,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-down-right"
+		]
 	},
 	"b": {
 		"hid": {
@@ -2846,8 +2819,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-down-right2"
+		]
 	},
 	"n": {
 		"hid": {
@@ -2922,8 +2894,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-down-left2"
+		]
 	},
 	"m": {
 		"hid": {
@@ -2998,8 +2969,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-down-left"
+		]
 	},
 	"comma": {
 		"hid": {
@@ -3078,8 +3048,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-down"
+		]
 	},
 	"period": {
 		"hid": {
@@ -3156,8 +3125,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-down-right"
+		]
 	},
 	"slash": {
 		"hid": {
@@ -3234,8 +3202,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-down-right2"
+		]
 	},
 	"shift-right": {
 		"hid": {
@@ -7577,7 +7544,7 @@
 		},
 		"label": "⏸"
 	},
-	"scale": {
+	"window-overview": {
 		"comment": "Desktop window-overview / expose-style key rather than a text or numeric key.",
 		"hid": {
 			"code": "0x29f",
@@ -25854,8 +25821,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-right2"
+		]
 	},
 	"sleep": {
 		"comment": "System sleep key. systemd-logind treats KEY_SLEEP as suspend-to-RAM; KDE binds Qt::Key_Sleep as “Suspend”. Both allow configured system behavior, and systemd also supports a distinct long-press action.",
@@ -26226,6 +26192,62 @@
 		},
 		"karabiner-elements": {
 			"name": "al_control_panel"
+		}
+	},
+	"quick-settings": {
+		"comment": "Quick-settings / system-status menu key.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
+		}
+	},
+	"app-settings": {
+		"comment": "Application-settings key.",
+		"hid": {
+			"missing": true
+		},
+		"linux": {
+			"evdev": {
+				"missing": true
+			},
+			"xkb-keycode": {
+				"missing": true
+			}
+		},
+		"windows": {
+			"scancode": {
+				"missing": true
+			},
+			"virtual": {
+				"missing": true
+			}
+		},
+		"mac": {
+			"missing": true
+		},
+		"web": {
+			"missing": true
 		}
 	},
 	"media-cd-eject": {
@@ -27423,8 +27445,8 @@
 			]
 		}
 	},
-	"apple-spotlight": {
-		"comment": "Apple Vendor Keyboard key for Spotlight.",
+	"launcher": {
+		"comment": "Launcher key; Apple exposes it as Spotlight on the Apple Vendor Keyboard page.",
 		"hid": {
 			"code": "0x1",
 			"name": "Spotlight",
@@ -31560,8 +31582,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-up2"
+		]
 	},
 	"digit-1": {
 		"comment": "Keyboard-page key for Keyboard 1 and !.",
@@ -31636,8 +31657,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-up2-left"
+		]
 	},
 	"digit-2": {
 		"comment": "Keyboard-page key for Keyboard 2 and @.",
@@ -31712,8 +31732,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-up2"
+		]
 	},
 	"digit-3": {
 		"comment": "Keyboard-page key for Keyboard 3 and #.",
@@ -31788,8 +31807,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-up2"
+		]
 	},
 	"digit-4": {
 		"comment": "Keyboard-page key for Keyboard 4 and $.",
@@ -31864,8 +31882,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-up2"
+		]
 	},
 	"digit-5": {
 		"comment": "Keyboard-page key for Keyboard 5 and %.",
@@ -31940,8 +31957,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-up2-right"
+		]
 	},
 	"digit-6": {
 		"comment": "Keyboard-page key for Keyboard 6 and ^.",
@@ -32016,8 +32032,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "lside-up2-right"
+		]
 	},
 	"digit-7": {
 		"comment": "Keyboard-page key for Keyboard 7 and &.",
@@ -32092,8 +32107,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-up2-left"
+		]
 	},
 	"digit-8": {
 		"comment": "Keyboard-page key for Keyboard 8 and *.",
@@ -32168,8 +32182,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-up2-left"
+		]
 	},
 	"digit-9": {
 		"comment": "Keyboard-page key for Keyboard 9 and (.",
@@ -32244,8 +32257,7 @@
 		},
 		"class": [
 			"character"
-		],
-		"direction": "rside-up2"
+		]
 	},
 	"iso-pound": {
 		"comment": "Distinct HID key for the ISO/UK-style #~ key partially tucked under Enter. It is different from the ISO key next to left Shift (HID 0x64), but many software stacks collapse it onto backslash-like semantics.",
