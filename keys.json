@@ -147,7 +147,7 @@
 		"autohotkey": {
 			"name": "-"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -227,7 +227,7 @@
 		"autohotkey": {
 			"name": "="
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -442,7 +442,7 @@
 		"autohotkey": {
 			"name": "q"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -517,7 +517,7 @@
 		"autohotkey": {
 			"name": "w"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -592,7 +592,7 @@
 		"autohotkey": {
 			"name": "e"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -667,7 +667,7 @@
 		"autohotkey": {
 			"name": "r"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -742,7 +742,7 @@
 		"autohotkey": {
 			"name": "t"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -817,7 +817,7 @@
 		"autohotkey": {
 			"name": "y"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -892,7 +892,7 @@
 		"autohotkey": {
 			"name": "u"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -967,7 +967,7 @@
 		"autohotkey": {
 			"name": "i"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -1042,7 +1042,7 @@
 		"autohotkey": {
 			"name": "o"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -1117,7 +1117,7 @@
 		"autohotkey": {
 			"name": "p"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -1200,7 +1200,7 @@
 		"autohotkey": {
 			"name": "["
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -1283,7 +1283,7 @@
 		"autohotkey": {
 			"name": "]"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -1435,14 +1435,14 @@
 			]
 		},
 		"label": "⌃",
-		"class": [
+		"modifier": "#ctrl-left",
+		"icon": "/kui/res/icons/ai/keyboard/ctrl.svg",
+		"repeat": false,
+		"outputCategories": [
 			"modifier",
 			"ctrl",
 			"ctrl-left"
-		],
-		"modifier": "#ctrl-left",
-		"icon": "/kui/res/icons/ai/keyboard/ctrl.svg",
-		"repeat": false
+		]
 	},
 	"a": {
 		"hid": {
@@ -1515,7 +1515,7 @@
 		"autohotkey": {
 			"name": "a"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -1590,7 +1590,7 @@
 		"autohotkey": {
 			"name": "s"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -1665,7 +1665,7 @@
 		"autohotkey": {
 			"name": "d"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -1740,7 +1740,7 @@
 		"autohotkey": {
 			"name": "f"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -1815,7 +1815,7 @@
 		"autohotkey": {
 			"name": "g"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -1890,7 +1890,7 @@
 		"autohotkey": {
 			"name": "h"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -1965,7 +1965,7 @@
 		"autohotkey": {
 			"name": "j"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -2040,7 +2040,7 @@
 		"autohotkey": {
 			"name": "k"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -2115,7 +2115,7 @@
 		"autohotkey": {
 			"name": "l"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -2136,8 +2136,8 @@
 				"name": "AC11"
 			},
 			"xkb-keysym": {
-				"code": "0x003a",
-				"name": "colon"
+				"code": "0x0027",
+				"name": "apostrophe"
 			}
 		},
 		"windows": {
@@ -2195,7 +2195,7 @@
 		"autohotkey": {
 			"name": "'"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -2279,7 +2279,7 @@
 		"autohotkey": {
 			"name": "`"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -2354,14 +2354,14 @@
 			"name": "LShift"
 		},
 		"label": "⇧",
-		"class": [
+		"modifier": "#shift-left",
+		"icon": "/kui/res/icons/ai/keyboard/shift.svg",
+		"repeat": false,
+		"outputCategories": [
 			"modifier",
 			"shift",
 			"shift-left"
-		],
-		"modifier": "#shift-left",
-		"icon": "/kui/res/icons/ai/keyboard/shift.svg",
-		"repeat": false
+		]
 	},
 	"backslash": {
 		"comment": "Keyboard-page key for Keyboard \\ and |.",
@@ -2442,7 +2442,7 @@
 		"autohotkey": {
 			"name": "\\"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -2517,7 +2517,7 @@
 		"autohotkey": {
 			"name": "z"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -2592,7 +2592,7 @@
 		"autohotkey": {
 			"name": "x"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -2667,7 +2667,7 @@
 		"autohotkey": {
 			"name": "c"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -2742,7 +2742,7 @@
 		"autohotkey": {
 			"name": "v"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -2817,7 +2817,7 @@
 		"autohotkey": {
 			"name": "b"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -2892,7 +2892,7 @@
 		"autohotkey": {
 			"name": "n"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -2967,7 +2967,7 @@
 		"autohotkey": {
 			"name": "m"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -3046,7 +3046,7 @@
 		"autohotkey": {
 			"name": ","
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -3123,7 +3123,7 @@
 		"autohotkey": {
 			"name": "."
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -3200,7 +3200,7 @@
 		"autohotkey": {
 			"name": "/"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -3274,14 +3274,14 @@
 			"name": "RShift"
 		},
 		"label": "⇧",
-		"class": [
+		"modifier": "#shift-right",
+		"icon": "/kui/res/icons/ai/keyboard/shift.svg",
+		"repeat": false,
+		"outputCategories": [
 			"modifier",
 			"shift",
 			"shift-right"
-		],
-		"modifier": "#shift-right",
-		"icon": "/kui/res/icons/ai/keyboard/shift.svg",
-		"repeat": false
+		]
 	},
 	"win-shift": {
 		"comment": "Generic Windows Shift virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_SHIFT in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LSHIFT or VK_RSHIFT. Keep this unsided Windows emission when that is what was reported, but prefer shift-left or shift-right when sided identity is available.",
@@ -3385,14 +3385,14 @@
 			"name": "LAlt"
 		},
 		"label": "⌥",
-		"class": [
+		"modifier": "#alt-left",
+		"icon": "/kui/res/icons/ai/keyboard/alt.svg",
+		"repeat": false,
+		"outputCategories": [
 			"modifier",
 			"alt",
 			"alt-left"
-		],
-		"modifier": "#alt-left",
-		"icon": "/kui/res/icons/ai/keyboard/alt.svg",
-		"repeat": false
+		]
 	},
 	"space": {
 		"hid": {
@@ -3459,7 +3459,7 @@
 		"autohotkey": {
 			"name": "Space"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -3532,14 +3532,14 @@
 			"name": "CapsLock"
 		},
 		"label": "⇪",
-		"class": [
+		"modifier": "#caps-lock",
+		"icon": "/kui/res/icons/ai/keyboard/caps-lock.svg",
+		"repeat": false,
+		"outputCategories": [
 			"modifier",
 			"lockable",
 			"caps-lock"
-		],
-		"modifier": "#caps-lock",
-		"icon": "/kui/res/icons/ai/keyboard/caps-lock.svg",
-		"repeat": false
+		]
 	},
 	"f1": {
 		"hid": {
@@ -4291,15 +4291,15 @@
 			"name": "NumLock"
 		},
 		"label": "⇭",
-		"class": [
+		"modifier": "#num-lock",
+		"icon": "/kui/res/icons/ai/keyboard/num-lock.svg",
+		"repeat": false,
+		"outputCategories": [
 			"modifier",
 			"lockable",
 			"num-lock",
 			"keypad"
-		],
-		"modifier": "#num-lock",
-		"icon": "/kui/res/icons/ai/keyboard/num-lock.svg",
-		"repeat": false
+		]
 	},
 	"scroll-lock": {
 		"hid": {
@@ -4368,13 +4368,13 @@
 			"name": "ScrollLock"
 		},
 		"label": "⇳",
-		"class": [
+		"modifier": "#scroll-lock",
+		"repeat": false,
+		"outputCategories": [
 			"legacy-modifier",
 			"legacy-lockable",
 			"scroll-lock"
-		],
-		"modifier": "#scroll-lock",
-		"repeat": false
+		]
 	},
 	"kp7": {
 		"hid": {
@@ -4447,7 +4447,7 @@
 				}
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -4523,7 +4523,7 @@
 				}
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -4599,7 +4599,7 @@
 				}
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -4668,7 +4668,7 @@
 		"autohotkey": {
 			"name": "NumpadSub"
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -4744,7 +4744,7 @@
 				}
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -4820,7 +4820,7 @@
 				}
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -4896,7 +4896,7 @@
 				}
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -4966,7 +4966,7 @@
 		"autohotkey": {
 			"name": "NumpadAdd"
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -5042,7 +5042,7 @@
 				}
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -5118,7 +5118,7 @@
 				}
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -5194,7 +5194,7 @@
 				}
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -5270,7 +5270,7 @@
 				}
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -5347,7 +5347,7 @@
 				}
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -5426,7 +5426,7 @@
 				"VKE2"
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -5638,7 +5638,7 @@
 				"VKC1"
 			]
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -5934,7 +5934,7 @@
 			"name": "NumpadEnter"
 		},
 		"label": "⏎",
-		"class": [
+		"outputCategories": [
 			"keypad"
 		]
 	},
@@ -6009,14 +6009,14 @@
 			]
 		},
 		"label": "⌃",
-		"class": [
+		"modifier": "#ctrl-right",
+		"icon": "/kui/res/icons/ai/keyboard/ctrl.svg",
+		"repeat": false,
+		"outputCategories": [
 			"modifier",
 			"ctrl",
 			"ctrl-right"
-		],
-		"modifier": "#ctrl-right",
-		"icon": "/kui/res/icons/ai/keyboard/ctrl.svg",
-		"repeat": false
+		]
 	},
 	"win-control": {
 		"comment": "Generic Windows Control virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_CONTROL in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LCONTROL or VK_RCONTROL. Keep this unsided Windows emission when that is what was reported, but prefer ctrl-left or ctrl-right when sided identity is available.",
@@ -6114,7 +6114,7 @@
 		"autohotkey": {
 			"name": "NumpadDiv"
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -6270,14 +6270,14 @@
 			"name": "RAlt"
 		},
 		"label": "⌥",
-		"class": [
+		"modifier": "#alt-right",
+		"icon": "/kui/res/icons/ai/keyboard/alt.svg",
+		"repeat": false,
+		"outputCategories": [
 			"modifier",
 			"alt",
 			"alt-right"
-		],
-		"modifier": "#alt-right",
-		"icon": "/kui/res/icons/ai/keyboard/alt.svg",
-		"repeat": false
+		]
 	},
 	"win-alt": {
 		"comment": "Generic Windows Alt virtual-key identity. The Microsoft about-keyboard-input documentation explicitly shows this flow: 1. keyboard hardware reports a physical key; 2. the keyboard driver converts it to a scan code; 3. Windows posts a message with generic VK_MENU in wParam and the scan code in lParam; 4. code extracts the scan code from lParam; 5. MapVirtualKeyW(scanCode, MAPVK_VSC_TO_VK_EX) asks Windows for the more specific virtual key for that scan code; 6. Windows returns VK_LMENU or VK_RMENU. Keep this unsided Windows emission when that is what was reported, but prefer alt-left or alt-right when sided identity is available.",
@@ -7472,7 +7472,7 @@
 		"keyd": {
 			"name": "kpplusminus"
 		},
-		"class": [
+		"outputCategories": [
 			"keypad"
 		]
 	},
@@ -7594,7 +7594,11 @@
 		},
 		"keyd": {
 			"name": "scale"
-		}
+		},
+		"label": "",
+		"outputCategories": [
+			"nerd-icon"
+		]
 	},
 	"hangul": {
 		"comment": "Keyboard-page key for Keyboard LANG1.",
@@ -7811,7 +7815,7 @@
 		"autohotkey": {
 			"name": "SC07D"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -7892,14 +7896,14 @@
 			"name": "LWin"
 		},
 		"label": "⌘",
-		"class": [
+		"modifier": "#system-left",
+		"icon": "/kui/res/icons/ai/keyboard/system.svg",
+		"repeat": false,
+		"outputCategories": [
 			"modifier",
 			"system",
 			"system-left"
-		],
-		"modifier": "#system-left",
-		"icon": "/kui/res/icons/ai/keyboard/system.svg",
-		"repeat": false
+		]
 	},
 	"system-right": {
 		"hid": {
@@ -7977,14 +7981,14 @@
 			"name": "RWin"
 		},
 		"label": "⌘",
-		"class": [
+		"modifier": "#system-right",
+		"icon": "/kui/res/icons/ai/keyboard/system.svg",
+		"repeat": false,
+		"outputCategories": [
 			"modifier",
 			"system",
 			"system-right"
-		],
-		"modifier": "#system-right",
-		"icon": "/kui/res/icons/ai/keyboard/system.svg",
-		"repeat": false
+		]
 	},
 	"iso-level3-shift": {
 		"comment": "Level-3 shift / AltGr-style modifier key represented by the XKB ISO_Level3_Shift keysym.",
@@ -10123,7 +10127,7 @@
 		"keyd": {
 			"name": "kpleftparen"
 		},
-		"class": [
+		"outputCategories": [
 			"keypad"
 		]
 	},
@@ -10183,7 +10187,7 @@
 		"keyd": {
 			"name": "kprightparen"
 		},
-		"class": [
+		"outputCategories": [
 			"keypad"
 		]
 	},
@@ -10284,7 +10288,11 @@
 		},
 		"keyd": {
 			"name": "redo"
-		}
+		},
+		"label": "",
+		"outputCategories": [
+			"nerd-icon"
+		]
 	},
 	"f13": {
 		"hid": {
@@ -11240,7 +11248,11 @@
 		},
 		"keyd": {
 			"name": "dashboard"
-		}
+		},
+		"label": "",
+		"outputCategories": [
+			"nerd-icon"
+		]
 	},
 	"close": {
 		"hid": {
@@ -16586,7 +16598,11 @@
 				"keynotificationcenter",
 				"notificationcenter"
 			]
-		}
+		},
+		"label": "",
+		"outputCategories": [
+			"nerd-icon"
+		]
 	},
 	"pickup-phone": {
 		"comment": "Telephony control key for pickup phone.",
@@ -24782,7 +24798,7 @@
 		"autohotkey": {
 			"name": "SC059"
 		},
-		"class": [
+		"outputCategories": [
 			"keypad"
 		]
 	},
@@ -25381,7 +25397,11 @@
 		},
 		"autohotkey": {
 			"name": "SC118"
-		}
+		},
+		"label": "",
+		"outputCategories": [
+			"nerd-icon"
+		]
 	},
 	"cut": {
 		"hid": {
@@ -25438,7 +25458,11 @@
 		},
 		"autohotkey": {
 			"name": "SC117"
-		}
+		},
+		"label": "",
+		"outputCategories": [
+			"nerd-icon"
+		]
 	},
 	"find": {
 		"hid": {
@@ -25678,7 +25702,11 @@
 		},
 		"autohotkey": {
 			"name": "SC10A"
-		}
+		},
+		"label": "",
+		"outputCategories": [
+			"nerd-icon"
+		]
 	},
 	"power": {
 		"hid": {
@@ -25819,7 +25847,7 @@
 		"autohotkey": {
 			"name": ";"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -25943,7 +25971,11 @@
 		},
 		"autohotkey": {
 			"name": "SC108"
-		}
+		},
+		"label": "",
+		"outputCategories": [
+			"nerd-icon"
+		]
 	},
 	"print-command": {
 		"comment": "Consumer-key print command. This is distinct from Print Screen / SysRq: use it for an application-level print action rather than screen capture.",
@@ -26192,7 +26224,11 @@
 		},
 		"karabiner-elements": {
 			"name": "al_control_panel"
-		}
+		},
+		"label": "",
+		"outputCategories": [
+			"nerd-icon"
+		]
 	},
 	"quick-settings": {
 		"comment": "Quick-settings / system-status menu key.",
@@ -26220,7 +26256,12 @@
 		},
 		"web": {
 			"missing": true
-		}
+		},
+		"map-to-if-missing": "config",
+		"label": "",
+		"outputCategories": [
+			"nerd-icon"
+		]
 	},
 	"app-settings": {
 		"comment": "Application-settings key.",
@@ -26248,7 +26289,12 @@
 		},
 		"web": {
 			"missing": true
-		}
+		},
+		"map-to-if-missing": "option",
+		"label": "",
+		"outputCategories": [
+			"nerd-icon"
+		]
 	},
 	"media-cd-eject": {
 		"comment": "Optical-media eject key for opening the tray / ejecting the disc.",
@@ -26470,7 +26516,7 @@
 		"autohotkey": {
 			"name": "SC05C"
 		},
-		"class": [
+		"outputCategories": [
 			"keypad"
 		]
 	},
@@ -27142,7 +27188,7 @@
 		"autohotkey": {
 			"name": "SC07E"
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -27490,7 +27536,12 @@
 		},
 		"karabiner-elements": {
 			"name": "spotlight"
-		}
+		},
+		"map-to-if-missing": "search",
+		"label": "",
+		"outputCategories": [
+			"nerd-icon"
+		]
 	},
 	"apple-show-desktop": {
 		"comment": "Apple Show Desktop / Expose Desktop key on the Apple vendor keyboard page.",
@@ -27640,13 +27691,13 @@
 			"missing": true
 		},
 		"label": "ƒ",
-		"class": [
-			"modifier",
-			"fn"
-		],
 		"modifier": "#fn",
 		"icon": "/kui/res/icons/ai/keyboard/fn.svg",
-		"repeat": false
+		"repeat": false,
+		"outputCategories": [
+			"modifier",
+			"fn"
+		]
 	},
 	"apple-fn": {
 		"comment": "Apple top-case Fn key exposed on Apple's vendor-defined top-case HID page.",
@@ -28892,7 +28943,7 @@
 		"karabiner-elements": {
 			"name": "keypad_equal_sign_as400"
 		},
-		"class": [
+		"outputCategories": [
 			"keypad"
 		]
 	},
@@ -31504,7 +31555,7 @@
 		"autohotkey": {
 			"name": "NumpadMult"
 		},
-		"class": [
+		"outputCategories": [
 			"character",
 			"keypad"
 		]
@@ -31580,7 +31631,7 @@
 		"autohotkey": {
 			"name": "0"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -31655,7 +31706,7 @@
 		"autohotkey": {
 			"name": "1"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -31730,7 +31781,7 @@
 		"autohotkey": {
 			"name": "2"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -31805,7 +31856,7 @@
 		"autohotkey": {
 			"name": "3"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -31880,7 +31931,7 @@
 		"autohotkey": {
 			"name": "4"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -31955,7 +32006,7 @@
 		"autohotkey": {
 			"name": "5"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -32030,7 +32081,7 @@
 		"autohotkey": {
 			"name": "6"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -32105,7 +32156,7 @@
 		"autohotkey": {
 			"name": "7"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -32180,7 +32231,7 @@
 		"autohotkey": {
 			"name": "8"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -32255,7 +32306,7 @@
 		"autohotkey": {
 			"name": "9"
 		},
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -32312,7 +32363,7 @@
 			"name": "non_us_pound"
 		},
 		"geometry": "ISO",
-		"class": [
+		"outputCategories": [
 			"character"
 		]
 	},
@@ -32348,14 +32399,14 @@
 			"name": "Symbols"
 		},
 		"label": "⎇",
-		"class": [
-			"modifier",
-			"symbols"
-		],
 		"modifier": "#symbols",
 		"icon": "/kui/res/icons/ai/keyboard/symbols.svg",
 		"repeat": false,
-		"physicalOutputId": null
+		"physicalOutputId": null,
+		"outputCategories": [
+			"modifier",
+			"symbols"
+		]
 	},
 	"symbols2": {
 		"comment": "Semantic secondary Symbols key meaning, corresponding on Linux/XKB to ISO_Level5_Shift and used for a higher alternate symbol layer than the regular Symbols key.",
@@ -32389,13 +32440,13 @@
 			"name": "Symbols2"
 		},
 		"label": "⎇2",
-		"class": [
-			"modifier",
-			"symbols2"
-		],
 		"modifier": "#symbols2",
 		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg",
-		"physicalOutputId": null
+		"physicalOutputId": null,
+		"outputCategories": [
+			"modifier",
+			"symbols2"
+		]
 	},
 	"fn-left": {
 		"comment": "Pure internal semantic left-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
@@ -32428,15 +32479,15 @@
 			"missing": true
 		},
 		"label": "ƒ",
-		"class": [
-			"modifier",
-			"fn-left",
-			"fn"
-		],
 		"modifier": "#fn-left",
 		"icon": "/kui/res/icons/ai/keyboard/fn.svg",
 		"repeat": false,
-		"physicalOutputId": null
+		"physicalOutputId": null,
+		"outputCategories": [
+			"modifier",
+			"fn-left",
+			"fn"
+		]
 	},
 	"fn-right": {
 		"comment": "Pure internal semantic right-side Fn key used by layouts and mappings when sided Fn behavior matters independently from platform-reported Fn identity.",
@@ -32469,15 +32520,15 @@
 			"missing": true
 		},
 		"label": "ƒ",
-		"class": [
-			"modifier",
-			"fn-right",
-			"fn"
-		],
 		"modifier": "#fn-right",
 		"icon": "/kui/res/icons/ai/keyboard/fn.svg",
 		"repeat": false,
-		"physicalOutputId": null
+		"physicalOutputId": null,
+		"outputCategories": [
+			"modifier",
+			"fn-right",
+			"fn"
+		]
 	},
 	"symbols-left": {
 		"comment": "Pure internal semantic left-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
@@ -32510,15 +32561,15 @@
 			"missing": true
 		},
 		"label": "⎇",
-		"class": [
-			"modifier",
-			"symbols-left",
-			"symbols"
-		],
 		"modifier": "#symbols-left",
 		"icon": "/kui/res/icons/ai/keyboard/symbols.svg",
 		"repeat": false,
-		"physicalOutputId": null
+		"physicalOutputId": null,
+		"outputCategories": [
+			"modifier",
+			"symbols-left",
+			"symbols"
+		]
 	},
 	"symbols-right": {
 		"comment": "Pure internal semantic right-side Symbols key used by layouts and mappings when sided level-3 symbol behavior matters independently from platform-reported identity.",
@@ -32551,15 +32602,15 @@
 			"missing": true
 		},
 		"label": "⎇",
-		"class": [
-			"modifier",
-			"symbols-right",
-			"symbols"
-		],
 		"modifier": "#symbols-right",
 		"icon": "/kui/res/icons/ai/keyboard/symbols.svg",
 		"repeat": false,
-		"physicalOutputId": null
+		"physicalOutputId": null,
+		"outputCategories": [
+			"modifier",
+			"symbols-right",
+			"symbols"
+		]
 	},
 	"symbols2-left": {
 		"comment": "Pure internal semantic left-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
@@ -32592,14 +32643,14 @@
 			"missing": true
 		},
 		"label": "⎇2",
-		"class": [
+		"modifier": "#symbols2-left",
+		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg",
+		"physicalOutputId": null,
+		"outputCategories": [
 			"modifier",
 			"symbols2-left",
 			"symbols2"
-		],
-		"modifier": "#symbols2-left",
-		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg",
-		"physicalOutputId": null
+		]
 	},
 	"symbols2-right": {
 		"comment": "Pure internal semantic right-side secondary Symbols key used by layouts and mappings when sided level-5 symbol behavior matters independently from platform-reported identity.",
@@ -32632,14 +32683,14 @@
 			"missing": true
 		},
 		"label": "⎇2",
-		"class": [
+		"modifier": "#symbols2-right",
+		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg",
+		"physicalOutputId": null,
+		"outputCategories": [
 			"modifier",
 			"symbols2-right",
 			"symbols2"
-		],
-		"modifier": "#symbols2-right",
-		"icon": "/kui/res/icons/ai/keyboard/symbols2.svg",
-		"physicalOutputId": null
+		]
 	},
 	"key-lock": {
 		"comment": "Pure internal semantic key whose purpose is to lock any other key while held, until that key is pressed again.",
@@ -32672,15 +32723,15 @@
 			"missing": true
 		},
 		"label": "⇩",
-		"class": [
-			"modifier",
-			"special",
-			"key-lock"
-		],
 		"modifier": "#key-lock",
 		"icon": "/kui/res/icons/ai/keyboard/key-lock.svg",
 		"repeat": false,
-		"physicalOutputId": null
+		"physicalOutputId": null,
+		"outputCategories": [
+			"modifier",
+			"special",
+			"key-lock"
+		]
 	},
 	"extra-left-0": {
 		"comment": "Pure internal semantic extra key for the left-side extra key family.",
