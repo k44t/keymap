@@ -7819,7 +7819,7 @@
 			"character"
 		]
 	},
-	"system-left": {
+	"os-left": {
 		"hid": {
 			"code": "0xe3",
 			"name": "Keyboard Left GUI",
@@ -7896,16 +7896,16 @@
 			"name": "LWin"
 		},
 		"label": "⌘",
-		"modifier": "#system-left",
+		"modifier": "#os-left",
 		"icon": "/kui/res/icons/ai/keyboard/system.svg",
 		"repeat": false,
 		"outputCategories": [
 			"modifier",
-			"system",
-			"system-left"
+			"os",
+			"os-left"
 		]
 	},
-	"system-right": {
+	"os-right": {
 		"hid": {
 			"code": "0xe7",
 			"name": "Keyboard Right GUI",
@@ -7981,13 +7981,13 @@
 			"name": "RWin"
 		},
 		"label": "⌘",
-		"modifier": "#system-right",
+		"modifier": "#os-right",
 		"icon": "/kui/res/icons/ai/keyboard/system.svg",
 		"repeat": false,
 		"outputCategories": [
 			"modifier",
-			"system",
-			"system-right"
+			"os",
+			"os-right"
 		]
 	},
 	"iso-level3-shift": {
